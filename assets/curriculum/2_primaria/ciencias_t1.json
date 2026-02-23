@@ -1,0 +1,672 @@
+{
+    "grade": "2_primaria",
+    "subject": "ciencias",
+    "trimester": 1,
+    "topics": [
+        {
+            "id": "cuerpo_humano",
+            "name": "El cuerpo humano: huesos y músculos",
+            "icon": "🦴",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "ch001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué parte del cuerpo protege el cerebro?",
+                    "options": [
+                        "Las costillas",
+                        "El cráneo",
+                        "La columna",
+                        "La rodilla"
+                    ],
+                    "answer": "El cráneo",
+                    "hint": "Está en la cabeza",
+                    "explanation": "El cráneo es un hueso que protege el cerebro"
+                },
+                {
+                    "id": "ch002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Los huesos forman el ___",
+                    "answer": "esqueleto",
+                    "hint": "La estructura de nuestro cuerpo",
+                    "explanation": "El esqueleto es el conjunto de todos los huesos"
+                },
+                {
+                    "id": "ch003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Los músculos nos permiten movernos",
+                    "answer": "true",
+                    "hint": "¿Qué usas para correr?",
+                    "explanation": "Los músculos se contraen y relajan para mover el cuerpo"
+                },
+                {
+                    "id": "ch004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada hueso con su ubicación",
+                    "pairs": [
+                        [
+                            "Fémur",
+                            "Pierna"
+                        ],
+                        [
+                            "Húmero",
+                            "Brazo"
+                        ],
+                        [
+                            "Cráneo",
+                            "Cabeza"
+                        ],
+                        [
+                            "Costillas",
+                            "Tórax"
+                        ]
+                    ],
+                    "hint": "¿Dónde está cada uno?",
+                    "explanation": "Principales huesos y su ubicación en el cuerpo"
+                },
+                {
+                    "id": "ch005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuántos huesos tiene aproximadamente el cuerpo humano adulto?",
+                    "options": [
+                        "106",
+                        "206",
+                        "306",
+                        "506"
+                    ],
+                    "answer": "206",
+                    "hint": "Más de 200",
+                    "explanation": "Un adulto tiene aproximadamente 206 huesos"
+                },
+                {
+                    "id": "ch006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Las ___ son los lugares donde se unen dos huesos",
+                    "answer": "articulaciones",
+                    "hint": "Codo, rodilla, muñeca...",
+                    "explanation": "Las articulaciones permiten el movimiento entre huesos"
+                },
+                {
+                    "id": "ch007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El corazón es un músculo",
+                    "answer": "true",
+                    "hint": "Late sin parar...",
+                    "explanation": "El corazón es un músculo involuntario que bombea sangre"
+                },
+                {
+                    "id": "ch008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué protegen las costillas?",
+                    "options": [
+                        "El cerebro",
+                        "Los brazos",
+                        "El corazón y los pulmones",
+                        "Las piernas"
+                    ],
+                    "answer": "El corazón y los pulmones",
+                    "hint": "Están en el pecho",
+                    "explanation": "Las costillas forman una jaula que protege órganos vitales"
+                },
+                {
+                    "id": "ch009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "La columna vertebral está formada por huesos pequeños llamados ___",
+                    "answer": "vértebras",
+                    "hint": "Columna VERTEBRAL",
+                    "explanation": "La columna tiene 33 vértebras apiladas"
+                },
+                {
+                    "id": "ch010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué es importante beber leche y hacer ejercicio para los huesos?",
+                    "answer": "La leche tiene calcio que fortalece los huesos, y el ejercicio los mantiene fuertes y sanos",
+                    "hint": "Calcio + movimiento",
+                    "explanation": "Calcio fortalece huesos + ejercicio mantiene su salud"
+                }
+            ]
+        },
+        {
+            "id": "sentidos",
+            "name": "Los cinco sentidos",
+            "icon": "👁️",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "se001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada sentido con su órgano",
+                    "pairs": [
+                        [
+                            "Vista",
+                            "Ojos"
+                        ],
+                        [
+                            "Oído",
+                            "Oídos"
+                        ],
+                        [
+                            "Olfato",
+                            "Nariz"
+                        ],
+                        [
+                            "Gusto",
+                            "Lengua"
+                        ]
+                    ],
+                    "hint": "¿Con qué parte del cuerpo percibes cada cosa?",
+                    "explanation": "Cada sentido tiene su órgano especializado"
+                },
+                {
+                    "id": "se002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El sentido del ___ nos permite tocar y sentir texturas",
+                    "answer": "tacto",
+                    "hint": "Suave, áspero, frío, caliente...",
+                    "explanation": "El tacto se percibe principalmente a través de la piel"
+                },
+                {
+                    "id": "se003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Con qué sentido percibimos los sabores?",
+                    "options": [
+                        "Vista",
+                        "Tacto",
+                        "Gusto",
+                        "Oído"
+                    ],
+                    "answer": "Gusto",
+                    "hint": "Dulce, salado, amargo...",
+                    "explanation": "El gusto se percibe con la lengua"
+                },
+                {
+                    "id": "se004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "La piel es el órgano del sentido del tacto",
+                    "answer": "true",
+                    "hint": "¿Con qué tocamos?",
+                    "explanation": "La piel tiene receptores que detectan presión, temperatura y dolor"
+                },
+                {
+                    "id": "se005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuáles son los sabores básicos?",
+                    "options": [
+                        "Rojo, azul, verde",
+                        "Dulce, salado, ácido, amargo",
+                        "Suave, áspero, duro",
+                        "Alto, bajo, fuerte"
+                    ],
+                    "answer": "Dulce, salado, ácido, amargo",
+                    "hint": "Piensa en sabores de comida",
+                    "explanation": "4 sabores básicos + umami"
+                },
+                {
+                    "id": "se006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los ojos necesitan ___ para poder ver",
+                    "answer": "luz",
+                    "hint": "En la oscuridad total no vemos",
+                    "explanation": "La vista necesita luz para funcionar"
+                },
+                {
+                    "id": "se007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Nombra algo que puedas percibir con cada sentido: vista, oído, olfato, gusto y tacto",
+                    "answer": "Vista: colores. Oído: música. Olfato: flores. Gusto: chocolate. Tacto: peluche.",
+                    "hint": "Un ejemplo por sentido",
+                    "explanation": "Usamos los 5 sentidos constantemente"
+                },
+                {
+                    "id": "se008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Por qué debemos proteger nuestros oídos del ruido muy fuerte?",
+                    "options": [
+                        "Porque nos hace llorar",
+                        "Porque puede dañar el oído y causar sordera",
+                        "Porque es de mala educación",
+                        "Porque asusta a los animales"
+                    ],
+                    "answer": "Porque puede dañar el oído y causar sordera",
+                    "hint": "El ruido excesivo es peligroso",
+                    "explanation": "Los ruidos fuertes pueden dañar los tímpanos y causar pérdida auditiva"
+                },
+                {
+                    "id": "se009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Las personas ciegas desarrollan más otros sentidos como el tacto y el oído",
+                    "answer": "true",
+                    "hint": "Se adaptan",
+                    "explanation": "Cuando falta un sentido, los otros se agudizan por compensación"
+                },
+                {
+                    "id": "se010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Las papilas gustativas están en la ___",
+                    "answer": "lengua",
+                    "hint": "Órgano del gusto",
+                    "explanation": "La lengua tiene miles de papilas gustativas que detectan sabores"
+                }
+            ]
+        },
+        {
+            "id": "alimentacion",
+            "name": "Alimentación y hábitos saludables",
+            "icon": "🥗",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "al001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuántas comidas principales debemos hacer al día?",
+                    "options": [
+                        "2",
+                        "3",
+                        "5",
+                        "7"
+                    ],
+                    "answer": "5",
+                    "hint": "Desayuno, almuerzo, comida, merienda, cena",
+                    "explanation": "5 comidas: desayuno, media mañana, comida, merienda, cena"
+                },
+                {
+                    "id": "al002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Es importante desayunar antes de ir al colegio",
+                    "answer": "true",
+                    "hint": "Primera comida del día",
+                    "explanation": "El desayuno aporta energía para empezar el día"
+                },
+                {
+                    "id": "al003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Las frutas y verduras nos dan ___ importantes para estar sanos",
+                    "answer": "vitaminas",
+                    "hint": "Nutrientes esenciales",
+                    "explanation": "Frutas y verduras son ricas en vitaminas y minerales"
+                },
+                {
+                    "id": "al004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica estos alimentos",
+                    "pairs": [
+                        [
+                            "Manzana",
+                            "Fruta"
+                        ],
+                        [
+                            "Pan",
+                            "Cereal"
+                        ],
+                        [
+                            "Leche",
+                            "Lácteo"
+                        ],
+                        [
+                            "Pollo",
+                            "Proteína"
+                        ]
+                    ],
+                    "hint": "¿De qué grupo es cada uno?",
+                    "explanation": "Los alimentos se clasifican en grupos según sus nutrientes"
+                },
+                {
+                    "id": "al005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuántos vasos de agua debemos beber aproximadamente al día?",
+                    "options": [
+                        "1-2",
+                        "3-4",
+                        "6-8",
+                        "15-20"
+                    ],
+                    "answer": "6-8",
+                    "hint": "¡Hidratarse es fundamental!",
+                    "explanation": "Los niños deben beber entre 6 y 8 vasos de agua al día"
+                },
+                {
+                    "id": "al006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Comer muchas chuches y bollería todos los días es saludable",
+                    "answer": "false",
+                    "hint": "¿Son nutritivas?",
+                    "explanation": "Los dulces en exceso causan caries y problemas de salud"
+                },
+                {
+                    "id": "al007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Debemos dormir al menos ___ horas para estar descansados",
+                    "answer": "9",
+                    "hint": "Entre 9 y 11 para niños",
+                    "explanation": "Los niños necesitan entre 9 y 11 horas de sueño"
+                },
+                {
+                    "id": "al008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Diseña un desayuno saludable con 3 alimentos de diferentes grupos",
+                    "answer": "Tostada de pan integral (cereal), leche (lácteo) y una naranja (fruta)",
+                    "hint": "Variedad de grupos",
+                    "explanation": "Desayuno equilibrado: cereal + lácteo + fruta"
+                },
+                {
+                    "id": "al009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué es la pirámide alimenticia?",
+                    "options": [
+                        "Una pirámide de Egipto",
+                        "Un gráfico que muestra qué alimentos comer más o menos",
+                        "Un tipo de comida",
+                        "Un juego de mesa"
+                    ],
+                    "answer": "Un gráfico que muestra qué alimentos comer más o menos",
+                    "hint": "Guía de alimentación",
+                    "explanation": "La pirámide indica frecuencia: base=más, cúspide=menos"
+                },
+                {
+                    "id": "al010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Hacer ejercicio al aire libre y una buena alimentación nos ayudan a crecer sanos",
+                    "answer": "true",
+                    "hint": "Alimentación + ejercicio + descanso",
+                    "explanation": "Los 3 pilares de la salud: buena alimentación, ejercicio y descanso"
+                }
+            ]
+        },
+        {
+            "id": "animales",
+            "name": "Los animales: vertebrados e invertebrados",
+            "icon": "🐾",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "ani001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué tienen los animales vertebrados que los invertebrados no?",
+                    "options": [
+                        "Ojos",
+                        "Columna vertebral",
+                        "Piernas",
+                        "Boca"
+                    ],
+                    "answer": "Columna vertebral",
+                    "hint": "Vértebras",
+                    "explanation": "Vertebrados tienen columna vertebral; invertebrados no"
+                },
+                {
+                    "id": "ani002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Un perro es un animal vertebrado",
+                    "answer": "true",
+                    "hint": "¿Tiene columna vertebral?",
+                    "explanation": "Sí, el perro es mamífero, que es un tipo de vertebrado"
+                },
+                {
+                    "id": "ani003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Los animales que maman leche de su madre son ___",
+                    "answer": "mamíferos",
+                    "hint": "Mamar = mama",
+                    "explanation": "Mamíferos = animales que maman leche materna"
+                },
+                {
+                    "id": "ani004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica estos animales",
+                    "pairs": [
+                        [
+                            "Águila",
+                            "Ave"
+                        ],
+                        [
+                            "Rana",
+                            "Anfibio"
+                        ],
+                        [
+                            "Serpiente",
+                            "Reptil"
+                        ],
+                        [
+                            "Trucha",
+                            "Pez"
+                        ]
+                    ],
+                    "hint": "¿Cómo se clasifican?",
+                    "explanation": "Vertebrados: mamíferos, aves, reptiles, anfibios, peces"
+                },
+                {
+                    "id": "ani005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál de estos es un animal invertebrado?",
+                    "options": [
+                        "Gato",
+                        "Mariposa",
+                        "Perro",
+                        "Caballo"
+                    ],
+                    "answer": "Mariposa",
+                    "hint": "No tiene columna vertebral",
+                    "explanation": "Los insectos son invertebrados (sin columna vertebral)"
+                },
+                {
+                    "id": "ani006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los animales que nacen de huevos son ___",
+                    "answer": "ovíparos",
+                    "hint": "Ovo = huevo",
+                    "explanation": "Ovíparos: nacen de huevos (aves, reptiles, peces...)"
+                },
+                {
+                    "id": "ani007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Los reptiles tienen la piel cubierta de escamas",
+                    "answer": "true",
+                    "hint": "Serpiente, lagarto, cocodrilo...",
+                    "explanation": "Los reptiles tienen escamas que les protegen"
+                },
+                {
+                    "id": "ani008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál es la diferencia principal entre anfibios y reptiles?",
+                    "options": [
+                        "El tamaño",
+                        "Los anfibios viven parte en agua y parte en tierra",
+                        "El color",
+                        "Los reptiles son más grandes"
+                    ],
+                    "answer": "Los anfibios viven parte en agua y parte en tierra",
+                    "hint": "Anfi = doble",
+                    "explanation": "Anfibios: vida acuática (larva) + terrestre (adulto)"
+                },
+                {
+                    "id": "ani009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Nombra un mamífero, un ave, un reptil, un anfibio y un pez",
+                    "answer": "Mamífero: gato. Ave: águila. Reptil: serpiente. Anfibio: rana. Pez: tiburón.",
+                    "hint": "Un ejemplo de cada grupo",
+                    "explanation": "5 grupos de vertebrados con un ejemplo cada uno"
+                },
+                {
+                    "id": "ani010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Los animales que se alimentan de plantas son ___, los que comen carne son ___ y los que comen de todo son ___",
+                    "answer": "herbívoros, carnívoros, omnívoros",
+                    "hint": "Herbi=planta, carni=carne, omni=todo",
+                    "explanation": "3 tipos según alimentación: herbívoros, carnívoros, omnívoros"
+                }
+            ]
+        },
+        {
+            "id": "plantas",
+            "name": "Las plantas: partes y cuidados",
+            "icon": "🌱",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "pl001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada parte de la planta con su función",
+                    "pairs": [
+                        [
+                            "Raíz",
+                            "Absorbe agua y minerales"
+                        ],
+                        [
+                            "Tallo",
+                            "Sostiene la planta"
+                        ],
+                        [
+                            "Hojas",
+                            "Realizan la fotosíntesis"
+                        ],
+                        [
+                            "Flor",
+                            "Reproduce la planta"
+                        ]
+                    ],
+                    "hint": "¿Para qué sirve cada parte?",
+                    "explanation": "Cada parte de la planta cumple una función especial"
+                },
+                {
+                    "id": "pl002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Las plantas necesitan agua, luz solar y ___ para crecer",
+                    "answer": "tierra",
+                    "hint": "¿Dónde crecen?",
+                    "explanation": "Agua + luz + tierra (nutrientes minerales)"
+                },
+                {
+                    "id": "pl003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Las plantas fabrican su propio alimento",
+                    "answer": "true",
+                    "hint": "Fotosíntesis",
+                    "explanation": "Las plantas hacen fotosíntesis: fabrican alimento con luz solar"
+                },
+                {
+                    "id": "pl004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué gas producen las plantas que nosotros necesitamos para respirar?",
+                    "options": [
+                        "Dióxido de carbono",
+                        "Nitrógeno",
+                        "Oxígeno",
+                        "Hidrógeno"
+                    ],
+                    "answer": "Oxígeno",
+                    "hint": "Lo necesitamos para vivir",
+                    "explanation": "Las plantas producen oxígeno durante la fotosíntesis"
+                },
+                {
+                    "id": "pl005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El proceso por el cual las plantas fabrican su alimento se llama ___",
+                    "answer": "fotosíntesis",
+                    "hint": "Foto = luz",
+                    "explanation": "Fotosíntesis: proceso por el que las plantas usan luz para crear alimento"
+                },
+                {
+                    "id": "pl006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿De qué parte de la planta sale el fruto?",
+                    "options": [
+                        "De la raíz",
+                        "Del tallo",
+                        "De la flor",
+                        "De las hojas"
+                    ],
+                    "answer": "De la flor",
+                    "hint": "Después de la polinización",
+                    "explanation": "El fruto se desarrolla a partir de la flor polinizada"
+                },
+                {
+                    "id": "pl007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Todas las plantas tienen flores",
+                    "answer": "false",
+                    "hint": "Helechos, musgos...",
+                    "explanation": "Hay plantas sin flores: helechos, musgos, algas"
+                },
+                {
+                    "id": "pl008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Qué pasaría si no existieran las plantas en la Tierra?",
+                    "answer": "No habría oxígeno para respirar, los animales herbívoros no tendrían comida, y se rompería la cadena alimenticia. Tampoco habría frutos ni verduras para nosotros.",
+                    "hint": "Piensa en el oxígeno y la comida",
+                    "explanation": "Las plantas son esenciales: oxígeno + alimento + ecosistemas"
+                },
+                {
+                    "id": "pl009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Las semillas de una planta se dispersan por el viento, el agua o los ___",
+                    "answer": "animales",
+                    "hint": "Algunos se pegan al pelo de los animales",
+                    "explanation": "Dispersión de semillas: viento, agua, animales"
+                },
+                {
+                    "id": "pl010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué tipo de planta es un pino?",
+                    "options": [
+                        "Planta con flor",
+                        "Árbol de hoja caduca",
+                        "Conífera (con piñas)",
+                        "Planta acuática"
+                    ],
+                    "answer": "Conífera (con piñas)",
+                    "hint": "¿Qué produce el pino?",
+                    "explanation": "Los pinos son coníferas: producen piñas en vez de flores"
+                }
+            ]
+        }
+    ]
+}

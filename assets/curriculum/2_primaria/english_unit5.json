@@ -1,0 +1,701 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 5,
+    "title": "My bedroom",
+    "sections": [
+        {
+            "id": "furniture_vocab",
+            "name": "Furniture vocabulary",
+            "exercises": [
+                {
+                    "id": "ev01",
+                    "type": "multiple_choice",
+                    "question": "What is this? 🛏️",
+                    "options": [
+                        "bed",
+                        "table",
+                        "chair",
+                        "sofa"
+                    ],
+                    "answer": "bed",
+                    "hint": "You sleep in it.",
+                    "explanation": "A bed is where you sleep."
+                },
+                {
+                    "id": "ev02",
+                    "type": "multiple_choice",
+                    "question": "What is this? 🪞",
+                    "options": [
+                        "poster",
+                        "mirror",
+                        "lamp",
+                        "clock"
+                    ],
+                    "answer": "mirror",
+                    "hint": "You can see yourself in it.",
+                    "explanation": "A mirror reflects your image."
+                },
+                {
+                    "id": "ev03",
+                    "type": "multiple_choice",
+                    "question": "Where do you put your clothes? 👔",
+                    "options": [
+                        "rug",
+                        "lamp",
+                        "wardrobe",
+                        "table"
+                    ],
+                    "answer": "wardrobe",
+                    "hint": "It's big and has doors.",
+                    "explanation": "A wardrobe is for storing clothes."
+                },
+                {
+                    "id": "ev04",
+                    "type": "multiple_choice",
+                    "question": "It gives light at night. What is it? 💡",
+                    "options": [
+                        "mirror",
+                        "poster",
+                        "lamp",
+                        "rug"
+                    ],
+                    "answer": "lamp",
+                    "hint": "You turn it on when it's dark.",
+                    "explanation": "A lamp gives light."
+                },
+                {
+                    "id": "ev05",
+                    "type": "multiple_choice",
+                    "question": "It's on the floor and it's soft. What is it?",
+                    "options": [
+                        "desk",
+                        "rug",
+                        "wardrobe",
+                        "poster"
+                    ],
+                    "answer": "rug",
+                    "hint": "You walk on it.",
+                    "explanation": "A rug is on the floor."
+                },
+                {
+                    "id": "ev06",
+                    "type": "multiple_choice",
+                    "question": "You sit on it. It has arms. What is it?",
+                    "options": [
+                        "bed",
+                        "table",
+                        "armchair",
+                        "mirror"
+                    ],
+                    "answer": "armchair",
+                    "hint": "It's like a chair but bigger and more comfortable.",
+                    "explanation": "An armchair has arms to rest on."
+                },
+                {
+                    "id": "ev07",
+                    "type": "multiple_choice",
+                    "question": "It's on the wall. It has a picture. What is it?",
+                    "options": [
+                        "poster",
+                        "clock",
+                        "rug",
+                        "desk"
+                    ],
+                    "answer": "poster",
+                    "hint": "It's flat and decorative.",
+                    "explanation": "A poster is a picture on the wall."
+                },
+                {
+                    "id": "ev08",
+                    "type": "multiple_choice",
+                    "question": "You do your homework on it. What is it? ✏️",
+                    "options": [
+                        "bed",
+                        "sofa",
+                        "desk",
+                        "rug"
+                    ],
+                    "answer": "desk",
+                    "hint": "It has drawers and a flat top.",
+                    "explanation": "A desk is where you study."
+                },
+                {
+                    "id": "ev09",
+                    "type": "multiple_choice",
+                    "question": "It tells the time. What is it? ⏰",
+                    "options": [
+                        "mirror",
+                        "clock",
+                        "poster",
+                        "lamp"
+                    ],
+                    "answer": "clock",
+                    "hint": "Tick tock!",
+                    "explanation": "A clock tells the time."
+                },
+                {
+                    "id": "ev10",
+                    "type": "multiple_choice",
+                    "question": "You put books on it. What is it? 📚",
+                    "options": [
+                        "bookcase",
+                        "armchair",
+                        "rug",
+                        "sofa"
+                    ],
+                    "answer": "bookcase",
+                    "hint": "It has shelves.",
+                    "explanation": "A bookcase has shelves for books."
+                }
+            ]
+        },
+        {
+            "id": "theres_thereare",
+            "name": "There's / There are",
+            "exercises": [
+                {
+                    "id": "et01",
+                    "type": "fill_blank",
+                    "question": "_____ a lamp on the table.",
+                    "answer": "There's",
+                    "hint": "One lamp = singular.",
+                    "explanation": "There's a lamp (singular)."
+                },
+                {
+                    "id": "et02",
+                    "type": "fill_blank",
+                    "question": "_____ pencils on the rug.",
+                    "answer": "There are",
+                    "hint": "Pencils = more than one.",
+                    "explanation": "There are pencils (plural)."
+                },
+                {
+                    "id": "et03",
+                    "type": "multiple_choice",
+                    "question": "_____ a book on the wardrobe.",
+                    "options": [
+                        "There's",
+                        "There are",
+                        "These are",
+                        "This is"
+                    ],
+                    "answer": "There's",
+                    "hint": "One book = singular.",
+                    "explanation": "There's = There is (singular)."
+                },
+                {
+                    "id": "et04",
+                    "type": "multiple_choice",
+                    "question": "_____ jeans on the armchair.",
+                    "options": [
+                        "There's",
+                        "There are",
+                        "This is",
+                        "That is"
+                    ],
+                    "answer": "There are",
+                    "hint": "Jeans = plural.",
+                    "explanation": "There are jeans (plural)."
+                },
+                {
+                    "id": "et05",
+                    "type": "multiple_choice",
+                    "question": "_____ a ball on the table.",
+                    "options": [
+                        "There are",
+                        "There's",
+                        "These is",
+                        "Those is"
+                    ],
+                    "answer": "There's",
+                    "hint": "One ball.",
+                    "explanation": "There's a ball (singular)."
+                },
+                {
+                    "id": "et06",
+                    "type": "multiple_choice",
+                    "question": "_____ three posters on the wall.",
+                    "options": [
+                        "There's",
+                        "There are",
+                        "This is",
+                        "That are"
+                    ],
+                    "answer": "There are",
+                    "hint": "Three posters = plural.",
+                    "explanation": "There are three posters (plural)."
+                },
+                {
+                    "id": "et07",
+                    "type": "true_false",
+                    "question": "'There's two beds in the room.' — Is this correct?",
+                    "answer": false,
+                    "hint": "Two beds = plural. What word do we need?",
+                    "explanation": "It should be 'There ARE two beds' (plural)."
+                },
+                {
+                    "id": "et08",
+                    "type": "true_false",
+                    "question": "'There are a sofa in the room.' — Is this correct?",
+                    "answer": false,
+                    "hint": "A sofa = one thing.",
+                    "explanation": "It should be 'There's a sofa' (singular)."
+                }
+            ]
+        },
+        {
+            "id": "this_that_these_those",
+            "name": "This / That / These / Those",
+            "exercises": [
+                {
+                    "id": "ed01",
+                    "type": "multiple_choice",
+                    "question": "I like _____ red lamp. (near me, one lamp)",
+                    "options": [
+                        "this",
+                        "that",
+                        "these",
+                        "those"
+                    ],
+                    "answer": "this",
+                    "hint": "Near + singular = ?",
+                    "explanation": "This = near, singular."
+                },
+                {
+                    "id": "ed02",
+                    "type": "multiple_choice",
+                    "question": "I like _____ blue lamp over there. (far, one lamp)",
+                    "options": [
+                        "this",
+                        "that",
+                        "these",
+                        "those"
+                    ],
+                    "answer": "that",
+                    "hint": "Far + singular = ?",
+                    "explanation": "That = far, singular."
+                },
+                {
+                    "id": "ed03",
+                    "type": "multiple_choice",
+                    "question": "I like _____ green lamps. (near me, many lamps)",
+                    "options": [
+                        "this",
+                        "that",
+                        "these",
+                        "those"
+                    ],
+                    "answer": "these",
+                    "hint": "Near + plural = ?",
+                    "explanation": "These = near, plural."
+                },
+                {
+                    "id": "ed04",
+                    "type": "multiple_choice",
+                    "question": "I like _____ purple lamps over there. (far, many lamps)",
+                    "options": [
+                        "this",
+                        "that",
+                        "these",
+                        "those"
+                    ],
+                    "answer": "those",
+                    "hint": "Far + plural = ?",
+                    "explanation": "Those = far, plural."
+                },
+                {
+                    "id": "ed05",
+                    "type": "multiple_choice",
+                    "question": "Look! _____ is my bed. (I'm pointing at it, it's near)",
+                    "options": [
+                        "This",
+                        "That",
+                        "These",
+                        "Those"
+                    ],
+                    "answer": "This",
+                    "hint": "Near + singular.",
+                    "explanation": "This is my bed (near, singular)."
+                },
+                {
+                    "id": "ed06",
+                    "type": "multiple_choice",
+                    "question": "_____ chairs over there are broken. (far, several)",
+                    "options": [
+                        "This",
+                        "That",
+                        "These",
+                        "Those"
+                    ],
+                    "answer": "Those",
+                    "hint": "Far + plural.",
+                    "explanation": "Those chairs (far, plural)."
+                },
+                {
+                    "id": "ed07",
+                    "type": "multiple_choice",
+                    "question": "I don't like _____ rugs. (near me, many rugs)",
+                    "options": [
+                        "this",
+                        "that",
+                        "these",
+                        "those"
+                    ],
+                    "answer": "these",
+                    "hint": "Near + plural.",
+                    "explanation": "These rugs (near, plural)."
+                },
+                {
+                    "id": "ed08",
+                    "type": "multiple_choice",
+                    "question": "What is _____ over there? (far, one thing)",
+                    "options": [
+                        "this",
+                        "that",
+                        "these",
+                        "those"
+                    ],
+                    "answer": "that",
+                    "hint": "Far + singular.",
+                    "explanation": "That = far, singular."
+                },
+                {
+                    "id": "ed09",
+                    "type": "true_false",
+                    "question": "'I like this posters.' — Is this correct?",
+                    "answer": false,
+                    "hint": "Posters is plural. 'This' is for singular.",
+                    "explanation": "It should be 'these posters' (plural)."
+                },
+                {
+                    "id": "ed10",
+                    "type": "true_false",
+                    "question": "'Those lamp over there is nice.' — Is this correct?",
+                    "answer": false,
+                    "hint": "'Those' is plural but 'lamp' is singular.",
+                    "explanation": "It should be 'That lamp' (singular) or 'Those lamps' (plural)."
+                }
+            ]
+        },
+        {
+            "id": "whose",
+            "name": "Whose ... is this / are these?",
+            "exercises": [
+                {
+                    "id": "ew01",
+                    "type": "multiple_choice",
+                    "question": "Whose jumper _____ this?",
+                    "options": [
+                        "is",
+                        "are",
+                        "am",
+                        "do"
+                    ],
+                    "answer": "is",
+                    "hint": "Jumper = singular → is or are?",
+                    "explanation": "Whose jumper IS this? (singular)"
+                },
+                {
+                    "id": "ew02",
+                    "type": "multiple_choice",
+                    "question": "Whose shoes _____ these?",
+                    "options": [
+                        "is",
+                        "are",
+                        "am",
+                        "does"
+                    ],
+                    "answer": "are",
+                    "hint": "Shoes = plural → is or are?",
+                    "explanation": "Whose shoes ARE these? (plural)"
+                },
+                {
+                    "id": "ew03",
+                    "type": "multiple_choice",
+                    "question": "Whose hat is this? — It's _____.",
+                    "options": [
+                        "Penny's",
+                        "Penny",
+                        "Pennys",
+                        "the Penny"
+                    ],
+                    "answer": "Penny's",
+                    "hint": "We add 's to the owner's name.",
+                    "explanation": "It's Penny's hat (possessive 's)."
+                },
+                {
+                    "id": "ew04",
+                    "type": "multiple_choice",
+                    "question": "Whose jeans are these? — They're _____.",
+                    "options": [
+                        "Nick's",
+                        "Nick",
+                        "Nicks",
+                        "the Nick"
+                    ],
+                    "answer": "Nick's",
+                    "hint": "We add 's to show who owns them.",
+                    "explanation": "They're Nick's jeans (possessive 's)."
+                },
+                {
+                    "id": "ew05",
+                    "type": "fill_blank",
+                    "question": "Whose bag is this? — It's Emily's _____.",
+                    "answer": "bag",
+                    "hint": "What thing are we asking about?",
+                    "explanation": "It's Emily's bag."
+                },
+                {
+                    "id": "ew06",
+                    "type": "multiple_choice",
+                    "question": "Whose books _____ these? — They're Lisa's.",
+                    "options": [
+                        "are",
+                        "is",
+                        "am",
+                        "do"
+                    ],
+                    "answer": "are",
+                    "hint": "Books = plural.",
+                    "explanation": "Whose books ARE these? (plural)"
+                },
+                {
+                    "id": "ew07",
+                    "type": "multiple_choice",
+                    "question": "Whose pencil is this? — _____ Mike's pencil.",
+                    "options": [
+                        "It's",
+                        "They're",
+                        "There's",
+                        "These"
+                    ],
+                    "answer": "It's",
+                    "hint": "Pencil = one thing.",
+                    "explanation": "It's Mike's pencil (singular → It's)."
+                },
+                {
+                    "id": "ew08",
+                    "type": "multiple_choice",
+                    "question": "Whose socks are these? — _____ Ana's socks.",
+                    "options": [
+                        "They're",
+                        "It's",
+                        "This is",
+                        "There are"
+                    ],
+                    "answer": "They're",
+                    "hint": "Socks = plural.",
+                    "explanation": "They're Ana's socks (plural → They're)."
+                },
+                {
+                    "id": "ew09",
+                    "type": "true_false",
+                    "question": "'Whose cap is these?' — Is this correct?",
+                    "answer": false,
+                    "hint": "Cap is singular. 'These' is plural.",
+                    "explanation": "It should be 'Whose cap is THIS?' (singular)."
+                },
+                {
+                    "id": "ew10",
+                    "type": "true_false",
+                    "question": "'Whose shoes are these? They're Tom's.' — Is this correct?",
+                    "answer": true,
+                    "hint": "Shoes = plural → are these ✓. Tom's = possessive ✓.",
+                    "explanation": "This is correct! Shoes (plural) → are these, Tom's (possessive)."
+                }
+            ]
+        },
+        {
+            "id": "materials",
+            "name": "Materials",
+            "exercises": [
+                {
+                    "id": "em01",
+                    "type": "multiple_choice",
+                    "question": "A table is usually made of _____.",
+                    "options": [
+                        "wood",
+                        "fabric",
+                        "glass",
+                        "plastic"
+                    ],
+                    "answer": "wood",
+                    "hint": "Tables are made from trees.",
+                    "explanation": "Tables are usually made of wood."
+                },
+                {
+                    "id": "em02",
+                    "type": "multiple_choice",
+                    "question": "A mirror is made of _____.",
+                    "options": [
+                        "glass",
+                        "wood",
+                        "fabric",
+                        "plastic"
+                    ],
+                    "answer": "glass",
+                    "hint": "You can see through it.",
+                    "explanation": "A mirror is made of glass."
+                },
+                {
+                    "id": "em03",
+                    "type": "multiple_choice",
+                    "question": "A rug is made of _____.",
+                    "options": [
+                        "fabric",
+                        "metal",
+                        "glass",
+                        "wood"
+                    ],
+                    "answer": "fabric",
+                    "hint": "It's soft like clothes.",
+                    "explanation": "A rug is made of fabric."
+                },
+                {
+                    "id": "em04",
+                    "type": "multiple_choice",
+                    "question": "Which material comes from trees?",
+                    "options": [
+                        "wood",
+                        "metal",
+                        "glass",
+                        "plastic"
+                    ],
+                    "answer": "wood",
+                    "hint": "Think about trees.",
+                    "explanation": "Wood comes from trees."
+                },
+                {
+                    "id": "em05",
+                    "type": "multiple_choice",
+                    "question": "A clock can be made of _____ and glass.",
+                    "options": [
+                        "metal",
+                        "fabric",
+                        "rug",
+                        "poster"
+                    ],
+                    "answer": "metal",
+                    "hint": "It's hard and shiny.",
+                    "explanation": "A clock is made of metal and glass."
+                },
+                {
+                    "id": "em06",
+                    "type": "fill_blank",
+                    "question": "This pen is made of plastic and _____.",
+                    "answer": "metal",
+                    "hint": "The tip of the pen is hard and shiny.",
+                    "explanation": "A pen is made of plastic and metal."
+                }
+            ]
+        },
+        {
+            "id": "mixed_review",
+            "name": "Mixed review",
+            "exercises": [
+                {
+                    "id": "er01",
+                    "type": "multiple_choice",
+                    "question": "There are pencils on the _____.",
+                    "options": [
+                        "rug",
+                        "sofa",
+                        "table",
+                        "bed"
+                    ],
+                    "answer": "rug",
+                    "hint": "From the chant in the book!",
+                    "explanation": "There are pencils on the rug."
+                },
+                {
+                    "id": "er02",
+                    "type": "multiple_choice",
+                    "question": "There's a book on the _____.",
+                    "options": [
+                        "wardrobe",
+                        "lamp",
+                        "rug",
+                        "mirror"
+                    ],
+                    "answer": "wardrobe",
+                    "hint": "It's the big furniture with doors.",
+                    "explanation": "There's a book on the wardrobe."
+                },
+                {
+                    "id": "er03",
+                    "type": "multiple_choice",
+                    "question": "In the story, _____ can't go to the park.",
+                    "options": [
+                        "Flash",
+                        "Whisper",
+                        "Misty",
+                        "Penny"
+                    ],
+                    "answer": "Flash",
+                    "hint": "She was tidying up her room.",
+                    "explanation": "Flash can't go — she's tidying up!"
+                },
+                {
+                    "id": "er04",
+                    "type": "multiple_choice",
+                    "question": "What does Flash tidy first?",
+                    "options": [
+                        "clothes",
+                        "books",
+                        "toys",
+                        "food"
+                    ],
+                    "answer": "clothes",
+                    "hint": "Jeans, sweaters, caps, shoes and socks!",
+                    "explanation": "Flash tidies clothes first."
+                },
+                {
+                    "id": "er05",
+                    "type": "fill_blank",
+                    "question": "I like _____ wardrobe. (near, singular)",
+                    "answer": "this",
+                    "hint": "Near + singular = ?",
+                    "explanation": "This wardrobe (near, singular)."
+                },
+                {
+                    "id": "er06",
+                    "type": "fill_blank",
+                    "question": "Whose hat _____ this? It's May's hat.",
+                    "answer": "is",
+                    "hint": "Hat = singular.",
+                    "explanation": "Whose hat IS this? (singular)"
+                },
+                {
+                    "id": "er07",
+                    "type": "multiple_choice",
+                    "question": "A bookcase can be made of wood and _____.",
+                    "options": [
+                        "metal",
+                        "fabric",
+                        "rug",
+                        "poster"
+                    ],
+                    "answer": "metal",
+                    "hint": "The screws and handles are...",
+                    "explanation": "A bookcase is made of wood and metal."
+                },
+                {
+                    "id": "er08",
+                    "type": "multiple_choice",
+                    "question": "_____ shoes are these? They're Penny's.",
+                    "options": [
+                        "Whose",
+                        "Who",
+                        "What",
+                        "Where"
+                    ],
+                    "answer": "Whose",
+                    "hint": "We ask about the owner.",
+                    "explanation": "Whose = asking about possession."
+                }
+            ]
+        }
+    ]
+}

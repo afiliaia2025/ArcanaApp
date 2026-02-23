@@ -1,0 +1,709 @@
+{
+    "grade": "2_primaria",
+    "subject": "lengua",
+    "trimester": 2,
+    "topics": [
+        {
+            "id": "gramatica_verbos_intro",
+            "name": "Verbos: pasado, presente, futuro",
+            "icon": "⏰",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "vb001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué es un verbo?",
+                    "options": [
+                        "Un nombre",
+                        "Una acción",
+                        "Un lugar",
+                        "Un color"
+                    ],
+                    "answer": "Una acción",
+                    "hint": "Correr, saltar, comer son...",
+                    "explanation": "Los verbos expresan acciones"
+                },
+                {
+                    "id": "vb002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "¿En qué tiempo está cada frase?",
+                    "pairs": [
+                        [
+                            "Ayer fui al parque",
+                            "Pasado"
+                        ],
+                        [
+                            "Ahora como fruta",
+                            "Presente"
+                        ],
+                        [
+                            "Mañana jugaré al fútbol",
+                            "Futuro"
+                        ]
+                    ],
+                    "hint": "Ayer=pasado, ahora=presente, mañana=futuro",
+                    "explanation": "Pistas temporales: ayer/ahora/mañana"
+                },
+                {
+                    "id": "vb003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "'María salta a la comba.' El verbo es ___",
+                    "answer": "salta",
+                    "hint": "¿Qué acción hace María?",
+                    "explanation": "Salta es la acción = verbo"
+                },
+                {
+                    "id": "vb004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "'Los niños jugaron en el recreo.' ¿En qué tiempo está?",
+                    "options": [
+                        "Presente",
+                        "Pasado",
+                        "Futuro"
+                    ],
+                    "answer": "Pasado",
+                    "hint": "¿Cuándo ocurrió?",
+                    "explanation": "Jugaron → pasado (ya terminó)"
+                },
+                {
+                    "id": "vb005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Pon en futuro: 'Yo como fruta' → 'Yo ___ fruta'",
+                    "answer": "comeré",
+                    "hint": "¿Cómo dices para mañana?",
+                    "explanation": "Como (presente) → comeré (futuro)"
+                },
+                {
+                    "id": "vb006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál de estas palabras es un verbo?",
+                    "options": [
+                        "Rápido",
+                        "Colegio",
+                        "Estudiar",
+                        "Bonito"
+                    ],
+                    "answer": "Estudiar",
+                    "hint": "¿Cuál es una acción?",
+                    "explanation": "Estudiar = acción = verbo"
+                },
+                {
+                    "id": "vb007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Pon en pasado: 'Ana canta una canción' → 'Ana ___ una canción'",
+                    "answer": "cantó",
+                    "hint": "¿Cómo dices si fue ayer?",
+                    "explanation": "Canta (presente) → cantó (pasado)"
+                },
+                {
+                    "id": "vb008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe una frase con un verbo en pasado, otra en presente y otra en futuro sobre el tema 'ir al colegio'",
+                    "answer": "Ayer fui al colegio. Hoy voy al colegio. Mañana iré al colegio.",
+                    "hint": "Usa ayer/hoy/mañana",
+                    "explanation": "Fui (pasado), voy (presente), iré (futuro)"
+                },
+                {
+                    "id": "vb009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "'Cuando sea mayor, viajaré por el mundo.' ¿Cuántos verbos hay?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "0"
+                    ],
+                    "answer": "2",
+                    "hint": "Busca las acciones",
+                    "explanation": "Sea y viajaré = 2 verbos"
+                },
+                {
+                    "id": "vb010",
+                    "type": "match",
+                    "difficulty": 3,
+                    "question": "Une cada verbo con su tiempo",
+                    "pairs": [
+                        [
+                            "escribí",
+                            "Pasado"
+                        ],
+                        [
+                            "leo",
+                            "Presente"
+                        ],
+                        [
+                            "viajaré",
+                            "Futuro"
+                        ],
+                        [
+                            "comí",
+                            "Pasado"
+                        ]
+                    ],
+                    "hint": "Fíjate en la terminación",
+                    "explanation": "-í/-ó = pasado, -o/-es = presente, -ré/-rá = futuro"
+                }
+            ]
+        },
+        {
+            "id": "ortografia_basica",
+            "name": "Ortografía: ca/co/cu, que/qui, za/zo/zu",
+            "icon": "📝",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "ob001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Completa: ___so (animal del bosque)",
+                    "answer": "o",
+                    "hint": "Un __so tiene pelo y garras",
+                    "explanation": "Oso se escribe con O"
+                },
+                {
+                    "id": "ob002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cómo se escribe correctamente?",
+                    "options": [
+                        "Queso",
+                        "Ceso",
+                        "Keso",
+                        "Quesso"
+                    ],
+                    "answer": "Queso",
+                    "hint": "Sonido /ke/ se escribe QUE",
+                    "explanation": "Que/qui para sonido k + e/i"
+                },
+                {
+                    "id": "ob003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "za, zo, zu: Completa: ___pato",
+                    "answer": "za",
+                    "hint": "Un calzado para el pie",
+                    "explanation": "Zapato: za- con z"
+                },
+                {
+                    "id": "ob004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es correcta?",
+                    "options": [
+                        "Zereza",
+                        "Cereza",
+                        "Sereza",
+                        "Ceressa"
+                    ],
+                    "answer": "Cereza",
+                    "hint": "Ce- para sonido /ze/",
+                    "explanation": "Ce/ci para sonido z + e/i"
+                },
+                {
+                    "id": "ob005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Completa: má___ina (aparato)",
+                    "answer": "qu",
+                    "hint": "Sonido /ki/",
+                    "explanation": "Máquina: qui para sonido /ki/"
+                },
+                {
+                    "id": "ob006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "'Cien' se escribe con C",
+                    "answer": "true",
+                    "hint": "Ci- para sonido /zi/",
+                    "explanation": "Cien: ci = sonido /zi/"
+                },
+                {
+                    "id": "ob007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cómo se escribe: un animal acuático de color naranja?",
+                    "options": [
+                        "Pez",
+                        "Pes",
+                        "Pess",
+                        "Pecs"
+                    ],
+                    "answer": "Pez",
+                    "hint": "Termina en Z",
+                    "explanation": "Pez: con Z al final"
+                },
+                {
+                    "id": "ob008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El plural de 'lápiz' es ___",
+                    "answer": "lápices",
+                    "hint": "La z cambia a c en plural",
+                    "explanation": "Lápiz → lápices (z→c + es)"
+                },
+                {
+                    "id": "ob009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál de estas palabras tiene una falta?",
+                    "options": [
+                        "Quiero",
+                        "Cariño",
+                        "Zanahoría",
+                        "Circo"
+                    ],
+                    "answer": "Zanahoría",
+                    "hint": "La tilde está mal",
+                    "explanation": "Zanahoria (sin tilde, es llana terminada en vocal)"
+                },
+                {
+                    "id": "ob010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe 3 palabras con QUE y 3 con QUI",
+                    "answer": "Queso, parque, bosque / quiero, máquina, pequeño",
+                    "hint": "Que: sonido /ke/, Qui: sonido /ki/",
+                    "explanation": "QUE/QUI se usa para el sonido K ante E e I"
+                }
+            ]
+        },
+        {
+            "id": "escritura_oraciones",
+            "name": "Escritura de oraciones",
+            "icon": "✍️",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "eo001",
+                    "type": "sort",
+                    "difficulty": 1,
+                    "question": "Ordena las palabras para formar una oración",
+                    "items": [
+                        "come",
+                        "El",
+                        "un",
+                        "gato",
+                        "pez"
+                    ],
+                    "answer": [
+                        "El",
+                        "gato",
+                        "come",
+                        "un",
+                        "pez"
+                    ],
+                    "hint": "Sujeto + verbo + complemento",
+                    "explanation": "El gato come un pez."
+                },
+                {
+                    "id": "eo002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Completa: 'Mi ___ se llama Luna.' (un animal)",
+                    "answer": "perra",
+                    "hint": "Un animal doméstico femenino",
+                    "explanation": "Respuesta libre: perra, gata, tortuga..."
+                },
+                {
+                    "id": "eo003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Una oración siempre necesita un verbo",
+                    "answer": "true",
+                    "hint": "¿Qué dice la regla?",
+                    "explanation": "Toda oración necesita al menos un verbo"
+                },
+                {
+                    "id": "eo004",
+                    "type": "sort",
+                    "difficulty": 2,
+                    "question": "Ordena para formar oración",
+                    "items": [
+                        "parque",
+                        "en",
+                        "juegan",
+                        "Los",
+                        "el",
+                        "niños"
+                    ],
+                    "answer": [
+                        "Los",
+                        "niños",
+                        "juegan",
+                        "en",
+                        "el",
+                        "parque"
+                    ],
+                    "hint": "¿Quién? ¿Qué hace? ¿Dónde?",
+                    "explanation": "Los niños juegan en el parque."
+                },
+                {
+                    "id": "eo005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es una oración completa?",
+                    "options": [
+                        "El perro grande",
+                        "Corre mucho",
+                        "Mi hermana come una manzana",
+                        "Rojo y bonito"
+                    ],
+                    "answer": "Mi hermana come una manzana",
+                    "hint": "Necesita sujeto y verbo",
+                    "explanation": "Tiene sujeto (mi hermana) y verbo (come)"
+                },
+                {
+                    "id": "eo006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "'El sol brilla en el ___' Completa con un lugar",
+                    "answer": "cielo",
+                    "hint": "¿Dónde brilla el sol?",
+                    "explanation": "El sol brilla en el cielo"
+                },
+                {
+                    "id": "eo007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Escribe una oración sobre tu animal favorito usando sujeto + verbo + complemento",
+                    "answer": "Mi perro corre por el parque.",
+                    "hint": "¿Qué animal? ¿Qué hace? ¿Dónde?",
+                    "explanation": "Estructura: Sujeto + Verbo + Complemento"
+                },
+                {
+                    "id": "eo008",
+                    "type": "sort",
+                    "difficulty": 3,
+                    "question": "Ordena para formar 2 oraciones (hay un punto en medio)",
+                    "items": [
+                        "come",
+                        "Ana",
+                        "plátanos",
+                        ".",
+                        "juega",
+                        "Pedro",
+                        "al",
+                        "fútbol"
+                    ],
+                    "answer": [
+                        "Ana",
+                        "come",
+                        "plátanos",
+                        ".",
+                        "Pedro",
+                        "juega",
+                        "al",
+                        "fútbol"
+                    ],
+                    "hint": "Busca 2 sujetos y 2 verbos",
+                    "explanation": "Ana come plátanos. Pedro juega al fútbol."
+                },
+                {
+                    "id": "eo009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Amplía esta oración añadiendo cuándo y dónde: 'El niño lee.'",
+                    "answer": "El niño lee un libro en el parque por la tarde.",
+                    "hint": "Añade complementos de tiempo y lugar",
+                    "explanation": "Ampliar = añadir detalles: qué, dónde, cuándo"
+                },
+                {
+                    "id": "eo010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántas oraciones hay en: 'Hoy hace sol. Los niños juegan fuera. María prefiere leer.'?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "3",
+                    "hint": "Cuenta los puntos",
+                    "explanation": "3 puntos = 3 oraciones"
+                }
+            ]
+        },
+        {
+            "id": "comunicacion_oral",
+            "name": "Comunicación oral y escucha",
+            "icon": "🗣️",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "co001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Cuando alguien te habla, es importante...",
+                    "options": [
+                        "Mirar al móvil",
+                        "Escuchar con atención",
+                        "Hablar más fuerte",
+                        "Irte corriendo"
+                    ],
+                    "answer": "Escuchar con atención",
+                    "hint": "¿Qué harías tú si te hablan?",
+                    "explanation": "La escucha activa es clave: mirar, atender, no interrumpir"
+                },
+                {
+                    "id": "co002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Interrumpir a alguien cuando habla es de buena educación",
+                    "answer": "false",
+                    "hint": "¿Te gusta que te interrumpan?",
+                    "explanation": "No interrumpir: espera tu turno para hablar"
+                },
+                {
+                    "id": "co003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Para pedir algo educadamente decimos: por ___",
+                    "answer": "favor",
+                    "hint": "Una palabra mágica",
+                    "explanation": "Por favor: palabra de cortesía"
+                },
+                {
+                    "id": "co004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué haces cuando no entiendes algo que te explican?",
+                    "options": [
+                        "Me callo",
+                        "Me voy",
+                        "Pregunto con educación",
+                        "Me enfado"
+                    ],
+                    "answer": "Pregunto con educación",
+                    "hint": "Es importante entender",
+                    "explanation": "Pedir que te lo expliquen otra vez está bien"
+                },
+                {
+                    "id": "co005",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada situación con lo que debes decir",
+                    "pairs": [
+                        [
+                            "Alguien te da un regalo",
+                            "Gracias"
+                        ],
+                        [
+                            "Necesitas pasar",
+                            "Perdona / Con permiso"
+                        ],
+                        [
+                            "Quieres algo",
+                            "Por favor"
+                        ],
+                        [
+                            "Llegas tarde",
+                            "Lo siento"
+                        ]
+                    ],
+                    "hint": "Palabras de cortesía",
+                    "explanation": "Gracias, perdona, por favor, lo siento"
+                },
+                {
+                    "id": "co006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Cuando cuentas algo, es importante hablar claro y en orden",
+                    "answer": "true",
+                    "hint": "¿Se te entiende mejor si hablas ordenado?",
+                    "explanation": "Orden y claridad ayudan a que te entiendan"
+                },
+                {
+                    "id": "co007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Imagina que un niño nuevo llega a tu clase. ¿Qué le dirías? Escribe 2 frases.",
+                    "answer": "¡Hola! Me llamo [nombre]. ¿Cómo te llamas? ¿Quieres sentarte conmigo?",
+                    "hint": "Preséntate y sé amable",
+                    "explanation": "Presentarse y ofrecer ayuda = buena acogida"
+                },
+                {
+                    "id": "co008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "Si un compañero dice algo con lo que no estás de acuerdo, ¿qué es mejor?",
+                    "options": [
+                        "Gritarle que está equivocado",
+                        "Reírte de él",
+                        "Decir 'yo creo que...' con respeto",
+                        "Ignorarle"
+                    ],
+                    "answer": "Decir 'yo creo que...' con respeto",
+                    "hint": "Respeto al opinar",
+                    "explanation": "Puedes opinar diferente con respeto y sin ofender"
+                },
+                {
+                    "id": "co009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Cuenta en 3 oraciones qué hiciste el fin de semana pasado (usa pasado)",
+                    "answer": "El sábado fui al parque con mi familia. Jugamos al fútbol y comimos un helado. El domingo descansé en casa.",
+                    "hint": "Usa verbos en pasado y ordena los hechos",
+                    "explanation": "Narrar en pasado, con orden temporal"
+                },
+                {
+                    "id": "co010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "En una exposición oral, puedes leer todo el texto sin mirar al público",
+                    "answer": "false",
+                    "hint": "¿Cómo se comunica mejor?",
+                    "explanation": "Es mejor mirar al público y usar el texto como apoyo"
+                }
+            ]
+        },
+        {
+            "id": "poesia_cuentos",
+            "name": "Poesía y cuentos",
+            "icon": "🏰",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "pc001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué es una rima?",
+                    "options": [
+                        "Cuando dos palabras suenan parecido al final",
+                        "Cuando una palabra es muy larga",
+                        "Un tipo de cuento",
+                        "Un signo de puntuación"
+                    ],
+                    "answer": "Cuando dos palabras suenan parecido al final",
+                    "hint": "Gato - pato, luna - cuna",
+                    "explanation": "Rima: coincidencia de sonidos al final"
+                },
+                {
+                    "id": "pc002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une las palabras que riman",
+                    "pairs": [
+                        [
+                            "gato",
+                            "pato"
+                        ],
+                        [
+                            "luna",
+                            "cuna"
+                        ],
+                        [
+                            "sol",
+                            "caracol"
+                        ],
+                        [
+                            "casa",
+                            "masa"
+                        ]
+                    ],
+                    "hint": "Suenan parecido al final",
+                    "explanation": "Rima: terminación similar"
+                },
+                {
+                    "id": "pc003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "En un cuento, el inicio se llama 'Érase una ___'",
+                    "answer": "vez",
+                    "hint": "Érase una...",
+                    "explanation": "Fórmula de inicio: Érase una vez..."
+                },
+                {
+                    "id": "pc004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuáles son las 3 partes de un cuento?",
+                    "options": [
+                        "Título, autor, dibujo",
+                        "Inicio, nudo, desenlace",
+                        "Verso, estrofa, poema",
+                        "Portada, índice, páginas"
+                    ],
+                    "answer": "Inicio, nudo, desenlace",
+                    "hint": "Principio, problema, final",
+                    "explanation": "Inicio (presentación), nudo (conflicto), desenlace (solución)"
+                },
+                {
+                    "id": "pc005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "En el cuento de Caperucita, el 'nudo' es cuando aparece el ___",
+                    "answer": "lobo",
+                    "hint": "¿Quién causa el problema?",
+                    "explanation": "El lobo es el conflicto (nudo) de la historia"
+                },
+                {
+                    "id": "pc006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Una fábula es un cuento con animales que hablan y tiene moraleja",
+                    "answer": "true",
+                    "hint": "Como las fábulas de Esopo",
+                    "explanation": "Fábula: animales + enseñanza (moraleja)"
+                },
+                {
+                    "id": "pc007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué palabra rima con 'estrella'?",
+                    "options": [
+                        "Cielo",
+                        "Bella",
+                        "Luna",
+                        "Noche"
+                    ],
+                    "answer": "Bella",
+                    "hint": "¿Cuál suena parecido al final?",
+                    "explanation": "Estrella - bella (-ella)"
+                },
+                {
+                    "id": "pc008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Inventa un pareado (dos versos que rimen): 'En el cielo vi la luna, ___'",
+                    "answer": "brillaba como ninguna",
+                    "hint": "Busca algo que rime con luna",
+                    "explanation": "Luna - ninguna, cuna, fortuna..."
+                },
+                {
+                    "id": "pc009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El protagonista del cuento de los 3 cerditos aprende que es mejor construir casas ___",
+                    "answer": "fuertes",
+                    "hint": "¿Qué material resistió al lobo?",
+                    "explanation": "Moraleja: el esfuerzo tiene recompensa (casa de ladrillo)"
+                },
+                {
+                    "id": "pc010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+                    "options": [
+                        "Federico García Lorca",
+                        "Miguel de Cervantes",
+                        "Antonio Machado",
+                        "Gloria Fuertes"
+                    ],
+                    "answer": "Miguel de Cervantes",
+                    "hint": "El autor más famoso de España",
+                    "explanation": "Miguel de Cervantes escribió Don Quijote"
+                }
+            ]
+        }
+    ]
+}

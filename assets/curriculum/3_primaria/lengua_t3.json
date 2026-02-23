@@ -1,0 +1,604 @@
+{
+    "grade": "3_primaria",
+    "subject": "lengua",
+    "trimester": 3,
+    "topics": [
+        {
+            "id": "escritura_creativa",
+            "name": "Escritura creativa: narración y diálogo",
+            "icon": "✍️",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "ec001",
+                    "type": "open_problem",
+                    "difficulty": 1,
+                    "question": "Continúa la historia: 'El pirata encontró un mapa...'",
+                    "answer": "El pirata encontró un mapa que le llevaba a una isla misteriosa. Navegó durante tres días hasta llegar.",
+                    "hint": "¿Qué hizo con el mapa?",
+                    "explanation": "Creatividad: continuar una narración con coherencia"
+                },
+                {
+                    "id": "ec002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "En un diálogo, usamos ___ para separar lo que dice cada personaje",
+                    "answer": "guion",
+                    "hint": "— Hola —dijo Ana.",
+                    "explanation": "El guion largo (—) introduce las intervenciones en diálogos"
+                },
+                {
+                    "id": "ec003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué necesita toda buena historia?",
+                    "options": [
+                        "Solo un final",
+                        "Personajes, lugar y problema",
+                        "Muchos adjetivos",
+                        "Solo diálogos"
+                    ],
+                    "answer": "Personajes, lugar y problema",
+                    "hint": "Los ingredientes básicos",
+                    "explanation": "Elementos narrativos: personajes + ambientación + conflicto"
+                },
+                {
+                    "id": "ec004",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Escribe un diálogo de 4 líneas entre un niño y un robot",
+                    "answer": "— ¡Hola! ¿Eres un robot de verdad? —preguntó Luis.\n— Sí, soy R-7. ¿Quieres jugar conmigo?\n— ¡Claro! ¿A qué jugamos?\n— Conozco 3.472 juegos. ¿Empezamos por el escondite?",
+                    "hint": "Usa guiones para cada intervención",
+                    "explanation": "Diálogo con guiones, alternando personajes"
+                },
+                {
+                    "id": "ec005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué conectores usamos para ordenar una narración?",
+                    "options": [
+                        "Pero, sin embargo",
+                        "Primero, luego, finalmente",
+                        "Porque, ya que",
+                        "Grande, enorme"
+                    ],
+                    "answer": "Primero, luego, finalmente",
+                    "hint": "Para contar en orden",
+                    "explanation": "Conectores temporales: primero, después, luego, finalmente"
+                },
+                {
+                    "id": "ec006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Para describir los sentimientos de un personaje podemos decir: 'Sentía ___ en el estómago' (nervios)",
+                    "answer": "mariposas",
+                    "hint": "Expresión figurada para nervios",
+                    "explanation": "Lenguaje figurado enriquece la escritura"
+                },
+                {
+                    "id": "ec007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Escribe el inicio de un cuento de misterio (3 frases)",
+                    "answer": "Era una noche oscura y tormentosa. Clara oyó un ruido extraño en el desván. Cogió una linterna y subió las escaleras lentamente.",
+                    "hint": "Ambiente, personaje, acción intrigante",
+                    "explanation": "Inicio de misterio: ambiente inquietante + sonido/evento extraño"
+                },
+                {
+                    "id": "ec008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe un microcuento completo (inicio, nudo, desenlace) en máximo 5 frases",
+                    "answer": "Un niño encontró una llave dorada en el jardín. La probó en todas las puertas de casa sin éxito. Un día, descubrió una puerta diminuta detrás de la estantería. La llave encajó perfectamente. Al otro lado había un jardín mágico lleno de animales que hablaban.",
+                    "hint": "Planteamiento → conflicto → resolución",
+                    "explanation": "Microcuento: historia completa condensada"
+                },
+                {
+                    "id": "ec009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "'El viento susurraba entre los árboles' es un ejemplo de...",
+                    "options": [
+                        "Comparación",
+                        "Personificación",
+                        "Exageración",
+                        "Rima"
+                    ],
+                    "answer": "Personificación",
+                    "hint": "¿El viento puede susurrar?",
+                    "explanation": "Personificación: dar cualidades humanas a algo no humano"
+                },
+                {
+                    "id": "ec010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "'Era tan alto como un ___' es una comparación. Se usa 'como' para ___",
+                    "answer": "árbol, comparar",
+                    "hint": "Tan alto COMO...",
+                    "explanation": "La comparación usa 'como' o 'parece' para relacionar dos cosas"
+                }
+            ]
+        },
+        {
+            "id": "dictado_ortografia",
+            "name": "Ortografía aplicada: dictados y corrección",
+            "icon": "📋",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "do001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál está bien escrita?",
+                    "options": [
+                        "hayer",
+                        "aller",
+                        "ayer",
+                        "aller"
+                    ],
+                    "answer": "ayer",
+                    "hint": "Sin H, sin LL",
+                    "explanation": "Ayer: se escribe sin H"
+                },
+                {
+                    "id": "do002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Siempre se escribe con mayúscula después de un ___",
+                    "answer": "punto",
+                    "hint": ". → Mayúscula",
+                    "explanation": "Después de punto siempre va mayúscula"
+                },
+                {
+                    "id": "do003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "'Tambien' es correcto sin tilde",
+                    "answer": "false",
+                    "hint": "¿Es aguda terminada en N?",
+                    "explanation": "También: aguda terminada en N → lleva tilde"
+                },
+                {
+                    "id": "do004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál tiene una falta?",
+                    "options": [
+                        "Había una vez",
+                        "Hoy es miércoles",
+                        "El avión buela alto",
+                        "Mi hermano es mayor"
+                    ],
+                    "answer": "El avión buela alto",
+                    "hint": "¿Buela o vuela?",
+                    "explanation": "Vuela con V (del verbo volar)"
+                },
+                {
+                    "id": "do005",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Corrige las faltas: 'llo tengo un perro mui vonito que se yama toby'",
+                    "answer": "Yo tengo un perro muy bonito que se llama Toby.",
+                    "hint": "Revisa cada palabra",
+                    "explanation": "Yo (sin LL), muy (sin I), bonito (B), llama (LL), Toby (mayúscula)"
+                },
+                {
+                    "id": "do006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Las palabras que empiezan por HUE- siempre llevan ___",
+                    "answer": "H",
+                    "hint": "Huevo, hueso, huerta...",
+                    "explanation": "Regla: hue- siempre con H"
+                },
+                {
+                    "id": "do007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "'Vamos a ver la telebision' está bien escrito",
+                    "answer": "false",
+                    "hint": "¿Cómo se escribe televisión?",
+                    "explanation": "Televisión: con S y tilde (no 'telebision')"
+                },
+                {
+                    "id": "do008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Corrige este texto: 'El miercoles iremos a la viblioteca ha cojer un libro. abra muchos libros nuebos.'",
+                    "answer": "El miércoles iremos a la biblioteca a coger un libro. Habrá muchos libros nuevos.",
+                    "hint": "Revisa tildes, b/v, ha/a, y mayúsculas",
+                    "explanation": "Miércoles (tilde), biblioteca (B), a (sin H), coger (G), Habrá (H), nuevos (V)"
+                },
+                {
+                    "id": "do009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántas faltas tiene: 'En el huniberso hay muchas estrellas briantes'?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "3",
+                    "hint": "Revisa cada palabra sospechosa",
+                    "explanation": "Universo (sin H), brillantes (LL, no una sola L) = 3 faltas"
+                },
+                {
+                    "id": "do010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "'A ver' (mirar) y 'haber' (verbo) son la misma expresión",
+                    "answer": "false",
+                    "hint": "A ver = vamos a ver. Haber = verbo auxiliar",
+                    "explanation": "A ver (mirar/comprobar) ≠ haber (verbo auxiliar)"
+                }
+            ]
+        },
+        {
+            "id": "comunicacion_exposicion",
+            "name": "Exposición oral y debate",
+            "icon": "🎤",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "ce001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Una exposición oral es...",
+                    "options": [
+                        "Leer un cuento en voz alta",
+                        "Explicar un tema al público",
+                        "Cantar una canción",
+                        "Escribir un resumen"
+                    ],
+                    "answer": "Explicar un tema al público",
+                    "hint": "Hablar sobre algo que has investigado",
+                    "explanation": "Exposición oral: presentar un tema de forma organizada"
+                },
+                {
+                    "id": "ce002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Una buena exposición tiene: introducción, ___ y conclusión",
+                    "answer": "desarrollo",
+                    "hint": "La parte central",
+                    "explanation": "Estructura: introducción, desarrollo, conclusión"
+                },
+                {
+                    "id": "ce003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "En una exposición es mejor leer todo el texto sin mirar al público",
+                    "answer": "false",
+                    "hint": "¿Cómo se conecta mejor?",
+                    "explanation": "Hay que mirar al público, usar notas como apoyo"
+                },
+                {
+                    "id": "ce004",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Prepara 3 ideas principales para una exposición sobre 'Los dinosaurios'",
+                    "answer": "1. Cuándo vivieron los dinosaurios. 2. Tipos principales de dinosaurios. 3. Por qué desaparecieron.",
+                    "hint": "Piensa en qué querría saber tu público",
+                    "explanation": "Organizar ideas principales antes de hablar"
+                },
+                {
+                    "id": "ce005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "En un debate, ¿qué es más importante?",
+                    "options": [
+                        "Hablar más fuerte que los demás",
+                        "Escuchar y responder con argumentos",
+                        "Ganar siempre",
+                        "Repetir lo mismo muchas veces"
+                    ],
+                    "answer": "Escuchar y responder con argumentos",
+                    "hint": "Debatir con respeto",
+                    "explanation": "Debate: escuchar, argumentar con respeto, no interrumpir"
+                },
+                {
+                    "id": "ce006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Para apoyar una opinión necesitamos dar ___",
+                    "answer": "argumentos",
+                    "hint": "Razones que explican por qué",
+                    "explanation": "Argumento = razón que apoya tu opinión"
+                },
+                {
+                    "id": "ce007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "En un debate está bien insultar al que piensa diferente",
+                    "answer": "false",
+                    "hint": "¡Respeto!",
+                    "explanation": "En un debate se respeta a todos, se atacan ideas, no personas"
+                },
+                {
+                    "id": "ce008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Da 2 argumentos a favor y 2 en contra de: '¿Debería haber deberes en el colegio?'",
+                    "answer": "A favor: refuerzan lo aprendido, crean hábito de estudio. En contra: los niños necesitan tiempo libre, pueden causar estrés.",
+                    "hint": "Piensa en ambos puntos de vista",
+                    "explanation": "Pensamiento crítico: ver ambas perspectivas"
+                },
+                {
+                    "id": "ce009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué conector usarías para dar una opinión contraria?",
+                    "options": [
+                        "Además",
+                        "Sin embargo",
+                        "Por ejemplo",
+                        "Primero"
+                    ],
+                    "answer": "Sin embargo",
+                    "hint": "Para decir 'pero' de forma formal",
+                    "explanation": "Sin embargo, no obstante, por otro lado = contraargumento"
+                },
+                {
+                    "id": "ce010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Para introducir una opinión personal decimos: 'En mi ___, creo que...'",
+                    "answer": "opinión",
+                    "hint": "Es lo que yo pienso",
+                    "explanation": "En mi opinión, yo considero que, desde mi punto de vista..."
+                }
+            ]
+        },
+        {
+            "id": "poesia_avanzada",
+            "name": "Poesía: versos, estrofas y rima",
+            "icon": "🎵",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "pa001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Cada línea de un poema se llama ___",
+                    "answer": "verso",
+                    "hint": "No es párrafo",
+                    "explanation": "Verso = cada línea de un poema"
+                },
+                {
+                    "id": "pa002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Un grupo de versos forma una...",
+                    "options": [
+                        "Frase",
+                        "Estrofa",
+                        "Página",
+                        "Historia"
+                    ],
+                    "answer": "Estrofa",
+                    "hint": "Como un párrafo pero en poesía",
+                    "explanation": "Estrofa = conjunto de versos agrupados"
+                },
+                {
+                    "id": "pa003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "La rima es cuando dos versos terminan con sonidos parecidos",
+                    "answer": "true",
+                    "hint": "Luna - cuna, amor - dolor",
+                    "explanation": "Rima: coincidencia de sonidos finales"
+                },
+                {
+                    "id": "pa004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une las palabras que riman",
+                    "pairs": [
+                        [
+                            "corazón",
+                            "canción"
+                        ],
+                        [
+                            "estrella",
+                            "bella"
+                        ],
+                        [
+                            "camino",
+                            "destino"
+                        ],
+                        [
+                            "cielo",
+                            "pañuelo"
+                        ]
+                    ],
+                    "hint": "Suenan igual al final",
+                    "explanation": "Coincidencia de sonidos desde la última vocal tónica"
+                },
+                {
+                    "id": "pa005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuántos versos tiene un pareado?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "2",
+                    "hint": "Par = dos",
+                    "explanation": "Pareado = 2 versos que riman entre sí"
+                },
+                {
+                    "id": "pa006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Un poema de 4 versos forma una ___",
+                    "answer": "cuarteta",
+                    "hint": "Cuatro versos",
+                    "explanation": "Cuarteta o cuarteto = estrofa de 4 versos"
+                },
+                {
+                    "id": "pa007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Escribe un pareado (2 versos que rimen) sobre la naturaleza",
+                    "answer": "El río corre por el valle,\ny las flores adornan la calle.",
+                    "hint": "Busca palabras que rimen",
+                    "explanation": "Pareado: 2 versos rimados"
+                },
+                {
+                    "id": "pa008",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "La rima asonante solo coincide en las vocales",
+                    "answer": "true",
+                    "hint": "Solo vocales, no consonantes",
+                    "explanation": "Asonante: solo vocales (casa-alma). Consonante: vocales + consonantes (amor-dolor)"
+                },
+                {
+                    "id": "pa009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Lee: 'En la playa vivía un pez / que era feliz por primera vez.' ¿Qué tipo de rima es? ¿Cuántos versos tiene?",
+                    "answer": "Rima consonante (pez-vez), 2 versos (pareado)",
+                    "hint": "¿Coinciden vocales Y consonantes?",
+                    "explanation": "Pez-vez: consonante (e-z = e-z). 2 versos = pareado"
+                },
+                {
+                    "id": "pa010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Quién escribió 'El lagarto está llorando'?",
+                    "options": [
+                        "Antonio Machado",
+                        "Gloria Fuertes",
+                        "Federico García Lorca",
+                        "Miguel Hernández"
+                    ],
+                    "answer": "Federico García Lorca",
+                    "hint": "Poeta de Granada",
+                    "explanation": "Federico García Lorca: uno de los grandes poetas españoles"
+                }
+            ]
+        },
+        {
+            "id": "repaso_comprension",
+            "name": "Comprensión y producción de textos",
+            "icon": "📚",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "rc001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Antes de escribir un texto es importante hacer un...",
+                    "options": [
+                        "Dibujo",
+                        "Borrador o esquema",
+                        "Examen",
+                        "Resumen"
+                    ],
+                    "answer": "Borrador o esquema",
+                    "hint": "Planificar antes de escribir",
+                    "explanation": "Planificar: esquema → borrador → texto final"
+                },
+                {
+                    "id": "rc002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Al revisar un texto debemos comprobar la ___ y la puntuación",
+                    "answer": "ortografía",
+                    "hint": "¿Las palabras están bien escritas?",
+                    "explanation": "Revisar: ortografía + puntuación + coherencia"
+                },
+                {
+                    "id": "rc003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Un buen lector solo lee libros de texto del colegio",
+                    "answer": "false",
+                    "hint": "¿Solo libros del cole?",
+                    "explanation": "Leer variado: cuentos, cómics, revistas, poesía..."
+                },
+                {
+                    "id": "rc004",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Resume en 2 frases: 'Los osos polares viven en el Ártico. Se alimentan principalmente de focas. Su pelaje blanco les ayuda a camuflarse en la nieve. Están amenazados por el cambio climático.'",
+                    "answer": "Los osos polares viven en el Ártico y cazan focas gracias a su pelaje blanco que les camufla. Están amenazados por el cambio climático.",
+                    "hint": "Selecciona las ideas principales",
+                    "explanation": "Resumir: mantener lo esencial, eliminar detalles"
+                },
+                {
+                    "id": "rc005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué tipo de texto escribirías para convencer a tus padres de tener una mascota?",
+                    "options": [
+                        "Narrativo",
+                        "Descriptivo",
+                        "Argumentativo",
+                        "Poético"
+                    ],
+                    "answer": "Argumentativo",
+                    "hint": "Necesitas dar razones",
+                    "explanation": "Argumentativo: presentar razones para convencer"
+                },
+                {
+                    "id": "rc006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La idea principal de un texto es la información más ___ que transmite",
+                    "answer": "importante",
+                    "hint": "Lo esencial del texto",
+                    "explanation": "Idea principal = mensaje central del texto"
+                },
+                {
+                    "id": "rc007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Escribe 3 preguntas que harías a tu autor/a de libros favorito/a",
+                    "answer": "1. ¿De dónde sacas las ideas para tus historias? 2. ¿Cuánto tardas en escribir un libro? 3. ¿Qué libro tuyo es tu favorito?",
+                    "hint": "Preguntas interesantes y respetuosas",
+                    "explanation": "Formular preguntas relevantes y bien estructuradas"
+                },
+                {
+                    "id": "rc008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Lee: 'La ciudad estaba vacía. No se oía ningún ruido. Solo el eco de mis pasos.' ¿Qué sensación transmite? ¿Por qué?",
+                    "answer": "Transmite soledad y misterio. Porque describe vacío, silencio y estar solo.",
+                    "hint": "¿Cómo te hace sentir?",
+                    "explanation": "Análisis de tono: vacía + sin ruido + solo = soledad/misterio"
+                },
+                {
+                    "id": "rc009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué recurso literario usa: 'Sus ojos eran dos estrellas'?",
+                    "options": [
+                        "Comparación",
+                        "Metáfora",
+                        "Personificación",
+                        "Exageración"
+                    ],
+                    "answer": "Metáfora",
+                    "hint": "Dice que algo ES otra cosa",
+                    "explanation": "Metáfora: ojos = estrellas (sin usar 'como')"
+                },
+                {
+                    "id": "rc010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Una metáfora y una comparación son lo mismo",
+                    "answer": "false",
+                    "hint": "¿Usan la misma estructura?",
+                    "explanation": "Comparación usa 'como': ojos como estrellas. Metáfora no: ojos = estrellas"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,702 @@
+{
+    "grade": "3_primaria",
+    "subject": "lengua",
+    "trimester": 2,
+    "topics": [
+        {
+            "id": "texto_descriptivo",
+            "name": "Textos descriptivos y expositivos",
+            "icon": "🔍",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "td001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Un texto descriptivo sirve para...",
+                    "options": [
+                        "Contar una historia",
+                        "Decir cómo es algo o alguien",
+                        "Dar instrucciones",
+                        "Hacer preguntas"
+                    ],
+                    "answer": "Decir cómo es algo o alguien",
+                    "hint": "Describir = explicar cómo es",
+                    "explanation": "Los textos descriptivos explican características"
+                },
+                {
+                    "id": "td002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Para describir a una persona usamos adjetivos sobre su aspecto ___ y su forma de ser",
+                    "answer": "físico",
+                    "hint": "Cómo se ve y cómo es por dentro",
+                    "explanation": "Descripción: rasgos físicos + personalidad"
+                },
+                {
+                    "id": "td003",
+                    "type": "open_problem",
+                    "difficulty": 1,
+                    "question": "Describe un perro en 2 frases (aspecto + carácter)",
+                    "answer": "Mi perro es grande y tiene el pelo marrón. Es muy juguetón y cariñoso.",
+                    "hint": "Físico + personalidad",
+                    "explanation": "1ª frase: aspecto. 2ª frase: carácter"
+                },
+                {
+                    "id": "td004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Un texto expositivo sirve para...",
+                    "options": [
+                        "Inventar historias",
+                        "Informar y explicar",
+                        "Dar opiniones",
+                        "Divertir"
+                    ],
+                    "answer": "Informar y explicar",
+                    "hint": "Como una enciclopedia",
+                    "explanation": "Los textos expositivos transmiten información objetiva"
+                },
+                {
+                    "id": "td005",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "'El agua hierve a 100°C' es una oración descriptiva",
+                    "answer": "false",
+                    "hint": "¿Describe o informa?",
+                    "explanation": "Es una información objetiva = texto expositivo"
+                },
+                {
+                    "id": "td006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los adjetivos ___ describen cualidades que podemos ver (color, tamaño)",
+                    "answer": "físicos",
+                    "hint": "Lo que se percibe con los sentidos",
+                    "explanation": "Adjetivos físicos: grande, rojo, suave, ruidoso..."
+                },
+                {
+                    "id": "td007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Escribe una descripción de tu clase en 3 frases usando adjetivos",
+                    "answer": "Mi clase es amplia y luminosa. Las paredes son blancas con carteles coloridos. Tiene mesas rectangulares de madera clara.",
+                    "hint": "Tamaño, color, forma, material...",
+                    "explanation": "Buena descripción: varios sentidos y adjetivos"
+                },
+                {
+                    "id": "td008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál de estos es un texto expositivo?",
+                    "options": [
+                        "Érase una vez un rey...",
+                        "Querido diario, hoy estoy triste",
+                        "Los mamíferos son animales de sangre caliente",
+                        "¡Qué bonita es la primavera!"
+                    ],
+                    "answer": "Los mamíferos son animales de sangre caliente",
+                    "hint": "Información objetiva",
+                    "explanation": "Información objetiva sin opinión personal"
+                },
+                {
+                    "id": "td009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe 2 frases sobre el elefante: una descriptiva y una expositiva",
+                    "answer": "Descriptiva: El elefante es enorme, gris y tiene grandes orejas. Expositiva: Los elefantes son los mamíferos terrestres más grandes del mundo.",
+                    "hint": "Descriptiva: cómo es. Expositiva: dato objetivo",
+                    "explanation": "Descriptiva = cualidades. Expositiva = datos/información"
+                },
+                {
+                    "id": "td010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "En un texto expositivo se pueden incluir opiniones personales",
+                    "answer": "false",
+                    "hint": "Expositivo = objetivo",
+                    "explanation": "Los textos expositivos son objetivos, sin opiniones"
+                }
+            ]
+        },
+        {
+            "id": "ortografia_reglas",
+            "name": "Reglas de acentuación",
+            "icon": "✍️",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "ac001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué es la sílaba tónica?",
+                    "options": [
+                        "La más corta",
+                        "La que suena más fuerte",
+                        "La primera",
+                        "La última"
+                    ],
+                    "answer": "La que suena más fuerte",
+                    "hint": "Tónica = tono fuerte",
+                    "explanation": "Sílaba tónica: la que se pronuncia con más fuerza"
+                },
+                {
+                    "id": "ac002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "En 'ca-mi-SA', la sílaba tónica es ___",
+                    "answer": "SA",
+                    "hint": "¿Cuál suena más fuerte?",
+                    "explanation": "ca-mi-SA → la fuerza está en SA"
+                },
+                {
+                    "id": "ac003",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Señala la sílaba tónica",
+                    "pairs": [
+                        [
+                            "ca-SA",
+                            "SA"
+                        ],
+                        [
+                            "Ár-bol",
+                            "Ár"
+                        ],
+                        [
+                            "pa-PEL",
+                            "PEL"
+                        ],
+                        [
+                            "MÚ-si-ca",
+                            "MÚ"
+                        ]
+                    ],
+                    "hint": "¿Dónde recae la fuerza?",
+                    "explanation": "La sílaba tónica es la que pronunciamos más fuerte"
+                },
+                {
+                    "id": "ac004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Las palabras agudas tienen la sílaba tónica en...",
+                    "options": [
+                        "La última sílaba",
+                        "La penúltima",
+                        "La antepenúltima",
+                        "Cualquiera"
+                    ],
+                    "answer": "La última sílaba",
+                    "hint": "Aguda = al final",
+                    "explanation": "Agudas: fuerza en la última (ca-fé, co-ra-ZÓN)"
+                },
+                {
+                    "id": "ac005",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Las palabras llanas tienen la fuerza en la penúltima sílaba",
+                    "answer": "true",
+                    "hint": "Llana = segunda desde el final",
+                    "explanation": "Llanas: fuerza en penúltima (ÁR-bol, LÁ-piz, ME-sa)"
+                },
+                {
+                    "id": "ac006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Las palabras esdrújulas tienen la fuerza en la ___ sílaba",
+                    "answer": "antepenúltima",
+                    "hint": "Antes de la penúltima",
+                    "explanation": "Esdrújulas: MÚ-si-ca, MÉ-di-co, plá-TA-no"
+                },
+                {
+                    "id": "ac007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál de estas es una palabra aguda?",
+                    "options": [
+                        "Mesa",
+                        "Árbol",
+                        "Café",
+                        "Música"
+                    ],
+                    "answer": "Café",
+                    "hint": "La fuerza al final",
+                    "explanation": "Ca-FÉ: tónica en la última = aguda"
+                },
+                {
+                    "id": "ac008",
+                    "type": "match",
+                    "difficulty": 3,
+                    "question": "Clasifica estas palabras",
+                    "pairs": [
+                        [
+                            "Café",
+                            "Aguda"
+                        ],
+                        [
+                            "Lápiz",
+                            "Llana"
+                        ],
+                        [
+                            "Música",
+                            "Esdrújula"
+                        ],
+                        [
+                            "Canción",
+                            "Aguda"
+                        ]
+                    ],
+                    "hint": "¿Dónde está la sílaba tónica?",
+                    "explanation": "Última=aguda, penúltima=llana, antepenúltima=esdrújula"
+                },
+                {
+                    "id": "ac009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Las palabras esdrújulas siempre llevan tilde",
+                    "answer": "true",
+                    "hint": "¡Todas!",
+                    "explanation": "Regla: TODAS las esdrújulas llevan tilde"
+                },
+                {
+                    "id": "ac010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Clasifica estas palabras en agudas, llanas o esdrújulas: reloj, cámara, papel, mesa, teléfono",
+                    "answer": "Agudas: reloj, papel. Llanas: mesa. Esdrújulas: cámara, teléfono.",
+                    "hint": "Busca la sílaba tónica de cada una",
+                    "explanation": "re-LOJ, pa-PEL (agudas), ME-sa (llana), CÁ-ma-ra, te-LÉ-fo-no (esdrújulas)"
+                }
+            ]
+        },
+        {
+            "id": "tiempos_verbales",
+            "name": "Tiempos verbales compuestos",
+            "icon": "📖",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "tv001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuáles son las 3 conjugaciones de los verbos en español?",
+                    "options": [
+                        "A, E, I",
+                        "AR, ER, IR",
+                        "AL, EL, IL",
+                        "AS, ES, IS"
+                    ],
+                    "answer": "AR, ER, IR",
+                    "hint": "Cantar, comer, vivir",
+                    "explanation": "1ª: -AR, 2ª: -ER, 3ª: -IR"
+                },
+                {
+                    "id": "tv002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El verbo 'escribir' es de la ___ conjugación",
+                    "answer": "tercera",
+                    "hint": "Termina en -IR",
+                    "explanation": "-IR = 3ª conjugación"
+                },
+                {
+                    "id": "tv003",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada verbo con su conjugación",
+                    "pairs": [
+                        [
+                            "Saltar",
+                            "1ª (AR)"
+                        ],
+                        [
+                            "Beber",
+                            "2ª (ER)"
+                        ],
+                        [
+                            "Compartir",
+                            "3ª (IR)"
+                        ],
+                        [
+                            "Andar",
+                            "1ª (AR)"
+                        ]
+                    ],
+                    "hint": "Mira la terminación del infinitivo",
+                    "explanation": "La terminación del infinitivo indica la conjugación"
+                },
+                {
+                    "id": "tv004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El pretérito perfecto simple de 'comer' para 'yo': yo ___",
+                    "answer": "comí",
+                    "hint": "Ayer yo...",
+                    "explanation": "Yo comí (pretérito perfecto simple)"
+                },
+                {
+                    "id": "tv005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "'Ellos habían comido' está en...",
+                    "options": [
+                        "Presente",
+                        "Pretérito perfecto",
+                        "Pretérito pluscuamperfecto",
+                        "Futuro"
+                    ],
+                    "answer": "Pretérito pluscuamperfecto",
+                    "hint": "Habían + participio",
+                    "explanation": "Había/habías/había... + participio = pluscuamperfecto"
+                },
+                {
+                    "id": "tv006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El participio de 'cantar' es ___",
+                    "answer": "cantado",
+                    "hint": "-ar → -ado",
+                    "explanation": "Cantar → cantado (-AR → -ADO)"
+                },
+                {
+                    "id": "tv007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El gerundio de 'vivir' es 'viviendo'",
+                    "answer": "true",
+                    "hint": "-ir → -iendo",
+                    "explanation": "Vivir → viviendo (-IR → -IENDO)"
+                },
+                {
+                    "id": "tv008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El participio de 'escribir' es ___",
+                    "answer": "escrito",
+                    "hint": "Es irregular",
+                    "explanation": "Escribir → escrito (participio irregular)"
+                },
+                {
+                    "id": "tv009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál es el participio irregular de 'hacer'?",
+                    "options": [
+                        "Hacido",
+                        "Hacedo",
+                        "Hecho",
+                        "Haciendo"
+                    ],
+                    "answer": "Hecho",
+                    "hint": "No sigue la regla regular",
+                    "explanation": "Hacer → hecho (irregular, no 'hacido')"
+                },
+                {
+                    "id": "tv010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Conjuga 'vivir' en futuro: yo, tú, él, nosotros, vosotros, ellos",
+                    "answer": "viviré, vivirás, vivirá, viviremos, viviréis, vivirán",
+                    "hint": "Infinitivo + terminaciones de futuro",
+                    "explanation": "Futuro: infinitivo + é/ás/á/emos/éis/án"
+                }
+            ]
+        },
+        {
+            "id": "generos_literarios",
+            "name": "Géneros literarios",
+            "icon": "🎭",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "gl001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada género con su definición",
+                    "pairs": [
+                        [
+                            "Narrativa",
+                            "Cuenta una historia"
+                        ],
+                        [
+                            "Poesía",
+                            "Usa versos y rima"
+                        ],
+                        [
+                            "Teatro",
+                            "Se representa con actores"
+                        ]
+                    ],
+                    "hint": "3 grandes géneros",
+                    "explanation": "Narrativa, poesía y teatro son los 3 géneros principales"
+                },
+                {
+                    "id": "gl002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿A qué género pertenece un cuento?",
+                    "options": [
+                        "Poesía",
+                        "Teatro",
+                        "Narrativa",
+                        "Música"
+                    ],
+                    "answer": "Narrativa",
+                    "hint": "Cuenta una historia",
+                    "explanation": "Los cuentos son narrativa"
+                },
+                {
+                    "id": "gl003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El teatro se escribe en forma de ___ entre personajes",
+                    "answer": "diálogos",
+                    "hint": "Los actores hablan entre sí",
+                    "explanation": "El teatro usa diálogos entre personajes"
+                },
+                {
+                    "id": "gl004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Una leyenda es un relato tradicional que mezcla realidad y fantasía",
+                    "answer": "true",
+                    "hint": "Se transmite de generación en generación",
+                    "explanation": "Las leyendas combinan hechos reales con elementos fantásticos"
+                },
+                {
+                    "id": "gl005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál de estos es un género narrativo?",
+                    "options": [
+                        "Soneto",
+                        "Comedia",
+                        "Novela",
+                        "Haiku"
+                    ],
+                    "answer": "Novela",
+                    "hint": "Cuenta una historia larga",
+                    "explanation": "La novela es narrativa; el soneto es poesía; la comedia es teatro"
+                },
+                {
+                    "id": "gl006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Una fábula siempre termina con una ___",
+                    "answer": "moraleja",
+                    "hint": "Enseñanza final",
+                    "explanation": "Las fábulas enseñan algo con su moraleja"
+                },
+                {
+                    "id": "gl007",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica estos textos",
+                    "pairs": [
+                        [
+                            "Don Quijote",
+                            "Novela (narrativa)"
+                        ],
+                        [
+                            "Soneto de Garcilaso",
+                            "Poesía"
+                        ],
+                        [
+                            "La Caperucita Roja",
+                            "Cuento (narrativa)"
+                        ],
+                        [
+                            "Romeo y Julieta",
+                            "Teatro"
+                        ]
+                    ],
+                    "hint": "¿Cuenta historia, usa versos, o se actúa?",
+                    "explanation": "Cada texto corresponde a un género literario"
+                },
+                {
+                    "id": "gl008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué es una estrofa?",
+                    "options": [
+                        "Un párrafo de un cuento",
+                        "Un grupo de versos",
+                        "Una escena de teatro",
+                        "Un capítulo de novela"
+                    ],
+                    "answer": "Un grupo de versos",
+                    "hint": "En poesía",
+                    "explanation": "Estrofa = conjunto de versos agrupados en un poema"
+                },
+                {
+                    "id": "gl009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "El teatro puede ser comedia (divertido) o tragedia (triste)",
+                    "answer": "true",
+                    "hint": "Dos subgéneros del teatro",
+                    "explanation": "Comedia = final feliz/humor. Tragedia = final triste"
+                },
+                {
+                    "id": "gl010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe el inicio de un diálogo teatral entre un rey y un caballero (2-3 líneas)",
+                    "answer": "REY: ¡Caballero, el dragón ha vuelto! CABALLERO: No temáis, Majestad. Iré a enfrentarlo al amanecer. REY: Llevad mi mejor espada.",
+                    "hint": "Nombre: texto, Nombre: texto",
+                    "explanation": "Teatro: PERSONAJE: texto del diálogo"
+                }
+            ]
+        },
+        {
+            "id": "prefijos_sufijos",
+            "name": "Prefijos y sufijos",
+            "icon": "🔗",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "ps001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Si 'posible' es que sí se puede, 'im-posible' es que ___ se puede",
+                    "answer": "no",
+                    "hint": "Im- = negación",
+                    "explanation": "El prefijo im- significa 'no': imposible = no posible"
+                },
+                {
+                    "id": "ps002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué significan los prefijos 'des-' e 'in-'?",
+                    "options": [
+                        "Muy grande",
+                        "Lo contrario",
+                        "Otra vez",
+                        "Antes de"
+                    ],
+                    "answer": "Lo contrario",
+                    "hint": "Des-hacer, in-útil",
+                    "explanation": "Des- e in- indican negación o lo contrario"
+                },
+                {
+                    "id": "ps003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Lo contrario de 'hacer' con prefijo es ___",
+                    "answer": "deshacer",
+                    "hint": "Des + hacer",
+                    "explanation": "Des- + hacer = deshacer (lo contrario)"
+                },
+                {
+                    "id": "ps004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada prefijo con su significado",
+                    "pairs": [
+                        [
+                            "re-",
+                            "Repetir/volver a"
+                        ],
+                        [
+                            "pre-",
+                            "Antes de"
+                        ],
+                        [
+                            "sub-",
+                            "Debajo de"
+                        ],
+                        [
+                            "super-",
+                            "Por encima de"
+                        ]
+                    ],
+                    "hint": "Re-hacer, pre-ver, sub-suelo, super-héroe",
+                    "explanation": "Los prefijos añaden significado al inicio de la palabra"
+                },
+                {
+                    "id": "ps005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Un diminutivo de 'casa' es ___",
+                    "answer": "casita",
+                    "hint": "Pequeña casa",
+                    "explanation": "Casa + -ita = casita (sufijo diminutivo)"
+                },
+                {
+                    "id": "ps006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué sufijo usamos para hacer un aumentativo?",
+                    "options": [
+                        "-ito",
+                        "-ón",
+                        "-ble",
+                        "-mente"
+                    ],
+                    "answer": "-ón",
+                    "hint": "Grande = ?",
+                    "explanation": "-ón, -azo, -ote son sufijos aumentativos"
+                },
+                {
+                    "id": "ps007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El aumentativo de 'perro' es ___",
+                    "answer": "perrazo",
+                    "hint": "Un perro muy grande",
+                    "explanation": "Perro + -azo = perrazo"
+                },
+                {
+                    "id": "ps008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué significa 'releer'?",
+                    "options": [
+                        "Leer mal",
+                        "Leer rápido",
+                        "Volver a leer",
+                        "Dejar de leer"
+                    ],
+                    "answer": "Volver a leer",
+                    "hint": "Re- = otra vez",
+                    "explanation": "Re- + leer = releer (leer de nuevo)"
+                },
+                {
+                    "id": "ps009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Forma 3 palabras usando el prefijo 'pre-'",
+                    "answer": "previsto, precalentar, predecir",
+                    "hint": "Pre- = antes de",
+                    "explanation": "Pre- indica anterioridad: ver antes, calentar antes..."
+                },
+                {
+                    "id": "ps010",
+                    "type": "match",
+                    "difficulty": 3,
+                    "question": "Une cada palabra con su tipo de formación",
+                    "pairs": [
+                        [
+                            "casita",
+                            "Diminutivo"
+                        ],
+                        [
+                            "perrazo",
+                            "Aumentativo"
+                        ],
+                        [
+                            "releer",
+                            "Prefijo re-"
+                        ],
+                        [
+                            "panadería",
+                            "Sufijo -ería"
+                        ]
+                    ],
+                    "hint": "¿Qué se le ha añadido a la palabra base?",
+                    "explanation": "Diminutivos, aumentativos, prefijos y sufijos modifican palabras"
+                }
+            ]
+        }
+    ]
+}

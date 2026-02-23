@@ -1,0 +1,29 @@
+{
+    "project_info": {
+        "project_number": "266489815428",
+        "project_id": "arcana-education",
+        "storage_bucket": "arcana-education.firebasestorage.app"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:266489815428:android:1af538e5f7916019053dd1",
+                "android_client_info": {
+                    "package_name": "com.antigravity.arcana"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyD36JwA4ljRdj_drBRfCa12-S_ky97m7vg"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": []
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

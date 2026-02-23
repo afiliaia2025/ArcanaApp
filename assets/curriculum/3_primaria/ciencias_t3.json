@@ -1,0 +1,689 @@
+{
+    "grade": "3_primaria",
+    "subject": "ciencias",
+    "trimester": 3,
+    "topics": [
+        {
+            "id": "cambio_climatico",
+            "name": "Cambio climático y medio ambiente",
+            "icon": "🌡️",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "cc001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué es el cambio climático?",
+                    "options": [
+                        "Que llueva un día",
+                        "El cambio de estaciones",
+                        "Un aumento general de la temperatura de la Tierra",
+                        "Que haga viento"
+                    ],
+                    "answer": "Un aumento general de la temperatura de la Tierra",
+                    "hint": "La Tierra se está calentando",
+                    "explanation": "El cambio climático es el calentamiento global causado por gases de efecto invernadero"
+                },
+                {
+                    "id": "cc002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Los gases que atrapan calor en la atmósfera se llaman gases de efecto ___",
+                    "answer": "invernadero",
+                    "hint": "Como un invernadero de plantas",
+                    "explanation": "Efecto invernadero: los gases atrapan el calor como el cristal de un invernadero"
+                },
+                {
+                    "id": "cc003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Reciclar ayuda a combatir el cambio climático",
+                    "answer": "true",
+                    "hint": "Menos basura = menos contaminación",
+                    "explanation": "Reciclar reduce la producción de nuevos materiales y las emisiones"
+                },
+                {
+                    "id": "cc004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Causas y consecuencias del cambio climático",
+                    "pairs": [
+                        [
+                            "Quemar petróleo y carbón",
+                            "Causa"
+                        ],
+                        [
+                            "Subida del nivel del mar",
+                            "Consecuencia"
+                        ],
+                        [
+                            "Deforestación",
+                            "Causa"
+                        ],
+                        [
+                            "Sequías más frecuentes",
+                            "Consecuencia"
+                        ]
+                    ],
+                    "hint": "¿Qué lo produce y qué provoca?",
+                    "explanation": "Causas humanas → consecuencias ambientales"
+                },
+                {
+                    "id": "cc005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué energías ayudan a reducir el cambio climático?",
+                    "options": [
+                        "Petróleo y carbón",
+                        "Solar y eólica",
+                        "Gas natural",
+                        "Nucleares solo"
+                    ],
+                    "answer": "Solar y eólica",
+                    "hint": "Energías limpias",
+                    "explanation": "Las renovables (solar, eólica) no emiten gases de efecto invernadero"
+                },
+                {
+                    "id": "cc006",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Di 3 cosas que puedes hacer tú para ayudar al medio ambiente",
+                    "answer": "1. Usar transporte público o bicicleta. 2. Apagar las luces que no necesite. 3. Reciclar la basura.",
+                    "hint": "Transporte, energía, residuos",
+                    "explanation": "Pequeñas acciones individuales suman un gran impacto colectivo"
+                },
+                {
+                    "id": "cc007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los polos se están ___ debido al calentamiento global",
+                    "answer": "derritiendo",
+                    "hint": "El hielo desaparece",
+                    "explanation": "El deshielo polar sube el nivel del mar y afecta a especies como osos polares"
+                },
+                {
+                    "id": "cc008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál es el principal gas de efecto invernadero?",
+                    "options": [
+                        "Oxígeno",
+                        "Nitrógeno",
+                        "Dióxido de carbono (CO₂)",
+                        "Hidrógeno"
+                    ],
+                    "answer": "Dióxido de carbono (CO₂)",
+                    "hint": "Lo producen coches y fábricas",
+                    "explanation": "El CO₂ es el principal gas de efecto invernadero antropogénico"
+                },
+                {
+                    "id": "cc009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Plantar árboles ayuda a combatir el cambio climático",
+                    "answer": "true",
+                    "hint": "Los árboles absorben CO₂",
+                    "explanation": "Los árboles absorben CO₂ y producen oxígeno (sumideros de carbono)"
+                },
+                {
+                    "id": "cc010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué es importante proteger las especies en peligro de extinción?",
+                    "answer": "Cada especie cumple una función en el ecosistema. Si desaparece, se desequilibra la cadena alimentaria y el ecosistema puede colapsar. Además, es una pérdida irreversible de biodiversidad.",
+                    "hint": "Cadena alimentaria y equilibrio",
+                    "explanation": "Biodiversidad = equilibrio ecológico = salud del planeta"
+                }
+            ]
+        },
+        {
+            "id": "inventos_historia",
+            "name": "Inventos y descubrimientos",
+            "icon": "💡",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "ih001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada invento con su utilidad",
+                    "pairs": [
+                        [
+                            "Rueda",
+                            "Transporte"
+                        ],
+                        [
+                            "Brújula",
+                            "Orientación"
+                        ],
+                        [
+                            "Imprenta",
+                            "Libros"
+                        ],
+                        [
+                            "Teléfono",
+                            "Comunicación"
+                        ]
+                    ],
+                    "hint": "¿Para qué sirve cada uno?",
+                    "explanation": "Inventos que cambiaron la historia de la humanidad"
+                },
+                {
+                    "id": "ih002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "La ___ permitió imprimir libros y difundir el conocimiento",
+                    "answer": "imprenta",
+                    "hint": "Gutenberg la inventó",
+                    "explanation": "La imprenta de Gutenberg (s. XV) revolucionó el acceso al conocimiento"
+                },
+                {
+                    "id": "ih003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Quién inventó la bombilla eléctrica?",
+                    "options": [
+                        "Newton",
+                        "Einstein",
+                        "Edison",
+                        "Galileo"
+                    ],
+                    "answer": "Edison",
+                    "hint": "Thomas Alva...",
+                    "explanation": "Thomas Edison perfeccionó la bombilla eléctrica en 1879"
+                },
+                {
+                    "id": "ih004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Internet se inventó en el siglo XXI",
+                    "answer": "false",
+                    "hint": "¿Cuándo empezó?",
+                    "explanation": "Internet comenzó en los años 60-70 (ARPANET) y se popularizó en los 90"
+                },
+                {
+                    "id": "ih005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué invento permitió a los humanos volar por primera vez?",
+                    "options": [
+                        "El coche",
+                        "El barco",
+                        "El avión",
+                        "El submarino"
+                    ],
+                    "answer": "El avión",
+                    "hint": "Hermanos Wright, 1903",
+                    "explanation": "Los hermanos Wright volaron por primera vez en 1903"
+                },
+                {
+                    "id": "ih006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La ___ fue uno de los primeros inventos de la humanidad, fundamental para el transporte",
+                    "answer": "rueda",
+                    "hint": "Redonda, gira...",
+                    "explanation": "La rueda (aprox. 3500 a.C.) revolucionó el transporte"
+                },
+                {
+                    "id": "ih007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "¿Qué invento crees que ha sido el más importante de la historia? Explica por qué",
+                    "answer": "[Respuesta abierta] La imprenta, porque permitió que el conocimiento llegara a todo el mundo y no solo a unos pocos privilegiados.",
+                    "hint": "Piensa en cuál ha cambiado más la vida",
+                    "explanation": "Reflexión crítica sobre el impacto de los inventos"
+                },
+                {
+                    "id": "ih008",
+                    "type": "match",
+                    "difficulty": 3,
+                    "question": "Une cada inventor con su invento",
+                    "pairs": [
+                        [
+                            "Gutenberg",
+                            "Imprenta"
+                        ],
+                        [
+                            "Edison",
+                            "Bombilla"
+                        ],
+                        [
+                            "Hermanos Wright",
+                            "Avión"
+                        ],
+                        [
+                            "Graham Bell",
+                            "Teléfono"
+                        ]
+                    ],
+                    "hint": "Inventores famosos",
+                    "explanation": "Grandes inventores y sus aportaciones a la humanidad"
+                },
+                {
+                    "id": "ih009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿En qué siglo se produjo la Revolución Industrial?",
+                    "options": [
+                        "Siglo XV",
+                        "Siglo XVIII",
+                        "Siglo XX",
+                        "Siglo XXI"
+                    ],
+                    "answer": "Siglo XVIII",
+                    "hint": "1700s, máquina de vapor",
+                    "explanation": "La Revolución Industrial comenzó en el s. XVIII con la máquina de vapor"
+                },
+                {
+                    "id": "ih010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "El primer ser humano en pisar la Luna fue Neil Armstrong en 1969",
+                    "answer": "true",
+                    "hint": "Apollo 11",
+                    "explanation": "Neil Armstrong pisó la Luna el 20 de julio de 1969"
+                }
+            ]
+        },
+        {
+            "id": "relieve_espana",
+            "name": "Relieve y ríos de España",
+            "icon": "🗺️",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "re001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "España ocupa la mayor parte de la Península ___",
+                    "answer": "Ibérica",
+                    "hint": "Compartida con Portugal",
+                    "explanation": "La Península Ibérica la forman España, Portugal, Andorra y Gibraltar"
+                },
+                {
+                    "id": "re002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál es el río más largo de España?",
+                    "options": [
+                        "Ebro",
+                        "Tajo",
+                        "Guadalquivir",
+                        "Duero"
+                    ],
+                    "answer": "Tajo",
+                    "hint": "Pasa por Toledo",
+                    "explanation": "El Tajo es el río más largo de la Península (1.007 km)"
+                },
+                {
+                    "id": "re003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "La Meseta Central ocupa gran parte del interior de España",
+                    "answer": "true",
+                    "hint": "Una gran llanura elevada",
+                    "explanation": "La Meseta ocupa el centro de la península, dividida en norte y sur"
+                },
+                {
+                    "id": "re004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada río con su vertiente (mar)",
+                    "pairs": [
+                        [
+                            "Ebro",
+                            "Mediterráneo"
+                        ],
+                        [
+                            "Guadalquivir",
+                            "Atlántico"
+                        ],
+                        [
+                            "Tajo",
+                            "Atlántico"
+                        ],
+                        [
+                            "Segura",
+                            "Mediterráneo"
+                        ]
+                    ],
+                    "hint": "¿A qué mar desemboca cada río?",
+                    "explanation": "Los ríos españoles desembocan en el Atlántico o el Mediterráneo"
+                },
+                {
+                    "id": "re005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es la cordillera más alta de la Península?",
+                    "options": [
+                        "Sistema Central",
+                        "Pirineos",
+                        "Sierra Morena",
+                        "Cordillera Cantábrica"
+                    ],
+                    "answer": "Pirineos",
+                    "hint": "Frontera con Francia",
+                    "explanation": "Los Pirineos tienen las cumbres más altas de la Península"
+                },
+                {
+                    "id": "re006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Las islas Canarias están en el océano ___",
+                    "answer": "Atlántico",
+                    "hint": "Cerca de África",
+                    "explanation": "Canarias están en el Atlántico, frente a la costa noroeste de África"
+                },
+                {
+                    "id": "re007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Sierra Nevada está en Andalucía",
+                    "answer": "true",
+                    "hint": "Mulhacén, el pico más alto de la Península",
+                    "explanation": "Sierra Nevada (Granada): contiene el Mulhacén (3.479 m)"
+                },
+                {
+                    "id": "re008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué los ríos de la vertiente atlántica suelen ser más largos que los del Mediterráneo?",
+                    "answer": "Porque la Meseta Central está inclinada hacia el oeste (Atlántico), así que los ríos recorren más distancia. Los del Mediterráneo nacen en montañas costeras más cercanas al mar.",
+                    "hint": "Mira la inclinación de la Meseta",
+                    "explanation": "La Meseta se inclina al oeste → ríos atlánticos más largos"
+                },
+                {
+                    "id": "re009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál es el pico más alto de España?",
+                    "options": [
+                        "Mulhacén",
+                        "Aneto",
+                        "Teide",
+                        "Almanzor"
+                    ],
+                    "answer": "Teide",
+                    "hint": "Está en Canarias",
+                    "explanation": "El Teide (3.718 m, Tenerife) es el pico más alto de España"
+                },
+                {
+                    "id": "re010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Los dos archipiélagos españoles son Baleares y ___",
+                    "answer": "Canarias",
+                    "hint": "En dos mares diferentes",
+                    "explanation": "Baleares (Mediterráneo) y Canarias (Atlántico)"
+                }
+            ]
+        },
+        {
+            "id": "poblacion_cultura",
+            "name": "Población y cultura de España",
+            "icon": "👥",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "pc001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "España tiene aproximadamente ___ millones de habitantes",
+                    "answer": "47",
+                    "hint": "Casi 50 millones",
+                    "explanation": "España tiene unos 47 millones de habitantes (2024)"
+                },
+                {
+                    "id": "pc002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuáles son las dos ciudades más grandes de España?",
+                    "options": [
+                        "Barcelona y Valencia",
+                        "Madrid y Sevilla",
+                        "Madrid y Barcelona",
+                        "Bilbao y Málaga"
+                    ],
+                    "answer": "Madrid y Barcelona",
+                    "hint": "Capital + ciudad catalana",
+                    "explanation": "Madrid (~3,3M) y Barcelona (~1,6M) son las más pobladas"
+                },
+                {
+                    "id": "pc003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "En España se habla solo castellano",
+                    "answer": "false",
+                    "hint": "Catalán, gallego...",
+                    "explanation": "Además del castellano hay catalán, gallego, euskera y aranés"
+                },
+                {
+                    "id": "pc004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada comunidad con su lengua cooficial",
+                    "pairs": [
+                        [
+                            "Cataluña",
+                            "Catalán"
+                        ],
+                        [
+                            "Galicia",
+                            "Gallego"
+                        ],
+                        [
+                            "País Vasco",
+                            "Euskera"
+                        ],
+                        [
+                            "Valencia",
+                            "Valenciano"
+                        ]
+                    ],
+                    "hint": "Lenguas propias de cada región",
+                    "explanation": "España tiene diversidad lingüística reconocida en la Constitución"
+                },
+                {
+                    "id": "pc005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué es la despoblación rural?",
+                    "options": [
+                        "Que los pueblos tienen demasiada gente",
+                        "Que la gente se va de los pueblos a las ciudades",
+                        "Que se construyen más pueblos",
+                        "Que llueve mucho en los pueblos"
+                    ],
+                    "answer": "Que la gente se va de los pueblos a las ciudades",
+                    "hint": "Éxodo rural",
+                    "explanation": "La despoblación rural: los jóvenes emigran a ciudades en busca de trabajo"
+                },
+                {
+                    "id": "pc006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La fiesta de San Fermín con los encierros se celebra en ___",
+                    "answer": "Pamplona",
+                    "hint": "En Navarra, en julio",
+                    "explanation": "San Fermín: fiestas de Pamplona (6-14 de julio)"
+                },
+                {
+                    "id": "pc007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Nombra 3 fiestas o tradiciones españolas famosas",
+                    "answer": "1. Tomatina de Buñol. 2. Fallas de Valencia. 3. Semana Santa.",
+                    "hint": "Cada región tiene las suyas",
+                    "explanation": "España tiene rica diversidad de fiestas y tradiciones"
+                },
+                {
+                    "id": "pc008",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "España es una monarquía parlamentaria",
+                    "answer": "true",
+                    "hint": "Rey + Parlamento",
+                    "explanation": "España: monarquía parlamentaria con el Rey como Jefe de Estado"
+                },
+                {
+                    "id": "pc009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué es el Patrimonio de la Humanidad UNESCO?",
+                    "options": [
+                        "Un parque de atracciones",
+                        "Lugares y tradiciones protegidos por su valor cultural o natural",
+                        "Un museo en Madrid",
+                        "Una ley española"
+                    ],
+                    "answer": "Lugares y tradiciones protegidos por su valor cultural o natural",
+                    "hint": "Proteger lo más valioso del mundo",
+                    "explanation": "UNESCO protege lugares de valor excepcional universal"
+                },
+                {
+                    "id": "pc010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "La Constitución Española se aprobó en el año ___",
+                    "answer": "1978",
+                    "hint": "Después de la dictadura",
+                    "explanation": "La Constitución de 1978 estableció la democracia en España"
+                }
+            ]
+        },
+        {
+            "id": "ciudadania_derechos",
+            "name": "Ciudadanía y derechos",
+            "icon": "⚖️",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "cd001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué es un derecho?",
+                    "options": [
+                        "Algo que nos deben dar o respetar",
+                        "Un castigo",
+                        "Un deber",
+                        "Un juego"
+                    ],
+                    "answer": "Algo que nos deben dar o respetar",
+                    "hint": "Educación, salud...",
+                    "explanation": "Los derechos son garantías fundamentales de toda persona"
+                },
+                {
+                    "id": "cd002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Con los derechos también vienen los ___",
+                    "answer": "deberes",
+                    "hint": "Derechos y ...?",
+                    "explanation": "Derechos y deberes van juntos: yo respeto, me respetan"
+                },
+                {
+                    "id": "cd003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Todos los niños tienen derecho a la educación",
+                    "answer": "true",
+                    "hint": "¿Pueden ir al colegio?",
+                    "explanation": "La educación es un derecho fundamental de la infancia"
+                },
+                {
+                    "id": "cd004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "¿Derecho o deber?",
+                    "pairs": [
+                        [
+                            "Ir al colegio",
+                            "Derecho y deber"
+                        ],
+                        [
+                            "Respetar a los demás",
+                            "Deber"
+                        ],
+                        [
+                            "Recibir atención médica",
+                            "Derecho"
+                        ],
+                        [
+                            "Cuidar el medio ambiente",
+                            "Deber"
+                        ]
+                    ],
+                    "hint": "¿Me corresponde o debo hacerlo?",
+                    "explanation": "Algunos son derechos, otros deberes, y algunos las dos cosas"
+                },
+                {
+                    "id": "cd005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué documento recoge los derechos de todos los niños del mundo?",
+                    "options": [
+                        "La Constitución",
+                        "La Convención sobre los Derechos del Niño",
+                        "El diccionario",
+                        "La Biblia"
+                    ],
+                    "answer": "La Convención sobre los Derechos del Niño",
+                    "hint": "De la ONU, 1989",
+                    "explanation": "La Convención de la ONU (1989) protege los derechos de la infancia"
+                },
+                {
+                    "id": "cd006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "En democracia, los ciudadanos eligen a sus representantes mediante el ___",
+                    "answer": "voto",
+                    "hint": "Ir a votar en las elecciones",
+                    "explanation": "El voto es el mecanismo democrático para elegir gobernantes"
+                },
+                {
+                    "id": "cd007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "La igualdad significa que todas las personas merecen el mismo respeto y oportunidades",
+                    "answer": "true",
+                    "hint": "Todas las personas son iguales en derechos",
+                    "explanation": "Igualdad: mismos derechos y oportunidades sin importar origen, género, etc."
+                },
+                {
+                    "id": "cd008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué es importante la inclusión de todas las personas en la sociedad?",
+                    "answer": "Porque todas las personas merecen participar, ser respetadas y tener oportunidades. Una sociedad inclusiva es más justa y aprovecha el talento de todos.",
+                    "hint": "Respeto, justicia, talento de todos",
+                    "explanation": "Inclusión: todos participan y contribuyen a una sociedad mejor"
+                },
+                {
+                    "id": "cd009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué significa ser solidario?",
+                    "options": [
+                        "Pensar solo en ti",
+                        "Ayudar a los demás cuando lo necesitan",
+                        "Ser el más fuerte",
+                        "Ganar siempre"
+                    ],
+                    "answer": "Ayudar a los demás cuando lo necesitan",
+                    "hint": "Compartir y apoyar",
+                    "explanation": "Solidaridad: ayudar y apoyar a quienes más lo necesitan"
+                },
+                {
+                    "id": "cd010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Los derechos humanos se proclamaron en la Declaración Universal de los Derechos Humanos en el año ___",
+                    "answer": "1948",
+                    "hint": "Después de la Segunda Guerra Mundial",
+                    "explanation": "La Declaración Universal de los DDHH (ONU, 1948) protege a todas las personas"
+                }
+            ]
+        }
+    ]
+}

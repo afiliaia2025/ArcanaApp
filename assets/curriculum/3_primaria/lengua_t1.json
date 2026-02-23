@@ -1,0 +1,674 @@
+{
+    "grade": "3_primaria",
+    "subject": "lengua",
+    "trimester": 1,
+    "topics": [
+        {
+            "id": "comprension_narrativa",
+            "name": "Comprensión de textos narrativos",
+            "icon": "📖",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "cn001",
+                    "type": "open_problem",
+                    "difficulty": 1,
+                    "question": "Lee: 'El viejo marinero miraba el horizonte. Recordaba sus viajes por el Mediterráneo.' ¿Qué personaje aparece?",
+                    "answer": "Un viejo marinero",
+                    "hint": "Primera frase",
+                    "explanation": "El protagonista es un viejo marinero"
+                },
+                {
+                    "id": "cn002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Lee: 'Lucía se levantó temprano porque tenía un examen importante.' ¿Por qué se levantó temprano?",
+                    "options": [
+                        "Porque tenía hambre",
+                        "Porque tenía un examen",
+                        "Porque quería jugar",
+                        "Porque la despertaron"
+                    ],
+                    "answer": "Porque tenía un examen",
+                    "hint": "Busca la causa",
+                    "explanation": "La palabra 'porque' indica la razón"
+                },
+                {
+                    "id": "cn003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Lee: 'El bosque estaba oscuro y frío. Solo se oían los lobos.' El ambiente del texto es ___",
+                    "answer": "misterioso",
+                    "hint": "Oscuro + frío + lobos =",
+                    "explanation": "Las descripciones crean un ambiente de misterio"
+                },
+                {
+                    "id": "cn004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Lee: 'Marcos no quería comer verduras. Su madre le dijo que eran necesarias. Al final, probó el brócoli y le gustó.' ¿Cuál es el nudo?",
+                    "options": [
+                        "Marcos no quería comer verduras",
+                        "Su madre le habló de las verduras",
+                        "Probó el brócoli",
+                        "Le gustó"
+                    ],
+                    "answer": "Marcos no quería comer verduras",
+                    "hint": "¿Cuál es el conflicto?",
+                    "explanation": "Nudo = conflicto: no querer comer verduras"
+                },
+                {
+                    "id": "cn005",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Lee: 'La hormiga trabajó todo el verano almacenando comida. La cigarra solo cantaba. Cuando llegó el invierno, la hormiga tenía comida y la cigarra no.' ¿Qué enseñanza tiene?",
+                    "answer": "Hay que trabajar y ser previsor para el futuro",
+                    "hint": "¿Quién actuó mejor?",
+                    "explanation": "Moraleja: la previsión y el trabajo son importantes"
+                },
+                {
+                    "id": "cn006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Un texto que cuenta hechos en orden cronológico es un texto ___",
+                    "answer": "narrativo",
+                    "hint": "Narra = cuenta una historia",
+                    "explanation": "Los textos narrativos cuentan hechos ordenados en el tiempo"
+                },
+                {
+                    "id": "cn007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "En un resumen debemos incluir...",
+                    "options": [
+                        "Todos los detalles",
+                        "Solo las ideas principales",
+                        "Solo el título",
+                        "Los dibujos"
+                    ],
+                    "answer": "Solo las ideas principales",
+                    "hint": "Resumir = lo más importante",
+                    "explanation": "Resumen: ideas principales, sin detalles secundarios"
+                },
+                {
+                    "id": "cn008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Lee: 'Ana encontró un mapa antiguo en el desván de su abuela. Decidió seguir las pistas. Tras varios días de búsqueda, encontró un cofre con fotos de su bisabuela.' Resume en 1 frase.",
+                    "answer": "Ana encontró un mapa que la llevó a descubrir fotos antiguas de su bisabuela.",
+                    "hint": "Recoge las ideas principales",
+                    "explanation": "Resumen: protagonista + acción + resultado"
+                },
+                {
+                    "id": "cn009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué significa 'leer entre líneas'?",
+                    "options": [
+                        "Leer muy rápido",
+                        "Entender lo que no se dice directamente",
+                        "Leer con una regla",
+                        "Saltarse líneas"
+                    ],
+                    "answer": "Entender lo que no se dice directamente",
+                    "hint": "Entender el mensaje oculto",
+                    "explanation": "Inferir significados que no están escritos explícitamente"
+                },
+                {
+                    "id": "cn010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Lee: 'Pedro llegó a casa empapado. Dejó el paraguas roto en la entrada.' ¿Qué tiempo hacía? ¿Cómo lo sabes?",
+                    "answer": "Llovía, porque está empapado y el paraguas roto",
+                    "hint": "Lee entre líneas",
+                    "explanation": "Inferencia: empapado + paraguas = lluvia"
+                }
+            ]
+        },
+        {
+            "id": "gramatica_adjetivos_pronombres",
+            "name": "Adjetivos, artículos y pronombres",
+            "icon": "📝",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "gap001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál es el pronombre personal de la 1ª persona del singular?",
+                    "options": [
+                        "Tú",
+                        "Él",
+                        "Yo",
+                        "Nosotros"
+                    ],
+                    "answer": "Yo",
+                    "hint": "Me refiero a mí mismo",
+                    "explanation": "Yo = 1ª persona singular"
+                },
+                {
+                    "id": "gap002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada pronombre",
+                    "pairs": [
+                        [
+                            "Yo",
+                            "1ª singular"
+                        ],
+                        [
+                            "Tú",
+                            "2ª singular"
+                        ],
+                        [
+                            "Él/Ella",
+                            "3ª singular"
+                        ],
+                        [
+                            "Nosotros",
+                            "1ª plural"
+                        ]
+                    ],
+                    "hint": "Yo, tú, él...",
+                    "explanation": "Los pronombres personales sustituyen al nombre"
+                },
+                {
+                    "id": "gap003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "'Pedro es alto. ___ juega al baloncesto.' Sustituye Pedro por un pronombre",
+                    "answer": "Él",
+                    "hint": "Pedro = masculino singular",
+                    "explanation": "Él sustituye a Pedro"
+                },
+                {
+                    "id": "gap004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "En 'Esas flores son preciosas', ¿qué es 'Esas'?",
+                    "options": [
+                        "Artículo",
+                        "Pronombre",
+                        "Demostrativo",
+                        "Adjetivo"
+                    ],
+                    "answer": "Demostrativo",
+                    "hint": "Indica distancia: este, ese, aquel",
+                    "explanation": "Esas = demostrativo (distancia media)"
+                },
+                {
+                    "id": "gap005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los demostrativos indican ___",
+                    "answer": "distancia",
+                    "hint": "Este (cerca), ese (medio), aquel (lejos)",
+                    "explanation": "Este/ese/aquel indican proximidad al hablante"
+                },
+                {
+                    "id": "gap006",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada demostrativo con su distancia",
+                    "pairs": [
+                        [
+                            "Este",
+                            "Cerca"
+                        ],
+                        [
+                            "Ese",
+                            "Distancia media"
+                        ],
+                        [
+                            "Aquel",
+                            "Lejos"
+                        ]
+                    ],
+                    "hint": "De más cerca a más lejos",
+                    "explanation": "Este < Ese < Aquel en distancia"
+                },
+                {
+                    "id": "gap007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Los posesivos indican a quién pertenece algo",
+                    "answer": "true",
+                    "hint": "Mi, tu, su...",
+                    "explanation": "Mi libro, tu casa, su perro = pertenencia"
+                },
+                {
+                    "id": "gap008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "En 'Sus amigos vinieron a su fiesta', ¿cuántos posesivos hay?",
+                    "options": [
+                        "0",
+                        "1",
+                        "2",
+                        "3"
+                    ],
+                    "answer": "2",
+                    "hint": "Busca: mi, tu, su, nuestro...",
+                    "explanation": "Sus (amigos) y su (fiesta) = 2 posesivos"
+                },
+                {
+                    "id": "gap009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Sustituye el sujeto por pronombre: 'María y yo fuimos al cine' → '___ fuimos al cine'",
+                    "answer": "Nosotros/Nosotras",
+                    "hint": "María + yo = ?",
+                    "explanation": "María y yo = nosotros (1ª persona plural)"
+                },
+                {
+                    "id": "gap010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Reescribe sin repetir nombres: 'Juan cogió la pelota. Juan lanzó la pelota a María. María la devolvió a Juan.'",
+                    "answer": "Juan cogió la pelota. Él la lanzó a María. Ella se la devolvió.",
+                    "hint": "Usa pronombres para evitar repeticiones",
+                    "explanation": "Los pronombres evitan la repetición de nombres"
+                }
+            ]
+        },
+        {
+            "id": "ortografia_b_v",
+            "name": "Ortografía: b/v, h, g/j",
+            "icon": "🔤",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "ort001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cómo se escribe: 'a__ión' (vehículo que vuela)?",
+                    "options": [
+                        "abión",
+                        "avión"
+                    ],
+                    "answer": "avión",
+                    "hint": "Con V",
+                    "explanation": "Avión se escribe con V"
+                },
+                {
+                    "id": "ort002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Se escribe con H: ___oy es lunes",
+                    "answer": "H",
+                    "hint": "Hoy siempre con H",
+                    "explanation": "Hoy: siempre con H"
+                },
+                {
+                    "id": "ort003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cómo se escribe: un animal con rayas?",
+                    "options": [
+                        "Cebra",
+                        "Cevra",
+                        "Zebra",
+                        "Zevra"
+                    ],
+                    "answer": "Cebra",
+                    "hint": "Con B y C",
+                    "explanation": "Cebra: con C y B"
+                },
+                {
+                    "id": "ort004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Se escriben con B las palabras que empiezan por BU-, BUR-, BUS-: ___rro",
+                    "answer": "bu",
+                    "hint": "BU + rro",
+                    "explanation": "Burro: empieza por BU- → con B"
+                },
+                {
+                    "id": "ort005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cómo se escribe: sin voz?",
+                    "options": [
+                        "Hecho",
+                        "Echo"
+                    ],
+                    "answer": "Echo",
+                    "hint": "Echar (lanzar) vs Hecho (de hacer)",
+                    "explanation": "Echo = del verbo echar. Hecho = del verbo hacer"
+                },
+                {
+                    "id": "ort006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Las palabras que empiezan por HIE- y HUE- se escriben con H",
+                    "answer": "true",
+                    "hint": "Hierba, huevo...",
+                    "explanation": "Hierba, hielo, huevo, hueso... siempre con H"
+                },
+                {
+                    "id": "ort007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Ante E e I, el sonido fuerte /j/ se puede escribir con G o J: __ente",
+                    "answer": "g",
+                    "hint": "Gente, genio, general...",
+                    "explanation": "Gente con G (pero también jefe con J: hay que memorizar)"
+                },
+                {
+                    "id": "ort008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál es correcta?",
+                    "options": [
+                        "Havia una vez",
+                        "Habia una vez",
+                        "Había una vez",
+                        "Abía una vez"
+                    ],
+                    "answer": "Había una vez",
+                    "hint": "Verbo haber + tilde",
+                    "explanation": "Había: del verbo haber (con H y tilde)"
+                },
+                {
+                    "id": "ort009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Completa con B o V: tu__o, escri__ir, lla__e, nue__o",
+                    "answer": "tubo, escribir, llave, nuevo",
+                    "hint": "Memoriza cada palabra",
+                    "explanation": "Tubo (B), escribir (B), llave (V... ¡espera! llave con LL), nuevo (V)"
+                },
+                {
+                    "id": "ort010",
+                    "type": "match",
+                    "difficulty": 3,
+                    "question": "Une cada palabra con su ortografía correcta",
+                    "pairs": [
+                        [
+                            "__ielo (agua congelada)",
+                            "Hielo"
+                        ],
+                        [
+                            "__ello (bonito)",
+                            "Bello"
+                        ],
+                        [
+                            "__uevo (de gallina)",
+                            "Huevo"
+                        ],
+                        [
+                            "__aliente (con valor)",
+                            "Valiente"
+                        ]
+                    ],
+                    "hint": "H, B, H, V",
+                    "explanation": "Hielo (H), Bello (B), Huevo (H), Valiente (V)"
+                }
+            ]
+        },
+        {
+            "id": "estructura_oracion",
+            "name": "Sujeto y predicado",
+            "icon": "✏️",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "sp3001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "El sujeto de una oración es...",
+                    "options": [
+                        "La acción",
+                        "Quien realiza la acción",
+                        "El lugar",
+                        "El tiempo"
+                    ],
+                    "answer": "Quien realiza la acción",
+                    "hint": "¿Quién?",
+                    "explanation": "Sujeto = de quién hablamos"
+                },
+                {
+                    "id": "sp3002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "En 'Mi hermana canta canciones', el sujeto es ___",
+                    "answer": "Mi hermana",
+                    "hint": "¿Quién canta?",
+                    "explanation": "Mi hermana = sujeto (quien canta)"
+                },
+                {
+                    "id": "sp3003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "El predicado es...",
+                    "options": [
+                        "El nombre",
+                        "Lo que se dice del sujeto",
+                        "El artículo",
+                        "La primera palabra"
+                    ],
+                    "answer": "Lo que se dice del sujeto",
+                    "hint": "Toda la información sobre la acción",
+                    "explanation": "Predicado = lo que se dice del sujeto"
+                },
+                {
+                    "id": "sp3004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "En 'Los pájaros vuelan muy alto', el predicado es ___",
+                    "answer": "vuelan muy alto",
+                    "hint": "Todo lo que no es sujeto",
+                    "explanation": "Los pájaros (S) + vuelan muy alto (P)"
+                },
+                {
+                    "id": "sp3005",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Señala sujeto y predicado",
+                    "pairs": [
+                        [
+                            "El gato",
+                            "Sujeto"
+                        ],
+                        [
+                            "duerme en el sofá",
+                            "Predicado"
+                        ]
+                    ],
+                    "hint": "¿Quién? + ¿Qué hace?",
+                    "explanation": "El gato (S) duerme en el sofá (P)"
+                },
+                {
+                    "id": "sp3006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es el sujeto de 'Comieron mucha fruta los niños del colegio'?",
+                    "options": [
+                        "Comieron",
+                        "Mucha fruta",
+                        "Los niños del colegio",
+                        "Del colegio"
+                    ],
+                    "answer": "Los niños del colegio",
+                    "hint": "¿Quiénes comieron?",
+                    "explanation": "Los niños del colegio = sujeto (aunque va al final)"
+                },
+                {
+                    "id": "sp3007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El sujeto siempre va al principio de la oración",
+                    "answer": "false",
+                    "hint": "'Corre el perro por el parque'",
+                    "explanation": "El sujeto puede ir al inicio, medio o final"
+                },
+                {
+                    "id": "sp3008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Separa sujeto (S) y predicado (P): 'Mis amigos y yo jugamos al fútbol todos los sábados'",
+                    "answer": "S: Mis amigos y yo / P: jugamos al fútbol todos los sábados",
+                    "hint": "¿Quiénes? + ¿Qué hacen?",
+                    "explanation": "S: Mis amigos y yo (quiénes) / P: jugamos... (qué hacen)"
+                },
+                {
+                    "id": "sp3009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El núcleo del predicado es siempre un ___",
+                    "answer": "verbo",
+                    "hint": "La palabra que indica acción",
+                    "explanation": "El verbo es el núcleo (palabra más importante) del predicado"
+                },
+                {
+                    "id": "sp3010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe una oración y señala su sujeto y predicado",
+                    "answer": "El perro de mi vecino (S) ladra todas las noches (P)",
+                    "hint": "Sujeto = ¿Quién? Predicado = ¿Qué hace?",
+                    "explanation": "Toda oración se divide en sujeto + predicado"
+                }
+            ]
+        },
+        {
+            "id": "verbos_conjugacion",
+            "name": "Conjugación verbal: presente, pasado, futuro",
+            "icon": "⏰",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "vc001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Yo canto, tú ___, él canta",
+                    "answer": "cantas",
+                    "hint": "2ª persona singular de cantar",
+                    "explanation": "Cantar: yo canto, tú cantas, él canta"
+                },
+                {
+                    "id": "vc002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿En qué tiempo está 'Ayer estudié mucho'?",
+                    "options": [
+                        "Presente",
+                        "Pasado",
+                        "Futuro"
+                    ],
+                    "answer": "Pasado",
+                    "hint": "Ayer = pasado",
+                    "explanation": "Estudié → pasado (pretérito)"
+                },
+                {
+                    "id": "vc003",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada forma verbal con su tiempo",
+                    "pairs": [
+                        [
+                            "como",
+                            "Presente"
+                        ],
+                        [
+                            "comí",
+                            "Pasado"
+                        ],
+                        [
+                            "comeré",
+                            "Futuro"
+                        ]
+                    ],
+                    "hint": "Terminaciones",
+                    "explanation": "-o = presente, -í = pasado, -ré = futuro"
+                },
+                {
+                    "id": "vc004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Verbo saltar en futuro: Yo ___",
+                    "answer": "saltaré",
+                    "hint": "Infinitivo + -é",
+                    "explanation": "Saltar + é = saltaré"
+                },
+                {
+                    "id": "vc005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "'Nosotros comemos' está en...",
+                    "options": [
+                        "1ª persona singular",
+                        "2ª persona plural",
+                        "1ª persona plural",
+                        "3ª persona singular"
+                    ],
+                    "answer": "1ª persona plural",
+                    "hint": "Nosotros = 1ª plural",
+                    "explanation": "Nosotros comemos = 1ª persona del plural"
+                },
+                {
+                    "id": "vc006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El infinitivo de 'jugaron' es ___",
+                    "answer": "jugar",
+                    "hint": "La forma base del verbo",
+                    "explanation": "Jugaron → jugar (1ª conjugación: -ar)"
+                },
+                {
+                    "id": "vc007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Los verbos terminados en -ar son de la 1ª conjugación",
+                    "answer": "true",
+                    "hint": "Cantar, jugar, saltar...",
+                    "explanation": "1ª: -ar, 2ª: -er, 3ª: -ir"
+                },
+                {
+                    "id": "vc008",
+                    "type": "match",
+                    "difficulty": 3,
+                    "question": "Clasifica estos verbos por conjugación",
+                    "pairs": [
+                        [
+                            "Cantar",
+                            "1ª (-ar)"
+                        ],
+                        [
+                            "Comer",
+                            "2ª (-er)"
+                        ],
+                        [
+                            "Vivir",
+                            "3ª (-ir)"
+                        ],
+                        [
+                            "Jugar",
+                            "1ª (-ar)"
+                        ]
+                    ],
+                    "hint": "-ar, -er, -ir",
+                    "explanation": "3 conjugaciones según la terminación del infinitivo"
+                },
+                {
+                    "id": "vc009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Conjuga 'escribir' en pasado: Ellos ___",
+                    "answer": "escribieron",
+                    "hint": "3ª persona plural, pasado",
+                    "explanation": "Escribir → ellos escribieron"
+                },
+                {
+                    "id": "vc010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Conjuga el verbo 'correr' en presente: yo, tú, él, nosotros, vosotros, ellos",
+                    "answer": "corro, corres, corre, corremos, corréis, corren",
+                    "hint": "2ª conjugación (-er)",
+                    "explanation": "Correr: corro/corres/corre/corremos/corréis/corren"
+                }
+            ]
+        }
+    ]
+}

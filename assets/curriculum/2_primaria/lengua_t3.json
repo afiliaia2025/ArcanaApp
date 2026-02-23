@@ -1,0 +1,661 @@
+{
+    "grade": "2_primaria",
+    "subject": "lengua",
+    "trimester": 3,
+    "topics": [
+        {
+            "id": "adjetivos",
+            "name": "Adjetivos calificativos",
+            "icon": "🎨",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "aj001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál de estas palabras es un adjetivo?",
+                    "options": [
+                        "Correr",
+                        "Alto",
+                        "Mesa",
+                        "Ayer"
+                    ],
+                    "answer": "Alto",
+                    "hint": "¿Cuál describe cómo es algo?",
+                    "explanation": "Alto describe una cualidad = adjetivo"
+                },
+                {
+                    "id": "aj002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "'La casa ___' Completa con un adjetivo",
+                    "answer": "grande",
+                    "hint": "¿Cómo puede ser una casa?",
+                    "explanation": "Grande, pequeña, bonita... son adjetivos"
+                },
+                {
+                    "id": "aj003",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada sustantivo con un adjetivo",
+                    "pairs": [
+                        [
+                            "cielo",
+                            "azul"
+                        ],
+                        [
+                            "niño",
+                            "alegre"
+                        ],
+                        [
+                            "perro",
+                            "juguetón"
+                        ],
+                        [
+                            "flor",
+                            "olorosa"
+                        ]
+                    ],
+                    "hint": "¿Cómo es cada cosa?",
+                    "explanation": "Los adjetivos describen cualidades de los sustantivos"
+                },
+                {
+                    "id": "aj004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El femenino de 'guapo' es ___",
+                    "answer": "guapa",
+                    "hint": "Cambia -o por -a",
+                    "explanation": "Guapo → guapa (concordancia de género)"
+                },
+                {
+                    "id": "aj005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "En 'Los gatos negros duermen', el adjetivo es...",
+                    "options": [
+                        "gatos",
+                        "negros",
+                        "duermen",
+                        "Los"
+                    ],
+                    "answer": "negros",
+                    "hint": "¿Qué palabra describe a los gatos?",
+                    "explanation": "Negros describe cómo son los gatos"
+                },
+                {
+                    "id": "aj006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El adjetivo siempre va antes del sustantivo",
+                    "answer": "false",
+                    "hint": "¿'Coche rojo' o 'rojo coche'?",
+                    "explanation": "Puede ir antes o después: bonita casa / casa bonita"
+                },
+                {
+                    "id": "aj007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El plural de 'rojo' es ___",
+                    "answer": "rojos",
+                    "hint": "Añade -s",
+                    "explanation": "Rojo → rojos (concordancia de número)"
+                },
+                {
+                    "id": "aj008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe 3 adjetivos para describir a tu mejor amigo/a",
+                    "answer": "Simpático, divertido, generoso",
+                    "hint": "¿Cómo es?",
+                    "explanation": "Los adjetivos describen cualidades de personas"
+                },
+                {
+                    "id": "aj009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántos adjetivos hay en: 'El perro grande y peludo corría por el jardín verde'?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "3",
+                    "hint": "Busca las palabras que describen",
+                    "explanation": "Grande, peludo, verde = 3 adjetivos"
+                },
+                {
+                    "id": "aj010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "'Las flores ___ perfuman el jardín ___' Completa con 2 adjetivos",
+                    "answer": "bonitas, precioso",
+                    "hint": "Describe las flores y el jardín",
+                    "explanation": "Los adjetivos concuerdan en género y número"
+                }
+            ]
+        },
+        {
+            "id": "signos_puntuacion",
+            "name": "Signos de puntuación",
+            "icon": "❓",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "sp001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué signo usamos para hacer una pregunta?",
+                    "options": [
+                        "! !",
+                        "¿ ?",
+                        ". .",
+                        "- -"
+                    ],
+                    "answer": "¿ ?",
+                    "hint": "Apertura y cierre",
+                    "explanation": "Las preguntas llevan ¿...?"
+                },
+                {
+                    "id": "sp002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "En español, la pregunta lleva signo de apertura ___ y de cierre ___",
+                    "answer": "¿, ?",
+                    "hint": "Dos signos distintos",
+                    "explanation": "¿Cómo te llamas? → ¿ al inicio, ? al final"
+                },
+                {
+                    "id": "sp003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Las exclamaciones llevan ¡ y !",
+                    "answer": "true",
+                    "hint": "¡Qué bonito!",
+                    "explanation": "Exclamaciones: ¡...!"
+                },
+                {
+                    "id": "sp004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué falta en 'Cómo te llamas'?",
+                    "options": [
+                        "Un punto",
+                        "Signos de interrogación",
+                        "Signos de exclamación",
+                        "Nada"
+                    ],
+                    "answer": "Signos de interrogación",
+                    "hint": "Es una pregunta",
+                    "explanation": "¿Cómo te llamas? necesita ¿...?"
+                },
+                {
+                    "id": "sp005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La coma sirve para ___ los elementos de una lista",
+                    "answer": "separar",
+                    "hint": "Manzanas, peras, plátanos",
+                    "explanation": "La coma separa elementos: A, B, C y D"
+                },
+                {
+                    "id": "sp006",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Pon los signos correctos: 'Qué hora es Ya son las cinco Vámonos'",
+                    "answer": "¿Qué hora es? ¡Ya son las cinco! ¡Vámonos!",
+                    "hint": "Pregunta y exclamaciones",
+                    "explanation": "¿...? para pregunta, ¡...! para exclamaciones"
+                },
+                {
+                    "id": "sp007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Después de los signos ¿? y ¡! NO se pone punto",
+                    "answer": "true",
+                    "hint": "¿Punto después de ?",
+                    "explanation": "El ? y el ! ya cierran la oración, no se añade punto"
+                },
+                {
+                    "id": "sp008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué falta en: 'Compré leche pan huevos y fruta'?",
+                    "options": [
+                        "Puntos",
+                        "Comas",
+                        "Signos de pregunta",
+                        "Nada"
+                    ],
+                    "answer": "Comas",
+                    "hint": "Es una enumeración",
+                    "explanation": "Compré leche, pan, huevos y fruta. (comas en la lista)"
+                },
+                {
+                    "id": "sp009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe una pregunta y una exclamación sobre el recreo",
+                    "answer": "¿Jugamos al fútbol en el recreo? ¡Qué divertido es el recreo!",
+                    "hint": "¿...? y ¡...!",
+                    "explanation": "Práctica de signos de interrogación y exclamación"
+                },
+                {
+                    "id": "sp010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Los dos puntos se usan antes de una ___",
+                    "answer": "lista",
+                    "hint": "Ejemplo: Necesito: pan, leche y fruta",
+                    "explanation": "Los dos puntos (:) introducen enumeraciones y explicaciones"
+                }
+            ]
+        },
+        {
+            "id": "tipos_texto",
+            "name": "Tipos de texto: cuento, carta, receta",
+            "icon": "📄",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "tt001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada texto con su tipo",
+                    "pairs": [
+                        [
+                            "Érase una vez un dragón...",
+                            "Cuento"
+                        ],
+                        [
+                            "Querido abuelo, te escribo...",
+                            "Carta"
+                        ],
+                        [
+                            "Mezcla la harina con los huevos...",
+                            "Receta"
+                        ],
+                        [
+                            "Ayer hubo un terremoto en...",
+                            "Noticia"
+                        ]
+                    ],
+                    "hint": "¿Para qué sirve cada texto?",
+                    "explanation": "Distintos tipos de texto tienen distintos propósitos"
+                },
+                {
+                    "id": "tt002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Una receta de cocina tiene...",
+                    "options": [
+                        "Personajes y aventuras",
+                        "Ingredientes y pasos",
+                        "Remitente y destinatario",
+                        "Título y subtítulos"
+                    ],
+                    "answer": "Ingredientes y pasos",
+                    "hint": "¿Qué necesitas para cocinar?",
+                    "explanation": "Receta = ingredientes + instrucciones/pasos"
+                },
+                {
+                    "id": "tt003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Una carta empieza con 'Querido/a ___'",
+                    "answer": "nombre del destinatario",
+                    "hint": "¿A quién escribes?",
+                    "explanation": "Encabezamiento: Querido/a + nombre"
+                },
+                {
+                    "id": "tt004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Un cuento siempre tiene inicio, nudo y desenlace",
+                    "answer": "true",
+                    "hint": "Las 3 partes del cuento",
+                    "explanation": "Inicio → nudo (conflicto) → desenlace (solución)"
+                },
+                {
+                    "id": "tt005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué tipo de texto informa sobre hechos reales?",
+                    "options": [
+                        "Cuento",
+                        "Poema",
+                        "Noticia",
+                        "Fábula"
+                    ],
+                    "answer": "Noticia",
+                    "hint": "Periódico, telediario...",
+                    "explanation": "La noticia informa sobre hechos reales"
+                },
+                {
+                    "id": "tt006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Al final de una carta ponemos la ___ y nuestro nombre",
+                    "answer": "despedida",
+                    "hint": "Un abrazo, besos, atentamente...",
+                    "explanation": "Carta: saludo, cuerpo, despedida, firma"
+                },
+                {
+                    "id": "tt007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Escribe los 3 ingredientes y 2 pasos de una receta sencilla (por ejemplo, un bocadillo)",
+                    "answer": "Ingredientes: pan, jamón, queso. Pasos: 1. Corta el pan por la mitad. 2. Pon jamón y queso dentro.",
+                    "hint": "Piensa paso a paso",
+                    "explanation": "Receta: ingredientes + instrucciones claras"
+                },
+                {
+                    "id": "tt008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué tipo de texto usa versos y rima?",
+                    "options": [
+                        "Cuento",
+                        "Carta",
+                        "Poema",
+                        "Noticia"
+                    ],
+                    "answer": "Poema",
+                    "hint": "Se recita, tiene estrofas",
+                    "explanation": "El poema usa versos (prosa con rima y ritmo)"
+                },
+                {
+                    "id": "tt009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Una carta formal y una carta a un amigo se escriben exactamente igual",
+                    "answer": "false",
+                    "hint": "¿Hablas igual con un profe que con un amigo?",
+                    "explanation": "Formal: usted, atentamente. Informal: tú, besos"
+                },
+                {
+                    "id": "tt010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe el inicio de una carta a tu abuelo/a contándole algo del colegio (3 líneas)",
+                    "answer": "Querido abuelo: ¿Cómo estás? Hoy en el cole hemos aprendido sobre los planetas. ¡Me ha encantado! Te echo de menos.",
+                    "hint": "Saludo + contenido",
+                    "explanation": "Estructura: saludo, contenido personal, despedida"
+                }
+            ]
+        },
+        {
+            "id": "determinantes",
+            "name": "Artículos y determinantes",
+            "icon": "📌",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "dt001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál es el artículo en 'El niño juega'?",
+                    "options": [
+                        "niño",
+                        "juega",
+                        "El",
+                        "a"
+                    ],
+                    "answer": "El",
+                    "hint": "Va delante del sustantivo",
+                    "explanation": "El = artículo determinado masculino singular"
+                },
+                {
+                    "id": "dt002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada artículo con su tipo",
+                    "pairs": [
+                        [
+                            "el",
+                            "determinado masculino"
+                        ],
+                        [
+                            "la",
+                            "determinado femenino"
+                        ],
+                        [
+                            "un",
+                            "indeterminado masculino"
+                        ],
+                        [
+                            "una",
+                            "indeterminado femenino"
+                        ]
+                    ],
+                    "hint": "El/la = determinado, un/una = indeterminado",
+                    "explanation": "Determinados: conocemos al objeto. Indeterminados: no"
+                },
+                {
+                    "id": "dt003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "___ perro corre por el parque (artículo determinado)",
+                    "answer": "El",
+                    "hint": "Hablamos de un perro concreto",
+                    "explanation": "El = artículo determinado masculino"
+                },
+                {
+                    "id": "dt004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es el plural de 'el'?",
+                    "options": [
+                        "las",
+                        "los",
+                        "eles",
+                        "les"
+                    ],
+                    "answer": "los",
+                    "hint": "El → ?",
+                    "explanation": "El → los (plural masculino)"
+                },
+                {
+                    "id": "dt005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "'___ casas del pueblo son bonitas' (artículo determinado plural femenino)",
+                    "answer": "Las",
+                    "hint": "Femenino plural de 'la'",
+                    "explanation": "La → las (plural)"
+                },
+                {
+                    "id": "dt006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "'Un' es un artículo determinado",
+                    "answer": "false",
+                    "hint": "¿Sabemos de cuál hablamos?",
+                    "explanation": "Un es indeterminado (no sabemos cuál exactamente)"
+                },
+                {
+                    "id": "dt007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "En 'Vi una estrella brillante', el artículo es...",
+                    "options": [
+                        "Vi",
+                        "una",
+                        "estrella",
+                        "brillante"
+                    ],
+                    "answer": "una",
+                    "hint": "Va delante del sustantivo",
+                    "explanation": "Una = artículo indeterminado femenino"
+                },
+                {
+                    "id": "dt008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Completa con articulo determinado: '___ árboles de ___ parque son muy altos'",
+                    "answer": "Los, el",
+                    "hint": "Plural masculino y singular masculino",
+                    "explanation": "Los árboles del parque (artículos determinados)"
+                },
+                {
+                    "id": "dt009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Escribe 2 frases: una con artículo determinado y otra con indeterminado, usando la palabra 'libro'",
+                    "answer": "El libro de mates es azul. Quiero leer un libro nuevo.",
+                    "hint": "El = concreto, un = cualquiera",
+                    "explanation": "El libro (sabemos cuál) / un libro (cualquier libro)"
+                },
+                {
+                    "id": "dt010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántos artículos hay en: 'Las amigas compraron unos helados en la playa'?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "3",
+                    "hint": "Busca: el, la, los, las, un, una, unos, unas",
+                    "explanation": "Las, unos, la = 3 artículos"
+                }
+            ]
+        },
+        {
+            "id": "repaso_literatura",
+            "name": "Literatura: fábulas y leyendas",
+            "icon": "📚",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "rl001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Una fábula es un cuento con...",
+                    "options": [
+                        "Dragones y magia",
+                        "Animales que hablan y moraleja",
+                        "Solo personas reales",
+                        "Solo preguntas"
+                    ],
+                    "answer": "Animales que hablan y moraleja",
+                    "hint": "Esopo escribía...",
+                    "explanation": "Fábula = animales personificados + enseñanza"
+                },
+                {
+                    "id": "rl002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "La enseñanza de una fábula se llama ___",
+                    "answer": "moraleja",
+                    "hint": "Lo que aprendemos al final",
+                    "explanation": "Moraleja = lección moral de la fábula"
+                },
+                {
+                    "id": "rl003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "En la fábula de la liebre y la tortuga, gana la liebre",
+                    "answer": "false",
+                    "hint": "¿Quién era más constante?",
+                    "explanation": "Gana la tortuga: la constancia vence a la velocidad"
+                },
+                {
+                    "id": "rl004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es la moraleja de 'La cigarra y la hormiga'?",
+                    "options": [
+                        "Hay que cantar siempre",
+                        "Hay que trabajar y ser previsor",
+                        "Los insectos son amigos",
+                        "El invierno es bonito"
+                    ],
+                    "answer": "Hay que trabajar y ser previsor",
+                    "hint": "La hormiga trabajó en verano y en invierno tenía comida",
+                    "explanation": "Trabajar pronto para no sufrir después"
+                },
+                {
+                    "id": "rl005",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada fábula con su moraleja",
+                    "pairs": [
+                        [
+                            "La liebre y la tortuga",
+                            "La constancia vence"
+                        ],
+                        [
+                            "El pastor mentiroso",
+                            "No debes mentir"
+                        ],
+                        [
+                            "La cigarra y la hormiga",
+                            "Sé previsor"
+                        ],
+                        [
+                            "La zorra y las uvas",
+                            "No desprecies lo que no alcanzas"
+                        ]
+                    ],
+                    "hint": "Recuerda cada historia",
+                    "explanation": "Fábulas clásicas de Esopo y sus moralejas"
+                },
+                {
+                    "id": "rl006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Una leyenda es una historia ___ que se transmite de generación en generación",
+                    "answer": "tradicional",
+                    "hint": "La gente la cuenta y recuenta",
+                    "explanation": "Las leyendas son relatos tradicionales, a veces con elementos fantásticos"
+                },
+                {
+                    "id": "rl007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Las leyendas son siempre 100% verdaderas",
+                    "answer": "false",
+                    "hint": "¿Dragones reales?",
+                    "explanation": "Las leyendas mezclan realidad y fantasía"
+                },
+                {
+                    "id": "rl008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Inventa una fábula corta (3-4 líneas) con un animal como protagonista y una moraleja",
+                    "answer": "El ratón presumido: Un ratón se burlaba del elefante por ser tan grande. Un día llovió mucho y el ratón se mojó. El elefante lo cubrió con su oreja. Moraleja: no te burles de los demás, pueden ayudarte.",
+                    "hint": "Animal + problema + solución + moraleja",
+                    "explanation": "Estructura: personaje, conflicto, resolución, enseñanza"
+                },
+                {
+                    "id": "rl009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué autor español es famoso por sus fábulas?",
+                    "options": [
+                        "Cervantes",
+                        "Samaniego",
+                        "Lorca",
+                        "Machado"
+                    ],
+                    "answer": "Samaniego",
+                    "hint": "Autor de la cigarra y la hormiga en español",
+                    "explanation": "Félix María de Samaniego: fabulista español del siglo XVIII"
+                },
+                {
+                    "id": "rl010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "'Colorín colorado, este cuento se ha ___'",
+                    "answer": "acabado",
+                    "hint": "Fórmula de cierre tradicional",
+                    "explanation": "Fórmula de cierre: Colorín colorado, este cuento se ha acabado"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,667 @@
+{
+    "grade": "3_primaria",
+    "subject": "mates",
+    "trimester": 2,
+    "topics": [
+        {
+            "id": "fracciones_concepto",
+            "name": "Fracciones: concepto y representación",
+            "icon": "🍕",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "fr001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Si divides una pizza en 4 trozos iguales y te comes 1, ¿qué fracción te has comido?",
+                    "options": [
+                        "1/2",
+                        "1/3",
+                        "1/4",
+                        "1/8"
+                    ],
+                    "answer": "1/4",
+                    "hint": "1 trozo de 4 totales",
+                    "explanation": "1 de 4 partes = 1/4"
+                },
+                {
+                    "id": "fr002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "En la fracción 3/5, el numerador es ___ y el denominador es ___",
+                    "answer": "3, 5",
+                    "hint": "Arriba = numerador, abajo = denominador",
+                    "explanation": "3/5: numerador=3 (partes tomadas), denominador=5 (partes totales)"
+                },
+                {
+                    "id": "fr003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "2/4 representa la mitad",
+                    "answer": "true",
+                    "hint": "2 de 4 partes, ¿es la mitad?",
+                    "explanation": "2/4 = 1/2, sí es la mitad"
+                },
+                {
+                    "id": "fr004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué fracción está coloreada si pintas 3 partes de 8?",
+                    "options": [
+                        "3/8",
+                        "8/3",
+                        "3/5",
+                        "5/8"
+                    ],
+                    "answer": "3/8",
+                    "hint": "Partes pintadas / partes totales",
+                    "explanation": "3 pintadas de 8 totales = 3/8"
+                },
+                {
+                    "id": "fr005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Si un pastel se divide en 6 trozos iguales y comes 2, queda ___ del pastel",
+                    "answer": "4/6",
+                    "hint": "6 - 2 = 4 trozos quedan",
+                    "explanation": "Quedan 4 de 6 partes = 4/6"
+                },
+                {
+                    "id": "fr006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "3/3 es igual a un entero (1)",
+                    "answer": "true",
+                    "hint": "Si tomo todas las partes...",
+                    "explanation": "3 partes de 3 = todo = 1 entero"
+                },
+                {
+                    "id": "fr007",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada fracción con su representación",
+                    "pairs": [
+                        [
+                            "1/2",
+                            "La mitad"
+                        ],
+                        [
+                            "1/4",
+                            "Un cuarto"
+                        ],
+                        [
+                            "3/4",
+                            "Tres cuartos"
+                        ],
+                        [
+                            "1/3",
+                            "Un tercio"
+                        ]
+                    ],
+                    "hint": "Piensa en dividir cosas",
+                    "explanation": "Nombres comunes de las fracciones"
+                },
+                {
+                    "id": "fr008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Tienes una tableta de chocolate con 12 onzas. Comes 1/4. ¿Cuántas onzas has comido?",
+                    "answer": "3",
+                    "hint": "12 ÷ 4 = ?",
+                    "explanation": "1/4 de 12 = 12 ÷ 4 = 3 onzas"
+                },
+                {
+                    "id": "fr009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuánto es 1/3 de 15?",
+                    "options": [
+                        "3",
+                        "5",
+                        "10",
+                        "15"
+                    ],
+                    "answer": "5",
+                    "hint": "15 ÷ 3 = ?",
+                    "explanation": "1/3 de 15 = 15 ÷ 3 = 5"
+                },
+                {
+                    "id": "fr010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Si 2/5 de los 30 alumnos son chicas, hay ___ chicas",
+                    "answer": "12",
+                    "hint": "30 ÷ 5 = 6, × 2 = ?",
+                    "explanation": "30 ÷ 5 = 6, 6 × 2 = 12 chicas"
+                }
+            ]
+        },
+        {
+            "id": "comparar_fracciones",
+            "name": "Comparar fracciones (mismo denominador)",
+            "icon": "⚖️",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "cf001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál es mayor: 3/5 o 1/5?",
+                    "options": [
+                        "3/5",
+                        "1/5",
+                        "Son iguales",
+                        "No se puede saber"
+                    ],
+                    "answer": "3/5",
+                    "hint": "Mismo denominador: compara numeradores",
+                    "explanation": "3 > 1, así que 3/5 > 1/5"
+                },
+                {
+                    "id": "cf002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "2/7 es mayor que 5/7",
+                    "answer": "false",
+                    "hint": "Compara los numeradores",
+                    "explanation": "2 < 5, así que 2/7 < 5/7"
+                },
+                {
+                    "id": "cf003",
+                    "type": "sort",
+                    "difficulty": 1,
+                    "question": "Ordena de menor a mayor: 4/8, 1/8, 7/8, 3/8",
+                    "items": [
+                        "4/8",
+                        "1/8",
+                        "7/8",
+                        "3/8"
+                    ],
+                    "answer": [
+                        "1/8",
+                        "3/8",
+                        "4/8",
+                        "7/8"
+                    ],
+                    "hint": "Mismo denominador: ordena por numerador",
+                    "explanation": "1 < 3 < 4 < 7, todos sobre 8"
+                },
+                {
+                    "id": "cf004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es menor: 5/10 o 8/10?",
+                    "options": [
+                        "5/10",
+                        "8/10",
+                        "Son iguales"
+                    ],
+                    "answer": "5/10",
+                    "hint": "Menor numerador = menor fracción",
+                    "explanation": "5 < 8, así que 5/10 < 8/10"
+                },
+                {
+                    "id": "cf005",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "6/9 es mayor que 4/9",
+                    "answer": "true",
+                    "hint": "Compara 6 con 4",
+                    "explanation": "6 > 4, así que 6/9 > 4/9"
+                },
+                {
+                    "id": "cf006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Si Pedro come 3/6 de tarta y Ana come 5/6, ___ come más",
+                    "answer": "Ana",
+                    "hint": "Compara 3 con 5",
+                    "explanation": "5/6 > 3/6, Ana come más"
+                },
+                {
+                    "id": "cf007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué fracción está más cerca de 1 entero: 7/8 o 5/8?",
+                    "options": [
+                        "7/8",
+                        "5/8",
+                        "Las dos igual"
+                    ],
+                    "answer": "7/8",
+                    "hint": "¿Cuál le falta menos para llegar a 8/8?",
+                    "explanation": "A 7/8 le falta 1/8, a 5/8 le faltan 3/8"
+                },
+                {
+                    "id": "cf008",
+                    "type": "sort",
+                    "difficulty": 3,
+                    "question": "Ordena de mayor a menor: 2/12, 11/12, 5/12, 9/12",
+                    "items": [
+                        "2/12",
+                        "11/12",
+                        "5/12",
+                        "9/12"
+                    ],
+                    "answer": [
+                        "11/12",
+                        "9/12",
+                        "5/12",
+                        "2/12"
+                    ],
+                    "hint": "De mayor numerador a menor",
+                    "explanation": "11 > 9 > 5 > 2"
+                },
+                {
+                    "id": "cf009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "1/2 es lo mismo que 4/8",
+                    "answer": "true",
+                    "hint": "Simplifica 4/8",
+                    "explanation": "4/8 = 4÷4 / 8÷4 = 1/2"
+                },
+                {
+                    "id": "cf010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "En una carrera, Luis lleva 5/10 del recorrido y Marta 7/10. ¿Quién va ganando? ¿Cuánto más ha recorrido?",
+                    "answer": "Marta, 2/10 más",
+                    "hint": "Compara y resta",
+                    "explanation": "7/10 > 5/10, diferencia = 7/10 - 5/10 = 2/10"
+                }
+            ]
+        },
+        {
+            "id": "longitud_avanzado",
+            "name": "Unidades de longitud (km, m, cm, mm)",
+            "icon": "📏",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "lg001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "1 km = ___ m",
+                    "answer": "1000",
+                    "hint": "Kilo = mil",
+                    "explanation": "1 kilómetro = 1.000 metros"
+                },
+                {
+                    "id": "lg002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "1 m = ___ cm",
+                    "options": [
+                        "10",
+                        "100",
+                        "1000",
+                        "50"
+                    ],
+                    "answer": "100",
+                    "hint": "Centi = centésima parte",
+                    "explanation": "1 metro = 100 centímetros"
+                },
+                {
+                    "id": "lg003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "1 cm = ___ mm",
+                    "answer": "10",
+                    "hint": "Mili = milésima parte",
+                    "explanation": "1 centímetro = 10 milímetros"
+                },
+                {
+                    "id": "lg004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada medida con su unidad adecuada",
+                    "pairs": [
+                        [
+                            "Distancia entre ciudades",
+                            "km"
+                        ],
+                        [
+                            "Altura de una persona",
+                            "m y cm"
+                        ],
+                        [
+                            "Grosor de un dedo",
+                            "cm"
+                        ],
+                        [
+                            "Grosor de una moneda",
+                            "mm"
+                        ]
+                    ],
+                    "hint": "Según tamaño",
+                    "explanation": "km > m > cm > mm"
+                },
+                {
+                    "id": "lg005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuántos metros son 3 km?",
+                    "options": [
+                        "30",
+                        "300",
+                        "3.000",
+                        "30.000"
+                    ],
+                    "answer": "3.000",
+                    "hint": "3 × 1.000",
+                    "explanation": "3 km = 3 × 1.000 = 3.000 m"
+                },
+                {
+                    "id": "lg006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "250 cm = ___ m ___ cm",
+                    "answer": "2 m 50 cm",
+                    "hint": "250 ÷ 100",
+                    "explanation": "250 cm = 2 m y 50 cm"
+                },
+                {
+                    "id": "lg007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "500 m es la mitad de 1 km",
+                    "answer": "true",
+                    "hint": "1 km = 1.000 m",
+                    "explanation": "500 = 1.000 ÷ 2, sí es la mitad"
+                },
+                {
+                    "id": "lg008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Ana camina 1 km y 500 m hasta el colegio. ¿Cuántos metros camina en total?",
+                    "answer": "1500",
+                    "hint": "Convierte todo a metros",
+                    "explanation": "1 km = 1.000 m, 1.000 + 500 = 1.500 m"
+                },
+                {
+                    "id": "lg009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué es más largo: 2 km o 1.800 m?",
+                    "options": [
+                        "2 km",
+                        "1.800 m",
+                        "Son iguales"
+                    ],
+                    "answer": "2 km",
+                    "hint": "Convierte a la misma unidad",
+                    "explanation": "2 km = 2.000 m > 1.800 m"
+                },
+                {
+                    "id": "lg010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Un campo de fútbol mide 100 m. Para hacer 1 km, necesitas dar ___ vueltas al largo",
+                    "answer": "10",
+                    "hint": "1.000 ÷ 100",
+                    "explanation": "1.000 m ÷ 100 m = 10 largos"
+                }
+            ]
+        },
+        {
+            "id": "masa_capacidad",
+            "name": "Unidades de masa y capacidad",
+            "icon": "⚖️",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "mc001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "1 kg = ___ g",
+                    "answer": "1000",
+                    "hint": "Kilo = mil",
+                    "explanation": "1 kilogramo = 1.000 gramos"
+                },
+                {
+                    "id": "mc002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "1 litro = ___ mililitros",
+                    "options": [
+                        "10",
+                        "100",
+                        "500",
+                        "1000"
+                    ],
+                    "answer": "1000",
+                    "hint": "Mili = milésima",
+                    "explanation": "1 l = 1.000 ml"
+                },
+                {
+                    "id": "mc003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Medio kilo son 500 gramos",
+                    "answer": "true",
+                    "hint": "La mitad de 1.000",
+                    "explanation": "1 kg ÷ 2 = 500 g"
+                },
+                {
+                    "id": "mc004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada objeto con su peso aproximado",
+                    "pairs": [
+                        [
+                            "Una manzana",
+                            "200 g"
+                        ],
+                        [
+                            "Un bebé",
+                            "3 kg"
+                        ],
+                        [
+                            "Un coche",
+                            "1.500 kg"
+                        ],
+                        [
+                            "Una pluma",
+                            "5 g"
+                        ]
+                    ],
+                    "hint": "Piensa en lo que pesa cada cosa",
+                    "explanation": "Estimaciones de peso cotidianas"
+                },
+                {
+                    "id": "mc005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "2 kg y medio = ___ g",
+                    "answer": "2500",
+                    "hint": "2×1.000 + 500",
+                    "explanation": "2,5 kg = 2.500 g"
+                },
+                {
+                    "id": "mc006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuántos vasos de 250 ml llenas con 1 litro?",
+                    "options": [
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "answer": "4",
+                    "hint": "1.000 ÷ 250",
+                    "explanation": "1.000 ml ÷ 250 ml = 4 vasos"
+                },
+                {
+                    "id": "mc007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "3.500 g es más que 3 kg",
+                    "answer": "true",
+                    "hint": "Convierte 3 kg a gramos",
+                    "explanation": "3 kg = 3.000 g, y 3.500 > 3.000"
+                },
+                {
+                    "id": "mc008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Una receta pide 750 g de harina. Si el paquete tiene 2 kg, ¿cuántos gramos te sobran?",
+                    "answer": "1250",
+                    "hint": "2 kg = 2.000 g, resta 750",
+                    "explanation": "2.000 - 750 = 1.250 g sobran"
+                },
+                {
+                    "id": "mc009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué pesa más: 4.200 g o 4 kg?",
+                    "options": [
+                        "4.200 g",
+                        "4 kg",
+                        "Pesan igual"
+                    ],
+                    "answer": "4.200 g",
+                    "hint": "Convierte a gramos",
+                    "explanation": "4 kg = 4.000 g, y 4.200 > 4.000"
+                },
+                {
+                    "id": "mc010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Compras 3 botellas de agua de 1,5 litros. ¿Cuántos ml tienes en total? ¿Cuántos litros?",
+                    "answer": "4500 ml, 4 litros y medio",
+                    "hint": "3 × 1.500 ml",
+                    "explanation": "3 × 1.500 = 4.500 ml = 4,5 l"
+                }
+            ]
+        },
+        {
+            "id": "tiempo_avanzado",
+            "name": "El tiempo: horas, minutos, calendario",
+            "icon": "📅",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "ti001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "1 hora = ___ minutos",
+                    "answer": "60",
+                    "hint": "La hora completa",
+                    "explanation": "1 h = 60 min"
+                },
+                {
+                    "id": "ti002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuántos días tiene una semana?",
+                    "options": [
+                        "5",
+                        "6",
+                        "7",
+                        "10"
+                    ],
+                    "answer": "7",
+                    "hint": "Lunes a domingo",
+                    "explanation": "Una semana tiene 7 días"
+                },
+                {
+                    "id": "ti003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Un año tiene 12 meses",
+                    "answer": "true",
+                    "hint": "Enero a diciembre",
+                    "explanation": "12 meses: ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic"
+                },
+                {
+                    "id": "ti004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "2 horas y 15 minutos = ___ minutos",
+                    "answer": "135",
+                    "hint": "2×60 + 15",
+                    "explanation": "120 + 15 = 135 minutos"
+                },
+                {
+                    "id": "ti005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Si entras al colegio a las 9:00 y sales a las 14:00, ¿cuántas horas estás?",
+                    "options": [
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+                    "answer": "5",
+                    "hint": "14 - 9",
+                    "explanation": "14 - 9 = 5 horas"
+                },
+                {
+                    "id": "ti006",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada mes con su número de días",
+                    "pairs": [
+                        [
+                            "Febrero (no bisiesto)",
+                            "28"
+                        ],
+                        [
+                            "Abril",
+                            "30"
+                        ],
+                        [
+                            "Julio",
+                            "31"
+                        ],
+                        [
+                            "Noviembre",
+                            "30"
+                        ]
+                    ],
+                    "hint": "30 días trae noviembre, con abril, junio y septiembre...",
+                    "explanation": "Feb=28, Abr/Jun/Sep/Nov=30, el resto=31"
+                },
+                {
+                    "id": "ti007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Un año bisiesto tiene ___ días",
+                    "answer": "366",
+                    "hint": "Un día más que lo normal",
+                    "explanation": "Año bisiesto: 365 + 1 = 366 días"
+                },
+                {
+                    "id": "ti008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "La película empieza a las 17:45 y dura 1 hora y 30 minutos. ¿A qué hora termina?",
+                    "answer": "19:15",
+                    "hint": "17:45 + 1:30",
+                    "explanation": "17:45 + 1:00 = 18:45, +30 min = 19:15"
+                },
+                {
+                    "id": "ti009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "3 semanas = ___ días",
+                    "answer": "21",
+                    "hint": "3 × 7",
+                    "explanation": "3 × 7 = 21 días"
+                },
+                {
+                    "id": "ti010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "El tren sale a las 8:50 y el viaje dura 2 horas y 25 minutos. ¿A qué hora llega?",
+                    "answer": "11:15",
+                    "hint": "8:50 + 2:25",
+                    "explanation": "8:50 + 2h = 10:50, + 25 min = 11:15"
+                }
+            ]
+        }
+    ]
+}

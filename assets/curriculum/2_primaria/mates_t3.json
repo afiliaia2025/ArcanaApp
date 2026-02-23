@@ -1,0 +1,633 @@
+{
+    "grade": "2_primaria",
+    "subject": "mates",
+    "trimester": 3,
+    "topics": [
+        {
+            "id": "tablas_3_4",
+            "name": "Tablas de multiplicar (3 y 4)",
+            "icon": "✖️",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "t3001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "3 × 4 = ___",
+                    "answer": "12",
+                    "hint": "3+3+3+3",
+                    "explanation": "3 × 4 = 12"
+                },
+                {
+                    "id": "t3002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuánto es 4 × 5?",
+                    "options": [
+                        "16",
+                        "18",
+                        "20",
+                        "24"
+                    ],
+                    "answer": "20",
+                    "hint": "4+4+4+4+4",
+                    "explanation": "4 × 5 = 20"
+                },
+                {
+                    "id": "t3003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "3 × 7 = ___",
+                    "answer": "21",
+                    "hint": "Cuenta de 3 en 3",
+                    "explanation": "3 × 7 = 21"
+                },
+                {
+                    "id": "t3004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "4 × 8 = 32",
+                    "answer": "true",
+                    "hint": "Comprueba: 4×8",
+                    "explanation": "4 × 8 = 32 ✓"
+                },
+                {
+                    "id": "t3005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuánto es 3 × 9?",
+                    "options": [
+                        "24",
+                        "27",
+                        "29",
+                        "21"
+                    ],
+                    "answer": "27",
+                    "hint": "3 × 9 = 3 × 10 - 3",
+                    "explanation": "3 × 9 = 27"
+                },
+                {
+                    "id": "t3006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "4 × ___ = 36",
+                    "answer": "9",
+                    "hint": "¿4 por cuánto da 36?",
+                    "explanation": "4 × 9 = 36"
+                },
+                {
+                    "id": "t3007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Cada paquete tiene 3 rotuladores. Si compras 8 paquetes, ¿cuántos rotuladores tienes?",
+                    "answer": "24",
+                    "hint": "3 × 8 = ?",
+                    "explanation": "3 × 8 = 24 rotuladores"
+                },
+                {
+                    "id": "t3008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuánto es 3 × 4 × 2?",
+                    "options": [
+                        "14",
+                        "18",
+                        "24",
+                        "20"
+                    ],
+                    "answer": "24",
+                    "hint": "Primero 3×4, luego ×2",
+                    "explanation": "3 × 4 = 12, 12 × 2 = 24"
+                },
+                {
+                    "id": "t3009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "___ × 4 = 28",
+                    "answer": "7",
+                    "hint": "¿Qué número × 4 = 28?",
+                    "explanation": "7 × 4 = 28"
+                },
+                {
+                    "id": "t3010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "En una estantería caben 4 libros por balda. Hay 3 estanterías con 6 baldas cada una. ¿Cuántos libros caben en total?",
+                    "answer": "72",
+                    "hint": "4 libros × 6 baldas × 3 estanterías",
+                    "explanation": "4 × 6 = 24 por estantería, 24 × 3 = 72 libros"
+                }
+            ]
+        },
+        {
+            "id": "figuras_2d",
+            "name": "Figuras planas (2D)",
+            "icon": "🔷",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "f2001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuántos lados tiene un triángulo?",
+                    "options": [
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "answer": "3",
+                    "hint": "Tri = tres",
+                    "explanation": "Un triángulo tiene 3 lados"
+                },
+                {
+                    "id": "f2002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Un cuadrado tiene ___ lados iguales",
+                    "answer": "4",
+                    "hint": "Cuadrado = cuatro lados",
+                    "explanation": "Un cuadrado tiene 4 lados iguales"
+                },
+                {
+                    "id": "f2003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Un círculo tiene 0 lados",
+                    "answer": "true",
+                    "hint": "¿Tiene esquinas?",
+                    "explanation": "Un círculo no tiene lados ni vértices"
+                },
+                {
+                    "id": "f2004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada figura con su número de lados",
+                    "pairs": [
+                        [
+                            "Triángulo",
+                            "3 lados"
+                        ],
+                        [
+                            "Cuadrado",
+                            "4 lados"
+                        ],
+                        [
+                            "Pentágono",
+                            "5 lados"
+                        ],
+                        [
+                            "Hexágono",
+                            "6 lados"
+                        ]
+                    ],
+                    "hint": "Tri=3, cuad=4, penta=5, hexa=6",
+                    "explanation": "Los prefijos indican el número de lados"
+                },
+                {
+                    "id": "f2005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál de estas figuras tiene todos los lados iguales?",
+                    "options": [
+                        "Rectángulo",
+                        "Cuadrado",
+                        "Triángulo",
+                        "Todas"
+                    ],
+                    "answer": "Cuadrado",
+                    "hint": "Solo una tiene los 4 lados iguales",
+                    "explanation": "El cuadrado tiene los 4 lados iguales. El rectángulo tiene lados iguales de 2 en 2"
+                },
+                {
+                    "id": "f2006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Un rectángulo tiene 4 ángulos rectos",
+                    "answer": "true",
+                    "hint": "¿Son de 90°?",
+                    "explanation": "Sí, un rectángulo tiene 4 ángulos rectos"
+                },
+                {
+                    "id": "f2007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Un triángulo tiene ___ vértices",
+                    "answer": "3",
+                    "hint": "Un vértice en cada esquina",
+                    "explanation": "3 lados = 3 vértices"
+                },
+                {
+                    "id": "f2008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántos triángulos ves si divides un cuadrado con una diagonal?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "2",
+                    "hint": "Dibuja una línea de esquina a esquina",
+                    "explanation": "Una diagonal divide el cuadrado en 2 triángulos"
+                },
+                {
+                    "id": "f2009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Todo cuadrado es un rectángulo",
+                    "answer": "true",
+                    "hint": "¿Cumple las condiciones de rectángulo?",
+                    "explanation": "Sí, porque tiene 4 ángulos rectos y lados paralelos"
+                },
+                {
+                    "id": "f2010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Un octógono tiene ___ lados",
+                    "answer": "8",
+                    "hint": "Octo = ocho",
+                    "explanation": "Un octógono tiene 8 lados (como la señal de STOP)"
+                }
+            ]
+        },
+        {
+            "id": "figuras_3d",
+            "name": "Cuerpos geométricos (3D)",
+            "icon": "📦",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "f3001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿A qué cuerpo geométrico se parece una pelota?",
+                    "options": [
+                        "Cubo",
+                        "Esfera",
+                        "Cilindro",
+                        "Cono"
+                    ],
+                    "answer": "Esfera",
+                    "hint": "Es redonda por todos lados",
+                    "explanation": "Una pelota es una esfera"
+                },
+                {
+                    "id": "f3002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada objeto con su forma",
+                    "pairs": [
+                        [
+                            "Dado",
+                            "Cubo"
+                        ],
+                        [
+                            "Pelota",
+                            "Esfera"
+                        ],
+                        [
+                            "Bote de refresco",
+                            "Cilindro"
+                        ],
+                        [
+                            "Cucurucho de helado",
+                            "Cono"
+                        ]
+                    ],
+                    "hint": "Piensa en la forma de cada objeto",
+                    "explanation": "Objetos cotidianos y sus formas geométricas"
+                },
+                {
+                    "id": "f3003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Un cubo tiene 6 caras",
+                    "answer": "true",
+                    "hint": "Cuenta las caras de un dado",
+                    "explanation": "Un cubo tiene 6 caras cuadradas"
+                },
+                {
+                    "id": "f3004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Un cubo tiene ___ vértices",
+                    "answer": "8",
+                    "hint": "Cuenta las esquinas",
+                    "explanation": "Un cubo tiene 8 vértices (esquinas)"
+                },
+                {
+                    "id": "f3005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuántas aristas tiene un cubo?",
+                    "options": [
+                        "6",
+                        "8",
+                        "10",
+                        "12"
+                    ],
+                    "answer": "12",
+                    "hint": "Cuenta las líneas donde se juntan las caras",
+                    "explanation": "Un cubo tiene 12 aristas"
+                },
+                {
+                    "id": "f3006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Una esfera puede rodar",
+                    "answer": "true",
+                    "hint": "¿Qué pasa si la pones en una rampa?",
+                    "explanation": "La esfera no tiene caras planas, por eso rueda"
+                },
+                {
+                    "id": "f3007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué cuerpo geométrico tiene una cara circular y un vértice arriba?",
+                    "options": [
+                        "Cilindro",
+                        "Esfera",
+                        "Cono",
+                        "Pirámide"
+                    ],
+                    "answer": "Cono",
+                    "hint": "Piensa en un gorro de cumpleaños",
+                    "explanation": "El cono tiene una base circular y un vértice"
+                },
+                {
+                    "id": "f3008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Un cilindro tiene ___ caras planas (círculos)",
+                    "answer": "2",
+                    "hint": "Arriba y abajo",
+                    "explanation": "Un cilindro tiene 2 bases circulares"
+                },
+                {
+                    "id": "f3009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Una pirámide de base cuadrada tiene 5 caras",
+                    "answer": "true",
+                    "hint": "1 base + caras triangulares",
+                    "explanation": "1 cuadrado (base) + 4 triángulos = 5 caras"
+                },
+                {
+                    "id": "f3010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántos vértices tiene una pirámide de base cuadrada?",
+                    "options": [
+                        "4",
+                        "5",
+                        "6",
+                        "8"
+                    ],
+                    "answer": "5",
+                    "hint": "4 en la base + 1 arriba",
+                    "explanation": "4 vértices en la base + 1 cúspide = 5 vértices"
+                }
+            ]
+        },
+        {
+            "id": "simetrias",
+            "name": "Simetrías",
+            "icon": "🦋",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "si001",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Una mariposa tiene simetría",
+                    "answer": "true",
+                    "hint": "¿Son iguales sus dos alas?",
+                    "explanation": "La mariposa es simétrica: ambos lados son iguales"
+                },
+                {
+                    "id": "si002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué letra tiene un eje de simetría vertical?",
+                    "options": [
+                        "F",
+                        "A",
+                        "J",
+                        "G"
+                    ],
+                    "answer": "A",
+                    "hint": "Dibuja una línea vertical en el centro de cada letra",
+                    "explanation": "La A es simétrica si la divides por la mitad vertical"
+                },
+                {
+                    "id": "si003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "La letra B tiene simetría horizontal",
+                    "answer": "true",
+                    "hint": "Dibuja una línea horizontal en el medio",
+                    "explanation": "La B se ve igual arriba y abajo"
+                },
+                {
+                    "id": "si004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuántos ejes de simetría tiene un cuadrado?",
+                    "options": [
+                        "1",
+                        "2",
+                        "4",
+                        "0"
+                    ],
+                    "answer": "4",
+                    "hint": "Horizontal, vertical y las 2 diagonales",
+                    "explanation": "El cuadrado tiene 4 ejes de simetría"
+                },
+                {
+                    "id": "si005",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Un rectángulo tiene 4 ejes de simetría",
+                    "answer": "false",
+                    "hint": "¿Las diagonales funcionan como eje?",
+                    "explanation": "Un rectángulo tiene 2 ejes (horizontal y vertical), no 4"
+                },
+                {
+                    "id": "si006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Un círculo tiene ___ ejes de simetría",
+                    "answer": "infinitos",
+                    "hint": "¿Por cuántos sitios puedes cortarlo y que sea igual?",
+                    "explanation": "Cualquier diámetro es un eje de simetría"
+                },
+                {
+                    "id": "si007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál de estos objetos NO tiene simetría?",
+                    "options": [
+                        "Corazón",
+                        "Estrella de 5 puntas",
+                        "Un zapato suelto",
+                        "Flor de 4 pétalos"
+                    ],
+                    "answer": "Un zapato suelto",
+                    "hint": "¿Son iguales los dos lados?",
+                    "explanation": "Un zapato solo es para un pie, no es simétrico"
+                },
+                {
+                    "id": "si008",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Un triángulo equilátero tiene 3 ejes de simetría",
+                    "answer": "true",
+                    "hint": "Equilátero = 3 lados iguales",
+                    "explanation": "Uno por cada vértice al lado opuesto"
+                },
+                {
+                    "id": "si009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Si dibujas la mitad de una cara y la reflejas, obtienes una cara ___",
+                    "answer": "completa",
+                    "hint": "La simetría completa la figura",
+                    "explanation": "Reflejar es como poner un espejo"
+                },
+                {
+                    "id": "si010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué número tiene simetría vertical?",
+                    "options": [
+                        "2",
+                        "3",
+                        "8",
+                        "6"
+                    ],
+                    "answer": "8",
+                    "hint": "Dibuja una línea vertical por el centro de cada número",
+                    "explanation": "El 8 se ve igual a ambos lados de una línea vertical"
+                }
+            ]
+        },
+        {
+            "id": "graficos_tablas",
+            "name": "Gráficos de barras y tablas",
+            "icon": "📊",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "g001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "En una encuesta, 8 niños prefieren fútbol, 5 prefieren baloncesto y 3 prefieren tenis. ¿Qué deporte es el más popular?",
+                    "options": [
+                        "Baloncesto",
+                        "Tenis",
+                        "Fútbol",
+                        "Todos igual"
+                    ],
+                    "answer": "Fútbol",
+                    "hint": "¿Cuál tiene más votos?",
+                    "explanation": "Fútbol tiene 8 votos, más que los demás"
+                },
+                {
+                    "id": "g002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Si en un gráfico la barra de 'perro' llega al 12 y la de 'gato' al 7, hay ___ mascotas más tipo perro",
+                    "answer": "5",
+                    "hint": "Resta gatos a perros",
+                    "explanation": "12 - 7 = 5 más perros"
+                },
+                {
+                    "id": "g003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "En un gráfico de barras, la barra más alta representa el dato mayor",
+                    "answer": "true",
+                    "hint": "¿Qué significa la altura de la barra?",
+                    "explanation": "La altura de la barra indica la cantidad"
+                },
+                {
+                    "id": "g004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "En una tabla: Manzanas=15, Plátanos=22, Naranjas=18. ¿Cuántas frutas hay en total?",
+                    "options": [
+                        "45",
+                        "55",
+                        "50",
+                        "60"
+                    ],
+                    "answer": "55",
+                    "hint": "Suma todas las frutas",
+                    "explanation": "15 + 22 + 18 = 55 frutas"
+                },
+                {
+                    "id": "g005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "En la clase votan su color favorito: Azul=9, Rojo=6, Verde=4, Amarillo=5. El color menos votado es ___",
+                    "answer": "Verde",
+                    "hint": "Busca el número más pequeño",
+                    "explanation": "Verde tiene solo 4 votos"
+                },
+                {
+                    "id": "g006",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Haz una encuesta en tu cabeza: imagina que 10 amigos votan comida favorita. Pizza=4, Pasta=3, Hamburguesa=3. ¿Cuántos votos hay en total? ¿Coincide con 10?",
+                    "answer": "10",
+                    "hint": "Suma todos los votos",
+                    "explanation": "4 + 3 + 3 = 10 ✓ Coincide con el total de amigos"
+                },
+                {
+                    "id": "g007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Si dos barras tienen la misma altura, esos datos son iguales",
+                    "answer": "true",
+                    "hint": "¿Qué representa la altura?",
+                    "explanation": "Misma altura = mismo valor numérico"
+                },
+                {
+                    "id": "g008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "En un gráfico de barras: Lunes=20 libros vendidos, Martes=35, Miércoles=15, Jueves=28. ¿Cuál fue el mejor día? ¿Y el peor? ¿Cuántos libros se vendieron en total?",
+                    "answer": "Mejor: Martes, Peor: Miércoles, Total: 98",
+                    "hint": "Busca el mayor, el menor y suma todos",
+                    "explanation": "Martes=35 (mejor), Miércoles=15 (peor), Total=20+35+15+28=98"
+                },
+                {
+                    "id": "g009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Si la media de ventas de 4 días es 25, el total de ventas es ___",
+                    "answer": "100",
+                    "hint": "Media × número de días",
+                    "explanation": "25 × 4 = 100 ventas totales"
+                },
+                {
+                    "id": "g010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "En una encuesta de 30 alumnos, si 12 prefieren perro y 8 prefieren gato, ¿cuántos prefieren otro animal?",
+                    "options": [
+                        "8",
+                        "10",
+                        "12",
+                        "18"
+                    ],
+                    "answer": "10",
+                    "hint": "30 - perro - gato",
+                    "explanation": "30 - 12 - 8 = 10 prefieren otro animal"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ═══════════════════════════════════════════
+    // HELPERS
+    // ═══════════════════════════════════════════
+
+    function isAuth() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isAuth() && request.auth.uid == uid;
+    }
+
+    function isTeacher() {
+      return isAuth() && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'profesor';
+    }
+
+    function isParent() {
+      return isAuth() && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'padre';
+    }
+
+    // ═══════════════════════════════════════════
+    // CURRÍCULUM — Solo lectura (contenido público)
+    // ═══════════════════════════════════════════
+
+    match /curriculum/{document=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // ═══════════════════════════════════════════
+    // USUARIOS — Solo el propietario puede leer/escribir
+    // ═══════════════════════════════════════════
+
+    match /users/{userId} {
+      // El usuario puede leer y escribir su propio perfil
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId);
+
+      // Los profesores pueden leer perfiles de sus alumnos
+      // (verificado por classCode en la subcolección)
+      allow read: if isTeacher();
+
+      // Los padres pueden leer perfiles de sus hijos
+      allow read: if isParent();
+
+      // ── Aventura (arcos narrativos, progreso) ──
+      match /adventure/{document=**} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // ── Escaneos ──
+      match /scans/{scanId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // ── Inventario y compras ──
+      match /inventory/{itemId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+
+      // ── Amigos ──
+      match /friends/{friendId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+
+      // ── Solicitudes de amistad ──
+      match /friendRequests/{requestId} {
+        // Cualquier usuario autenticado puede enviar solicitud
+        allow create: if isAuth();
+        // Solo el destinatario puede leer/actualizar/eliminar
+        allow read, update, delete: if isOwner(userId);
+      }
+
+      // ── Misiones secundarias ──
+      match /sideQuests/{questId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+
+    // ═══════════════════════════════════════════
+    // CLASES (para profesores)
+    // ═══════════════════════════════════════════
+
+    match /classes/{classId} {
+      // El profesor creador puede leer y escribir
+      allow read, write: if isAuth() && resource.data.teacherUid == request.auth.uid;
+      allow create: if isTeacher();
+
+      // Los alumnos pueden leer su propia clase
+      allow read: if isAuth();
+    }
+
+    // ═══════════════════════════════════════════
+    // RANKING (lectura pública entre usuarios auth)
+    // ═══════════════════════════════════════════
+
+    match /leaderboard/{document=**} {
+      allow read: if isAuth();
+      allow write: if false; // Solo Cloud Functions
+    }
+  }
+}

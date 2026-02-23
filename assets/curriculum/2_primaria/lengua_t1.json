@@ -1,0 +1,712 @@
+{
+    "grade": "2_primaria",
+    "subject": "lengua",
+    "trimester": 1,
+    "topics": [
+        {
+            "id": "lectura_comprensiva",
+            "name": "Lectura comprensiva",
+            "icon": "📖",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "lc001",
+                    "type": "open_problem",
+                    "difficulty": 1,
+                    "question": "Lee: 'El gato de María se llama Bigotes. Es naranja y le encanta dormir al sol.' ¿Cómo se llama el gato?",
+                    "answer": "Bigotes",
+                    "hint": "Busca el nombre en el texto",
+                    "explanation": "El texto dice 'se llama Bigotes'"
+                },
+                {
+                    "id": "lc002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Lee: 'Lucas fue al parque con su abuelo. Jugaron al fútbol y después comieron un helado.' ¿Con quién fue Lucas al parque?",
+                    "options": [
+                        "Su madre",
+                        "Su hermano",
+                        "Su abuelo",
+                        "Su amigo"
+                    ],
+                    "answer": "Su abuelo",
+                    "hint": "Lee la primera frase",
+                    "explanation": "Fue con su abuelo"
+                },
+                {
+                    "id": "lc003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Lee: 'Las ranas viven cerca del agua y comen insectos.' Según el texto, las ranas comen peces.",
+                    "answer": "false",
+                    "hint": "¿Qué dice el texto que comen?",
+                    "explanation": "El texto dice que comen insectos, no peces"
+                },
+                {
+                    "id": "lc004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Lee: 'Sara se puso triste porque llovía y no podía salir a jugar. Entonces cogió un libro y empezó a leer.' ¿Por qué Sara se puso triste?",
+                    "options": [
+                        "Porque no tenía libros",
+                        "Porque llovía",
+                        "Porque estaba enferma",
+                        "Porque su amiga no vino"
+                    ],
+                    "answer": "Porque llovía",
+                    "hint": "¿Qué le impedía salir?",
+                    "explanation": "Llovía y no podía salir a jugar"
+                },
+                {
+                    "id": "lc005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Lee: 'Los delfines son mamíferos que viven en el mar. Son muy inteligentes y les gusta jugar.' Los delfines son ___ (tipo de animal)",
+                    "answer": "mamíferos",
+                    "hint": "Primera frase",
+                    "explanation": "El texto dice que los delfines son mamíferos"
+                },
+                {
+                    "id": "lc006",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Lee: 'Marcos salió de casa a las 8. Primero fue a la panadería, luego al colegio.' ¿Qué hizo Marcos antes de ir al colegio?",
+                    "answer": "Fue a la panadería",
+                    "hint": "¿Qué hizo primero?",
+                    "explanation": "Primero fue a la panadería, luego al colegio"
+                },
+                {
+                    "id": "lc007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Lee: 'El león es el rey de la selva. Caza en grupo y las leonas suelen ser las que cazan.' ¿Quién caza normalmente?",
+                    "options": [
+                        "El león macho",
+                        "Los cachorros",
+                        "Las leonas",
+                        "Todos por igual"
+                    ],
+                    "answer": "Las leonas",
+                    "hint": "Lee la segunda frase",
+                    "explanation": "Las leonas suelen ser las que cazan"
+                },
+                {
+                    "id": "lc008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Lee: 'Ana y Luis están enfadados porque los dos quieren jugar con la pelota. Al final, deciden jugar juntos.' ¿Cuál es el problema? ¿Cómo lo resuelven?",
+                    "answer": "Los dos quieren la pelota. Lo resuelven jugando juntos.",
+                    "hint": "Busca el conflicto y la solución",
+                    "explanation": "Problema: quieren lo mismo. Solución: compartir"
+                },
+                {
+                    "id": "lc009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "Lee: 'El explorador atravesó la selva, escaló la montaña y cruzó el río. Estaba agotado pero feliz.' ¿Cuántas cosas hizo el explorador?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "3",
+                    "hint": "Cuenta las acciones",
+                    "explanation": "Atravesó, escaló y cruzó = 3 acciones"
+                },
+                {
+                    "id": "lc010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Lee: 'Aunque hacía mucho frío, Pablo fue a pasear al perro porque sabe que su mascota lo necesita.' Pablo demuestra que es ___",
+                    "answer": "responsable",
+                    "hint": "¿Qué cualidad muestra al salir con frío por su perro?",
+                    "explanation": "Ser responsable es cumplir con tus deberes aunque cueste"
+                }
+            ]
+        },
+        {
+            "id": "vocabulario_sinonimos",
+            "name": "Vocabulario y sinónimos",
+            "icon": "📝",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "vs001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada palabra con su sinónimo",
+                    "pairs": [
+                        [
+                            "bonito",
+                            "guapo"
+                        ],
+                        [
+                            "contento",
+                            "feliz"
+                        ],
+                        [
+                            "grande",
+                            "enorme"
+                        ],
+                        [
+                            "rápido",
+                            "veloz"
+                        ]
+                    ],
+                    "hint": "Sinónimo = significado parecido",
+                    "explanation": "Los sinónimos son palabras con significado similar"
+                },
+                {
+                    "id": "vs002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál es un sinónimo de 'enfadado'?",
+                    "options": [
+                        "Contento",
+                        "Furioso",
+                        "Tranquilo",
+                        "Asustado"
+                    ],
+                    "answer": "Furioso",
+                    "hint": "¿Qué palabra significa lo mismo?",
+                    "explanation": "Enfadado = furioso"
+                },
+                {
+                    "id": "vs003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Un sinónimo de 'pequeño' es ___",
+                    "answer": "diminuto",
+                    "hint": "Algo aún más pequeño",
+                    "explanation": "Pequeño = diminuto, chico, menudo"
+                },
+                {
+                    "id": "vs004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada palabra con su contrario (antónimo)",
+                    "pairs": [
+                        [
+                            "alto",
+                            "bajo"
+                        ],
+                        [
+                            "rápido",
+                            "lento"
+                        ],
+                        [
+                            "caliente",
+                            "frío"
+                        ],
+                        [
+                            "divertido",
+                            "aburrido"
+                        ]
+                    ],
+                    "hint": "Antónimo = significado opuesto",
+                    "explanation": "Los antónimos son palabras con significado contrario"
+                },
+                {
+                    "id": "vs005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es el antónimo de 'valiente'?",
+                    "options": [
+                        "Fuerte",
+                        "Cobarde",
+                        "Inteligente",
+                        "Amable"
+                    ],
+                    "answer": "Cobarde",
+                    "hint": "Lo contrario de ser valiente",
+                    "explanation": "Valiente ≠ cobarde"
+                },
+                {
+                    "id": "vs006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "'Triste' es antónimo de ___",
+                    "answer": "alegre",
+                    "hint": "Lo contrario de estar triste",
+                    "explanation": "Triste ≠ alegre, contento, feliz"
+                },
+                {
+                    "id": "vs007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué significa 'escaso'?",
+                    "options": [
+                        "Mucho",
+                        "Poco",
+                        "Grande",
+                        "Bonito"
+                    ],
+                    "answer": "Poco",
+                    "hint": "Si algo es escaso, hay...",
+                    "explanation": "Escaso = poco, insuficiente"
+                },
+                {
+                    "id": "vs008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Completa con una palabra de la familia 'flor': la tienda que vende flores es la ___",
+                    "answer": "floristería",
+                    "hint": "Flor → flor-istería",
+                    "explanation": "Floristería viene de flor (familia de palabras)"
+                },
+                {
+                    "id": "vs009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué palabra NO pertenece a la familia de 'mar'?",
+                    "options": [
+                        "Marino",
+                        "Marea",
+                        "Mariposa",
+                        "Marítimo"
+                    ],
+                    "answer": "Mariposa",
+                    "hint": "¿Cuál no tiene que ver con el mar?",
+                    "explanation": "Mariposa no tiene relación con mar, solo coincide en letras"
+                },
+                {
+                    "id": "vs010",
+                    "type": "match",
+                    "difficulty": 3,
+                    "question": "Une cada palabra con su familia",
+                    "pairs": [
+                        [
+                            "zapatero",
+                            "zapato"
+                        ],
+                        [
+                            "panadería",
+                            "pan"
+                        ],
+                        [
+                            "librero",
+                            "libro"
+                        ],
+                        [
+                            "pescadero",
+                            "pescado"
+                        ]
+                    ],
+                    "hint": "Comparten la raíz",
+                    "explanation": "Familias de palabras: comparten raíz y significado"
+                }
+            ]
+        },
+        {
+            "id": "abecedario_orden",
+            "name": "El abecedario y orden alfabético",
+            "icon": "🔤",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "ab001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "La letra que va después de la M es la ___",
+                    "answer": "N",
+                    "hint": "L, M, ...",
+                    "explanation": "...L, M, N, Ñ, O..."
+                },
+                {
+                    "id": "ab002",
+                    "type": "sort",
+                    "difficulty": 1,
+                    "question": "Ordena alfabéticamente",
+                    "items": [
+                        "gato",
+                        "burro",
+                        "perro",
+                        "abeja"
+                    ],
+                    "answer": [
+                        "abeja",
+                        "burro",
+                        "gato",
+                        "perro"
+                    ],
+                    "hint": "A, B, ... G, ... P",
+                    "explanation": "a-beja, b-urro, g-ato, p-erro"
+                },
+                {
+                    "id": "ab003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué letra va entre la D y la F?",
+                    "options": [
+                        "C",
+                        "E",
+                        "G",
+                        "H"
+                    ],
+                    "answer": "E",
+                    "hint": "D, ?, F",
+                    "explanation": "D, E, F"
+                },
+                {
+                    "id": "ab004",
+                    "type": "sort",
+                    "difficulty": 2,
+                    "question": "Ordena alfabéticamente",
+                    "items": [
+                        "mesa",
+                        "mapa",
+                        "miel",
+                        "mono"
+                    ],
+                    "answer": [
+                        "mapa",
+                        "mesa",
+                        "miel",
+                        "mono"
+                    ],
+                    "hint": "Todas empiezan por M, mira la segunda letra",
+                    "explanation": "ma-pa, me-sa, mi-el, mo-no (a<e<i<o)"
+                },
+                {
+                    "id": "ab005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El abecedario español tiene ___ letras",
+                    "answer": "27",
+                    "hint": "Las 26 del inglés + una especial",
+                    "explanation": "27 letras, incluyendo la Ñ"
+                },
+                {
+                    "id": "ab006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "En el diccionario, ¿qué palabra va primero?",
+                    "options": [
+                        "casa",
+                        "carro",
+                        "café",
+                        "cubo"
+                    ],
+                    "answer": "café",
+                    "hint": "Mira la segunda y tercera letra",
+                    "explanation": "ca-fé < ca-rro < ca-sa < cu-bo"
+                },
+                {
+                    "id": "ab007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "La Ñ va después de la N en el abecedario español",
+                    "answer": "true",
+                    "hint": "N, Ñ, O",
+                    "explanation": "En español: ...M, N, Ñ, O, P..."
+                },
+                {
+                    "id": "ab008",
+                    "type": "sort",
+                    "difficulty": 3,
+                    "question": "Ordena: casa, capa, cama, caza",
+                    "items": [
+                        "casa",
+                        "capa",
+                        "cama",
+                        "caza"
+                    ],
+                    "answer": [
+                        "cama",
+                        "capa",
+                        "casa",
+                        "caza"
+                    ],
+                    "hint": "ca-: mira la 3ª letra",
+                    "explanation": "cam-a, cap-a, cas-a, caz-a (m<p<s<z)"
+                },
+                {
+                    "id": "ab009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "La última letra del abecedario es la ___",
+                    "answer": "Z",
+                    "hint": "...X, Y, ?",
+                    "explanation": "El abecedario termina en Z"
+                },
+                {
+                    "id": "ab010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál de estas sería la primera palabra en un diccionario?",
+                    "options": [
+                        "burla",
+                        "arena",
+                        "bolsa",
+                        "azul"
+                    ],
+                    "answer": "arena",
+                    "hint": "Compara las primeras letras",
+                    "explanation": "A va antes que B: arena es la primera"
+                }
+            ]
+        },
+        {
+            "id": "sustantivos_genero_numero",
+            "name": "Sustantivos: género y número",
+            "icon": "👤",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "sn001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál de estas palabras es un sustantivo?",
+                    "options": [
+                        "Correr",
+                        "Bonito",
+                        "Perro",
+                        "Rápidamente"
+                    ],
+                    "answer": "Perro",
+                    "hint": "Un sustantivo nombra personas, animales o cosas",
+                    "explanation": "Perro es un sustantivo (animal)"
+                },
+                {
+                    "id": "sn002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El femenino de 'gato' es ___",
+                    "answer": "gata",
+                    "hint": "Cambia la -o por -a",
+                    "explanation": "Gato (masculino) → gata (femenino)"
+                },
+                {
+                    "id": "sn003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El plural de 'mesa' es ___",
+                    "answer": "mesas",
+                    "hint": "Añade -s",
+                    "explanation": "Mesa → mesas (se añade -s)"
+                },
+                {
+                    "id": "sn004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica en masculino o femenino",
+                    "pairs": [
+                        [
+                            "el sol",
+                            "masculino"
+                        ],
+                        [
+                            "la luna",
+                            "femenino"
+                        ],
+                        [
+                            "el árbol",
+                            "masculino"
+                        ],
+                        [
+                            "la flor",
+                            "femenino"
+                        ]
+                    ],
+                    "hint": "Mira el artículo: el/la",
+                    "explanation": "El = masculino, la = femenino"
+                },
+                {
+                    "id": "sn005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es el plural de 'pez'?",
+                    "options": [
+                        "Pezes",
+                        "Pezs",
+                        "Peces",
+                        "Pecez"
+                    ],
+                    "answer": "Peces",
+                    "hint": "La z cambia a c en plural",
+                    "explanation": "Pez → peces (z → ces)"
+                },
+                {
+                    "id": "sn006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El plural de 'autobús' es ___",
+                    "answer": "autobuses",
+                    "hint": "Palabras acabadas en -s añaden -es",
+                    "explanation": "Autobús → autobuses"
+                },
+                {
+                    "id": "sn007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "'Hermano' y 'hermana' son el mismo sustantivo con distinto género",
+                    "answer": "true",
+                    "hint": "Solo cambia la terminación",
+                    "explanation": "Hermano (masc.) / hermana (fem.)"
+                },
+                {
+                    "id": "sn008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál de estos sustantivos es común en cuanto al género?",
+                    "options": [
+                        "Niño",
+                        "Artista",
+                        "Gato",
+                        "Actor"
+                    ],
+                    "answer": "Artista",
+                    "hint": "¿Cuál puede ser masculino o femenino sin cambiar?",
+                    "explanation": "El/la artista: mismo sustantivo para ambos géneros"
+                },
+                {
+                    "id": "sn009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El femenino de 'actor' es ___",
+                    "answer": "actriz",
+                    "hint": "No es 'actora'",
+                    "explanation": "Actor → actriz (forma irregular)"
+                },
+                {
+                    "id": "sn010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál es el plural de 'lápiz'?",
+                    "options": [
+                        "Lápizes",
+                        "Lápices",
+                        "Lápizs",
+                        "Lápis"
+                    ],
+                    "answer": "Lápices",
+                    "hint": "z → ces en plural",
+                    "explanation": "Lápiz → lápices"
+                }
+            ]
+        },
+        {
+            "id": "oracion_basica",
+            "name": "La oración: mayúsculas y puntos",
+            "icon": "✏️",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "or001",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Las oraciones empiezan siempre con mayúscula",
+                    "answer": "true",
+                    "hint": "Primera letra de la oración",
+                    "explanation": "Toda oración comienza con mayúscula"
+                },
+                {
+                    "id": "or002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Con qué signo termina una oración normal?",
+                    "options": [
+                        "Coma",
+                        "Punto",
+                        "Dos puntos",
+                        "Punto y coma"
+                    ],
+                    "answer": "Punto",
+                    "hint": "Al final de una oración",
+                    "explanation": "Las oraciones terminan con punto (.)"
+                },
+                {
+                    "id": "or003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Los nombres propios se escriben con ___",
+                    "answer": "mayúscula",
+                    "hint": "María, Madrid, España...",
+                    "explanation": "Los nombres propios siempre con mayúscula"
+                },
+                {
+                    "id": "or004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál está escrita correctamente?",
+                    "options": [
+                        "el perro corre.",
+                        "El perro corre.",
+                        "el Perro corre.",
+                        "El perro Corre."
+                    ],
+                    "answer": "El perro corre.",
+                    "hint": "Mayúscula al inicio, minúsculas después",
+                    "explanation": "Solo mayúscula al inicio y punto al final"
+                },
+                {
+                    "id": "or005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Después de un punto, la siguiente palabra se escribe con ___",
+                    "answer": "mayúscula",
+                    "hint": "Nuevo inicio",
+                    "explanation": "Después de punto siempre va mayúscula"
+                },
+                {
+                    "id": "or006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Los días de la semana se escriben con mayúscula en español",
+                    "answer": "false",
+                    "hint": "¿Cómo escribes 'lunes'?",
+                    "explanation": "En español, los días se escriben en minúscula: lunes, martes..."
+                },
+                {
+                    "id": "or007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué falta en 'mi amiga se llama sara'?",
+                    "options": [
+                        "Un punto",
+                        "Una coma",
+                        "Mayúscula en Sara",
+                        "Todo está bien"
+                    ],
+                    "answer": "Mayúscula en Sara",
+                    "hint": "Sara es un nombre propio",
+                    "explanation": "Los nombres propios llevan mayúscula: Sara"
+                },
+                {
+                    "id": "or008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Corrige: 'ayer fui al colegio con marcos. jugamos al fútbol en madrid.'",
+                    "answer": "Ayer fui al colegio con Marcos. Jugamos al fútbol en Madrid.",
+                    "hint": "Mayúsculas: inicio de oración + nombres propios",
+                    "explanation": "Mayúscula en Ayer, Marcos, Jugamos, Madrid"
+                },
+                {
+                    "id": "or009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Escribe correctamente: (el río) ___ pasa por (zaragoza) ___",
+                    "answer": "El río, Zaragoza",
+                    "hint": "¿Es nombre propio?",
+                    "explanation": "Zaragoza es nombre propio → mayúscula"
+                },
+                {
+                    "id": "or010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántas faltas de mayúscula hay en: 'pedro y maría viven en barcelona'?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "3",
+                    "hint": "Nombres propios y ciudades",
+                    "explanation": "Pedro, María, Barcelona → 3 faltas"
+                }
+            ]
+        }
+    ]
+}

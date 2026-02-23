@@ -1,0 +1,631 @@
+{
+    "grade": "3_primaria",
+    "subject": "mates",
+    "trimester": 1,
+    "topics": [
+        {
+            "id": "numeros_9999",
+            "name": "Números hasta 9.999",
+            "icon": "🔢",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "n3001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El número 2.456 tiene ___ unidades de millar",
+                    "answer": "2",
+                    "hint": "La primera cifra",
+                    "explanation": "2.456 = 2UM + 4C + 5D + 6U"
+                },
+                {
+                    "id": "n3002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cómo se lee 3.708?",
+                    "options": [
+                        "Tres mil setecientos ocho",
+                        "Tres mil setenta y ocho",
+                        "Treinta y siete mil ocho",
+                        "Tres mil ochocientos siete"
+                    ],
+                    "answer": "Tres mil setecientos ocho",
+                    "hint": "3 millares, 7 centenas, 0 decenas, 8 unidades",
+                    "explanation": "3.708 = tres mil setecientos ocho"
+                },
+                {
+                    "id": "n3003",
+                    "type": "sort",
+                    "difficulty": 1,
+                    "question": "Ordena de menor a mayor",
+                    "items": [
+                        "5.100",
+                        "1.500",
+                        "5.010",
+                        "1.050"
+                    ],
+                    "answer": [
+                        "1.050",
+                        "1.500",
+                        "5.010",
+                        "5.100"
+                    ],
+                    "hint": "Compara primero los millares",
+                    "explanation": "1.050 < 1.500 < 5.010 < 5.100"
+                },
+                {
+                    "id": "n3004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Descompón 6.253: ___ + ___ + ___ + ___",
+                    "answer": "6.000 + 200 + 50 + 3",
+                    "hint": "Millares + centenas + decenas + unidades",
+                    "explanation": "6.253 = 6.000 + 200 + 50 + 3"
+                },
+                {
+                    "id": "n3005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué número es 4.000 + 300 + 90 + 1?",
+                    "options": [
+                        "4.319",
+                        "4.391",
+                        "4.931",
+                        "4.913"
+                    ],
+                    "answer": "4.391",
+                    "hint": "Suma cada valor posicional",
+                    "explanation": "4.000 + 300 + 90 + 1 = 4.391"
+                },
+                {
+                    "id": "n3006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "7.890 es mayor que 7.980",
+                    "answer": "false",
+                    "hint": "Compara centena por centena",
+                    "explanation": "7.890 < 7.980 (8C < 9C)"
+                },
+                {
+                    "id": "n3007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El número anterior a 5.000 es ___",
+                    "answer": "4.999",
+                    "hint": "Resta 1",
+                    "explanation": "5.000 - 1 = 4.999"
+                },
+                {
+                    "id": "n3008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántas centenas hay en 8.400?",
+                    "options": [
+                        "4",
+                        "8",
+                        "84",
+                        "840"
+                    ],
+                    "answer": "84",
+                    "hint": "8.400 ÷ 100 = ?",
+                    "explanation": "8.400 = 84 centenas (84 × 100)"
+                },
+                {
+                    "id": "n3009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Escribe en números romanos: 18 = ___",
+                    "answer": "XVIII",
+                    "hint": "10+5+3 = X+V+III",
+                    "explanation": "18 = X + V + III = XVIII"
+                },
+                {
+                    "id": "n3010",
+                    "type": "match",
+                    "difficulty": 3,
+                    "question": "Une cada número romano con su valor",
+                    "pairs": [
+                        [
+                            "XIV",
+                            "14"
+                        ],
+                        [
+                            "IX",
+                            "9"
+                        ],
+                        [
+                            "XVI",
+                            "16"
+                        ],
+                        [
+                            "XI",
+                            "11"
+                        ]
+                    ],
+                    "hint": "I antes de V o X resta, después suma",
+                    "explanation": "XIV=14, IX=9, XVI=16, XI=11"
+                }
+            ]
+        },
+        {
+            "id": "multiplicacion_tablas",
+            "name": "Multiplicación (todas las tablas)",
+            "icon": "✖️",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "mt001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "6 × 7 = ___",
+                    "answer": "42",
+                    "hint": "6×7 o 7×6",
+                    "explanation": "6 × 7 = 42"
+                },
+                {
+                    "id": "mt002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuánto es 8 × 4?",
+                    "options": [
+                        "28",
+                        "32",
+                        "36",
+                        "24"
+                    ],
+                    "answer": "32",
+                    "hint": "8×4",
+                    "explanation": "8 × 4 = 32"
+                },
+                {
+                    "id": "mt003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "9 × 3 = ___",
+                    "answer": "27",
+                    "hint": "9×3 = 9×(4-1) = 36-9",
+                    "explanation": "9 × 3 = 27"
+                },
+                {
+                    "id": "mt004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "7 × 8 = 54",
+                    "answer": "false",
+                    "hint": "Calcula 7×8",
+                    "explanation": "7 × 8 = 56, no 54"
+                },
+                {
+                    "id": "mt005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "___ × 6 = 48",
+                    "answer": "8",
+                    "hint": "¿Qué número por 6 da 48?",
+                    "explanation": "8 × 6 = 48"
+                },
+                {
+                    "id": "mt006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuánto es 9 × 9?",
+                    "options": [
+                        "72",
+                        "81",
+                        "89",
+                        "79"
+                    ],
+                    "answer": "81",
+                    "hint": "El mayor producto de una tabla",
+                    "explanation": "9 × 9 = 81"
+                },
+                {
+                    "id": "mt007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Un huerto tiene 7 filas con 8 árboles en cada fila. ¿Cuántos árboles hay?",
+                    "answer": "56",
+                    "hint": "7 × 8",
+                    "explanation": "7 × 8 = 56 árboles"
+                },
+                {
+                    "id": "mt008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "23 × 4 = ___",
+                    "answer": "92",
+                    "hint": "(20×4) + (3×4)",
+                    "explanation": "20×4=80, 3×4=12, 80+12=92"
+                },
+                {
+                    "id": "mt009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuánto es 45 × 3?",
+                    "options": [
+                        "125",
+                        "135",
+                        "145",
+                        "115"
+                    ],
+                    "answer": "135",
+                    "hint": "(40×3) + (5×3)",
+                    "explanation": "40×3=120, 5×3=15, 120+15=135"
+                },
+                {
+                    "id": "mt010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Cada clase tiene 28 alumnos. Si hay 6 clases, ¿cuántos alumnos hay en el colegio?",
+                    "answer": "168",
+                    "hint": "28 × 6",
+                    "explanation": "28 × 6 = 168 alumnos"
+                }
+            ]
+        },
+        {
+            "id": "division",
+            "name": "División exacta e inexacta",
+            "icon": "➗",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "dv001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "12 ÷ 3 = ___",
+                    "answer": "4",
+                    "hint": "¿3 por cuánto es 12?",
+                    "explanation": "12 ÷ 3 = 4 porque 3 × 4 = 12"
+                },
+                {
+                    "id": "dv002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuánto es 20 ÷ 5?",
+                    "options": [
+                        "3",
+                        "4",
+                        "5",
+                        "6"
+                    ],
+                    "answer": "4",
+                    "hint": "5 × ? = 20",
+                    "explanation": "20 ÷ 5 = 4"
+                },
+                {
+                    "id": "dv003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "36 ÷ 6 = ___",
+                    "answer": "6",
+                    "hint": "6 × 6 = ?",
+                    "explanation": "36 ÷ 6 = 6"
+                },
+                {
+                    "id": "dv004",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Tienes 45 caramelos y 9 amigos. ¿Cuántos le tocan a cada uno?",
+                    "answer": "5",
+                    "hint": "45 ÷ 9",
+                    "explanation": "45 ÷ 9 = 5 caramelos cada uno"
+                },
+                {
+                    "id": "dv005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuánto es 56 ÷ 7?",
+                    "answer": "8",
+                    "options": [
+                        "6",
+                        "7",
+                        "8",
+                        "9"
+                    ],
+                    "hint": "7 × ? = 56",
+                    "explanation": "56 ÷ 7 = 8"
+                },
+                {
+                    "id": "dv006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "En la división 17 ÷ 5, el resto es 2",
+                    "answer": "true",
+                    "hint": "5×3=15, 17-15=?",
+                    "explanation": "17 ÷ 5 = 3 resto 2 (5×3=15, 17-15=2)"
+                },
+                {
+                    "id": "dv007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "72 ÷ 8 = ___",
+                    "answer": "9",
+                    "hint": "8 × 9 = ?",
+                    "explanation": "72 ÷ 8 = 9"
+                },
+                {
+                    "id": "dv008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Un pastor tiene 85 ovejas y las quiere meter en corrales de 10. ¿Cuántos corrales llena? ¿Cuántas ovejas sobran?",
+                    "answer": "8 corrales, sobran 5",
+                    "hint": "85 ÷ 10",
+                    "explanation": "85 ÷ 10 = 8 resto 5"
+                },
+                {
+                    "id": "dv009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "126 ÷ 6 = ___",
+                    "answer": "21",
+                    "hint": "Divide: 12÷6=2, baja el 6, 6÷6=1",
+                    "explanation": "126 ÷ 6 = 21"
+                },
+                {
+                    "id": "dv010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál es el cociente y resto de 100 ÷ 7?",
+                    "options": [
+                        "14 resto 2",
+                        "13 resto 1",
+                        "14 resto 0",
+                        "15 resto 5"
+                    ],
+                    "answer": "14 resto 2",
+                    "hint": "7×14=98, 100-98=2",
+                    "explanation": "100 ÷ 7 = 14 resto 2 (7×14=98)"
+                }
+            ]
+        },
+        {
+            "id": "romanos",
+            "name": "Números romanos (I-XX)",
+            "icon": "🏛️",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "ro001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada número romano",
+                    "pairs": [
+                        [
+                            "I",
+                            "1"
+                        ],
+                        [
+                            "V",
+                            "5"
+                        ],
+                        [
+                            "X",
+                            "10"
+                        ],
+                        [
+                            "XX",
+                            "20"
+                        ]
+                    ],
+                    "hint": "Los básicos",
+                    "explanation": "I=1, V=5, X=10, XX=20"
+                },
+                {
+                    "id": "ro002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "VII = ___",
+                    "answer": "7",
+                    "hint": "V + II = 5 + 2",
+                    "explanation": "VII = 5 + 2 = 7"
+                },
+                {
+                    "id": "ro003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cómo se escribe 3 en romanos?",
+                    "options": [
+                        "II",
+                        "III",
+                        "IV",
+                        "VI"
+                    ],
+                    "answer": "III",
+                    "hint": "3 unidades seguidas",
+                    "explanation": "3 = III"
+                },
+                {
+                    "id": "ro004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "IV = ___",
+                    "answer": "4",
+                    "hint": "I antes de V resta",
+                    "explanation": "IV = 5 - 1 = 4"
+                },
+                {
+                    "id": "ro005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cómo se escribe 9 en romanos?",
+                    "options": [
+                        "VIIII",
+                        "VIV",
+                        "IX",
+                        "IVV"
+                    ],
+                    "answer": "IX",
+                    "hint": "I antes de X resta",
+                    "explanation": "IX = 10 - 1 = 9"
+                },
+                {
+                    "id": "ro006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "XIII = ___",
+                    "answer": "13",
+                    "hint": "X + III = 10 + 3",
+                    "explanation": "XIII = 10 + 3 = 13"
+                },
+                {
+                    "id": "ro007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "XV = 15",
+                    "answer": "true",
+                    "hint": "X + V",
+                    "explanation": "XV = 10 + 5 = 15"
+                },
+                {
+                    "id": "ro008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Escribe 19 en romanos: ___",
+                    "answer": "XIX",
+                    "hint": "10 + 9 = X + IX",
+                    "explanation": "19 = X + IX = XIX"
+                },
+                {
+                    "id": "ro009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuánto es XVII?",
+                    "options": [
+                        "15",
+                        "16",
+                        "17",
+                        "18"
+                    ],
+                    "answer": "17",
+                    "hint": "X + V + II",
+                    "explanation": "XVII = 10 + 5 + 2 = 17"
+                },
+                {
+                    "id": "ro010",
+                    "type": "sort",
+                    "difficulty": 3,
+                    "question": "Ordena de menor a mayor",
+                    "items": [
+                        "XII",
+                        "IX",
+                        "XV",
+                        "IV"
+                    ],
+                    "answer": [
+                        "IV",
+                        "IX",
+                        "XII",
+                        "XV"
+                    ],
+                    "hint": "Convierte a números normales primero",
+                    "explanation": "IV=4, IX=9, XII=12, XV=15"
+                }
+            ]
+        },
+        {
+            "id": "problemas_2ops",
+            "name": "Problemas de 2 operaciones",
+            "icon": "🧠",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "p2001",
+                    "type": "open_problem",
+                    "difficulty": 1,
+                    "question": "Ana compra 3 cuadernos de 2€ cada uno y un estuche de 5€. ¿Cuánto paga en total?",
+                    "answer": "11",
+                    "hint": "Primero el precio de los cuadernos, luego suma el estuche",
+                    "explanation": "3×2=6€, 6+5=11€"
+                },
+                {
+                    "id": "p2002",
+                    "type": "open_problem",
+                    "difficulty": 1,
+                    "question": "Tienes 50 cromos. Regalas 12 a tu amigo y luego te dan 8 nuevos. ¿Cuántos tienes?",
+                    "answer": "46",
+                    "hint": "Resta los regalados, suma los nuevos",
+                    "explanation": "50-12=38, 38+8=46"
+                },
+                {
+                    "id": "p2003",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Pedro tiene 120 puntos. Gana 3 partidas de 25 puntos. ¿Cuántos puntos tiene?",
+                    "options": [
+                        "175",
+                        "195",
+                        "145",
+                        "200"
+                    ],
+                    "answer": "195",
+                    "hint": "3×25 + 120",
+                    "explanation": "3×25=75, 120+75=195 puntos"
+                },
+                {
+                    "id": "p2004",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "En una caja caben 8 botellas. Si compras 5 cajas, ¿cuántas botellas son? Si se rompen 7, ¿cuántas quedan?",
+                    "answer": "33",
+                    "hint": "5×8 y luego resta 7",
+                    "explanation": "5×8=40, 40-7=33 botellas"
+                },
+                {
+                    "id": "p2005",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Un coche viaja 85 km el lunes y 67 km el martes. Si la ruta total es de 200 km, ¿cuánto le falta?",
+                    "answer": "48",
+                    "hint": "Suma lo recorrido y resta del total",
+                    "explanation": "85+67=152, 200-152=48 km"
+                },
+                {
+                    "id": "p2006",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Hay 6 equipos de 5 jugadores. Si llegan 8 jugadores más, ¿cuántos hay en total?",
+                    "answer": "38",
+                    "hint": "6×5 + 8",
+                    "explanation": "6×5=30, 30+8=38 jugadores"
+                },
+                {
+                    "id": "p2007",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "En una granja recogen 250 huevos al día. Después de 3 días, venden 420 huevos. ¿Cuántos huevos les quedan?",
+                    "answer": "330",
+                    "hint": "250×3 - 420",
+                    "explanation": "250×3=750, 750-420=330 huevos"
+                },
+                {
+                    "id": "p2008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "María tiene 8€. Su padre le da el triple. Compra un libro de 15€. ¿Cuánto le queda?",
+                    "answer": "17",
+                    "hint": "Triple de 8, luego suma al original, luego resta",
+                    "explanation": "8×3=24, 8+24=32, 32-15=17€"
+                },
+                {
+                    "id": "p2009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Un autobús sale con 45 pasajeros. En la 1ª parada bajan 12 y suben 8. En la 2ª bajan 15 y suben 20. ¿Cuántos hay?",
+                    "answer": "46",
+                    "hint": "Paso a paso: +/- en cada parada",
+                    "explanation": "45-12+8=41, 41-15+20=46 pasajeros"
+                },
+                {
+                    "id": "p2010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Paula compra 4 packs de yogures. Cada pack tiene 6 yogures y cuesta 3€. ¿Cuántos yogures compra? ¿Cuánto paga?",
+                    "answer": "24 yogures, 12€",
+                    "hint": "4×6 yogures, 4×3 euros",
+                    "explanation": "4×6=24 yogures, 4×3=12€"
+                }
+            ]
+        }
+    ]
+}

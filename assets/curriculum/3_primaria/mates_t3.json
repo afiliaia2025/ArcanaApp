@@ -1,0 +1,643 @@
+{
+    "grade": "3_primaria",
+    "subject": "mates",
+    "trimester": 3,
+    "topics": [
+        {
+            "id": "angulos",
+            "name": "Ángulos (recto, agudo, obtuso)",
+            "icon": "📐",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "an001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Un ángulo recto mide...",
+                    "options": [
+                        "45°",
+                        "90°",
+                        "180°",
+                        "360°"
+                    ],
+                    "answer": "90°",
+                    "hint": "Es la esquina de un cuadrado",
+                    "explanation": "Ángulo recto = 90°"
+                },
+                {
+                    "id": "an002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Un ángulo agudo es menor que 90°",
+                    "answer": "true",
+                    "hint": "Agudo = puntiagudo = pequeño",
+                    "explanation": "Los ángulos agudos miden menos de 90°"
+                },
+                {
+                    "id": "an003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Un ángulo obtuso es mayor que ___ grados y menor que 180°",
+                    "answer": "90",
+                    "hint": "Entre recto y llano",
+                    "explanation": "Obtuso: entre 90° y 180°"
+                },
+                {
+                    "id": "an004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica estos ángulos",
+                    "pairs": [
+                        [
+                            "30°",
+                            "Agudo"
+                        ],
+                        [
+                            "90°",
+                            "Recto"
+                        ],
+                        [
+                            "120°",
+                            "Obtuso"
+                        ],
+                        [
+                            "180°",
+                            "Llano"
+                        ]
+                    ],
+                    "hint": "<90=agudo, =90=recto, >90=obtuso, =180=llano",
+                    "explanation": "Clasificación de ángulos por su medida"
+                },
+                {
+                    "id": "an005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué tipo de ángulo forman las agujas del reloj a las 3 en punto?",
+                    "options": [
+                        "Agudo",
+                        "Recto",
+                        "Obtuso",
+                        "Llano"
+                    ],
+                    "answer": "Recto",
+                    "hint": "Mira la posición de las agujas",
+                    "explanation": "A las 3:00 las agujas forman 90° = ángulo recto"
+                },
+                {
+                    "id": "an006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Las esquinas de un rectángulo son ángulos rectos",
+                    "answer": "true",
+                    "hint": "¿Cuánto miden?",
+                    "explanation": "Todas las esquinas de un rectángulo miden 90°"
+                },
+                {
+                    "id": "an007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué tipo de ángulo forman las agujas del reloj a las 2 en punto?",
+                    "options": [
+                        "Agudo",
+                        "Recto",
+                        "Obtuso",
+                        "Llano"
+                    ],
+                    "answer": "Agudo",
+                    "hint": "Es menos de 90°",
+                    "explanation": "A las 2:00 forman 60°, que es agudo"
+                },
+                {
+                    "id": "an008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Un ángulo llano mide ___ grados",
+                    "answer": "180",
+                    "hint": "Es una línea recta",
+                    "explanation": "Ángulo llano = 180° = media vuelta"
+                },
+                {
+                    "id": "an009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "Un giro completo (vuelta entera) son...",
+                    "options": [
+                        "90°",
+                        "180°",
+                        "270°",
+                        "360°"
+                    ],
+                    "answer": "360°",
+                    "hint": "Vuelta completa",
+                    "explanation": "Una vuelta completa = 360°"
+                },
+                {
+                    "id": "an010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Si un ángulo mide 45°, ¿de qué tipo es? ¿Cuánto le falta para ser recto?",
+                    "answer": "Agudo, le faltan 45°",
+                    "hint": "90 - 45",
+                    "explanation": "45° es agudo (< 90°), le faltan 90-45=45° para ser recto"
+                }
+            ]
+        },
+        {
+            "id": "poligonos",
+            "name": "Polígonos y circunferencia",
+            "icon": "🔷",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "po001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Un polígono de 5 lados se llama ___",
+                    "answer": "pentágono",
+                    "hint": "Penta = cinco",
+                    "explanation": "Pentágono = 5 lados"
+                },
+                {
+                    "id": "po002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuántos lados tiene un hexágono?",
+                    "options": [
+                        "4",
+                        "5",
+                        "6",
+                        "8"
+                    ],
+                    "answer": "6",
+                    "hint": "Hexa = seis",
+                    "explanation": "Hexágono = 6 lados"
+                },
+                {
+                    "id": "po003",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada polígono con sus lados",
+                    "pairs": [
+                        [
+                            "Triángulo",
+                            "3"
+                        ],
+                        [
+                            "Cuadrilátero",
+                            "4"
+                        ],
+                        [
+                            "Pentágono",
+                            "5"
+                        ],
+                        [
+                            "Hexágono",
+                            "6"
+                        ]
+                    ],
+                    "hint": "Los prefijos ayudan",
+                    "explanation": "tri=3, cuadri=4, penta=5, hexa=6"
+                },
+                {
+                    "id": "po004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Un rombo es un cuadrilátero",
+                    "answer": "true",
+                    "hint": "¿Cuántos lados tiene?",
+                    "explanation": "El rombo tiene 4 lados, así que es cuadrilátero"
+                },
+                {
+                    "id": "po005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "El radio de una circunferencia va del centro a...",
+                    "options": [
+                        "El centro",
+                        "Cualquier punto de la circunferencia",
+                        "El diámetro",
+                        "El perímetro"
+                    ],
+                    "answer": "Cualquier punto de la circunferencia",
+                    "hint": "Del centro hacia fuera",
+                    "explanation": "Radio = distancia del centro a la circunferencia"
+                },
+                {
+                    "id": "po006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El diámetro de un círculo es el ___ del radio",
+                    "answer": "doble",
+                    "hint": "Diámetro = radio + radio",
+                    "explanation": "Diámetro = 2 × radio"
+                },
+                {
+                    "id": "po007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Un triángulo equilátero tiene todos sus lados iguales",
+                    "answer": "true",
+                    "hint": "Equi = igual, látero = lado",
+                    "explanation": "Equilátero = 3 lados iguales"
+                },
+                {
+                    "id": "po008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "Si el radio de un círculo es 5 cm, ¿cuánto mide el diámetro?",
+                    "options": [
+                        "5 cm",
+                        "8 cm",
+                        "10 cm",
+                        "15 cm"
+                    ],
+                    "answer": "10 cm",
+                    "hint": "Diámetro = 2 × radio",
+                    "explanation": "2 × 5 = 10 cm"
+                },
+                {
+                    "id": "po009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Un triángulo isósceles tiene ___ lados iguales",
+                    "answer": "2",
+                    "hint": "Iso = igual, pero no todos",
+                    "explanation": "Isósceles = 2 lados iguales y 1 diferente"
+                },
+                {
+                    "id": "po010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Un cuadrado es un tipo especial de rombo",
+                    "answer": "true",
+                    "hint": "¿Tiene 4 lados iguales?",
+                    "explanation": "Sí: rombo con ángulos rectos = cuadrado"
+                }
+            ]
+        },
+        {
+            "id": "perimetro",
+            "name": "Perímetro",
+            "icon": "📦",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "pe001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El perímetro es la ___ de todos los lados de una figura",
+                    "answer": "suma",
+                    "hint": "Es la medida del contorno",
+                    "explanation": "Perímetro = suma de todos los lados"
+                },
+                {
+                    "id": "pe002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál es el perímetro de un cuadrado de lado 5 cm?",
+                    "options": [
+                        "10 cm",
+                        "15 cm",
+                        "20 cm",
+                        "25 cm"
+                    ],
+                    "answer": "20 cm",
+                    "hint": "4 lados iguales: 4 × 5",
+                    "explanation": "P = 4 × 5 = 20 cm"
+                },
+                {
+                    "id": "pe003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Un triángulo equilátero de lado 6 cm tiene perímetro ___ cm",
+                    "answer": "18",
+                    "hint": "3 lados × 6",
+                    "explanation": "P = 3 × 6 = 18 cm"
+                },
+                {
+                    "id": "pe004",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Un rectángulo tiene lados de 8 cm y 3 cm. ¿Cuál es su perímetro?",
+                    "answer": "22",
+                    "hint": "2 lados de 8 y 2 lados de 3",
+                    "explanation": "P = 8+3+8+3 = 22 cm  o  P = 2×(8+3) = 22 cm"
+                },
+                {
+                    "id": "pe005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es el perímetro de un pentágono regular de lado 4 cm?",
+                    "options": [
+                        "16 cm",
+                        "20 cm",
+                        "24 cm",
+                        "28 cm"
+                    ],
+                    "answer": "20 cm",
+                    "hint": "5 lados × 4 cm",
+                    "explanation": "P = 5 × 4 = 20 cm"
+                },
+                {
+                    "id": "pe006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Un hexágono regular de lado 3 cm tiene perímetro ___ cm",
+                    "answer": "18",
+                    "hint": "6 × 3",
+                    "explanation": "P = 6 × 3 = 18 cm"
+                },
+                {
+                    "id": "pe007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Un cuadrado de lado 7 cm y un rectángulo de 8×6 cm tienen el mismo perímetro",
+                    "answer": "true",
+                    "hint": "Calcula ambos",
+                    "explanation": "Cuadrado: 4×7=28, Rectángulo: 2×(8+6)=28"
+                },
+                {
+                    "id": "pe008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Un jardín rectangular mide 12 m de largo y 8 m de ancho. Si quieres poner una valla alrededor, ¿cuántos metros de valla necesitas?",
+                    "answer": "40",
+                    "hint": "Perímetro del rectángulo",
+                    "explanation": "P = 2×(12+8) = 2×20 = 40 m de valla"
+                },
+                {
+                    "id": "pe009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Un triángulo tiene lados de 5 cm, 7 cm y 9 cm. ¿Cuál es su perímetro?",
+                    "answer": "21",
+                    "hint": "Suma los 3 lados",
+                    "explanation": "P = 5 + 7 + 9 = 21 cm"
+                },
+                {
+                    "id": "pe010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Si el perímetro de un cuadrado es 36 cm, cada lado mide ___ cm",
+                    "answer": "9",
+                    "hint": "36 ÷ 4",
+                    "explanation": "Lado = P ÷ 4 = 36 ÷ 4 = 9 cm"
+                }
+            ]
+        },
+        {
+            "id": "estadistica",
+            "name": "Estadística: tablas y gráficos",
+            "icon": "📊",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "es001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "En una tabla de datos, ¿qué tipo de gráfico usarías para mostrar las mascotas favoritas de la clase?",
+                    "options": [
+                        "Gráfico de barras",
+                        "Gráfico de líneas",
+                        "Mapa",
+                        "Fotografía"
+                    ],
+                    "answer": "Gráfico de barras",
+                    "hint": "Barras para comparar cantidades",
+                    "explanation": "Gráficos de barras: ideales para comparar datos"
+                },
+                {
+                    "id": "es002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "En una encuesta, 12 niños prefieren fútbol, 8 baloncesto y 5 tenis. Han votado ___ niños en total",
+                    "answer": "25",
+                    "hint": "Suma todos",
+                    "explanation": "12 + 8 + 5 = 25"
+                },
+                {
+                    "id": "es003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "En un pictograma, cada dibujo puede representar más de 1 unidad",
+                    "answer": "true",
+                    "hint": "Un dibujito puede valer 2, 5, 10...",
+                    "explanation": "Los pictogramas usan símbolos que pueden valer múltiples unidades"
+                },
+                {
+                    "id": "es004",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Notas de mates de 10 alumnos: 8, 6, 9, 7, 8, 10, 5, 8, 7, 9. ¿Cuál es la nota que más se repite?",
+                    "answer": "8",
+                    "hint": "Cuenta cuántas veces aparece cada nota",
+                    "explanation": "El 8 aparece 3 veces (la moda)"
+                },
+                {
+                    "id": "es005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Temperatura de 5 días: 18°, 20°, 22°, 19°, 21°. ¿Cuál fue el día más caluroso?",
+                    "options": [
+                        "Día 1",
+                        "Día 2",
+                        "Día 3",
+                        "Día 4"
+                    ],
+                    "answer": "Día 3",
+                    "hint": "¿Cuál es la temperatura más alta?",
+                    "explanation": "Día 3 con 22° fue el más caluroso"
+                },
+                {
+                    "id": "es006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Libros leídos por trimestre: T1=5, T2=8, T3=7. La media es ___ libros por trimestre",
+                    "answer": "6,67",
+                    "hint": "(5+8+7) ÷ 3",
+                    "explanation": "20 ÷ 3 ≈ 6,67 libros de media"
+                },
+                {
+                    "id": "es007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "En una clase de 30, votan deporte favorito: Fútbol=12, Natación=8, Atletismo=6, Otros=4. ¿Qué porcentaje prefiere fútbol? (pista: usa fracciones)",
+                    "answer": "12/30 o 2/5",
+                    "hint": "12 de 30",
+                    "explanation": "12/30 = 2/5 (el 40%)"
+                },
+                {
+                    "id": "es008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "Las ventas de una tienda son: Lunes=45, Martes=38, Miércoles=52, Jueves=41, Viernes=64. ¿Cuántas ventas más hubo el viernes que el martes?",
+                    "options": [
+                        "19",
+                        "22",
+                        "26",
+                        "28"
+                    ],
+                    "answer": "26",
+                    "hint": "64 - 38",
+                    "explanation": "64 - 38 = 26 ventas más"
+                },
+                {
+                    "id": "es009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "La media de altura de 4 amigos es 130 cm. Si tres miden 125, 135 y 128 cm, ¿cuánto mide el cuarto?",
+                    "answer": "132",
+                    "hint": "Media × 4 = total, resta las otras tres",
+                    "explanation": "130×4=520, 520-125-135-128=132 cm"
+                },
+                {
+                    "id": "es010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Si lanzo un dado 60 veces, esperaría que cada número salga aproximadamente ___ veces",
+                    "answer": "10",
+                    "hint": "60 ÷ 6 caras",
+                    "explanation": "60 ÷ 6 = 10 veces por número"
+                }
+            ]
+        },
+        {
+            "id": "probabilidad",
+            "name": "Probabilidad intuitiva",
+            "icon": "🎲",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "pb001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Si metes en una bolsa 5 bolas rojas y ninguna azul, sacar una bola roja es...",
+                    "options": [
+                        "Imposible",
+                        "Posible",
+                        "Seguro",
+                        "Poco probable"
+                    ],
+                    "answer": "Seguro",
+                    "hint": "Solo hay rojas",
+                    "explanation": "Si todas son rojas, es seguro sacar roja"
+                },
+                {
+                    "id": "pb002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Es posible sacar un 7 en un dado normal de 6 caras",
+                    "answer": "false",
+                    "hint": "¿Qué números tiene un dado?",
+                    "explanation": "Un dado tiene del 1 al 6, el 7 es imposible"
+                },
+                {
+                    "id": "pb003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Si lanzas una moneda, ¿qué es más probable?",
+                    "options": [
+                        "Cara",
+                        "Cruz",
+                        "Las dos son igual de probables",
+                        "Que se quede de canto"
+                    ],
+                    "answer": "Las dos son igual de probables",
+                    "hint": "¿Cuántas opciones hay?",
+                    "explanation": "Cara y cruz tienen la misma probabilidad: 1/2"
+                },
+                {
+                    "id": "pb004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica cada evento",
+                    "pairs": [
+                        [
+                            "Sacar un 3 de un dado",
+                            "Posible"
+                        ],
+                        [
+                            "Que llueva piedras de oro",
+                            "Imposible"
+                        ],
+                        [
+                            "Que el sol salga mañana",
+                            "Seguro"
+                        ],
+                        [
+                            "Sacar caramelo rojo de bolsa de rojos y azules",
+                            "Posible"
+                        ]
+                    ],
+                    "hint": "¿Puede pasar? ¿Seguro que pasa?",
+                    "explanation": "Seguro=siempre, Posible=a veces, Imposible=nunca"
+                },
+                {
+                    "id": "pb005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "En una bolsa hay 3 bolas rojas y 7 azules. ¿Qué color es más probable sacar?",
+                    "options": [
+                        "Roja",
+                        "Azul",
+                        "Las dos igual",
+                        "Ninguna"
+                    ],
+                    "answer": "Azul",
+                    "hint": "¿Hay más rojas o azules?",
+                    "explanation": "7 azules > 3 rojas, es más probable sacar azul"
+                },
+                {
+                    "id": "pb006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Si lanzo un dado, es más probable sacar un número par que impar",
+                    "answer": "false",
+                    "hint": "Pares: 2,4,6 Impares: 1,3,5",
+                    "explanation": "3 pares y 3 impares = misma probabilidad"
+                },
+                {
+                    "id": "pb007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "En una ruleta de 4 colores iguales, la probabilidad de cada color es ___ de 4",
+                    "answer": "1",
+                    "hint": "4 opciones iguales",
+                    "explanation": "Cada color tiene 1 de 4 posibilidades"
+                },
+                {
+                    "id": "pb008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "En una bolsa hay 2 bolas rojas, 3 verdes y 5 azules. ¿Cuántas bolas hay? ¿Qué fracción de posibilidades hay de sacar verde?",
+                    "answer": "10 bolas, 3/10",
+                    "hint": "Total = todas, probabilidad = verdes/total",
+                    "explanation": "2+3+5=10, probabilidad verde = 3/10"
+                },
+                {
+                    "id": "pb009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "Si añado 4 bolas rojas más a una bolsa que tenía 3 rojas y 3 azules, ¿qué color es ahora más probable?",
+                    "options": [
+                        "Roja",
+                        "Azul",
+                        "Igual probabilidad"
+                    ],
+                    "answer": "Roja",
+                    "hint": "Cuenta cuántas hay de cada",
+                    "explanation": "7 rojas vs 3 azules = roja más probable"
+                },
+                {
+                    "id": "pb010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Si lanzo una moneda 10 veces y salen 10 caras, la siguiente lanzada tiene más probabilidad de ser cruz",
+                    "answer": "false",
+                    "hint": "La moneda no tiene memoria",
+                    "explanation": "Cada lanzamiento es independiente: siempre 50/50"
+                }
+            ]
+        }
+    ]
+}

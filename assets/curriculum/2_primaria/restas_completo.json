@@ -1,0 +1,890 @@
+{
+    "chapter": "restas_completo",
+    "kingdom": "ignis",
+    "trimester": 2,
+    "topic": "Restas: sin llevada, con llevada, 3 cifras, prueba y relación con la suma",
+    "grade": "2_primaria",
+    "sections": [
+        {
+            "id": "sec_sin_llevada",
+            "title": "Restas sin llevada (repaso rápido)",
+            "exercises": [
+                {
+                    "id": "r01",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 89 − 34?",
+                    "options": [
+                        "55",
+                        "45",
+                        "65",
+                        "53"
+                    ],
+                    "answer": "55",
+                    "difficulty": 1,
+                    "hint": "Resta primero las unidades y luego las decenas.",
+                    "explanation": "89 − 34 = 55."
+                },
+                {
+                    "id": "r02",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 97 − 52?",
+                    "options": [
+                        "35",
+                        "55",
+                        "45",
+                        "43"
+                    ],
+                    "answer": "45",
+                    "difficulty": 1,
+                    "hint": "Unidades: 7 − 2. Decenas: 9 − 5.",
+                    "explanation": "97 − 52 = 45."
+                },
+                {
+                    "id": "r03",
+                    "type": "fill_blank",
+                    "question": "Completa: 78 − 26 = ___",
+                    "answer": "52",
+                    "difficulty": 1,
+                    "hint": "8 − 6 = 2 unidades. 7 − 2 = 5 decenas.",
+                    "explanation": "78 − 26 = 52."
+                },
+                {
+                    "id": "r03b",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 68 − 25?",
+                    "options": [
+                        "43",
+                        "33",
+                        "53",
+                        "42"
+                    ],
+                    "answer": "43",
+                    "difficulty": 1,
+                    "hint": "8 − 5 = 3 unidades. 6 − 2 = 4 decenas.",
+                    "explanation": "68 − 25 = 43."
+                },
+                {
+                    "id": "r03c",
+                    "type": "fill_blank",
+                    "question": "Completa: 59 − 37 = ___",
+                    "answer": "22",
+                    "difficulty": 1,
+                    "hint": "9 − 7 = 2 unidades. 5 − 3 = 2 decenas.",
+                    "explanation": "59 − 37 = 22."
+                },
+                {
+                    "id": "r03d",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 86 − 41?",
+                    "options": [
+                        "45",
+                        "55",
+                        "35",
+                        "44"
+                    ],
+                    "answer": "45",
+                    "difficulty": 1,
+                    "hint": "6 − 1 = 5 unidades. 8 − 4 = 4 decenas.",
+                    "explanation": "86 − 41 = 45."
+                },
+                {
+                    "id": "r03e",
+                    "type": "fill_blank",
+                    "question": "Completa: 99 − 43 = ___",
+                    "answer": "56",
+                    "difficulty": 1,
+                    "hint": "9 − 3 = 6 unidades. 9 − 4 = 5 decenas.",
+                    "explanation": "99 − 43 = 56."
+                },
+                {
+                    "id": "r03f",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 75 − 32?",
+                    "options": [
+                        "43",
+                        "53",
+                        "33",
+                        "47"
+                    ],
+                    "answer": "43",
+                    "difficulty": 1,
+                    "hint": "5 − 2 = 3 unidades. 7 − 3 = 4 decenas.",
+                    "explanation": "75 − 32 = 43."
+                },
+                {
+                    "id": "r03g",
+                    "type": "fill_blank",
+                    "question": "Completa: 48 − 15 = ___",
+                    "answer": "33",
+                    "difficulty": 1,
+                    "hint": "8 − 5 = 3 unidades. 4 − 1 = 3 decenas.",
+                    "explanation": "48 − 15 = 33."
+                },
+                {
+                    "id": "r03h",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 67 − 24?",
+                    "options": [
+                        "43",
+                        "33",
+                        "53",
+                        "41"
+                    ],
+                    "answer": "43",
+                    "difficulty": 1,
+                    "hint": "7 − 4 = 3 unidades. 6 − 2 = 4 decenas.",
+                    "explanation": "67 − 24 = 43."
+                }
+            ]
+        },
+        {
+            "id": "sec_con_llevada_2cifras",
+            "title": "Restas con llevada (2 cifras)",
+            "intro": "Cuando la cifra de arriba es MENOR que la de abajo, necesitamos pedir prestado a la decena de al lado. Eso es 'restar con llevada'.",
+            "exercises": [
+                {
+                    "id": "r04",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 52 − 37?",
+                    "options": [
+                        "25",
+                        "15",
+                        "19",
+                        "85"
+                    ],
+                    "answer": "15",
+                    "difficulty": 2,
+                    "hint": "2 es menor que 7, pedimos prestado.",
+                    "explanation": "52 − 37 = 15."
+                },
+                {
+                    "id": "r05",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 73 − 48?",
+                    "options": [
+                        "35",
+                        "25",
+                        "15",
+                        "31"
+                    ],
+                    "answer": "25",
+                    "difficulty": 2,
+                    "hint": "3 < 8, pedimos prestado: 13 − 8 = 5.",
+                    "explanation": "73 − 48 = 25."
+                },
+                {
+                    "id": "r06",
+                    "type": "fill_blank",
+                    "question": "Completa: 61 − 29 = ___",
+                    "answer": "32",
+                    "difficulty": 2,
+                    "hint": "1 < 9. Pedimos prestado.",
+                    "explanation": "61 − 29 = 32."
+                },
+                {
+                    "id": "r07",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 90 − 56?",
+                    "options": [
+                        "44",
+                        "34",
+                        "36",
+                        "46"
+                    ],
+                    "answer": "34",
+                    "difficulty": 2,
+                    "hint": "0 < 6, pedimos prestado.",
+                    "explanation": "90 − 56 = 34."
+                },
+                {
+                    "id": "r08",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 85 − 47?",
+                    "options": [
+                        "38",
+                        "42",
+                        "48",
+                        "32"
+                    ],
+                    "answer": "38",
+                    "difficulty": 2,
+                    "hint": "5 < 7, pedimos prestado.",
+                    "explanation": "85 − 47 = 38."
+                },
+                {
+                    "id": "r12b",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 43 − 27?",
+                    "options": [
+                        "16",
+                        "26",
+                        "14",
+                        "24"
+                    ],
+                    "answer": "16",
+                    "difficulty": 2,
+                    "hint": "3 < 7, pedimos prestado: 13 − 7 = 6.",
+                    "explanation": "43 − 27 = 16."
+                },
+                {
+                    "id": "r12c",
+                    "type": "fill_blank",
+                    "question": "Completa: 81 − 45 = ___",
+                    "answer": "36",
+                    "difficulty": 2,
+                    "hint": "1 < 5, pedimos prestado.",
+                    "explanation": "81 − 45 = 36."
+                },
+                {
+                    "id": "r12d",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 62 − 38?",
+                    "options": [
+                        "24",
+                        "34",
+                        "14",
+                        "26"
+                    ],
+                    "answer": "24",
+                    "difficulty": 2,
+                    "hint": "2 < 8, pedimos prestado.",
+                    "explanation": "62 − 38 = 24."
+                },
+                {
+                    "id": "r12e",
+                    "type": "fill_blank",
+                    "question": "Completa: 70 − 43 = ___",
+                    "answer": "27",
+                    "difficulty": 2,
+                    "hint": "0 < 3, pedimos prestado.",
+                    "explanation": "70 − 43 = 27."
+                },
+                {
+                    "id": "r12f",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 91 − 56?",
+                    "options": [
+                        "35",
+                        "45",
+                        "25",
+                        "34"
+                    ],
+                    "answer": "35",
+                    "difficulty": 2,
+                    "hint": "1 < 6, pedimos prestado: 11 − 6 = 5.",
+                    "explanation": "91 − 56 = 35."
+                },
+                {
+                    "id": "r12i",
+                    "type": "fill_blank",
+                    "question": "Completa: 83 − 59 = ___",
+                    "answer": "24",
+                    "difficulty": 2,
+                    "hint": "3 < 9, pedimos prestado.",
+                    "explanation": "83 − 59 = 24."
+                },
+                {
+                    "id": "r12j",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 56 − 29?",
+                    "options": [
+                        "27",
+                        "37",
+                        "17",
+                        "25"
+                    ],
+                    "answer": "27",
+                    "difficulty": 2,
+                    "hint": "6 < 9, pedimos prestado.",
+                    "explanation": "56 − 29 = 27."
+                }
+            ]
+        },
+        {
+            "id": "sec_con_llevada_3cifras",
+            "title": "Restas de 3 cifras con llevada",
+            "intro": "Ahora vamos con números más grandes. Recuerda: empezamos siempre por las unidades. Si no puedes restar, pides prestado a la columna de la izquierda.",
+            "exercises": [
+                {
+                    "id": "r30",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 342 − 178?",
+                    "options": [
+                        "164",
+                        "174",
+                        "154",
+                        "236"
+                    ],
+                    "answer": "164",
+                    "difficulty": 3,
+                    "hint": "Unidades: 2 < 8, pedimos prestado → 12 − 8 = 4. Decenas: 3 < 7, pedimos prestado → 13 − 7 = 6. Centenas: 2 − 1 = 1.",
+                    "explanation": "342 − 178 = 164."
+                },
+                {
+                    "id": "r31",
+                    "type": "fill_blank",
+                    "question": "Completa: 500 − 267 = ___",
+                    "answer": "233",
+                    "difficulty": 3,
+                    "hint": "0 < 7, pedimos prestado. Luego 9 < 6? No, pero las decenas cambiaron.",
+                    "explanation": "500 − 267 = 233."
+                },
+                {
+                    "id": "r32",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 415 − 287?",
+                    "options": [
+                        "128",
+                        "138",
+                        "118",
+                        "228"
+                    ],
+                    "answer": "128",
+                    "difficulty": 3,
+                    "hint": "5 < 7, pedimos prestado → 15 − 7 = 8. Decenas: 0 < 8, pedimos prestado → 10 − 8 = 2. Centenas: 3 − 2 = 1.",
+                    "explanation": "415 − 287 = 128."
+                },
+                {
+                    "id": "r33",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 603 − 348?",
+                    "options": [
+                        "255",
+                        "265",
+                        "245",
+                        "355"
+                    ],
+                    "answer": "255",
+                    "difficulty": 3,
+                    "hint": "3 < 8, pedimos prestado. También en las decenas: 0 < 4.",
+                    "explanation": "603 − 348 = 255."
+                },
+                {
+                    "id": "r34",
+                    "type": "fill_blank",
+                    "question": "Completa: 721 − 456 = ___",
+                    "answer": "265",
+                    "difficulty": 3,
+                    "hint": "1 < 6, pedimos prestado → 11 − 6 = 5. Decenas: 1 < 5, pedimos prestado → 11 − 5 = 6. Centenas: 6 − 4 = 2.",
+                    "explanation": "721 − 456 = 265."
+                },
+                {
+                    "id": "r35",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 800 − 536?",
+                    "options": [
+                        "264",
+                        "274",
+                        "364",
+                        "254"
+                    ],
+                    "answer": "264",
+                    "difficulty": 3,
+                    "hint": "0 < 6, pedimos prestado. Las decenas también tienen 0.",
+                    "explanation": "800 − 536 = 264."
+                },
+                {
+                    "id": "r36",
+                    "type": "fill_blank",
+                    "question": "Completa: 534 − 279 = ___",
+                    "answer": "255",
+                    "difficulty": 3,
+                    "hint": "4 < 9, pedimos prestado → 14 − 9 = 5. Decenas: 2 < 7, pedimos prestado → 12 − 7 = 5. Centenas: 4 − 2 = 2.",
+                    "explanation": "534 − 279 = 255."
+                },
+                {
+                    "id": "r37",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 910 − 473?",
+                    "options": [
+                        "437",
+                        "447",
+                        "537",
+                        "427"
+                    ],
+                    "answer": "437",
+                    "difficulty": 3,
+                    "hint": "0 < 3, pedimos prestado → 10 − 3 = 7. Decenas: 0 < 7, pedimos prestado → 10 − 7 = 3. Centenas: 8 − 4 = 4.",
+                    "explanation": "910 − 473 = 437."
+                },
+                {
+                    "id": "r38",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 456 − 189?",
+                    "options": [
+                        "267",
+                        "277",
+                        "367",
+                        "257"
+                    ],
+                    "answer": "267",
+                    "difficulty": 3,
+                    "hint": "6 < 9, pedimos prestado. También en decenas: 4 < 8.",
+                    "explanation": "456 − 189 = 267."
+                },
+                {
+                    "id": "r39",
+                    "type": "fill_blank",
+                    "question": "Completa: 700 − 385 = ___",
+                    "answer": "315",
+                    "difficulty": 3,
+                    "hint": "0 < 5, pedimos prestado. Las decenas también: 9 − 8.",
+                    "explanation": "700 − 385 = 315."
+                },
+                {
+                    "id": "r40",
+                    "type": "multiple_choice",
+                    "question": "¿Cuánto es 302 − 156?",
+                    "options": [
+                        "146",
+                        "156",
+                        "136",
+                        "246"
+                    ],
+                    "answer": "146",
+                    "difficulty": 3,
+                    "hint": "2 < 6, pedimos prestado → 12 − 6 = 6. Decenas: 9 − 5 = 4. Centenas: 2 − 1 = 1.",
+                    "explanation": "302 − 156 = 146."
+                },
+                {
+                    "id": "r41",
+                    "type": "fill_blank",
+                    "question": "Completa: 645 − 378 = ___",
+                    "answer": "267",
+                    "difficulty": 3,
+                    "hint": "5 < 8, pedimos prestado → 15 − 8 = 7. Decenas: 3 < 7, pedimos prestado → 13 − 7 = 6. Centenas: 5 − 3 = 2.",
+                    "explanation": "645 − 378 = 267."
+                }
+            ]
+        },
+        {
+            "id": "sec_prueba_resta",
+            "title": "Prueba de la resta",
+            "intro": "La prueba de la resta sirve para comprobar que restamos bien: si Minuendo − Sustraendo = Diferencia, entonces Diferencia + Sustraendo = Minuendo.",
+            "exercises": [
+                {
+                    "id": "r13",
+                    "type": "multiple_choice",
+                    "question": "He hecho esta resta: 85 − 42 = 43. ¿Cómo compruebo que es correcta?",
+                    "options": [
+                        "43 + 42 = 85 ✅",
+                        "85 + 42 = 127",
+                        "43 − 42 = 1",
+                        "85 − 43 = 52"
+                    ],
+                    "answer": "43 + 42 = 85 ✅",
+                    "difficulty": 2,
+                    "hint": "La prueba: resultado + lo que restamos = lo que teníamos.",
+                    "explanation": "43 + 42 = 85. ¡Correcto!"
+                },
+                {
+                    "id": "r14",
+                    "type": "true_false",
+                    "question": "La resta 74 − 39 = 35 es correcta.",
+                    "answer": true,
+                    "difficulty": 2,
+                    "hint": "Haz la prueba: 35 + 39 = ?",
+                    "explanation": "35 + 39 = 74."
+                },
+                {
+                    "id": "r15",
+                    "type": "true_false",
+                    "question": "La resta 92 − 45 = 57 es correcta.",
+                    "answer": false,
+                    "difficulty": 2,
+                    "hint": "Prueba: 57 + 45 = ? ¿Da 92?",
+                    "explanation": "57 + 45 = 102 ≠ 92. La respuesta correcta es 47."
+                },
+                {
+                    "id": "r16",
+                    "type": "multiple_choice",
+                    "question": "Si 63 − ? = 28, ¿cuánto es el número que falta?",
+                    "options": [
+                        "35",
+                        "25",
+                        "45",
+                        "91"
+                    ],
+                    "answer": "35",
+                    "difficulty": 2,
+                    "hint": "28 + ? = 63. ¿Qué le falta al 28?",
+                    "explanation": "28 + 35 = 63."
+                },
+                {
+                    "id": "r17",
+                    "type": "multiple_choice",
+                    "question": "Si ? − 47 = 38, ¿cuánto es el número de arriba?",
+                    "options": [
+                        "75",
+                        "85",
+                        "95",
+                        "9"
+                    ],
+                    "answer": "85",
+                    "difficulty": 2,
+                    "hint": "38 + 47 = ?",
+                    "explanation": "38 + 47 = 85."
+                },
+                {
+                    "id": "r18",
+                    "type": "true_false",
+                    "question": "La resta 136 − 79 = 57 es correcta.",
+                    "answer": true,
+                    "difficulty": 3,
+                    "hint": "Prueba: 57 + 79 = ?",
+                    "explanation": "57 + 79 = 136. ¡Correcto!"
+                },
+                {
+                    "id": "r18b",
+                    "type": "true_false",
+                    "question": "La resta 83 − 46 = 37 es correcta.",
+                    "answer": true,
+                    "difficulty": 2,
+                    "hint": "37 + 46 = ?",
+                    "explanation": "37 + 46 = 83. ¡Sí!"
+                },
+                {
+                    "id": "r18c",
+                    "type": "true_false",
+                    "question": "La resta 71 − 35 = 46 es correcta.",
+                    "answer": false,
+                    "difficulty": 2,
+                    "hint": "46 + 35 = ? ¿Da 71?",
+                    "explanation": "46 + 35 = 81 ≠ 71. La respuesta correcta es 36."
+                },
+                {
+                    "id": "r18d",
+                    "type": "true_false",
+                    "question": "La resta 452 − 198 = 254 es correcta.",
+                    "answer": true,
+                    "difficulty": 3,
+                    "hint": "254 + 198 = ?",
+                    "explanation": "254 + 198 = 452. ¡Correcto!"
+                },
+                {
+                    "id": "r18e",
+                    "type": "true_false",
+                    "question": "La resta 530 − 275 = 265 es correcta.",
+                    "answer": false,
+                    "difficulty": 3,
+                    "hint": "265 + 275 = ? ¿Da 530?",
+                    "explanation": "265 + 275 = 540 ≠ 530. La respuesta correcta es 255."
+                }
+            ]
+        },
+        {
+            "id": "sec_relacion_suma_resta",
+            "title": "Resta y suma: ¡son familia!",
+            "intro": "La resta y la suma están conectadas. De cada resta podemos sacar DOS sumas. Si 85 − 42 = 43, entonces: 43 + 42 = 85 y 42 + 43 = 85. ¡Prueba tú!",
+            "exercises": [
+                {
+                    "id": "rs01",
+                    "type": "multiple_choice",
+                    "question": "Si 75 − 32 = 43, ¿cuál de estas sumas podemos hacer?",
+                    "options": [
+                        "43 + 32 = 75",
+                        "75 + 32 = 107",
+                        "43 + 75 = 118",
+                        "32 − 43 = 11"
+                    ],
+                    "answer": "43 + 32 = 75",
+                    "difficulty": 2,
+                    "hint": "El resultado + lo que restamos = lo que teníamos.",
+                    "explanation": "43 + 32 = 75. ¡Es la prueba de la resta!"
+                },
+                {
+                    "id": "rs02",
+                    "type": "multiple_choice",
+                    "question": "Si 90 − 56 = 34, ¿cuál es la OTRA suma que podemos hacer?",
+                    "options": [
+                        "56 + 34 = 90",
+                        "90 + 34 = 124",
+                        "56 − 34 = 22",
+                        "34 + 90 = 124"
+                    ],
+                    "answer": "56 + 34 = 90",
+                    "difficulty": 2,
+                    "hint": "También podemos sumar el sustraendo + la diferencia.",
+                    "explanation": "56 + 34 = 90. ¡También da el minuendo!"
+                },
+                {
+                    "id": "rs03",
+                    "type": "fill_blank",
+                    "question": "Si 68 − 25 = 43, completa la suma: 25 + ___ = 68",
+                    "answer": "43",
+                    "difficulty": 2,
+                    "hint": "El número que falta es el resultado de la resta.",
+                    "explanation": "25 + 43 = 68."
+                },
+                {
+                    "id": "rs04",
+                    "type": "fill_blank",
+                    "question": "Si 53 + 29 = 82, completa la resta: 82 − 53 = ___",
+                    "answer": "29",
+                    "difficulty": 2,
+                    "hint": "De la suma sacamos una resta. El total menos uno de los sumandos.",
+                    "explanation": "82 − 53 = 29."
+                },
+                {
+                    "id": "rs05",
+                    "type": "multiple_choice",
+                    "question": "Si 46 + 37 = 83, ¿qué dos restas podemos hacer?",
+                    "options": [
+                        "83 − 46 = 37 y 83 − 37 = 46",
+                        "46 − 37 = 9 y 37 − 46 = 9",
+                        "83 + 46 = 129 y 83 + 37 = 120",
+                        "46 + 83 = 129 y 37 + 83 = 120"
+                    ],
+                    "answer": "83 − 46 = 37 y 83 − 37 = 46",
+                    "difficulty": 2,
+                    "hint": "Del total restamos cada sumando para obtener el otro.",
+                    "explanation": "De 46 + 37 = 83 sacamos: 83 − 46 = 37 y 83 − 37 = 46."
+                },
+                {
+                    "id": "rs06",
+                    "type": "fill_blank",
+                    "question": "Si 120 − 75 = 45, completa: 45 + 75 = ___",
+                    "answer": "120",
+                    "difficulty": 2,
+                    "hint": "La suma de la diferencia + el sustraendo = el minuendo.",
+                    "explanation": "45 + 75 = 120."
+                },
+                {
+                    "id": "rs07",
+                    "type": "fill_blank",
+                    "question": "Si 64 + 28 = 92, completa: 92 − 28 = ___",
+                    "answer": "64",
+                    "difficulty": 2,
+                    "hint": "El total menos un sumando = el otro sumando.",
+                    "explanation": "92 − 28 = 64."
+                },
+                {
+                    "id": "rs08",
+                    "type": "multiple_choice",
+                    "question": "Si 345 − 178 = 167, ¿cuál de estas sumas es correcta?",
+                    "options": [
+                        "167 + 178 = 345",
+                        "345 + 178 = 523",
+                        "167 + 345 = 512",
+                        "178 − 167 = 11"
+                    ],
+                    "answer": "167 + 178 = 345",
+                    "difficulty": 3,
+                    "hint": "Diferencia + Sustraendo = Minuendo.",
+                    "explanation": "167 + 178 = 345. ¡Es la prueba!"
+                },
+                {
+                    "id": "rs09",
+                    "type": "fill_blank",
+                    "question": "Si 215 + 148 = 363, completa: 363 − 148 = ___",
+                    "answer": "215",
+                    "difficulty": 3,
+                    "hint": "Del resultado de la suma, restamos uno de los sumandos.",
+                    "explanation": "363 − 148 = 215."
+                },
+                {
+                    "id": "rs10",
+                    "type": "multiple_choice",
+                    "question": "De 57 + 38 = 95 podemos sacar...",
+                    "options": [
+                        "Dos restas: 95 − 57 = 38 y 95 − 38 = 57",
+                        "Solo una resta: 57 − 38 = 19",
+                        "Ninguna resta",
+                        "Tres restas diferentes"
+                    ],
+                    "answer": "Dos restas: 95 − 57 = 38 y 95 − 38 = 57",
+                    "difficulty": 2,
+                    "hint": "De cada suma sacamos siempre DOS restas.",
+                    "explanation": "De 57 + 38 = 95 sacamos: 95 − 57 = 38 y 95 − 38 = 57."
+                }
+            ]
+        },
+        {
+            "id": "sec_problemas",
+            "title": "Problemas de restas",
+            "exercises": [
+                {
+                    "id": "r19",
+                    "type": "multiple_choice",
+                    "question": "En una granja hay 82 gallinas. Se venden 47. ¿Cuántas quedan?",
+                    "options": [
+                        "35",
+                        "45",
+                        "25",
+                        "129"
+                    ],
+                    "answer": "35",
+                    "difficulty": 2,
+                    "hint": "82 − 47. Hay llevada.",
+                    "explanation": "82 − 47 = 35 gallinas."
+                },
+                {
+                    "id": "r20",
+                    "type": "multiple_choice",
+                    "question": "Un libro tiene 156 páginas. Llevo leídas 89. ¿Cuántas me faltan?",
+                    "options": [
+                        "77",
+                        "67",
+                        "57",
+                        "87"
+                    ],
+                    "answer": "67",
+                    "difficulty": 3,
+                    "hint": "156 − 89.",
+                    "explanation": "156 − 89 = 67 páginas."
+                },
+                {
+                    "id": "r21",
+                    "type": "fill_blank",
+                    "question": "Tengo 75 cromos. Le doy 38 a mi amigo. Me quedan ___ cromos.",
+                    "answer": "37",
+                    "difficulty": 2,
+                    "hint": "75 − 38. 5 < 8, hay llevada.",
+                    "explanation": "75 − 38 = 37 cromos."
+                },
+                {
+                    "id": "r22",
+                    "type": "multiple_choice",
+                    "question": "En un cine hay 120 butacas. Están ocupadas 84. ¿Cuántas están vacías?",
+                    "options": [
+                        "46",
+                        "36",
+                        "44",
+                        "26"
+                    ],
+                    "answer": "36",
+                    "difficulty": 3,
+                    "hint": "120 − 84.",
+                    "explanation": "120 − 84 = 36 butacas vacías."
+                },
+                {
+                    "id": "r23",
+                    "type": "multiple_choice",
+                    "question": "Pedro tiene 93 canicas y Luis tiene 58. ¿Cuántas más tiene Pedro?",
+                    "options": [
+                        "45",
+                        "35",
+                        "25",
+                        "151"
+                    ],
+                    "answer": "35",
+                    "difficulty": 2,
+                    "hint": "93 − 58.",
+                    "explanation": "93 − 58 = 35 canicas más."
+                },
+                {
+                    "id": "r23b",
+                    "type": "multiple_choice",
+                    "question": "En un colegio hay 450 alumnos. 278 están en el comedor. ¿Cuántos no están?",
+                    "options": [
+                        "172",
+                        "182",
+                        "162",
+                        "272"
+                    ],
+                    "answer": "172",
+                    "difficulty": 3,
+                    "hint": "450 − 278. Tiene llevadas en unidades y decenas.",
+                    "explanation": "450 − 278 = 172 alumnos."
+                },
+                {
+                    "id": "r23c",
+                    "type": "fill_blank",
+                    "question": "Una tienda tenía 315 juguetes. Vendió 189. Le quedan ___ juguetes.",
+                    "answer": "126",
+                    "difficulty": 3,
+                    "hint": "315 − 189. Hay llevadas en unidades y decenas.",
+                    "explanation": "315 − 189 = 126 juguetes."
+                }
+            ]
+        },
+        {
+            "id": "sec_desafio",
+            "title": "Desafío final: Restas encadenadas",
+            "exercises": [
+                {
+                    "id": "r24",
+                    "type": "multiple_choice",
+                    "question": "Calcula paso a paso: 150 − 73 − 28 = ?",
+                    "options": [
+                        "49",
+                        "59",
+                        "39",
+                        "69"
+                    ],
+                    "answer": "49",
+                    "difficulty": 3,
+                    "hint": "Primero: 150 − 73. Luego resta 28.",
+                    "explanation": "150 − 73 = 77. 77 − 28 = 49."
+                },
+                {
+                    "id": "r25",
+                    "type": "fill_blank",
+                    "question": "Si resté bien: 143 − 86 = 57. Escribe la PRUEBA: 57 + ___ = 143",
+                    "answer": "86",
+                    "difficulty": 2,
+                    "hint": "En la prueba, sumamos resultado + lo que restamos.",
+                    "explanation": "57 + 86 = 143 ✅"
+                },
+                {
+                    "id": "r25b",
+                    "type": "multiple_choice",
+                    "question": "Calcula: 180 − 95 − 37 = ?",
+                    "options": [
+                        "48",
+                        "58",
+                        "38",
+                        "68"
+                    ],
+                    "answer": "48",
+                    "difficulty": 3,
+                    "hint": "Primero: 180 − 95 = 85. Luego 85 − 37.",
+                    "explanation": "180 − 95 = 85. 85 − 37 = 48."
+                },
+                {
+                    "id": "r25c",
+                    "type": "fill_blank",
+                    "question": "Completa: 100 − 37 − 28 = ___",
+                    "answer": "35",
+                    "difficulty": 3,
+                    "hint": "100 − 37 = 63. Luego 63 − 28.",
+                    "explanation": "100 − 37 = 63. 63 − 28 = 35."
+                },
+                {
+                    "id": "r25d",
+                    "type": "multiple_choice",
+                    "question": "Calcula: 500 − 175 − 168 = ?",
+                    "options": [
+                        "157",
+                        "167",
+                        "147",
+                        "257"
+                    ],
+                    "answer": "157",
+                    "difficulty": 3,
+                    "hint": "Primero: 500 − 175 = 325. Luego 325 − 168.",
+                    "explanation": "500 − 175 = 325. 325 − 168 = 157."
+                }
+            ]
+        }
+    ],
+    "summary": {
+        "total_exercises": 66,
+        "topics": [
+            "Resta sin llevada (repaso)",
+            "Resta con llevada de 2 cifras",
+            "Resta con llevada de 3 cifras",
+            "Prueba de la resta",
+            "Relación resta ↔ suma (de 1 resta salen 2 sumas, de 1 suma salen 2 restas)",
+            "Problemas con restas",
+            "Restas encadenadas"
+        ],
+        "key_rules": [
+            "Si la cifra de arriba es menor que la de abajo → pido prestada 1 decena (10 unidades).",
+            "La prueba de la resta: Resultado + Sustraendo = Minuendo.",
+            "MINUENDO − SUSTRAENDO = DIFERENCIA.",
+            "De cada resta sacamos 2 sumas: Diferencia + Sustraendo = Minuendo y Sustraendo + Diferencia = Minuendo.",
+            "De cada suma sacamos 2 restas: Total − Sumando1 = Sumando2 y Total − Sumando2 = Sumando1."
+        ]
+    }
+}

@@ -1,0 +1,699 @@
+{
+    "grade": "2_primaria",
+    "subject": "ciencias",
+    "trimester": 3,
+    "topics": [
+        {
+            "id": "paisajes",
+            "name": "Paisajes: montaña, costa, llanura",
+            "icon": "🏔️",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "ps001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada tipo de paisaje con su descripción",
+                    "pairs": [
+                        [
+                            "Montaña",
+                            "Terreno elevado y con pendientes"
+                        ],
+                        [
+                            "Llanura",
+                            "Terreno plano y extenso"
+                        ],
+                        [
+                            "Costa",
+                            "Zona donde la tierra se encuentra con el mar"
+                        ],
+                        [
+                            "Valle",
+                            "Terreno bajo entre montañas"
+                        ]
+                    ],
+                    "hint": "¿Cómo es cada paisaje?",
+                    "explanation": "Tipos de paisaje según el relieve"
+                },
+                {
+                    "id": "ps002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "La parte más alta de una montaña se llama ___",
+                    "answer": "cima",
+                    "hint": "Lo más alto",
+                    "explanation": "Cima = punta/cumbre de la montaña"
+                },
+                {
+                    "id": "ps003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿En qué tipo de paisaje hay playas?",
+                    "options": [
+                        "Montaña",
+                        "Llanura",
+                        "Costa",
+                        "Desierto"
+                    ],
+                    "answer": "Costa",
+                    "hint": "Donde el mar toca la tierra",
+                    "explanation": "Las playas están en la costa (litoral)"
+                },
+                {
+                    "id": "ps004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Un río nace generalmente en las montañas",
+                    "answer": "true",
+                    "hint": "¿De dónde baja el agua?",
+                    "explanation": "Los ríos suelen nacer en montañas y desembocan en el mar"
+                },
+                {
+                    "id": "ps005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué es un archipiélago?",
+                    "options": [
+                        "Una montaña muy alta",
+                        "Un grupo de islas",
+                        "Un río muy largo",
+                        "Un desierto"
+                    ],
+                    "answer": "Un grupo de islas",
+                    "hint": "Las Canarias son un...",
+                    "explanation": "Archipiélago = conjunto de islas (ej: Canarias, Baleares)"
+                },
+                {
+                    "id": "ps006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El lugar donde un río desemboca en el mar se llama ___",
+                    "answer": "desembocadura",
+                    "hint": "Des-embocadura",
+                    "explanation": "Desembocadura: donde el río llega al mar"
+                },
+                {
+                    "id": "ps007",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada elemento con su paisaje",
+                    "pairs": [
+                        [
+                            "Acantilado",
+                            "Costa"
+                        ],
+                        [
+                            "Meseta",
+                            "Interior"
+                        ],
+                        [
+                            "Península",
+                            "Costa"
+                        ],
+                        [
+                            "Cordillera",
+                            "Montaña"
+                        ]
+                    ],
+                    "hint": "¿Dónde encuentras cada uno?",
+                    "explanation": "Elementos del paisaje y su ubicación"
+                },
+                {
+                    "id": "ps008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Cómo modifica el agua el paisaje? Da 2 ejemplos",
+                    "answer": "El agua erosiona las rocas formando cañones y cuevas. Los ríos forman valles al desgastar el terreno por donde pasan.",
+                    "hint": "Piensa en la erosión",
+                    "explanation": "El agua es uno de los principales agentes que moldean el paisaje"
+                },
+                {
+                    "id": "ps009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "España es una...",
+                    "options": [
+                        "Isla",
+                        "Archipiélago",
+                        "Península",
+                        "Continente"
+                    ],
+                    "answer": "Península",
+                    "hint": "Rodeada de agua por casi todos los lados",
+                    "explanation": "España está en la Península Ibérica (unida a Francia)"
+                },
+                {
+                    "id": "ps010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "La meseta central de España ocupa gran parte del ___",
+                    "answer": "interior",
+                    "hint": "En el centro de la península",
+                    "explanation": "La Meseta es una gran llanura elevada en el centro de España"
+                }
+            ]
+        },
+        {
+            "id": "sistema_solar",
+            "name": "El Sistema Solar",
+            "icon": "🌍",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "ss001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "La estrella más cercana a la Tierra es el ___",
+                    "answer": "Sol",
+                    "hint": "Nos da luz y calor",
+                    "explanation": "El Sol es nuestra estrella más cercana"
+                },
+                {
+                    "id": "ss002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuántos planetas tiene el Sistema Solar?",
+                    "options": [
+                        "6",
+                        "7",
+                        "8",
+                        "9"
+                    ],
+                    "answer": "8",
+                    "hint": "Ya no se cuenta Plutón",
+                    "explanation": "8 planetas: Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano, Neptuno"
+                },
+                {
+                    "id": "ss003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "La Tierra es el tercer planeta del Sistema Solar",
+                    "answer": "true",
+                    "hint": "Mercurio, Venus, ...",
+                    "explanation": "Mercurio (1º), Venus (2º), Tierra (3º)"
+                },
+                {
+                    "id": "ss004",
+                    "type": "sort",
+                    "difficulty": 2,
+                    "question": "Ordena los 4 primeros planetas desde el Sol",
+                    "items": [
+                        "Tierra",
+                        "Venus",
+                        "Marte",
+                        "Mercurio"
+                    ],
+                    "answer": [
+                        "Mercurio",
+                        "Venus",
+                        "Tierra",
+                        "Marte"
+                    ],
+                    "hint": "Me-Ve-Ti-Ma",
+                    "explanation": "Mercurio, Venus, Tierra, Marte (del más cercano al más lejano)"
+                },
+                {
+                    "id": "ss005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es el planeta más grande del Sistema Solar?",
+                    "options": [
+                        "Tierra",
+                        "Marte",
+                        "Júpiter",
+                        "Saturno"
+                    ],
+                    "answer": "Júpiter",
+                    "hint": "El gigante gaseoso",
+                    "explanation": "Júpiter es el más grande: cabrían 1.300 Tierras dentro"
+                },
+                {
+                    "id": "ss006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El satélite natural de la Tierra es la ___",
+                    "answer": "Luna",
+                    "hint": "Se ve por la noche",
+                    "explanation": "La Luna orbita alrededor de la Tierra"
+                },
+                {
+                    "id": "ss007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Saturno tiene anillos a su alrededor",
+                    "answer": "true",
+                    "hint": "El planeta con anillos",
+                    "explanation": "Los anillos de Saturno están formados por hielo y roca"
+                },
+                {
+                    "id": "ss008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué hay día y noche en la Tierra?",
+                    "answer": "Porque la Tierra gira sobre sí misma (rotación). La parte que mira al Sol tiene día, y la que está de espaldas tiene noche.",
+                    "hint": "La Tierra gira",
+                    "explanation": "Rotación de la Tierra → alternancia día/noche (24 horas)"
+                },
+                {
+                    "id": "ss009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuánto tarda la Tierra en dar una vuelta alrededor del Sol?",
+                    "options": [
+                        "1 día",
+                        "1 mes",
+                        "1 año",
+                        "1 siglo"
+                    ],
+                    "answer": "1 año",
+                    "hint": "Traslación",
+                    "explanation": "La traslación (vuelta al Sol) tarda 365 días = 1 año"
+                },
+                {
+                    "id": "ss010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El movimiento de la Tierra sobre su propio eje se llama ___",
+                    "answer": "rotación",
+                    "hint": "Gira como una peonza",
+                    "explanation": "Rotación = giro sobre su eje (produce día y noche)"
+                }
+            ]
+        },
+        {
+            "id": "profesiones",
+            "name": "Las profesiones y el trabajo",
+            "icon": "👷",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "pr001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada profesión con su lugar de trabajo",
+                    "pairs": [
+                        [
+                            "Médico",
+                            "Hospital"
+                        ],
+                        [
+                            "Profesor",
+                            "Colegio"
+                        ],
+                        [
+                            "Bombero",
+                            "Parque de bomberos"
+                        ],
+                        [
+                            "Agricultor",
+                            "Campo"
+                        ]
+                    ],
+                    "hint": "¿Dónde trabaja cada uno?",
+                    "explanation": "Cada profesión tiene un lugar de trabajo habitual"
+                },
+                {
+                    "id": "pr002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "La persona que cura a los animales se llama ___",
+                    "answer": "veterinario",
+                    "hint": "Como un médico pero para animales",
+                    "explanation": "Veterinario: profesional de la salud animal"
+                },
+                {
+                    "id": "pr003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué hace un panadero?",
+                    "options": [
+                        "Cura enfermos",
+                        "Hace pan",
+                        "Conduce autobuses",
+                        "Enseña en el colegio"
+                    ],
+                    "answer": "Hace pan",
+                    "hint": "Pan-adero",
+                    "explanation": "El panadero elabora pan y productos de panadería"
+                },
+                {
+                    "id": "pr004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Las profesiones del sector primario trabajan directamente con la naturaleza",
+                    "answer": "true",
+                    "hint": "Agricultura, pesca, ganadería...",
+                    "explanation": "Sector primario: obtienen recursos de la naturaleza"
+                },
+                {
+                    "id": "pr005",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica estas profesiones por sector",
+                    "pairs": [
+                        [
+                            "Agricultor",
+                            "Primario"
+                        ],
+                        [
+                            "Mecánico",
+                            "Secundario"
+                        ],
+                        [
+                            "Profesor",
+                            "Servicios"
+                        ],
+                        [
+                            "Ganadero",
+                            "Primario"
+                        ]
+                    ],
+                    "hint": "¿Trabajan con naturaleza, fábricas o personas?",
+                    "explanation": "Primario=naturaleza, Secundario=transformación, Terciario=servicios"
+                },
+                {
+                    "id": "pr006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿A qué sector pertenece un conductor de autobús?",
+                    "options": [
+                        "Primario",
+                        "Secundario",
+                        "Servicios (terciario)"
+                    ],
+                    "answer": "Servicios (terciario)",
+                    "hint": "Ofrece un servicio a las personas",
+                    "explanation": "Transporte = sector servicios (terciario)"
+                },
+                {
+                    "id": "pr007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Las fábricas pertenecen al sector ___",
+                    "answer": "secundario",
+                    "hint": "Transforman materias primas en productos",
+                    "explanation": "Sector secundario: industria y construcción"
+                },
+                {
+                    "id": "pr008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Qué profesión te gustaría tener de mayor y por qué?",
+                    "answer": "[Respuesta libre] Me gustaría ser veterinario porque me encantan los animales y quiero ayudarlos cuando están enfermos.",
+                    "hint": "Piensa en lo que te gusta",
+                    "explanation": "Reflexión personal sobre intereses y vocación"
+                },
+                {
+                    "id": "pr009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Todas las profesiones son igual de importantes para la sociedad",
+                    "answer": "true",
+                    "hint": "¿Podríamos vivir sin agricultores? ¿Sin médicos?",
+                    "explanation": "Todas contribuyen al funcionamiento de la sociedad"
+                },
+                {
+                    "id": "pr010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué relación hay entre un agricultor, un panadero y una tienda?",
+                    "options": [
+                        "Ninguna",
+                        "El agricultor cultiva trigo, el panadero hace pan, la tienda lo vende",
+                        "Todos trabajan en el mismo sitio",
+                        "Solo el panadero es importante"
+                    ],
+                    "answer": "El agricultor cultiva trigo, el panadero hace pan, la tienda lo vende",
+                    "hint": "Cadena de producción",
+                    "explanation": "Cadena productiva: primario → secundario → terciario"
+                }
+            ]
+        },
+        {
+            "id": "convivencia",
+            "name": "Convivencia y normas",
+            "icon": "🤝",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "cv001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué debemos hacer si vemos a un compañero solo en el recreo?",
+                    "options": [
+                        "Ignorarle",
+                        "Invitarle a jugar",
+                        "Reírnos de él",
+                        "Irnos lejos"
+                    ],
+                    "answer": "Invitarle a jugar",
+                    "hint": "¿Qué te gustaría que hicieran contigo?",
+                    "explanation": "La inclusión: invitar a jugar a quien está solo"
+                },
+                {
+                    "id": "cv002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Las normas del colegio son para que todos estemos bien",
+                    "answer": "true",
+                    "hint": "¿Para qué sirven las normas?",
+                    "explanation": "Las normas aseguran la convivencia y el bienestar de todos"
+                },
+                {
+                    "id": "cv003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Para vivir en sociedad necesitamos ___ a los demás",
+                    "answer": "respetar",
+                    "hint": "La regla de oro",
+                    "explanation": "El respeto es la base de la convivencia"
+                },
+                {
+                    "id": "cv004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "¿Qué valores muestran estas acciones?",
+                    "pairs": [
+                        [
+                            "Ayudar a un compañero",
+                            "Solidaridad"
+                        ],
+                        [
+                            "Devolver algo que no es tuyo",
+                            "Honestidad"
+                        ],
+                        [
+                            "Esperar tu turno",
+                            "Paciencia"
+                        ],
+                        [
+                            "Escuchar sin interrumpir",
+                            "Respeto"
+                        ]
+                    ],
+                    "hint": "¿Qué valor demuestra cada acción?",
+                    "explanation": "Valores: solidaridad, honestidad, paciencia, respeto"
+                },
+                {
+                    "id": "cv005",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Un compañero te insulta, ¿qué haces?",
+                    "answer": "No respondo con otro insulto. Le digo que no me gusta y que me hace daño. Si sigue, se lo digo al profesor.",
+                    "hint": "Responde sin violencia",
+                    "explanation": "Conflicto: expresar sentimientos + pedir ayuda si es necesario"
+                },
+                {
+                    "id": "cv006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué es el acoso escolar (bullying)?",
+                    "options": [
+                        "Jugar al fútbol",
+                        "Molestar a alguien repetidamente",
+                        "No hacer los deberes",
+                        "Hablar en clase"
+                    ],
+                    "answer": "Molestar a alguien repetidamente",
+                    "hint": "De forma constante y dañina",
+                    "explanation": "Acoso = agresión repetida hacia alguien más débil"
+                },
+                {
+                    "id": "cv007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Si ves a alguien haciendo bullying, debes contárselo a un adulto",
+                    "answer": "true",
+                    "hint": "¿Qué debes hacer?",
+                    "explanation": "Comunicar el acoso a un adulto de confianza es fundamental"
+                },
+                {
+                    "id": "cv008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué es importante votar y participar en las decisiones del grupo?",
+                    "answer": "Porque así todos tienen voz y se elige lo que la mayoría prefiere. Es justo y democrático.",
+                    "hint": "Democracia",
+                    "explanation": "La participación democrática: todos opinan, gana la mayoría"
+                },
+                {
+                    "id": "cv009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "La ___ es la forma de gobierno en la que el pueblo elige a sus representantes",
+                    "answer": "democracia",
+                    "hint": "Demo = pueblo, cracia = gobierno",
+                    "explanation": "Democracia: gobierno del pueblo, por el pueblo"
+                },
+                {
+                    "id": "cv010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuál de estos es un derecho de todos los niños?",
+                    "options": [
+                        "Comer chuches todos los días",
+                        "Ir al colegio (educación)",
+                        "No hacer caso a los padres",
+                        "Quedarse despierto toda la noche"
+                    ],
+                    "answer": "Ir al colegio (educación)",
+                    "hint": "Un derecho fundamental",
+                    "explanation": "La educación es un derecho universal de la infancia"
+                }
+            ]
+        },
+        {
+            "id": "localidad",
+            "name": "Mi localidad: pueblo y ciudad",
+            "icon": "🏘️",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "lo001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál tiene más habitantes?",
+                    "options": [
+                        "Un pueblo",
+                        "Una ciudad",
+                        "Una aldea",
+                        "Una granja"
+                    ],
+                    "answer": "Una ciudad",
+                    "hint": "Edificios altos, mucho tráfico...",
+                    "explanation": "Ciudades > pueblos > aldeas en población"
+                },
+                {
+                    "id": "lo002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El ___ es el encargado de gobernar un municipio",
+                    "answer": "alcalde",
+                    "hint": "El jefe del Ayuntamiento",
+                    "explanation": "El alcalde dirige el gobierno municipal"
+                },
+                {
+                    "id": "lo003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "En los pueblos suele haber más naturaleza que en las ciudades",
+                    "answer": "true",
+                    "hint": "Campos, bosques...",
+                    "explanation": "Los pueblos están rodeados de más zonas naturales"
+                },
+                {
+                    "id": "lo004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "¿Qué encuentras más en cada lugar?",
+                    "pairs": [
+                        [
+                            "Ciudad",
+                            "Rascacielos y metro"
+                        ],
+                        [
+                            "Pueblo",
+                            "Campos de cultivo"
+                        ],
+                        [
+                            "Ciudad",
+                            "Hospitales grandes"
+                        ],
+                        [
+                            "Pueblo",
+                            "Animales de granja"
+                        ]
+                    ],
+                    "hint": "Urbano vs rural",
+                    "explanation": "Diferencias entre entorno urbano y rural"
+                },
+                {
+                    "id": "lo005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué es el Ayuntamiento?",
+                    "options": [
+                        "Un colegio",
+                        "La institución que gobierna el municipio",
+                        "Un hospital",
+                        "Una tienda"
+                    ],
+                    "answer": "La institución que gobierna el municipio",
+                    "hint": "Donde trabaja el alcalde",
+                    "explanation": "El Ayuntamiento: gobierno local de pueblos y ciudades"
+                },
+                {
+                    "id": "lo006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los servicios públicos como bomberos, policía y hospitales los pagan entre todos con los ___",
+                    "answer": "impuestos",
+                    "hint": "Dinero que se paga al Estado",
+                    "explanation": "Los impuestos financian servicios públicos para todos"
+                },
+                {
+                    "id": "lo007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "¿Qué ventajas tiene vivir en un pueblo? ¿Y en una ciudad? Di 1 de cada",
+                    "answer": "Pueblo: más tranquilidad y contacto con la naturaleza. Ciudad: más servicios y oportunidades de trabajo.",
+                    "hint": "Piensa en lo bueno de cada uno",
+                    "explanation": "Cada entorno tiene ventajas distintas"
+                },
+                {
+                    "id": "lo008",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Madrid es la capital de España y de la Comunidad de Madrid",
+                    "answer": "true",
+                    "hint": "Capital del país y de su comunidad",
+                    "explanation": "Madrid: capital de España y cabeza de su comunidad autónoma"
+                },
+                {
+                    "id": "lo009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "España está dividida en 17 comunidades autónomas y 2 ciudades ___",
+                    "answer": "autónomas",
+                    "hint": "Ceuta y Melilla",
+                    "explanation": "17 CC.AA. + 2 ciudades autónomas (Ceuta y Melilla)"
+                },
+                {
+                    "id": "lo010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué es un plano de una ciudad?",
+                    "options": [
+                        "Una foto desde el espacio",
+                        "Un dibujo visto desde arriba con calles y edificios",
+                        "Un mapa del mundo",
+                        "Una maqueta"
+                    ],
+                    "answer": "Un dibujo visto desde arriba con calles y edificios",
+                    "hint": "Vista aérea",
+                    "explanation": "Un plano representa una zona vista desde arriba con sus elementos"
+                }
+            ]
+        }
+    ]
+}

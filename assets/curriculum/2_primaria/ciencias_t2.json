@@ -1,0 +1,683 @@
+{
+    "grade": "2_primaria",
+    "subject": "ciencias",
+    "trimester": 2,
+    "topics": [
+        {
+            "id": "materiales",
+            "name": "Los materiales y sus propiedades",
+            "icon": "🧱",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "mt001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada material con un objeto",
+                    "pairs": [
+                        [
+                            "Madera",
+                            "Mesa"
+                        ],
+                        [
+                            "Metal",
+                            "Llave"
+                        ],
+                        [
+                            "Cristal",
+                            "Ventana"
+                        ],
+                        [
+                            "Plástico",
+                            "Botella"
+                        ]
+                    ],
+                    "hint": "¿De qué están hechos?",
+                    "explanation": "Cada objeto está hecho de un material diferente"
+                },
+                {
+                    "id": "mt002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál de estos materiales es natural?",
+                    "options": [
+                        "Plástico",
+                        "Madera",
+                        "Goma",
+                        "Nylon"
+                    ],
+                    "answer": "Madera",
+                    "hint": "Viene directamente de la naturaleza",
+                    "explanation": "La madera viene de los árboles (natural)"
+                },
+                {
+                    "id": "mt003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Los materiales que dejan pasar la luz son ___",
+                    "answer": "transparentes",
+                    "hint": "El cristal...",
+                    "explanation": "Transparentes: cristal, agua limpia. Opacos: madera, metal"
+                },
+                {
+                    "id": "mt004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El metal es un buen conductor del calor",
+                    "answer": "true",
+                    "hint": "¿La cuchara se calienta en la sopa?",
+                    "explanation": "Los metales conducen bien el calor y la electricidad"
+                },
+                {
+                    "id": "mt005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué propiedad tiene la goma?",
+                    "options": [
+                        "Es dura",
+                        "Es elástica",
+                        "Es frágil",
+                        "Es transparente"
+                    ],
+                    "answer": "Es elástica",
+                    "hint": "Se estira y vuelve",
+                    "explanation": "La goma es elástica: se deforma y recupera su forma"
+                },
+                {
+                    "id": "mt006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los materiales ___ no dejan pasar la luz",
+                    "answer": "opacos",
+                    "hint": "Lo contrario de transparente",
+                    "explanation": "Opacos: madera, metal, cartón (no pasa la luz)"
+                },
+                {
+                    "id": "mt007",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica estas propiedades",
+                    "pairs": [
+                        [
+                            "Cristal",
+                            "Frágil"
+                        ],
+                        [
+                            "Metal",
+                            "Duro"
+                        ],
+                        [
+                            "Goma",
+                            "Elástico"
+                        ],
+                        [
+                            "Algodón",
+                            "Suave"
+                        ]
+                    ],
+                    "hint": "¿Cómo es cada material?",
+                    "explanation": "Cada material tiene propiedades características"
+                },
+                {
+                    "id": "mt008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué se usa cristal para las ventanas y no madera?",
+                    "answer": "Porque el cristal es transparente y deja pasar la luz, mientras que la madera es opaca y bloquearía la luz.",
+                    "hint": "Piensa en las propiedades",
+                    "explanation": "Elegimos materiales según sus propiedades para cada uso"
+                },
+                {
+                    "id": "mt009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué material es mejor para un paraguas?",
+                    "options": [
+                        "Papel",
+                        "Tela impermeable",
+                        "Algodón",
+                        "Cartón"
+                    ],
+                    "answer": "Tela impermeable",
+                    "hint": "¿Cuál no deja pasar el agua?",
+                    "explanation": "Impermeable = no deja pasar agua → ideal para paraguas"
+                },
+                {
+                    "id": "mt010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Los materiales artificiales son creados por el ser humano",
+                    "answer": "true",
+                    "hint": "Plástico, nylon, vidrio...",
+                    "explanation": "Artificiales: fabricados por el hombre. Naturales: de la naturaleza"
+                }
+            ]
+        },
+        {
+            "id": "agua",
+            "name": "El agua y sus estados",
+            "icon": "💧",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "ag001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuáles son los 3 estados del agua?",
+                    "options": [
+                        "Caliente, templada, fría",
+                        "Sólido, líquido, gaseoso",
+                        "Dulce, salada, mineral",
+                        "Clara, turbia, limpia"
+                    ],
+                    "answer": "Sólido, líquido, gaseoso",
+                    "hint": "Hielo, agua, vapor",
+                    "explanation": "Sólido (hielo), líquido (agua), gaseoso (vapor)"
+                },
+                {
+                    "id": "ag002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El agua en estado sólido se llama ___",
+                    "answer": "hielo",
+                    "hint": "Cuando se congela",
+                    "explanation": "Agua + frío = hielo (estado sólido)"
+                },
+                {
+                    "id": "ag003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Las nubes están formadas por gotitas de agua",
+                    "answer": "true",
+                    "hint": "¿De qué están hechas?",
+                    "explanation": "Las nubes son vapor de agua condensado en gotitas"
+                },
+                {
+                    "id": "ag004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada cambio de estado",
+                    "pairs": [
+                        [
+                            "Hielo → agua",
+                            "Fusión"
+                        ],
+                        [
+                            "Agua → vapor",
+                            "Evaporación"
+                        ],
+                        [
+                            "Vapor → agua",
+                            "Condensación"
+                        ],
+                        [
+                            "Agua → hielo",
+                            "Solidificación"
+                        ]
+                    ],
+                    "hint": "¿Cómo se llama cada cambio?",
+                    "explanation": "Los cambios de estado tienen nombres específicos"
+                },
+                {
+                    "id": "ag005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿A qué temperatura hierve el agua?",
+                    "options": [
+                        "0°C",
+                        "50°C",
+                        "100°C",
+                        "200°C"
+                    ],
+                    "answer": "100°C",
+                    "hint": "Cien grados",
+                    "explanation": "El agua hierve (se evapora) a 100°C"
+                },
+                {
+                    "id": "ag006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El agua se congela a ___ grados centígrados",
+                    "answer": "0",
+                    "hint": "Cero grados",
+                    "explanation": "0°C = punto de congelación del agua"
+                },
+                {
+                    "id": "ag007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El agua dulce (ríos y lagos) es más abundante que el agua salada (mares)",
+                    "answer": "false",
+                    "hint": "¿Hay más ríos o más mar?",
+                    "explanation": "El 97% del agua es salada (mares), solo el 3% es dulce"
+                },
+                {
+                    "id": "ag008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Explica el ciclo del agua en 3 pasos",
+                    "answer": "1. El sol calienta el agua de mares y ríos y se evapora. 2. El vapor sube, se enfría y forma nubes (condensación). 3. Las nubes sueltan lluvia que vuelve a ríos y mares.",
+                    "hint": "Evaporación → nubes → lluvia",
+                    "explanation": "Ciclo del agua: evaporación → condensación → precipitación"
+                },
+                {
+                    "id": "ag009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Por qué es importante no malgastar agua?",
+                    "options": [
+                        "Porque es cara",
+                        "Porque el agua dulce es limitada",
+                        "Porque no llueve nunca",
+                        "Porque sabe mal"
+                    ],
+                    "answer": "Porque el agua dulce es limitada",
+                    "hint": "Solo el 3% del agua es dulce",
+                    "explanation": "El agua dulce es un recurso limitado y esencial para la vida"
+                },
+                {
+                    "id": "ag010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Cuando la lluvia cae en forma de cristales de hielo, se llama ___",
+                    "answer": "nieve",
+                    "hint": "Cristales blancos que caen del cielo",
+                    "explanation": "Nieve: precipitación en forma de cristales de hielo"
+                }
+            ]
+        },
+        {
+            "id": "tiempo_atmosferico",
+            "name": "El tiempo atmosférico y las estaciones",
+            "icon": "🌤️",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "ta001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada estación con sus meses",
+                    "pairs": [
+                        [
+                            "Primavera",
+                            "Marzo-Abril-Mayo"
+                        ],
+                        [
+                            "Verano",
+                            "Junio-Julio-Agosto"
+                        ],
+                        [
+                            "Otoño",
+                            "Septiembre-Octubre-Noviembre"
+                        ],
+                        [
+                            "Invierno",
+                            "Diciembre-Enero-Febrero"
+                        ]
+                    ],
+                    "hint": "¿En qué meses hace más calor?",
+                    "explanation": "4 estaciones, cada una con 3 meses"
+                },
+                {
+                    "id": "ta002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El instrumento para medir la temperatura se llama ___",
+                    "answer": "termómetro",
+                    "hint": "Termo = calor, metro = medir",
+                    "explanation": "El termómetro mide la temperatura en grados"
+                },
+                {
+                    "id": "ta003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué estación viene después de la primavera?",
+                    "options": [
+                        "Otoño",
+                        "Invierno",
+                        "Verano",
+                        "Otra primavera"
+                    ],
+                    "answer": "Verano",
+                    "hint": "Primavera → ?",
+                    "explanation": "Primavera → Verano → Otoño → Invierno"
+                },
+                {
+                    "id": "ta004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "La lluvia se mide con un pluviómetro",
+                    "answer": "true",
+                    "hint": "Pluvio = lluvia",
+                    "explanation": "El pluviómetro mide la cantidad de lluvia caída"
+                },
+                {
+                    "id": "ta005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué ocurre con las hojas de los árboles de hoja caduca en otoño?",
+                    "options": [
+                        "Crecen más",
+                        "Se caen",
+                        "Se vuelven más grandes",
+                        "No pasa nada"
+                    ],
+                    "answer": "Se caen",
+                    "hint": "Caduca = que cae",
+                    "explanation": "En otoño las hojas cambian de color y caen"
+                },
+                {
+                    "id": "ta006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La veleta indica la dirección del ___",
+                    "answer": "viento",
+                    "hint": "Se mueve con el aire",
+                    "explanation": "La veleta señala de dónde viene el viento"
+                },
+                {
+                    "id": "ta007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "¿Qué ropa te pondrías en invierno y por qué?",
+                    "answer": "Abrigo, bufanda y guantes porque hace frío y hay que protegerse del frío.",
+                    "hint": "¿Qué tiempo hace en invierno?",
+                    "explanation": "Adaptamos la ropa al tiempo atmosférico"
+                },
+                {
+                    "id": "ta008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Por qué hay estaciones del año?",
+                    "options": [
+                        "Por las nubes",
+                        "Por la inclinación del eje de la Tierra",
+                        "Por la Luna",
+                        "Por el viento"
+                    ],
+                    "answer": "Por la inclinación del eje de la Tierra",
+                    "hint": "La Tierra está un poco inclinada",
+                    "explanation": "La inclinación de la Tierra hace que los rayos del sol lleguen con diferente intensidad"
+                },
+                {
+                    "id": "ta009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Cuando en España es verano, en Australia es invierno",
+                    "answer": "true",
+                    "hint": "Hemisferios opuestos",
+                    "explanation": "Los hemisferios norte y sur tienen estaciones opuestas"
+                },
+                {
+                    "id": "ta010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El día más largo del año en España es el solsticio de ___",
+                    "answer": "verano",
+                    "hint": "21 de junio aproximadamente",
+                    "explanation": "Solsticio de verano (≈21 junio): día más largo, noche más corta"
+                }
+            ]
+        },
+        {
+            "id": "maquinas_simples",
+            "name": "Máquinas simples y fuerzas",
+            "icon": "⚙️",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "ms001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Para qué sirven las máquinas simples?",
+                    "options": [
+                        "Para hacer ruido",
+                        "Para hacer el trabajo más fácil",
+                        "Para decorar",
+                        "Para estudiar"
+                    ],
+                    "answer": "Para hacer el trabajo más fácil",
+                    "hint": "Nos ayudan a hacer cosas",
+                    "explanation": "Las máquinas simples facilitan el trabajo"
+                },
+                {
+                    "id": "ms002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada máquina simple con un ejemplo",
+                    "pairs": [
+                        [
+                            "Palanca",
+                            "Balancín"
+                        ],
+                        [
+                            "Rueda",
+                            "Bicicleta"
+                        ],
+                        [
+                            "Polea",
+                            "Pozo de agua"
+                        ],
+                        [
+                            "Rampa",
+                            "Tobogán"
+                        ]
+                    ],
+                    "hint": "¿Dónde ves cada máquina?",
+                    "explanation": "Máquinas simples: palanca, rueda, polea, plano inclinado"
+                },
+                {
+                    "id": "ms003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Una fuerza puede mover, parar o cambiar la ___ de un objeto",
+                    "answer": "dirección",
+                    "hint": "Empujar, tirar, desviar...",
+                    "explanation": "Las fuerzas cambian el movimiento: mover, parar, cambiar dirección"
+                },
+                {
+                    "id": "ms004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Un sacacorchos es un ejemplo de máquina simple (tornillo)",
+                    "answer": "true",
+                    "hint": "Gira y penetra",
+                    "explanation": "El sacacorchos usa el principio del tornillo (plano inclinado enrollado)"
+                },
+                {
+                    "id": "ms005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Por qué es más fácil subir por una rampa que por escaleras con una silla de ruedas?",
+                    "options": [
+                        "Porque es más bonito",
+                        "Porque la rampa reduce la fuerza necesaria",
+                        "Porque las escaleras son peligrosas",
+                        "Porque la rampa es más corta"
+                    ],
+                    "answer": "Porque la rampa reduce la fuerza necesaria",
+                    "hint": "Plano inclinado",
+                    "explanation": "La rampa (plano inclinado) requiere menos fuerza, aunque más distancia"
+                },
+                {
+                    "id": "ms006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La fuerza que atrae las cosas hacia el suelo se llama ___",
+                    "answer": "gravedad",
+                    "hint": "Lo que hace que las cosas caigan",
+                    "explanation": "La gravedad es la fuerza que atrae todo hacia el centro de la Tierra"
+                },
+                {
+                    "id": "ms007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Un imán puede atraer objetos de madera",
+                    "answer": "false",
+                    "hint": "¿Qué materiales atrae?",
+                    "explanation": "Los imanes solo atraen materiales magnéticos como el hierro"
+                },
+                {
+                    "id": "ms008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué las ruedas de los coches tienen dibujo (relieve)?",
+                    "answer": "Para tener mejor agarre y no resbalar en el suelo, especialmente cuando llueve. El dibujo proporciona fricción.",
+                    "hint": "Piensa en un día de lluvia",
+                    "explanation": "El relieve aumenta la fricción con el suelo para no patinar"
+                },
+                {
+                    "id": "ms009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué fuerza hace que una pelota ruede más lento hasta pararse?",
+                    "options": [
+                        "Gravedad",
+                        "Magnetismo",
+                        "Rozamiento (fricción)",
+                        "Electricidad"
+                    ],
+                    "answer": "Rozamiento (fricción)",
+                    "hint": "El suelo frena la pelota",
+                    "explanation": "La fricción/rozamiento se opone al movimiento"
+                },
+                {
+                    "id": "ms010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Cuando empujas y otra persona también empuja con la misma fuerza en dirección contraria, las fuerzas están ___",
+                    "answer": "equilibradas",
+                    "hint": "Nadie se mueve",
+                    "explanation": "Fuerzas equilibradas = mismo valor, dirección opuesta → no hay movimiento"
+                }
+            ]
+        },
+        {
+            "id": "reciclaje",
+            "name": "Reciclaje y cuidado del medio ambiente",
+            "icon": "♻️",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "re001",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada residuo con su contenedor",
+                    "pairs": [
+                        [
+                            "Botella de plástico",
+                            "Amarillo"
+                        ],
+                        [
+                            "Botella de vidrio",
+                            "Verde"
+                        ],
+                        [
+                            "Papel usado",
+                            "Azul"
+                        ],
+                        [
+                            "Cáscara de plátano",
+                            "Marrón (orgánico)"
+                        ]
+                    ],
+                    "hint": "Cada color = un tipo de residuo",
+                    "explanation": "Amarillo=envases, Verde=vidrio, Azul=papel, Marrón=orgánico"
+                },
+                {
+                    "id": "re002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Las 3 R del reciclaje son: Reducir, ___ y Reciclar",
+                    "answer": "Reutilizar",
+                    "hint": "Volver a usar",
+                    "explanation": "Reducir (menos basura), Reutilizar (usar otra vez), Reciclar (transformar)"
+                },
+                {
+                    "id": "re003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Reciclar ayuda a proteger el medio ambiente",
+                    "answer": "true",
+                    "hint": "¿Es bueno reciclar?",
+                    "explanation": "Reciclar reduce la contaminación y ahorra recursos naturales"
+                },
+                {
+                    "id": "re004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿En qué contenedor va un cartón de leche?",
+                    "options": [
+                        "Azul (papel)",
+                        "Amarillo (envases)",
+                        "Verde (vidrio)",
+                        "Marrón (orgánico)"
+                    ],
+                    "answer": "Amarillo (envases)",
+                    "hint": "Es un envase, aunque sea de cartón",
+                    "explanation": "Los briks van al contenedor amarillo (son envases mixtos)"
+                },
+                {
+                    "id": "re005",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El agua de los ríos se contamina si tiramos basura en ella",
+                    "answer": "true",
+                    "hint": "¿Qué pasa con los peces?",
+                    "explanation": "La contaminación del agua afecta a los animales y plantas acuáticas"
+                },
+                {
+                    "id": "re006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La ___ del aire se produce por gases de coches y fábricas",
+                    "answer": "contaminación",
+                    "hint": "Aire sucio",
+                    "explanation": "Los gases contaminantes ensucian el aire que respiramos"
+                },
+                {
+                    "id": "re007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Di 3 cosas que puedes hacer en casa para cuidar el medio ambiente",
+                    "answer": "1. Apagar las luces que no uso. 2. Cerrar el grifo mientras me cepillo los dientes. 3. Separar la basura para reciclar.",
+                    "hint": "Piensa en agua, luz y basura",
+                    "explanation": "Pequeñas acciones diarias protegen el medio ambiente"
+                },
+                {
+                    "id": "re008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuánto tarda un plástico en descomponerse en la naturaleza?",
+                    "options": [
+                        "1 mes",
+                        "1 año",
+                        "100-500 años",
+                        "Nunca se descompone"
+                    ],
+                    "answer": "100-500 años",
+                    "hint": "Muuuucho tiempo",
+                    "explanation": "El plástico tarda cientos de años en degradarse"
+                },
+                {
+                    "id": "re009",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "Las energías renovables (solar, eólica) contaminan menos que el petróleo",
+                    "answer": "true",
+                    "hint": "Sol y viento vs petróleo",
+                    "explanation": "Energías renovables = menor contaminación y son inagotables"
+                },
+                {
+                    "id": "re010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué es importante proteger los bosques?",
+                    "answer": "Los bosques producen oxígeno, son hogar de muchos animales, protegen el suelo de la erosión y ayudan a regular el clima.",
+                    "hint": "Piensa en el oxígeno y los animales",
+                    "explanation": "Bosques: oxígeno + biodiversidad + protección del suelo + clima"
+                }
+            ]
+        }
+    ]
+}

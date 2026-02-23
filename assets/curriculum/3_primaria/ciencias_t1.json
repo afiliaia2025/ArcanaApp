@@ -1,0 +1,696 @@
+{
+    "grade": "3_primaria",
+    "subject": "ciencias",
+    "trimester": 1,
+    "topics": [
+        {
+            "id": "aparato_digestivo",
+            "name": "El aparato digestivo",
+            "icon": "🫁",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "ad001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Dónde empieza la digestión?",
+                    "options": [
+                        "En el estómago",
+                        "En la boca",
+                        "En el intestino",
+                        "En el hígado"
+                    ],
+                    "answer": "En la boca",
+                    "hint": "Lo primero que hacemos es masticar",
+                    "explanation": "La digestión comienza en la boca con la masticación y la saliva"
+                },
+                {
+                    "id": "ad002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "En el estómago, los alimentos se mezclan con los jugos ___",
+                    "answer": "gástricos",
+                    "hint": "Jugo del estómago",
+                    "explanation": "Los jugos gástricos descomponen los alimentos en el estómago"
+                },
+                {
+                    "id": "ad003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "El intestino delgado absorbe los nutrientes de los alimentos",
+                    "answer": "true",
+                    "hint": "¿Dónde pasan los nutrientes a la sangre?",
+                    "explanation": "El intestino delgado absorbe nutrientes que pasan a la sangre"
+                },
+                {
+                    "id": "ad004",
+                    "type": "sort",
+                    "difficulty": 2,
+                    "question": "Ordena el recorrido de los alimentos",
+                    "items": [
+                        "Estómago",
+                        "Boca",
+                        "Intestino grueso",
+                        "Esófago",
+                        "Intestino delgado"
+                    ],
+                    "answer": [
+                        "Boca",
+                        "Esófago",
+                        "Estómago",
+                        "Intestino delgado",
+                        "Intestino grueso"
+                    ],
+                    "hint": "De arriba a abajo",
+                    "explanation": "Boca → Esófago → Estómago → I. delgado → I. grueso"
+                },
+                {
+                    "id": "ad005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es la función del esófago?",
+                    "options": [
+                        "Digerir alimentos",
+                        "Llevar alimentos de la boca al estómago",
+                        "Absorber nutrientes",
+                        "Producir saliva"
+                    ],
+                    "answer": "Llevar alimentos de la boca al estómago",
+                    "hint": "Es un tubo",
+                    "explanation": "El esófago es un tubo que conecta la boca con el estómago"
+                },
+                {
+                    "id": "ad006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los dientes sirven para ___ los alimentos en trozos pequeños",
+                    "answer": "triturar",
+                    "hint": "Masticar, romper...",
+                    "explanation": "Los dientes mastican/trituran los alimentos para la digestión"
+                },
+                {
+                    "id": "ad007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El intestino grueso elimina los desechos que el cuerpo no necesita",
+                    "answer": "true",
+                    "hint": "Lo que no se absorbe...",
+                    "explanation": "El intestino grueso absorbe agua y prepara los desechos para su eliminación"
+                },
+                {
+                    "id": "ad008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué es importante masticar bien los alimentos?",
+                    "answer": "Porque al masticar bien se trituran los alimentos en trozos pequeños, lo que facilita la digestión en el estómago y la absorción de nutrientes en el intestino.",
+                    "hint": "Trozos más pequeños → digestión más fácil",
+                    "explanation": "Buena masticación = mejor digestión = más nutrientes"
+                },
+                {
+                    "id": "ad009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué órgano produce la bilis para ayudar a digerir las grasas?",
+                    "options": [
+                        "Estómago",
+                        "Páncreas",
+                        "Hígado",
+                        "Riñón"
+                    ],
+                    "answer": "Hígado",
+                    "hint": "Un órgano grande y marrón oscuro",
+                    "explanation": "El hígado produce bilis, que ayuda a digerir las grasas"
+                },
+                {
+                    "id": "ad010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Los nutrientes que absorbemos son: proteínas, hidratos de carbono, grasas, vitaminas y ___",
+                    "answer": "minerales",
+                    "hint": "Calcio, hierro, zinc...",
+                    "explanation": "Los 5 tipos de nutrientes esenciales para el cuerpo"
+                }
+            ]
+        },
+        {
+            "id": "aparato_respiratorio",
+            "name": "El aparato respiratorio y circulatorio",
+            "icon": "❤️",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "ar001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Al respirar, tomamos ___ del aire y expulsamos dióxido de carbono",
+                    "answer": "oxígeno",
+                    "hint": "Lo que necesitamos para vivir",
+                    "explanation": "Inspiramos oxígeno (O₂) y espiramos dióxido de carbono (CO₂)"
+                },
+                {
+                    "id": "ar002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué órganos usamos para respirar?",
+                    "options": [
+                        "Estómago e intestinos",
+                        "Pulmones y tráquea",
+                        "Hígado y riñones",
+                        "Cerebro y nervios"
+                    ],
+                    "answer": "Pulmones y tráquea",
+                    "hint": "En el pecho",
+                    "explanation": "Aparato respiratorio: nariz, tráquea, bronquios, pulmones"
+                },
+                {
+                    "id": "ar003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "El corazón bombea sangre a todo el cuerpo",
+                    "answer": "true",
+                    "hint": "Late sin parar",
+                    "explanation": "El corazón es una bomba muscular que envía sangre al cuerpo"
+                },
+                {
+                    "id": "ar004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada parte con su función",
+                    "pairs": [
+                        [
+                            "Pulmones",
+                            "Intercambio de gases"
+                        ],
+                        [
+                            "Corazón",
+                            "Bombear sangre"
+                        ],
+                        [
+                            "Arterias",
+                            "Llevan sangre desde el corazón"
+                        ],
+                        [
+                            "Venas",
+                            "Traen sangre al corazón"
+                        ]
+                    ],
+                    "hint": "Respiratorio y circulatorio",
+                    "explanation": "Cada órgano cumple una función específica"
+                },
+                {
+                    "id": "ar005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los vasos sanguíneos más pequeños se llaman ___",
+                    "answer": "capilares",
+                    "hint": "Son diminutos",
+                    "explanation": "Capilares: vasos muy finos donde ocurre el intercambio de sustancias"
+                },
+                {
+                    "id": "ar006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿De qué color es la sangre que lleva oxígeno?",
+                    "options": [
+                        "Azul",
+                        "Roja brillante",
+                        "Verde",
+                        "Transparente"
+                    ],
+                    "answer": "Roja brillante",
+                    "hint": "Oxígeno = roja",
+                    "explanation": "Sangre oxigenada = roja brillante. Sangre sin oxígeno = roja oscura"
+                },
+                {
+                    "id": "ar007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Fumar daña los pulmones",
+                    "answer": "true",
+                    "hint": "¿Es bueno para la salud?",
+                    "explanation": "El tabaco causa graves daños en los pulmones y todo el cuerpo"
+                },
+                {
+                    "id": "ar008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Qué relación hay entre el aparato respiratorio y el circulatorio?",
+                    "answer": "Los pulmones toman oxígeno del aire y lo pasan a la sangre. El corazón bombea esa sangre con oxígeno a todo el cuerpo por las arterias. La sangre sin oxígeno vuelve al corazón por las venas y va a los pulmones para recibir más oxígeno.",
+                    "hint": "¿Cómo llega el oxígeno a todo el cuerpo?",
+                    "explanation": "Los dos aparatos trabajan juntos: pulmones oxigenan, corazón distribuye"
+                },
+                {
+                    "id": "ar009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Un adulto tiene aproximadamente ___ latidos por minuto en reposo",
+                    "answer": "70",
+                    "hint": "Entre 60 y 80",
+                    "explanation": "Frecuencia cardíaca normal en reposo: 60-80 latidos/minuto"
+                },
+                {
+                    "id": "ar010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué sucede cuando haces ejercicio?",
+                    "options": [
+                        "El corazón late más lento",
+                        "El corazón late más rápido",
+                        "No cambia nada",
+                        "Solo suda la cabeza"
+                    ],
+                    "answer": "El corazón late más rápido",
+                    "hint": "Necesitas más oxígeno",
+                    "explanation": "Al hacer ejercicio los músculos necesitan más oxígeno → corazón late más rápido"
+                }
+            ]
+        },
+        {
+            "id": "ecosistemas",
+            "name": "Ecosistemas y cadenas alimentarias",
+            "icon": "🌿",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "ec001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Un ecosistema está formado por...",
+                    "options": [
+                        "Solo animales",
+                        "Solo plantas",
+                        "Seres vivos y su medio ambiente",
+                        "Solo agua y tierra"
+                    ],
+                    "answer": "Seres vivos y su medio ambiente",
+                    "hint": "Animales + plantas + su entorno",
+                    "explanation": "Ecosistema = seres vivos + medio físico donde viven"
+                },
+                {
+                    "id": "ec002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada ecosistema con su característica",
+                    "pairs": [
+                        [
+                            "Bosque",
+                            "Muchos árboles"
+                        ],
+                        [
+                            "Desierto",
+                            "Muy seco y caluroso"
+                        ],
+                        [
+                            "Mar",
+                            "Agua salada"
+                        ],
+                        [
+                            "Río",
+                            "Agua dulce en movimiento"
+                        ]
+                    ],
+                    "hint": "¿Cómo es cada uno?",
+                    "explanation": "Diferentes ecosistemas con diferentes condiciones"
+                },
+                {
+                    "id": "ec003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "En una cadena alimentaria, las plantas son los ___",
+                    "answer": "productores",
+                    "hint": "Producen su propio alimento",
+                    "explanation": "Las plantas producen alimento mediante fotosíntesis"
+                },
+                {
+                    "id": "ec004",
+                    "type": "sort",
+                    "difficulty": 2,
+                    "question": "Ordena esta cadena alimentaria",
+                    "items": [
+                        "Zorro",
+                        "Hierba",
+                        "Conejo",
+                        "Sol"
+                    ],
+                    "answer": [
+                        "Sol",
+                        "Hierba",
+                        "Conejo",
+                        "Zorro"
+                    ],
+                    "hint": "¿Quién come a quién?",
+                    "explanation": "Sol → hierba → conejo → zorro (cadena alimentaria)"
+                },
+                {
+                    "id": "ec005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué son los consumidores primarios?",
+                    "options": [
+                        "Animales que comen carne",
+                        "Animales que comen plantas",
+                        "Las propias plantas",
+                        "Los descomponedores"
+                    ],
+                    "answer": "Animales que comen plantas",
+                    "hint": "Los herbívoros",
+                    "explanation": "Consumidores primarios = herbívoros (comen plantas)"
+                },
+                {
+                    "id": "ec006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Si desaparece un eslabón de la cadena alimentaria, los demás no se ven afectados",
+                    "answer": "false",
+                    "hint": "¿Están conectados?",
+                    "explanation": "Todos están conectados: si desaparece uno, se desequilibra todo"
+                },
+                {
+                    "id": "ec007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los hongos y bacterias que descomponen seres muertos se llaman ___",
+                    "answer": "descomponedores",
+                    "hint": "Reciclan la materia muerta",
+                    "explanation": "Los descomponedores transforman materia muerta en nutrientes para el suelo"
+                },
+                {
+                    "id": "ec008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Qué pasaría si desaparecieran todos los conejos de un bosque?",
+                    "answer": "Los zorros y otros depredadores no tendrían comida y morirían o se irían. Las plantas que comían los conejos crecerían sin control. Se rompería el equilibrio del ecosistema.",
+                    "hint": "Piensa en quién come conejo y qué come el conejo",
+                    "explanation": "Cadena alimentaria: cada eslabón afecta a los demás"
+                },
+                {
+                    "id": "ec009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué tipo de ecosistema es un estanque?",
+                    "options": [
+                        "Terrestre",
+                        "Acuático de agua dulce",
+                        "Acuático de agua salada",
+                        "Aéreo"
+                    ],
+                    "answer": "Acuático de agua dulce",
+                    "hint": "No es el mar",
+                    "explanation": "Estanque = ecosistema acuático de agua dulce"
+                },
+                {
+                    "id": "ec010",
+                    "type": "match",
+                    "difficulty": 3,
+                    "question": "Clasifica estos seres vivos en la cadena",
+                    "pairs": [
+                        [
+                            "Águila",
+                            "Consumidor terciario"
+                        ],
+                        [
+                            "Ratón",
+                            "Consumidor primario"
+                        ],
+                        [
+                            "Serpiente",
+                            "Consumidor secundario"
+                        ],
+                        [
+                            "Hierba",
+                            "Productor"
+                        ]
+                    ],
+                    "hint": "¿Quién come a quién?",
+                    "explanation": "Hierba → ratón → serpiente → águila"
+                }
+            ]
+        },
+        {
+            "id": "suelo_rocas",
+            "name": "Rocas, minerales y el suelo",
+            "icon": "🪨",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "sr001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿De qué están hechas las montañas?",
+                    "options": [
+                        "De tierra solamente",
+                        "De rocas y minerales",
+                        "De arena",
+                        "De agua congelada"
+                    ],
+                    "answer": "De rocas y minerales",
+                    "hint": "Material duro y sólido",
+                    "explanation": "Las montañas están formadas por diferentes tipos de rocas"
+                },
+                {
+                    "id": "sr002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El ___ es la capa de tierra donde crecen las plantas",
+                    "answer": "suelo",
+                    "hint": "Sobre lo que pisamos",
+                    "explanation": "El suelo es la capa superior de la superficie terrestre"
+                },
+                {
+                    "id": "sr003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Todas las rocas son iguales",
+                    "answer": "false",
+                    "hint": "Granito, mármol, caliza...",
+                    "explanation": "Hay muchos tipos de rocas con propiedades diferentes"
+                },
+                {
+                    "id": "sr004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada roca con su uso",
+                    "pairs": [
+                        [
+                            "Granito",
+                            "Construcción de edificios"
+                        ],
+                        [
+                            "Mármol",
+                            "Esculturas y suelos"
+                        ],
+                        [
+                            "Arcilla",
+                            "Ladrillos y cerámica"
+                        ],
+                        [
+                            "Pizarra",
+                            "Tejados"
+                        ]
+                    ],
+                    "hint": "¿Para qué se usa cada roca?",
+                    "explanation": "Diferentes rocas tienen diferentes usos"
+                },
+                {
+                    "id": "sr005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué mineral se usa para fabricar joyas y es el más duro de la naturaleza?",
+                    "options": [
+                        "Oro",
+                        "Plata",
+                        "Diamante",
+                        "Hierro"
+                    ],
+                    "answer": "Diamante",
+                    "hint": "El material más duro",
+                    "explanation": "El diamante es el mineral natural más duro"
+                },
+                {
+                    "id": "sr006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El proceso por el que el agua y el viento desgastan las rocas se llama ___",
+                    "answer": "erosión",
+                    "hint": "Desgaste natural",
+                    "explanation": "La erosión desgasta las rocas y modifica el paisaje"
+                },
+                {
+                    "id": "sr007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El suelo necesita miles de años para formarse",
+                    "answer": "true",
+                    "hint": "Es un proceso muy lento",
+                    "explanation": "La formación de suelo es lentísima: siglos y milenios"
+                },
+                {
+                    "id": "sr008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuáles son los 3 tipos principales de rocas?",
+                    "options": [
+                        "Grandes, medianas, pequeñas",
+                        "Ígneas, sedimentarias, metamórficas",
+                        "Duras, blandas, líquidas",
+                        "Rojas, grises, blancas"
+                    ],
+                    "answer": "Ígneas, sedimentarias, metamórficas",
+                    "hint": "Según cómo se forman",
+                    "explanation": "Ígneas (volcánicas), sedimentarias (capas), metamórficas (transformación)"
+                },
+                {
+                    "id": "sr009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué la deforestación (talar muchos árboles) causa erosión del suelo?",
+                    "answer": "Las raíces de los árboles sujetan la tierra. Sin árboles, el agua y el viento arrastran la tierra fácilmente, causando erosión y empobreciendo el suelo.",
+                    "hint": "¿Qué hacen las raíces?",
+                    "explanation": "Las raíces fijan el suelo; sin ellas, lluvia y viento lo arrastran"
+                },
+                {
+                    "id": "sr010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Los fósiles son restos de seres vivos que vivieron hace ___ de años",
+                    "answer": "millones",
+                    "hint": "Dinosaurios y otras criaturas antiguas",
+                    "explanation": "Los fósiles se conservan en rocas sedimentarias durante millones de años"
+                }
+            ]
+        },
+        {
+            "id": "salud_prevencion",
+            "name": "Salud, higiene y prevención",
+            "icon": "🏥",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "hp001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuántas veces al día debemos lavarnos los dientes?",
+                    "options": [
+                        "1",
+                        "2-3",
+                        "Solo los fines de semana",
+                        "Nunca"
+                    ],
+                    "answer": "2-3",
+                    "hint": "Después de las comidas principales",
+                    "explanation": "Cepillarse 2-3 veces al día, especialmente después de comer"
+                },
+                {
+                    "id": "hp002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Lavarse las manos antes de comer previene enfermedades",
+                    "answer": "true",
+                    "hint": "Las manos tocan muchas cosas",
+                    "explanation": "El lavado de manos elimina gérmenes y previene infecciones"
+                },
+                {
+                    "id": "hp003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Las ___ nos protegen de enfermedades graves",
+                    "answer": "vacunas",
+                    "hint": "El médico las pone con una inyección",
+                    "explanation": "Las vacunas entrenan al sistema inmunitario contra enfermedades"
+                },
+                {
+                    "id": "hp004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada hábito con lo que previene",
+                    "pairs": [
+                        [
+                            "Lavarse los dientes",
+                            "Caries"
+                        ],
+                        [
+                            "Hacer ejercicio",
+                            "Obesidad"
+                        ],
+                        [
+                            "Protección solar",
+                            "Quemaduras"
+                        ],
+                        [
+                            "Lavarse las manos",
+                            "Infecciones"
+                        ]
+                    ],
+                    "hint": "¿Qué evita cada hábito?",
+                    "explanation": "Los buenos hábitos previenen problemas de salud"
+                },
+                {
+                    "id": "hp005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Por qué debemos protegernos del sol con crema?",
+                    "options": [
+                        "Para estar más guapos",
+                        "Para que los rayos UV no nos quemen la piel",
+                        "Para no pasar calor",
+                        "Porque brilla mucho"
+                    ],
+                    "answer": "Para que los rayos UV no nos quemen la piel",
+                    "hint": "Rayos ultravioleta son dañinos",
+                    "explanation": "Los rayos UV del sol pueden quemar y dañar la piel"
+                },
+                {
+                    "id": "hp006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Dormir bien es importante porque durante el sueño el cuerpo se ___ y crece",
+                    "answer": "repara",
+                    "hint": "El cuerpo descansa y se recupera",
+                    "explanation": "Durante el sueño el cuerpo se repara, crece y consolida recuerdos"
+                },
+                {
+                    "id": "hp007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El ejercicio físico solo beneficia a los músculos",
+                    "answer": "false",
+                    "hint": "¿Y el corazón? ¿Y el cerebro?",
+                    "explanation": "El ejercicio beneficia músculos, corazón, huesos, cerebro y ánimo"
+                },
+                {
+                    "id": "hp008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Di 3 hábitos saludables que puedas hacer cada día",
+                    "answer": "1. Comer frutas y verduras. 2. Hacer al menos 60 minutos de ejercicio. 3. Dormir 9-11 horas.",
+                    "hint": "Alimentación, ejercicio, descanso",
+                    "explanation": "Los 3 pilares: alimentación equilibrada, ejercicio y buen descanso"
+                },
+                {
+                    "id": "hp009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué es una alergia?",
+                    "options": [
+                        "Una enfermedad contagiosa",
+                        "Una reacción exagerada del cuerpo a algo normalmente inofensivo",
+                        "Un tipo de bacteria",
+                        "Una fractura de hueso"
+                    ],
+                    "answer": "Una reacción exagerada del cuerpo a algo normalmente inofensivo",
+                    "hint": "Polen, polvo, ciertos alimentos...",
+                    "explanation": "Alergias: el sistema inmunitario reacciona ante sustancias no dañinas"
+                },
+                {
+                    "id": "hp010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El sistema que nos defiende de las enfermedades se llama sistema ___",
+                    "answer": "inmunitario",
+                    "hint": "Inmune = protegido",
+                    "explanation": "El sistema inmunitario produce anticuerpos que combaten infecciones"
+                }
+            ]
+        }
+    ]
+}

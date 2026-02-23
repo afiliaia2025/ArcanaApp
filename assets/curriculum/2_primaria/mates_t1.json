@@ -1,0 +1,642 @@
+{
+    "grade": "2_primaria",
+    "subject": "mates",
+    "trimester": 1,
+    "topics": [
+        {
+            "id": "numeros_999",
+            "name": "Números hasta 999",
+            "icon": "🔢",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "n001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cómo se lee el número 245?",
+                    "options": [
+                        "Doscientos cuarenta y cinco",
+                        "Doscientos cincuenta y cuatro",
+                        "Doscientos cuarenta y cuatro",
+                        "Doscientos treinta y cinco"
+                    ],
+                    "answer": "Doscientos cuarenta y cinco",
+                    "hint": "Fíjate: 2 centenas, 4 decenas, 5 unidades",
+                    "explanation": "245 = 200 + 40 + 5 = doscientos cuarenta y cinco"
+                },
+                {
+                    "id": "n002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El número 378 tiene ___ centenas, ___ decenas y ___ unidades",
+                    "answer": "3, 7, 8",
+                    "hint": "La primera cifra son centenas, la segunda decenas, la tercera unidades",
+                    "explanation": "378 = 3C + 7D + 8U"
+                },
+                {
+                    "id": "n003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "El número 509 tiene 0 decenas",
+                    "answer": "true",
+                    "hint": "Mira la cifra del medio",
+                    "explanation": "509 = 5 centenas, 0 decenas, 9 unidades"
+                },
+                {
+                    "id": "n004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué número forman 4 centenas, 0 decenas y 7 unidades?",
+                    "options": [
+                        "407",
+                        "470",
+                        "704",
+                        "47"
+                    ],
+                    "answer": "407",
+                    "hint": "Centenas-Decenas-Unidades",
+                    "explanation": "4C + 0D + 7U = 407"
+                },
+                {
+                    "id": "n005",
+                    "type": "sort",
+                    "difficulty": 2,
+                    "question": "Ordena de menor a mayor",
+                    "items": [
+                        "450",
+                        "405",
+                        "540",
+                        "504"
+                    ],
+                    "answer": [
+                        "405",
+                        "450",
+                        "504",
+                        "540"
+                    ],
+                    "hint": "Compara primero las centenas",
+                    "explanation": "405 < 450 < 504 < 540"
+                },
+                {
+                    "id": "n006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "El número anterior a 500 es ___",
+                    "answer": "499",
+                    "hint": "¿Qué número va justo antes?",
+                    "explanation": "500 - 1 = 499"
+                },
+                {
+                    "id": "n007",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál de estos números es mayor?",
+                    "options": [
+                        "389",
+                        "398",
+                        "839",
+                        "893"
+                    ],
+                    "answer": "893",
+                    "hint": "Compara las centenas primero",
+                    "explanation": "893 tiene 8 centenas, más que cualquier otro"
+                },
+                {
+                    "id": "n008",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "567 es mayor que 576",
+                    "answer": "false",
+                    "hint": "Las centenas son iguales, compara las decenas",
+                    "explanation": "567 < 576 porque 6 decenas < 7 decenas"
+                },
+                {
+                    "id": "n009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Descompón 846: ___ + ___ + ___",
+                    "answer": "800 + 40 + 6",
+                    "hint": "Separa en centenas, decenas y unidades",
+                    "explanation": "846 = 800 + 40 + 6"
+                },
+                {
+                    "id": "n010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué número es 200 + 90 + 3?",
+                    "options": [
+                        "239",
+                        "293",
+                        "932",
+                        "923"
+                    ],
+                    "answer": "293",
+                    "hint": "Suma: centenas + decenas + unidades",
+                    "explanation": "200 + 90 + 3 = 293"
+                }
+            ]
+        },
+        {
+            "id": "sumas_llevadas",
+            "name": "Sumas con llevadas",
+            "icon": "➕",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "s001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuánto es 35 + 28?",
+                    "options": [
+                        "53",
+                        "63",
+                        "73",
+                        "43"
+                    ],
+                    "answer": "63",
+                    "hint": "5+8=13, me llevo 1; 3+2+1=6",
+                    "explanation": "35 + 28 = 63"
+                },
+                {
+                    "id": "s002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "42 + 19 = ___",
+                    "answer": "61",
+                    "hint": "2+9=11, me llevo 1",
+                    "explanation": "42 + 19 = 61"
+                },
+                {
+                    "id": "s003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuánto es 150 + 230?",
+                    "options": [
+                        "370",
+                        "380",
+                        "350",
+                        "390"
+                    ],
+                    "answer": "380",
+                    "hint": "Suma centenas: 1+2=3, decenas: 5+3=8",
+                    "explanation": "150 + 230 = 380"
+                },
+                {
+                    "id": "s004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "347 + 258 = ___",
+                    "answer": "605",
+                    "hint": "7+8=15, llevo 1; 4+5+1=10, llevo 1; 3+2+1=6",
+                    "explanation": "347 + 258 = 605"
+                },
+                {
+                    "id": "s005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuánto es 199 + 156?",
+                    "options": [
+                        "345",
+                        "355",
+                        "365",
+                        "335"
+                    ],
+                    "answer": "355",
+                    "hint": "Empieza por las unidades: 9+6=15",
+                    "explanation": "199 + 156 = 355"
+                },
+                {
+                    "id": "s006",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "En una granja hay 245 gallinas y 178 patos. ¿Cuántos animales hay en total?",
+                    "answer": "423",
+                    "hint": "Suma gallinas + patos",
+                    "explanation": "245 + 178 = 423 animales"
+                },
+                {
+                    "id": "s007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "___ + 350 = 700",
+                    "answer": "350",
+                    "hint": "¿Qué número sumado a 350 da 700?",
+                    "explanation": "700 - 350 = 350"
+                },
+                {
+                    "id": "s008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Ana tiene 367 cromos y Pablo tiene 285. ¿Cuántos cromos tienen entre los dos?",
+                    "answer": "652",
+                    "hint": "Suma las dos cantidades",
+                    "explanation": "367 + 285 = 652 cromos"
+                },
+                {
+                    "id": "s009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuánto es 489 + 376?",
+                    "options": [
+                        "855",
+                        "865",
+                        "856",
+                        "845"
+                    ],
+                    "answer": "865",
+                    "hint": "9+6=15; 8+7+1=16; 4+3+1=8",
+                    "explanation": "489 + 376 = 865"
+                },
+                {
+                    "id": "s010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "234 + ___ = 500",
+                    "answer": "266",
+                    "hint": "¿Cuánto falta de 234 a 500?",
+                    "explanation": "500 - 234 = 266"
+                }
+            ]
+        },
+        {
+            "id": "restas_llevadas",
+            "name": "Restas con llevadas",
+            "icon": "➖",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "r001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuánto es 53 - 27?",
+                    "options": [
+                        "36",
+                        "26",
+                        "24",
+                        "34"
+                    ],
+                    "answer": "26",
+                    "hint": "No puedo quitar 7 de 3, así que llevo",
+                    "explanation": "53 - 27 = 26"
+                },
+                {
+                    "id": "r002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "80 - 35 = ___",
+                    "answer": "45",
+                    "hint": "0-5 no se puede, llevo de las decenas",
+                    "explanation": "80 - 35 = 45"
+                },
+                {
+                    "id": "r003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuánto es 100 - 40?",
+                    "options": [
+                        "50",
+                        "60",
+                        "70",
+                        "40"
+                    ],
+                    "answer": "60",
+                    "hint": "10 decenas menos 4 decenas",
+                    "explanation": "100 - 40 = 60"
+                },
+                {
+                    "id": "r004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "500 - 278 = ___",
+                    "answer": "222",
+                    "hint": "Empieza por las unidades y lleva",
+                    "explanation": "500 - 278 = 222"
+                },
+                {
+                    "id": "r005",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "En un cine hay 350 butacas. Si 189 están ocupadas, ¿cuántas quedan libres?",
+                    "answer": "161",
+                    "hint": "Resta ocupadas del total",
+                    "explanation": "350 - 189 = 161 butacas libres"
+                },
+                {
+                    "id": "r006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuánto es 703 - 456?",
+                    "options": [
+                        "247",
+                        "257",
+                        "347",
+                        "237"
+                    ],
+                    "answer": "247",
+                    "hint": "3-6 no se puede, lleva",
+                    "explanation": "703 - 456 = 247"
+                },
+                {
+                    "id": "r007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "600 - 350 = 350",
+                    "answer": "false",
+                    "hint": "Haz la resta",
+                    "explanation": "600 - 350 = 250, no 350"
+                },
+                {
+                    "id": "r008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Un tren viaja 845 km. Ya ha recorrido 568 km. ¿Cuántos km le faltan?",
+                    "answer": "277",
+                    "hint": "Resta lo recorrido del total",
+                    "explanation": "845 - 568 = 277 km"
+                },
+                {
+                    "id": "r009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "___ - 399 = 200",
+                    "answer": "599",
+                    "hint": "¿Qué número menos 399 da 200?",
+                    "explanation": "200 + 399 = 599"
+                },
+                {
+                    "id": "r010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuánto es 901 - 567?",
+                    "options": [
+                        "334",
+                        "344",
+                        "434",
+                        "324"
+                    ],
+                    "answer": "334",
+                    "hint": "1-7 no se puede, lleva",
+                    "explanation": "901 - 567 = 334"
+                }
+            ]
+        },
+        {
+            "id": "series_patrones",
+            "name": "Series numéricas y patrones",
+            "icon": "🔄",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "sp001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Completa la serie: 2, 4, 6, 8, ___",
+                    "answer": "10",
+                    "hint": "Sumamos 2 cada vez",
+                    "explanation": "Es la serie de los pares: +2"
+                },
+                {
+                    "id": "sp002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Completa: 10, 20, 30, ___, 50",
+                    "answer": "40",
+                    "hint": "Sumamos 10 cada vez",
+                    "explanation": "Serie de 10 en 10"
+                },
+                {
+                    "id": "sp003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué número sigue? 5, 10, 15, 20, ...",
+                    "options": [
+                        "22",
+                        "24",
+                        "25",
+                        "30"
+                    ],
+                    "answer": "25",
+                    "hint": "Sumamos 5 cada vez",
+                    "explanation": "Serie de 5 en 5: 20 + 5 = 25"
+                },
+                {
+                    "id": "sp004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Completa: 100, 200, 300, ___, ___",
+                    "answer": "400, 500",
+                    "hint": "Sumamos 100 cada vez",
+                    "explanation": "Serie de 100 en 100"
+                },
+                {
+                    "id": "sp005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué número falta? 120, 130, ___, 150, 160",
+                    "options": [
+                        "135",
+                        "140",
+                        "145",
+                        "155"
+                    ],
+                    "answer": "140",
+                    "hint": "Sumamos 10 cada vez",
+                    "explanation": "130 + 10 = 140"
+                },
+                {
+                    "id": "sp006",
+                    "type": "sort",
+                    "difficulty": 2,
+                    "question": "Completa la serie al revés: 80, 70, 60, ...",
+                    "items": [
+                        "40",
+                        "50",
+                        "30"
+                    ],
+                    "answer": [
+                        "50",
+                        "40",
+                        "30"
+                    ],
+                    "hint": "Restamos 10 cada vez",
+                    "explanation": "Serie descendente de 10 en 10"
+                },
+                {
+                    "id": "sp007",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Completa: 3, 6, 9, 12, ___, ___",
+                    "answer": "15, 18",
+                    "hint": "Sumamos 3 cada vez",
+                    "explanation": "Serie de 3 en 3: tabla del 3"
+                },
+                {
+                    "id": "sp008",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué número falta? 250, 300, ___, 400, 450",
+                    "options": [
+                        "325",
+                        "340",
+                        "350",
+                        "375"
+                    ],
+                    "answer": "350",
+                    "hint": "Sumamos 50 cada vez",
+                    "explanation": "300 + 50 = 350"
+                },
+                {
+                    "id": "sp009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Completa la serie: 999, 899, 799, ___",
+                    "answer": "699",
+                    "hint": "Restamos 100 cada vez",
+                    "explanation": "Serie descendente de 100 en 100"
+                },
+                {
+                    "id": "sp010",
+                    "type": "true_false",
+                    "difficulty": 3,
+                    "question": "En la serie 4, 8, 12, 16, el siguiente número es 18",
+                    "answer": "false",
+                    "hint": "¿Cuánto sumamos cada vez?",
+                    "explanation": "Sumamos 4: 16 + 4 = 20, no 18"
+                }
+            ]
+        },
+        {
+            "id": "dinero_euros",
+            "name": "Sistema monetario (€)",
+            "icon": "💰",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "d001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuántos céntimos tiene 1 euro?",
+                    "options": [
+                        "10",
+                        "50",
+                        "100",
+                        "200"
+                    ],
+                    "answer": "100",
+                    "hint": "Un euro se divide en céntimos",
+                    "explanation": "1 € = 100 céntimos"
+                },
+                {
+                    "id": "d002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada moneda con su valor",
+                    "pairs": [
+                        [
+                            "Moneda de 2€",
+                            "200 céntimos"
+                        ],
+                        [
+                            "Moneda de 1€",
+                            "100 céntimos"
+                        ],
+                        [
+                            "Moneda de 50c",
+                            "50 céntimos"
+                        ],
+                        [
+                            "Moneda de 20c",
+                            "20 céntimos"
+                        ]
+                    ],
+                    "hint": "Recuerda: 1€ = 100 céntimos",
+                    "explanation": "Cada euro son 100 céntimos"
+                },
+                {
+                    "id": "d003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Un billete de 5€ vale lo mismo que ___ monedas de 1€",
+                    "answer": "5",
+                    "hint": "5€ = 5 × 1€",
+                    "explanation": "5 euros en monedas de 1€ son 5 monedas"
+                },
+                {
+                    "id": "d004",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Tienes un billete de 10€ y compras un juguete de 7€. ¿Cuánto te devuelven?",
+                    "answer": "3",
+                    "hint": "Resta el precio al dinero que tienes",
+                    "explanation": "10 - 7 = 3€ de vuelta"
+                },
+                {
+                    "id": "d005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuánto dinero hay? Dos billetes de 5€ y tres monedas de 1€",
+                    "options": [
+                        "8€",
+                        "11€",
+                        "13€",
+                        "15€"
+                    ],
+                    "answer": "13€",
+                    "hint": "Suma los billetes y las monedas",
+                    "explanation": "5+5+1+1+1 = 13€"
+                },
+                {
+                    "id": "d006",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Con 20€ puedo comprar algo de 22€",
+                    "answer": "false",
+                    "hint": "Compara las cantidades",
+                    "explanation": "20 < 22, no alcanza"
+                },
+                {
+                    "id": "d007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "María tiene 3 monedas de 2€ y 2 monedas de 50c. ¿Cuánto dinero tiene?",
+                    "answer": "7€",
+                    "hint": "3×2€ = 6€, 2×50c = 1€",
+                    "explanation": "6€ + 1€ = 7€"
+                },
+                {
+                    "id": "d008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Pablo quiere comprar un libro de 15€ y un cuaderno de 4€. Tiene un billete de 20€. ¿Le sobra dinero? ¿Cuánto?",
+                    "answer": "1€",
+                    "hint": "Primero suma lo que cuesta todo, luego resta",
+                    "explanation": "15 + 4 = 19€. 20 - 19 = 1€ de sobra"
+                },
+                {
+                    "id": "d009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántas monedas de 2€ necesitas para tener 18€?",
+                    "options": [
+                        "7",
+                        "8",
+                        "9",
+                        "10"
+                    ],
+                    "answer": "9",
+                    "hint": "18 ÷ 2 = ?",
+                    "explanation": "18 ÷ 2 = 9 monedas de 2€"
+                },
+                {
+                    "id": "d010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Con un billete de 50€ compro cosas por 23€. Me devuelven ___€",
+                    "answer": "27",
+                    "hint": "50 - 23 = ?",
+                    "explanation": "50 - 23 = 27€"
+                }
+            ]
+        }
+    ]
+}

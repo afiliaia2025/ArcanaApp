@@ -1,0 +1,706 @@
+{
+    "grade": "3_primaria",
+    "subject": "ciencias",
+    "trimester": 2,
+    "topics": [
+        {
+            "id": "energia",
+            "name": "La energía y sus tipos",
+            "icon": "⚡",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "en001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué es la energía?",
+                    "options": [
+                        "Un tipo de comida",
+                        "La capacidad de producir cambios",
+                        "Un color",
+                        "Un animal"
+                    ],
+                    "answer": "La capacidad de producir cambios",
+                    "hint": "Mueve, calienta, ilumina...",
+                    "explanation": "Energía = capacidad de producir cambios o realizar trabajo"
+                },
+                {
+                    "id": "en002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Une cada fuente de energía",
+                    "pairs": [
+                        [
+                            "Sol",
+                            "Energía solar"
+                        ],
+                        [
+                            "Viento",
+                            "Energía eólica"
+                        ],
+                        [
+                            "Agua de ríos",
+                            "Energía hidráulica"
+                        ],
+                        [
+                            "Petróleo",
+                            "Energía fósil"
+                        ]
+                    ],
+                    "hint": "¿De dónde viene cada energía?",
+                    "explanation": "Diferentes fuentes producen diferentes tipos de energía"
+                },
+                {
+                    "id": "en003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "La energía del sol se llama energía ___",
+                    "answer": "solar",
+                    "hint": "Sol → sol-ar",
+                    "explanation": "Energía solar: proviene de la radiación del Sol"
+                },
+                {
+                    "id": "en004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El petróleo es una fuente de energía renovable",
+                    "answer": "false",
+                    "hint": "¿Se agota?",
+                    "explanation": "El petróleo es NO renovable: se agota y tarda millones de años en formarse"
+                },
+                {
+                    "id": "en005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál de estas es una energía renovable?",
+                    "options": [
+                        "Carbón",
+                        "Gas natural",
+                        "Energía eólica (viento)",
+                        "Petróleo"
+                    ],
+                    "answer": "Energía eólica (viento)",
+                    "hint": "¿Cuál no se agota?",
+                    "explanation": "El viento es inagotable → energía renovable"
+                },
+                {
+                    "id": "en006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Los molinos de viento transforman la energía del viento en energía ___",
+                    "answer": "eléctrica",
+                    "hint": "¿Qué producen?",
+                    "explanation": "Aerogeneradores: viento → electricidad"
+                },
+                {
+                    "id": "en007",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica en renovable o no renovable",
+                    "pairs": [
+                        [
+                            "Solar",
+                            "Renovable"
+                        ],
+                        [
+                            "Eólica",
+                            "Renovable"
+                        ],
+                        [
+                            "Petróleo",
+                            "No renovable"
+                        ],
+                        [
+                            "Carbón",
+                            "No renovable"
+                        ]
+                    ],
+                    "hint": "¿Se agota o no?",
+                    "explanation": "Renovables: inagotables. No renovables: se agotan"
+                },
+                {
+                    "id": "en008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué debemos usar más energías renovables?",
+                    "answer": "Porque las no renovables se agotan, contaminan y causan cambio climático. Las renovables son inagotables y limpias.",
+                    "hint": "Contaminación y agotamiento",
+                    "explanation": "Renovables: limpias e inagotables vs fósiles: contaminan y se agotan"
+                },
+                {
+                    "id": "en009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué transformación de energía ocurre en una lámpara?",
+                    "options": [
+                        "Térmica → luminosa",
+                        "Eléctrica → luminosa",
+                        "Sonora → eléctrica",
+                        "Mecánica → sonora"
+                    ],
+                    "answer": "Eléctrica → luminosa",
+                    "hint": "Electricidad → luz",
+                    "explanation": "La lámpara transforma energía eléctrica en luz (y algo de calor)"
+                },
+                {
+                    "id": "en010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Las placas solares se llaman paneles ___",
+                    "answer": "fotovoltaicos",
+                    "hint": "Foto = luz, voltaico = electricidad",
+                    "explanation": "Paneles fotovoltaicos: convierten luz solar en electricidad"
+                }
+            ]
+        },
+        {
+            "id": "luz_sonido",
+            "name": "La luz y el sonido",
+            "icon": "🔦",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "ls001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué necesitamos para ver las cosas?",
+                    "options": [
+                        "Oscuridad",
+                        "Silencio",
+                        "Luz",
+                        "Agua"
+                    ],
+                    "answer": "Luz",
+                    "hint": "¿Ves en la oscuridad total?",
+                    "explanation": "Sin luz no podemos ver: los objetos reflejan la luz a nuestros ojos"
+                },
+                {
+                    "id": "ls002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "El sonido viaja por el aire",
+                    "answer": "true",
+                    "hint": "¿Cómo oímos?",
+                    "explanation": "El sonido necesita un medio (aire, agua, sólido) para viajar"
+                },
+                {
+                    "id": "ls003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El arcoíris se forma cuando la luz blanca se descompone en ___ colores",
+                    "answer": "7",
+                    "hint": "Rojo, naranja, amarillo...",
+                    "explanation": "7 colores: rojo, naranja, amarillo, verde, azul, añil, violeta"
+                },
+                {
+                    "id": "ls004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Clasifica estos materiales",
+                    "pairs": [
+                        [
+                            "Cristal",
+                            "Transparente"
+                        ],
+                        [
+                            "Madera",
+                            "Opaco"
+                        ],
+                        [
+                            "Papel fino",
+                            "Translúcido"
+                        ],
+                        [
+                            "Metal",
+                            "Opaco"
+                        ]
+                    ],
+                    "hint": "¿Deja pasar la luz?",
+                    "explanation": "Transparente: pasa toda. Translúcido: pasa algo. Opaco: no pasa"
+                },
+                {
+                    "id": "ls005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué es un eco?",
+                    "options": [
+                        "Un sonido muy fuerte",
+                        "El sonido que rebota y vuelve a nosotros",
+                        "Un tipo de música",
+                        "Un ruido del viento"
+                    ],
+                    "answer": "El sonido que rebota y vuelve a nosotros",
+                    "hint": "En las montañas, si gritas...",
+                    "explanation": "El eco se produce cuando el sonido rebota en una superficie lejana"
+                },
+                {
+                    "id": "ls006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La sombra se forma cuando un objeto ___ bloquea la luz",
+                    "answer": "opaco",
+                    "hint": "No deja pasar la luz",
+                    "explanation": "Los objetos opacos bloquean la luz y crean sombras"
+                },
+                {
+                    "id": "ls007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "La luz viaja más rápido que el sonido",
+                    "answer": "true",
+                    "hint": "¿Ves el rayo antes o después de oír el trueno?",
+                    "explanation": "Luz: 300.000 km/s. Sonido: 340 m/s. ¡Mucho más rápido!"
+                },
+                {
+                    "id": "ls008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Por qué vemos el relámpago antes de oír el trueno?",
+                    "answer": "Porque la luz viaja mucho más rápido que el sonido. El relámpago y el trueno ocurren al mismo tiempo, pero la luz llega antes a nuestros ojos.",
+                    "hint": "Velocidades diferentes",
+                    "explanation": "Luz (300.000 km/s) >> Sonido (340 m/s)"
+                },
+                {
+                    "id": "ls009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cómo se llama el fenómeno de la descomposición de la luz blanca en colores?",
+                    "options": [
+                        "Reflexión",
+                        "Refracción",
+                        "Dispersión",
+                        "Absorción"
+                    ],
+                    "answer": "Dispersión",
+                    "hint": "Como un prisma o un arcoíris",
+                    "explanation": "Dispersión: la luz blanca se separa en los colores del espectro"
+                },
+                {
+                    "id": "ls010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El sonido no puede viajar en el ___",
+                    "answer": "vacío",
+                    "hint": "¿Hay sonido en el espacio?",
+                    "explanation": "El sonido necesita un medio material; en el vacío no hay sonido"
+                }
+            ]
+        },
+        {
+            "id": "maquinas_tecnologia",
+            "name": "Máquinas y tecnología",
+            "icon": "🔧",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "mt3001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué es una máquina?",
+                    "options": [
+                        "Solo los coches",
+                        "Cualquier objeto que nos ayuda a hacer un trabajo",
+                        "Solo los robots",
+                        "Los teléfonos móviles"
+                    ],
+                    "answer": "Cualquier objeto que nos ayuda a hacer un trabajo",
+                    "hint": "Desde un martillo hasta un ordenador",
+                    "explanation": "Máquina: cualquier dispositivo que facilita un trabajo"
+                },
+                {
+                    "id": "mt3002",
+                    "type": "match",
+                    "difficulty": 1,
+                    "question": "Clasifica en máquinas simples o compuestas",
+                    "pairs": [
+                        [
+                            "Palanca",
+                            "Simple"
+                        ],
+                        [
+                            "Rampa",
+                            "Simple"
+                        ],
+                        [
+                            "Bicicleta",
+                            "Compuesta"
+                        ],
+                        [
+                            "Coche",
+                            "Compuesta"
+                        ]
+                    ],
+                    "hint": "Simple: pocas piezas. Compuesta: muchas piezas",
+                    "explanation": "Simples: 1-2 piezas. Compuestas: muchos componentes unidos"
+                },
+                {
+                    "id": "mt3003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "La parte de una máquina que produce movimiento se llama ___",
+                    "answer": "motor",
+                    "hint": "Lo que mueve las cosas",
+                    "explanation": "El motor transforma energía en movimiento"
+                },
+                {
+                    "id": "mt3004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "Una bicicleta usa energía humana (muscular) para funcionar",
+                    "answer": "true",
+                    "hint": "¿Quién pedalea?",
+                    "explanation": "Al pedalear transformamos energía muscular en movimiento"
+                },
+                {
+                    "id": "mt3005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué invento permitió a las personas comunicarse a larga distancia por primera vez?",
+                    "options": [
+                        "La rueda",
+                        "El teléfono",
+                        "La brújula",
+                        "La imprenta"
+                    ],
+                    "answer": "El teléfono",
+                    "hint": "Alexander Graham Bell",
+                    "explanation": "El teléfono (1876) revolucionó la comunicación a distancia"
+                },
+                {
+                    "id": "mt3006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Las máquinas que funcionan con electricidad necesitan estar enchufadas o tener ___",
+                    "answer": "pilas",
+                    "hint": "Energía portátil",
+                    "explanation": "Pilas o baterías proporcionan electricidad sin enchufe"
+                },
+                {
+                    "id": "mt3007",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada máquina con la energía que usa",
+                    "pairs": [
+                        [
+                            "Bicicleta",
+                            "Muscular (humana)"
+                        ],
+                        [
+                            "Coche",
+                            "Combustible (gasolina)"
+                        ],
+                        [
+                            "Molino",
+                            "Viento"
+                        ],
+                        [
+                            "Lámpara",
+                            "Eléctrica"
+                        ]
+                    ],
+                    "hint": "¿De dónde obtiene cada una su energía?",
+                    "explanation": "Cada máquina utiliza un tipo de energía diferente"
+                },
+                {
+                    "id": "mt3008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Cómo ha cambiado la tecnología la vida de las personas? Da 2 ejemplos",
+                    "answer": "1. Internet nos permite acceder a información y comunicarnos al instante con cualquier parte del mundo. 2. Los aviones permiten viajar a otros continentes en pocas horas, algo imposible antes.",
+                    "hint": "Comunicación y transporte",
+                    "explanation": "La tecnología ha transformado comunicación, transporte, medicina, educación..."
+                },
+                {
+                    "id": "mt3009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué es un circuito eléctrico?",
+                    "options": [
+                        "Un camino circular",
+                        "Un camino cerrado por el que circula la electricidad",
+                        "Una pista de carreras",
+                        "Un tipo de enchufe"
+                    ],
+                    "answer": "Un camino cerrado por el que circula la electricidad",
+                    "hint": "Cerrado = la corriente puede fluir",
+                    "explanation": "Circuito: pila + cables + componente, formando un camino cerrado"
+                },
+                {
+                    "id": "mt3010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "Los componentes básicos de un circuito eléctrico son: una fuente de energía (pila), un ___ y cables",
+                    "answer": "receptor",
+                    "hint": "Lo que usa la electricidad: bombilla, motor...",
+                    "explanation": "Circuito: fuente (pila) + conductor (cables) + receptor (bombilla)"
+                }
+            ]
+        },
+        {
+            "id": "comunidad_madrid",
+            "name": "La Comunidad de Madrid",
+            "icon": "🏛️",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "cm001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "La capital de España y de la Comunidad de Madrid es ___",
+                    "answer": "Madrid",
+                    "hint": "La ciudad más grande",
+                    "explanation": "Madrid: capital de España y de su comunidad autónoma"
+                },
+                {
+                    "id": "cm002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué río principal pasa por Madrid?",
+                    "options": [
+                        "Ebro",
+                        "Tajo",
+                        "Manzanares",
+                        "Guadalquivir"
+                    ],
+                    "answer": "Manzanares",
+                    "hint": "Un río pequeño que cruza la ciudad",
+                    "explanation": "El río Manzanares atraviesa Madrid"
+                },
+                {
+                    "id": "cm003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "La Comunidad de Madrid está en el centro de España",
+                    "answer": "true",
+                    "hint": "Mira el mapa de España",
+                    "explanation": "Madrid está en el centro de la Península Ibérica"
+                },
+                {
+                    "id": "cm004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál de estos es un monumento famoso de Madrid?",
+                    "options": [
+                        "La Sagrada Familia",
+                        "El Palacio Real",
+                        "La Alhambra",
+                        "La Giralda"
+                    ],
+                    "answer": "El Palacio Real",
+                    "hint": "Donde vivían los reyes",
+                    "explanation": "El Palacio Real de Madrid es uno de sus monumentos más famosos"
+                },
+                {
+                    "id": "cm005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La sierra más importante de la Comunidad de Madrid se llama Sierra de ___",
+                    "answer": "Guadarrama",
+                    "hint": "Al norte de Madrid",
+                    "explanation": "La Sierra de Guadarrama es la principal cadena montañosa cerca de Madrid"
+                },
+                {
+                    "id": "cm006",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada lugar con lo que es",
+                    "pairs": [
+                        [
+                            "Museo del Prado",
+                            "Museo de arte"
+                        ],
+                        [
+                            "Parque del Retiro",
+                            "Parque público"
+                        ],
+                        [
+                            "Puerta del Sol",
+                            "Plaza emblemática"
+                        ],
+                        [
+                            "Santiago Bernabéu",
+                            "Estadio de fútbol"
+                        ]
+                    ],
+                    "hint": "Lugares famosos de Madrid",
+                    "explanation": "Lugares emblemáticos de la capital de España"
+                },
+                {
+                    "id": "cm007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "La Comunidad de Madrid limita al norte con Castilla y León",
+                    "answer": "true",
+                    "hint": "Mira qué comunidades la rodean",
+                    "explanation": "Madrid limita con Castilla y León al norte y Castilla-La Mancha al sur/este"
+                },
+                {
+                    "id": "cm008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "¿Qué productos típicos o tradiciones conoces de la Comunidad de Madrid?",
+                    "answer": "Cocido madrileño (comida típica), fiestas de San Isidro (15 de mayo, patrón de Madrid), rosquillas tontas y listas, la Cibeles y los Reyes Magos.",
+                    "hint": "Comida, fiestas, tradiciones...",
+                    "explanation": "Madrid tiene rica gastronomía y tradiciones culturales"
+                },
+                {
+                    "id": "cm009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué institución tiene su sede en Madrid y gobierna toda España?",
+                    "options": [
+                        "El Ayuntamiento",
+                        "El Parlamento Europeo",
+                        "El Gobierno de España (Cortes Generales)",
+                        "La ONU"
+                    ],
+                    "answer": "El Gobierno de España (Cortes Generales)",
+                    "hint": "Como capital, alberga las instituciones nacionales",
+                    "explanation": "Madrid alberga el Congreso, el Senado y los ministerios"
+                },
+                {
+                    "id": "cm010",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "España está dividida en ___ comunidades autónomas",
+                    "answer": "17",
+                    "hint": "+ 2 ciudades autónomas",
+                    "explanation": "17 comunidades autónomas + 2 ciudades autónomas (Ceuta y Melilla)"
+                }
+            ]
+        },
+        {
+            "id": "espana_europa",
+            "name": "España en Europa",
+            "icon": "🇪🇸",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "ee001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "España está en el continente ___",
+                    "answer": "europeo",
+                    "hint": "Uno de los 6 continentes",
+                    "explanation": "España se encuentra en Europa, al suroeste del continente"
+                },
+                {
+                    "id": "ee002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Con qué país comparte España península?",
+                    "options": [
+                        "Francia",
+                        "Italia",
+                        "Portugal",
+                        "Alemania"
+                    ],
+                    "answer": "Portugal",
+                    "hint": "Península Ibérica",
+                    "explanation": "España y Portugal forman la Península Ibérica"
+                },
+                {
+                    "id": "ee003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "España tiene costa en el Mediterráneo y en el Atlántico",
+                    "answer": "true",
+                    "hint": "Este y oeste",
+                    "explanation": "Mediterráneo al este, Atlántico al oeste y norte"
+                },
+                {
+                    "id": "ee004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada país con su capital",
+                    "pairs": [
+                        [
+                            "España",
+                            "Madrid"
+                        ],
+                        [
+                            "Francia",
+                            "París"
+                        ],
+                        [
+                            "Italia",
+                            "Roma"
+                        ],
+                        [
+                            "Portugal",
+                            "Lisboa"
+                        ]
+                    ],
+                    "hint": "Capitales europeas famosas",
+                    "explanation": "Capitales de los principales países del sur de Europa"
+                },
+                {
+                    "id": "ee005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Qué montañas separan España de Francia?",
+                    "options": [
+                        "Los Alpes",
+                        "Los Pirineos",
+                        "Sierra Nevada",
+                        "Los Andes"
+                    ],
+                    "answer": "Los Pirineos",
+                    "hint": "Frontera natural norte de España",
+                    "explanation": "Los Pirineos son la cadena montañosa entre España y Francia"
+                },
+                {
+                    "id": "ee006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "España pertenece a la ___ Europea",
+                    "answer": "Unión",
+                    "hint": "UE",
+                    "explanation": "España es miembro de la Unión Europea desde 1986"
+                },
+                {
+                    "id": "ee007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "El euro es la moneda de España desde 2002",
+                    "answer": "true",
+                    "hint": "Antes era la peseta",
+                    "explanation": "España adoptó el euro en 2002, sustituyendo a la peseta"
+                },
+                {
+                    "id": "ee008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Nombra las Islas Canarias y las Islas Baleares. ¿En qué mares están?",
+                    "answer": "Canarias (Atlántico): Tenerife, Gran Canaria, Lanzarote, etc. Baleares (Mediterráneo): Mallorca, Menorca, Ibiza, Formentera.",
+                    "hint": "Atlántico y Mediterráneo",
+                    "explanation": "Canarias en el Atlántico (cerca de África), Baleares en el Mediterráneo"
+                },
+                {
+                    "id": "ee009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El punto más alto de España es el ___, en Tenerife",
+                    "answer": "Teide",
+                    "hint": "Un volcán en las Canarias",
+                    "explanation": "El Teide (3.718 m) es el pico más alto de España"
+                },
+                {
+                    "id": "ee010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuántas lenguas oficiales tiene España además del castellano?",
+                    "options": [
+                        "0",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "3",
+                    "hint": "Catalán, gallego y...",
+                    "explanation": "Catalán, gallego, euskera (+ aranés en el Valle de Arán)"
+                }
+            ]
+        }
+    ]
+}

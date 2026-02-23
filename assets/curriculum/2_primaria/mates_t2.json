@@ -1,0 +1,621 @@
+{
+    "grade": "2_primaria",
+    "subject": "mates",
+    "trimester": 2,
+    "topics": [
+        {
+            "id": "multiplicacion_inicio",
+            "name": "Inicio de la multiplicación (tablas 2, 5, 10)",
+            "icon": "✖️",
+            "order": 1,
+            "exercises": [
+                {
+                    "id": "m001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuánto es 2 × 3?",
+                    "options": [
+                        "4",
+                        "5",
+                        "6",
+                        "8"
+                    ],
+                    "answer": "6",
+                    "hint": "2+2+2 = ?",
+                    "explanation": "2 × 3 = 2+2+2 = 6"
+                },
+                {
+                    "id": "m002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "5 × 2 = ___",
+                    "answer": "10",
+                    "hint": "5+5 = ?",
+                    "explanation": "5 × 2 = 10"
+                },
+                {
+                    "id": "m003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuánto es 10 × 3?",
+                    "options": [
+                        "13",
+                        "30",
+                        "31",
+                        "33"
+                    ],
+                    "answer": "30",
+                    "hint": "10+10+10",
+                    "explanation": "10 × 3 = 30"
+                },
+                {
+                    "id": "m004",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Si cada caja tiene 5 manzanas y hay 4 cajas, hay ___ manzanas",
+                    "answer": "20",
+                    "hint": "5 × 4 = ?",
+                    "explanation": "5 × 4 = 20 manzanas"
+                },
+                {
+                    "id": "m005",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "En cada mesa se sientan 2 niños. Si hay 7 mesas, ¿cuántos niños se sientan?",
+                    "answer": "14",
+                    "hint": "2 × 7 = ?",
+                    "explanation": "2 × 7 = 14 niños"
+                },
+                {
+                    "id": "m006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuánto es 5 × 7?",
+                    "options": [
+                        "30",
+                        "35",
+                        "40",
+                        "25"
+                    ],
+                    "answer": "35",
+                    "hint": "Cuenta de 5 en 5 hasta 7 veces",
+                    "explanation": "5 × 7 = 35"
+                },
+                {
+                    "id": "m007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "2 × 9 = 19",
+                    "answer": "false",
+                    "hint": "Multiplica bien",
+                    "explanation": "2 × 9 = 18, no 19"
+                },
+                {
+                    "id": "m008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "10 × ___ = 80",
+                    "answer": "8",
+                    "hint": "¿Cuántas veces cabe 10 en 80?",
+                    "explanation": "10 × 8 = 80"
+                },
+                {
+                    "id": "m009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Ana compra 5 paquetes de cromos. Cada paquete trae 10 cromos. ¿Cuántos cromos tiene?",
+                    "answer": "50",
+                    "hint": "5 × 10 = ?",
+                    "explanation": "5 × 10 = 50 cromos"
+                },
+                {
+                    "id": "m010",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Cuánto es 2 × 2 × 5?",
+                    "options": [
+                        "15",
+                        "20",
+                        "25",
+                        "10"
+                    ],
+                    "answer": "20",
+                    "hint": "Primero 2×2=4, luego 4×5",
+                    "explanation": "2 × 2 = 4, y 4 × 5 = 20"
+                }
+            ]
+        },
+        {
+            "id": "dobles_mitades",
+            "name": "Dobles y mitades",
+            "icon": "🪞",
+            "order": 2,
+            "exercises": [
+                {
+                    "id": "dm001",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El doble de 6 es ___",
+                    "answer": "12",
+                    "hint": "6 + 6 = ?",
+                    "explanation": "Doble de 6 = 6 × 2 = 12"
+                },
+                {
+                    "id": "dm002",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuál es la mitad de 10?",
+                    "options": [
+                        "3",
+                        "4",
+                        "5",
+                        "6"
+                    ],
+                    "answer": "5",
+                    "hint": "10 ÷ 2 = ?",
+                    "explanation": "La mitad de 10 = 5"
+                },
+                {
+                    "id": "dm003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "El doble de 15 es ___",
+                    "answer": "30",
+                    "hint": "15 + 15 = ?",
+                    "explanation": "Doble de 15 = 30"
+                },
+                {
+                    "id": "dm004",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "La mitad de 24 es 14",
+                    "answer": "false",
+                    "hint": "24 ÷ 2 = ?",
+                    "explanation": "La mitad de 24 = 12, no 14"
+                },
+                {
+                    "id": "dm005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuál es el doble de 35?",
+                    "options": [
+                        "60",
+                        "65",
+                        "70",
+                        "75"
+                    ],
+                    "answer": "70",
+                    "hint": "35 + 35 = ?",
+                    "explanation": "Doble de 35 = 70"
+                },
+                {
+                    "id": "dm006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "La mitad de 50 es ___",
+                    "answer": "25",
+                    "hint": "50 ÷ 2 = ?",
+                    "explanation": "La mitad de 50 = 25"
+                },
+                {
+                    "id": "dm007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Jorge tiene 18 canicas y quiere repartirlas a partes iguales con su hermano. ¿Cuántas le tocan a cada uno?",
+                    "answer": "9",
+                    "hint": "Mitad de 18",
+                    "explanation": "18 ÷ 2 = 9 canicas cada uno"
+                },
+                {
+                    "id": "dm008",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "El doble de 48 es ___",
+                    "answer": "96",
+                    "hint": "48 + 48",
+                    "explanation": "48 × 2 = 96"
+                },
+                {
+                    "id": "dm009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "La mitad de 86 es...",
+                    "options": [
+                        "42",
+                        "43",
+                        "44",
+                        "46"
+                    ],
+                    "answer": "43",
+                    "hint": "86 ÷ 2",
+                    "explanation": "86 ÷ 2 = 43"
+                },
+                {
+                    "id": "dm010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Mamá hornea 36 galletas. Da la mitad a los vecinos. De las que le quedan, da la mitad a papá. ¿Cuántas le quedan a mamá?",
+                    "answer": "9",
+                    "hint": "Primero la mitad de 36, luego la mitad del resultado",
+                    "explanation": "36 ÷ 2 = 18, 18 ÷ 2 = 9 galletas"
+                }
+            ]
+        },
+        {
+            "id": "problemas_suma_resta",
+            "name": "Problemas de suma y resta",
+            "icon": "🧩",
+            "order": 3,
+            "exercises": [
+                {
+                    "id": "pr001",
+                    "type": "open_problem",
+                    "difficulty": 1,
+                    "question": "Lucía tiene 23 pegatinas y le regalan 15 más. ¿Cuántas tiene ahora?",
+                    "answer": "38",
+                    "hint": "Suma lo que tiene y lo que le dan",
+                    "explanation": "23 + 15 = 38 pegatinas"
+                },
+                {
+                    "id": "pr002",
+                    "type": "open_problem",
+                    "difficulty": 1,
+                    "question": "En clase hay 28 niños. Se van 9 al recreo. ¿Cuántos quedan?",
+                    "answer": "19",
+                    "hint": "Resta los que se van",
+                    "explanation": "28 - 9 = 19 niños"
+                },
+                {
+                    "id": "pr003",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "Pedro tiene 35 caramelos y da 12. ¿Cuántos le quedan?",
+                    "options": [
+                        "23",
+                        "33",
+                        "22",
+                        "13"
+                    ],
+                    "answer": "23",
+                    "hint": "35 - 12 = ?",
+                    "explanation": "35 - 12 = 23 caramelos"
+                },
+                {
+                    "id": "pr004",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "En una tienda hay 150 manzanas por la mañana. Venden 78 y reciben 45 nuevas. ¿Cuántas manzanas hay al final?",
+                    "answer": "117",
+                    "hint": "Resta las vendidas y suma las nuevas",
+                    "explanation": "150 - 78 = 72, 72 + 45 = 117"
+                },
+                {
+                    "id": "pr005",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "Sara tiene 200 euros. Compra un juego de 65€ y un libro de 18€. ¿Cuánto le queda?",
+                    "answer": "117",
+                    "hint": "Suma lo que gasta y resta del total",
+                    "explanation": "65 + 18 = 83€ gastados, 200 - 83 = 117€"
+                },
+                {
+                    "id": "pr006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Un autobús lleva 42 pasajeros. En la primera parada bajan 15 y suben 8. ¿Cuántos hay?",
+                    "options": [
+                        "35",
+                        "25",
+                        "45",
+                        "33"
+                    ],
+                    "answer": "35",
+                    "hint": "42 - 15 + 8",
+                    "explanation": "42 - 15 = 27, 27 + 8 = 35 pasajeros"
+                },
+                {
+                    "id": "pr007",
+                    "type": "open_problem",
+                    "difficulty": 2,
+                    "question": "En el zoo hay 134 animales terrestres y 89 acuáticos. ¿Cuántos más terrestres que acuáticos hay?",
+                    "answer": "45",
+                    "hint": "Resta para encontrar la diferencia",
+                    "explanation": "134 - 89 = 45 animales más"
+                },
+                {
+                    "id": "pr008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Marcos tiene 500 puntos en un juego. En la ronda 1 gana 175 y en la ronda 2 pierde 230. ¿Cuántos puntos tiene?",
+                    "answer": "445",
+                    "hint": "Suma los ganados, resta los perdidos",
+                    "explanation": "500 + 175 = 675, 675 - 230 = 445 puntos"
+                },
+                {
+                    "id": "pr009",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Una librería tiene 320 cómics. El lunes vende 85 y el martes 67. El miércoles recibe 100 nuevos. ¿Cuántos tiene ahora?",
+                    "answer": "268",
+                    "hint": "Resta las ventas, suma las nuevas",
+                    "explanation": "320 - 85 - 67 + 100 = 268 cómics"
+                },
+                {
+                    "id": "pr010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "En el cole hay 245 alumnos. 128 van de excursión al museo y el resto al parque. ¿Cuántos van al parque? Si luego 30 del parque se unen al museo, ¿cuántos quedan en el parque?",
+                    "answer": "87",
+                    "hint": "Primero calcula los del parque, luego resta los que se van",
+                    "explanation": "245 - 128 = 117 al parque, 117 - 30 = 87 quedan"
+                }
+            ]
+        },
+        {
+            "id": "medida_longitud_masa",
+            "name": "Medida: longitud y masa",
+            "icon": "📏",
+            "order": 4,
+            "exercises": [
+                {
+                    "id": "me001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Qué unidad usarías para medir la largura de un lápiz?",
+                    "options": [
+                        "Kilómetros",
+                        "Metros",
+                        "Centímetros",
+                        "Litros"
+                    ],
+                    "answer": "Centímetros",
+                    "hint": "Un lápiz es pequeño",
+                    "explanation": "Los objetos pequeños se miden en centímetros"
+                },
+                {
+                    "id": "me002",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "1 metro = 100 centímetros",
+                    "answer": "true",
+                    "hint": "¿Cuántos cm tiene un metro?",
+                    "explanation": "1 m = 100 cm"
+                },
+                {
+                    "id": "me003",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Un kilogramo tiene ___ gramos",
+                    "answer": "1000",
+                    "hint": "Kilo = mil",
+                    "explanation": "1 kg = 1000 g"
+                },
+                {
+                    "id": "me004",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada objeto con su unidad de medida",
+                    "pairs": [
+                        [
+                            "Distancia Madrid-Barcelona",
+                            "km"
+                        ],
+                        [
+                            "Altura de una puerta",
+                            "m"
+                        ],
+                        [
+                            "Largo de un dedo",
+                            "cm"
+                        ],
+                        [
+                            "Peso de una mochila",
+                            "kg"
+                        ]
+                    ],
+                    "hint": "Piensa en el tamaño de cada cosa",
+                    "explanation": "Escala: km > m > cm; kg para peso"
+                },
+                {
+                    "id": "me005",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuántos centímetros son 2 metros?",
+                    "options": [
+                        "20",
+                        "200",
+                        "2000",
+                        "20000"
+                    ],
+                    "answer": "200",
+                    "hint": "1m = 100cm, entonces 2m = ?",
+                    "explanation": "2 × 100 = 200 cm"
+                },
+                {
+                    "id": "me006",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "3 kg = ___ g",
+                    "answer": "3000",
+                    "hint": "Multiplica por 1000",
+                    "explanation": "3 × 1000 = 3000 gramos"
+                },
+                {
+                    "id": "me007",
+                    "type": "true_false",
+                    "difficulty": 2,
+                    "question": "150 cm es más que 1 metro",
+                    "answer": "true",
+                    "hint": "1 metro = 100 cm",
+                    "explanation": "150 cm > 100 cm (1m), así que sí"
+                },
+                {
+                    "id": "me008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "Una cuerda mide 3 metros. Si cortas un trozo de 85 cm, ¿cuántos cm te quedan?",
+                    "answer": "215",
+                    "hint": "Convierte los metros a cm primero",
+                    "explanation": "3 m = 300 cm, 300 - 85 = 215 cm"
+                },
+                {
+                    "id": "me009",
+                    "type": "multiple_choice",
+                    "difficulty": 3,
+                    "question": "¿Qué pesa más: 2 kg o 1500 g?",
+                    "options": [
+                        "2 kg",
+                        "1500 g",
+                        "Pesan igual",
+                        "No se puede saber"
+                    ],
+                    "answer": "2 kg",
+                    "hint": "Convierte a la misma unidad",
+                    "explanation": "2 kg = 2000 g > 1500 g"
+                },
+                {
+                    "id": "me010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "María mide 1 m y 25 cm. Su hermano mide 98 cm. ¿Cuántos cm más alta es María?",
+                    "answer": "27",
+                    "hint": "Convierte la altura de María a cm",
+                    "explanation": "1m 25cm = 125 cm, 125 - 98 = 27 cm más alta"
+                }
+            ]
+        },
+        {
+            "id": "reloj_tiempo",
+            "name": "El reloj y el tiempo",
+            "icon": "🕐",
+            "order": 5,
+            "exercises": [
+                {
+                    "id": "t001",
+                    "type": "multiple_choice",
+                    "difficulty": 1,
+                    "question": "¿Cuántas horas tiene un día?",
+                    "options": [
+                        "12",
+                        "20",
+                        "24",
+                        "30"
+                    ],
+                    "answer": "24",
+                    "hint": "Desde medianoche a medianoche",
+                    "explanation": "Un día tiene 24 horas"
+                },
+                {
+                    "id": "t002",
+                    "type": "fill_blank",
+                    "difficulty": 1,
+                    "question": "Una hora tiene ___ minutos",
+                    "answer": "60",
+                    "hint": "¿Cuántos minutos en una hora?",
+                    "explanation": "1 hora = 60 minutos"
+                },
+                {
+                    "id": "t003",
+                    "type": "true_false",
+                    "difficulty": 1,
+                    "question": "Las 3 en punto es cuando la aguja larga señala el 12 y la corta el 3",
+                    "answer": "true",
+                    "hint": "Aguja larga = minutos, aguja corta = horas",
+                    "explanation": "En punto: aguja larga en el 12"
+                },
+                {
+                    "id": "t004",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "Si son las 4 y media, ¿dónde está la aguja larga?",
+                    "options": [
+                        "En el 12",
+                        "En el 3",
+                        "En el 6",
+                        "En el 9"
+                    ],
+                    "answer": "En el 6",
+                    "hint": "Media hora = 30 minutos = posición del 6",
+                    "explanation": "Y media: la aguja larga señala el 6"
+                },
+                {
+                    "id": "t005",
+                    "type": "fill_blank",
+                    "difficulty": 2,
+                    "question": "Si son las 8:15, han pasado ___ minutos desde las 8 en punto",
+                    "answer": "15",
+                    "hint": "Mira los minutos",
+                    "explanation": "8:15 - 8:00 = 15 minutos"
+                },
+                {
+                    "id": "t006",
+                    "type": "multiple_choice",
+                    "difficulty": 2,
+                    "question": "¿Cuántos minutos son media hora?",
+                    "options": [
+                        "15",
+                        "20",
+                        "30",
+                        "45"
+                    ],
+                    "answer": "30",
+                    "hint": "La mitad de 60",
+                    "explanation": "Media hora = 60 ÷ 2 = 30 minutos"
+                },
+                {
+                    "id": "t007",
+                    "type": "match",
+                    "difficulty": 2,
+                    "question": "Une cada expresión con su hora",
+                    "pairs": [
+                        [
+                            "Las 6 en punto",
+                            "6:00"
+                        ],
+                        [
+                            "Las 9 y media",
+                            "9:30"
+                        ],
+                        [
+                            "Las 12 y cuarto",
+                            "12:15"
+                        ],
+                        [
+                            "Las 3 menos cuarto",
+                            "2:45"
+                        ]
+                    ],
+                    "hint": "En punto = :00, y media = :30",
+                    "explanation": "En punto, y media, y cuarto, menos cuarto"
+                },
+                {
+                    "id": "t008",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "El cole empieza a las 9:00 y termina a las 14:00. ¿Cuántas horas estás en el cole?",
+                    "answer": "5",
+                    "hint": "Cuenta de 9 a 14",
+                    "explanation": "14 - 9 = 5 horas"
+                },
+                {
+                    "id": "t009",
+                    "type": "fill_blank",
+                    "difficulty": 3,
+                    "question": "2 horas y media son ___ minutos",
+                    "answer": "150",
+                    "hint": "2 horas = 120 min, media hora = 30 min",
+                    "explanation": "(2 × 60) + 30 = 150 minutos"
+                },
+                {
+                    "id": "t010",
+                    "type": "open_problem",
+                    "difficulty": 3,
+                    "question": "La película empieza a las 5:30 y dura 1 hora y 45 minutos. ¿A qué hora termina?",
+                    "answer": "7:15",
+                    "hint": "5:30 + 1:45",
+                    "explanation": "5:30 + 1:00 = 6:30, + 45 min = 7:15"
+                }
+            ]
+        }
+    ]
+}

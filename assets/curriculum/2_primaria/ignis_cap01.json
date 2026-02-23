@@ -1,0 +1,152 @@
+{
+    "chapter": {
+        "id": "ignis_c1",
+        "kingdom": "ignis",
+        "title": "La Puerta de la Torre",
+        "subject": "mates",
+        "topic": "Sumas sin llevada",
+        "trimester": 1,
+        "order": 1,
+        "type": "normal",
+        "totalXP": 60,
+        "npc": "Vulkan"
+    },
+    "narrative": [
+        {
+            "id": "intro",
+            "type": "narrative",
+            "speaker": "narrator",
+            "emoji": "🏰",
+            "text": "La Torre de Cristal se alza ante ti. Sus paredes brillan con números grabados en cada ladrillo. La puerta de entrada tiene un panel con runas que emiten un brillo débil."
+        },
+        {
+            "id": "orion_intro",
+            "type": "dialogue",
+            "speaker": "orion",
+            "emoji": "🦉",
+            "text": "«¡Mira, aprendiz! Para abrir la puerta tendrás que sumar las runas correctamente. ¡Sin prisas, cada runa cuenta!»"
+        },
+        {
+            "id": "transition_1",
+            "type": "narrative",
+            "speaker": "narrator",
+            "emoji": "✨",
+            "text": "El panel muestra dos filas de runas numéricas. Si aciertas la suma, la puerta se iluminará. ¡Tú puedes!"
+        }
+    ],
+    "exercises": [
+        {
+            "id": "ig01_ex01",
+            "type": "multiple_choice",
+            "difficulty": 1,
+            "question": "La primera runa muestra: 12 + 5 = ¿?",
+            "options": [
+                "15",
+                "16",
+                "17",
+                "18"
+            ],
+            "answer": "17",
+            "hint": "Suma las unidades: 2 + 5 = 7. Las decenas se mantienen: 1",
+            "explanation": "12 + 5 = 17. Sumamos unidades (2+5=7) y mantenemos la decena (1).",
+            "xp": 10,
+            "orion_correct": "«¡Bien hecho! La primera runa brilla. ¡Sigue así!»",
+            "orion_wrong": "«Mmm, no es esa. Fíjate en las unidades primero y luego en las decenas.»"
+        },
+        {
+            "id": "ig01_ex02",
+            "type": "fill_blank",
+            "difficulty": 1,
+            "question": "La segunda runa dice: 23 + 14 = ___",
+            "answer": "37",
+            "hint": "Unidades: 3 + 4 = 7. Decenas: 2 + 1 = 3",
+            "explanation": "23 + 14 = 37. Sumamos cada columna por separado.",
+            "xp": 10,
+            "orion_correct": "«¡Fantástico! Otra runa iluminada. La puerta empieza a abrirse...»",
+            "orion_wrong": "«¡Ánimo! Recuerda sumar primero las unidades y luego las decenas.»"
+        },
+        {
+            "id": "ig01_ex03",
+            "type": "true_false",
+            "difficulty": 1,
+            "question": "31 + 42 = 73",
+            "answer": "true",
+            "hint": "Suma unidades: 1 + 2 = 3. Suma decenas: 3 + 4 = 7",
+            "explanation": "31 + 42 = 73. ¡Es correcto! 1+2=3 unidades, 3+4=7 decenas.",
+            "xp": 10,
+            "orion_correct": "«¡Exacto, aprendiz! Tienes buen ojo para los números.»",
+            "orion_wrong": "«Vuelve a fijarte... suma cada columna con cuidado.»"
+        },
+        {
+            "id": "ig01_ex04",
+            "type": "multiple_choice",
+            "difficulty": 2,
+            "question": "Vulkan el herrero necesita 21 lingotes de hierro y 34 de cobre. ¿Cuántos lingotes necesita en total?",
+            "options": [
+                "45",
+                "55",
+                "65",
+                "54"
+            ],
+            "answer": "55",
+            "hint": "Suma 21 + 34. Unidades: 1 + 4 = 5. Decenas: 2 + 3 = 5",
+            "explanation": "21 + 34 = 55 lingotes en total.",
+            "xp": 10,
+            "orion_correct": "«¡Vulkan estará contento! Esos lingotes forjarán una espada mágica.»",
+            "orion_wrong": "«Hmm, piénsalo así: 21 lingotes más 34 lingotes. Suma columna por columna.»"
+        },
+        {
+            "id": "ig01_ex05",
+            "type": "sort",
+            "difficulty": 2,
+            "question": "Ordena estas sumas de menor a mayor resultado",
+            "items": [
+                "10 + 25",
+                "30 + 11",
+                "20 + 20",
+                "11 + 12"
+            ],
+            "answer": [
+                "11 + 12",
+                "20 + 20",
+                "10 + 25",
+                "30 + 11"
+            ],
+            "hint": "Primero calcula cada suma: 35, 41, 40, 23",
+            "explanation": "11+12=23, 20+20=40, 10+25=35, 30+11=41. Orden: 23 < 35 < 40 < 41",
+            "xp": 10,
+            "orion_correct": "«¡Impresionante! Has ordenado las runas correctamente. ¡La puerta se abre!»",
+            "orion_wrong": "«Calcula cada suma primero y luego compáralas. ¡Tú puedes!»"
+        },
+        {
+            "id": "ig01_ex06",
+            "type": "open_problem",
+            "difficulty": 2,
+            "question": "En la Torre hay 32 cristales azules en la primera sala y 46 cristales rojos en la segunda. ¿Cuántos cristales hay en total?",
+            "answer": "78",
+            "hint": "Suma los cristales de las dos salas: 32 + 46",
+            "explanation": "32 + 46 = 78 cristales en total. Unidades: 2+6=8, Decenas: 3+4=7.",
+            "xp": 10,
+            "orion_correct": "«¡Brillante, aprendiz! Has abierto la puerta de la Torre. ¡Primer capítulo completado!»",
+            "orion_wrong": "«Recuerda: 32 cristales y 46 cristales. Súmalos paso a paso.»"
+        }
+    ],
+    "closing": {
+        "type": "narrative",
+        "speaker": "orion",
+        "emoji": "🎉",
+        "text": "«¡Lo has conseguido, aprendiz! La puerta de la Torre se abre con un resplandor dorado. Dentro podrás ver el primer fragmento de la Gema Ignis. ¡Tu aventura acaba de empezar!»"
+    },
+    "challenge": {
+        "id": "ig01_challenge",
+        "type": "fill_blank",
+        "difficulty": 3,
+        "question": "⭐ Desafío extra: ¿Cuánto es 44 + 33 + 22?",
+        "answer": "99",
+        "hint": "Suma primero dos números, luego el tercero",
+        "explanation": "44 + 33 = 77, y 77 + 22 = 99. ¡Sumando las tres cifras!",
+        "xp": 15,
+        "orion_correct": "«¡INCREÍBLE! ¡Has desbloqueado la estrella extra! No muchos aprendices lo logran.»",
+        "orion_wrong": "«Este es un desafío difícil. Intenta sumar primero 44 + 33, y luego suma el 22.»"
+    }
+}
