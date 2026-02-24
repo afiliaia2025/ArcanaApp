@@ -34,7 +34,7 @@ class _MapScreenState extends State<MapScreen>
   Map<String, int> _engEnemyVictories = {};
   late String _orionMessage;
 
-  // Datos de las 4 gemas — solo Ignis desbloqueada para el vertical slice
+  // Datos de las 4 gemas — todas desbloqueadas
   final List<GemData> _gems = const [
     GemData(
       name: 'Ignis',
@@ -51,7 +51,6 @@ class _MapScreenState extends State<MapScreen>
       completed: 0,
       total: 10,
       iconAsset: 'assets/images/icons/gem_lexis.png',
-      isLocked: true,
     ),
     GemData(
       name: 'Sylva',
@@ -60,16 +59,14 @@ class _MapScreenState extends State<MapScreen>
       completed: 0,
       total: 6,
       iconAsset: 'assets/images/icons/gem_sylva.png',
-      isLocked: true,
     ),
     GemData(
       name: 'Babel',
-      subject: 'Inglés',
+      subject: 'English',
       color: ArcanaColors.gemBabel,
       completed: 0,
       total: 10,
       iconAsset: 'assets/images/icons/gem_babel.png',
-      isLocked: true,
     ),
   ];
 
