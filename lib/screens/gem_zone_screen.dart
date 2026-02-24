@@ -4,7 +4,7 @@ import '../theme/arcana_text_styles.dart';
 import '../widgets/magical_particles.dart';
 import 'chapter_intro_screen.dart';
 import 'boss_battle_screen.dart';
-import 'grimoiro/grimoiro_libre_screen.dart';
+import 'grimoiro/grimoiro_unit_picker_screen.dart';
 
 /// Modelo de datos para un capítulo dentro de una gema.
 class ChapterData {
@@ -279,12 +279,7 @@ class _GemZoneScreenState extends State<GemZoneScreen>
             GestureDetector(
               onTap: () => Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder: (_) => const GrimoiroLibreScreen(
-                    unitNumber: 6,
-                    unitTitle: 'People',
-                    unitEmoji: '🌙',
-                    jsonAsset: 'assets/curriculum/2_primaria/english_unit6.json',
-                  ),
+                  builder: (_) => const GrimoiroUnitPickerScreen(),
                 ),
               ),
               child: Container(
