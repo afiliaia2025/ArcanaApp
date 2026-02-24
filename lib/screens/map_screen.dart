@@ -82,8 +82,8 @@ class _MapScreenState extends State<MapScreen>
     )..forward();
     _loadDefeatedEnemies();
     // Orión saluda aleatoriamente al entrar
-    OrionBubble.mapGreetings.shuffle();
-    _orionMessage = OrionBubble.mapGreetings.first;
+    final greetings = List<String>.from(OrionBubble.mapGreetings)..shuffle();
+    _orionMessage = greetings.first;
   }
 
   Future<void> _loadDefeatedEnemies() async {
