@@ -4,6 +4,7 @@ import '../../theme/arcana_text_styles.dart';
 import '../../widgets/arcana_buttons.dart';
 import '../../widgets/magical_particles.dart';
 import 'oracle_duel_screen.dart';
+import 'orion_training_screen.dart';
 import '../english_battle_screen.dart';
 
 // ═══════════════════════════════════════════════════════════
@@ -129,14 +130,14 @@ class GrimoiroLibreScreen extends StatelessWidget {
                         color: const Color(0xFFF97316),
                         locked: false,
                         onTap: () {
-                          // TODO: navigate to OrionTrainingScreen (Phase 3)
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text('Próximamente: Entrenamiento con Orión 🔥'),
-                              backgroundColor: Color(0xFF1E293B),
-                              duration: Duration(seconds: 2),
+                          Navigator.of(context).push(MaterialPageRoute(
+                            builder: (_) => OrionTrainingScreen(
+                              unitNumber: unitNumber,
+                              unitTitle: unitTitle,
+                              jsonAsset: jsonAsset,
+                              accentColor: _color,
                             ),
-                          );
+                          ));
                         },
                       ),
                       const SizedBox(height: 14),
