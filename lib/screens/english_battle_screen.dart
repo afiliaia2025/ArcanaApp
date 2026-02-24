@@ -41,13 +41,14 @@ class EnglishEnemy {
 }
 
 const List<EnglishEnemy> allEnglishEnemies = [
-  // Cada enemigo mapea a una sección del currículum
-  EnglishEnemy(name: 'Wordling', emoji: '📦', color: Color(0xFF1E40AF), power: 'Vocabulary', sectionIndex: 0),      // Furniture vocab
-  EnglishEnemy(name: 'Existor', emoji: '👁️', color: Color(0xFF7C3AED), power: 'Existence', sectionIndex: 1),       // There's/There are
-  EnglishEnemy(name: 'Pointix', emoji: '👉', color: Color(0xFF065F46), power: 'Pointing', sectionIndex: 2),         // This/That/These/Those
-  EnglishEnemy(name: 'Possessor', emoji: '🎒', color: Color(0xFFB45309), power: 'Possession', sectionIndex: 3),     // Whose
-  EnglishEnemy(name: 'Materia', emoji: '🪨', color: Color(0xFF64748B), power: 'Materials', sectionIndex: 4),        // Materials
-  EnglishEnemy(name: 'Mixmaster', emoji: '🌀', color: Color(0xFFDC2626), power: 'Chaos', sectionIndex: 5),          // Mixed review
+  // ── Unit 6: People (months, face, am/is/are) ──────────────────────────────
+  EnglishEnemy(name: 'Monthmancer',  emoji: '🌙', color: Color(0xFF7C3AED), power: 'Time',        sectionIndex: 0), // months
+  EnglishEnemy(name: 'Faceweaver',   emoji: '👤', color: Color(0xFF0F766E), power: 'The Face',    sectionIndex: 1), // face vocab
+  EnglishEnemy(name: 'Adjectrix',    emoji: '✨', color: Color(0xFFB45309), power: 'Description', sectionIndex: 2), // am/is/are
+  // ── Unit 5: My bedroom (furniture, this/that) ─────────────────────────────
+  EnglishEnemy(name: 'Wordling',     emoji: '📦', color: Color(0xFF1E40AF), power: 'Vocabulary',  sectionIndex: 3),
+  EnglishEnemy(name: 'Pointix',      emoji: '👉', color: Color(0xFF065F46), power: 'Pointing',    sectionIndex: 4),
+  EnglishEnemy(name: 'Possessor',    emoji: '🎒', color: Color(0xFFDC2626), power: 'Possession',  sectionIndex: 5),
 ];
 
 /// SharedPreferences keys
@@ -155,7 +156,7 @@ class _EnglishBattleScreenState extends State<EnglishBattleScreen> {
   Future<void> _loadExercises() async {
     try {
       final jsonStr = await rootBundle.loadString(
-        'assets/curriculum/2_primaria/english_unit5.json',
+        'assets/curriculum/2_primaria/english_unit6.json',
       );
       final data = json.decode(jsonStr) as Map<String, dynamic>;
       final sections = data['sections'] as List;
@@ -337,21 +338,30 @@ class _StoryIntroScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          MagicalParticles(particleCount: 30, color: const Color(0xFF60A5FA)),
+          MagicalParticles(particleCount: 30, color: const Color(0xFF7C3AED)),
           SafeArea(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(24),
               child: Column(
                 children: [
                   const SizedBox(height: 20),
-                  const Text('🏰', style: TextStyle(fontSize: 56)),
+                  const Text('🏛️', style: TextStyle(fontSize: 56)),
                   const SizedBox(height: 12),
                   Text(
-                    'THE ENCHANTED ROOM',
+                    'THE MISSING WIZARD',
                     style: ArcanaTextStyles.heroTitle.copyWith(
-                      color: const Color(0xFF60A5FA),
+                      color: const Color(0xFFa78bfa),
                       fontSize: 22,
                       letterSpacing: 2,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    'CHAPTER 6 · BABEL',
+                    style: ArcanaTextStyles.caption.copyWith(
+                      color: ArcanaColors.textMuted,
+                      letterSpacing: 3,
+                      fontSize: 11,
                     ),
                   ),
                   const SizedBox(height: 16),
@@ -360,17 +370,19 @@ class _StoryIntroScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.black.withValues(alpha: 0.5),
                       borderRadius: BorderRadius.circular(16),
-                      border: Border.all(color: const Color(0xFF60A5FA).withValues(alpha: 0.3)),
+                      border: Border.all(color: const Color(0xFF7C3AED).withValues(alpha: 0.4)),
                     ),
                     child: Column(
                       children: [
                         Text(
-                          '🧙‍♂️ "The tower door opens...\n'
-                          'Inside, a magical room full of enchanted\n'
-                          'furniture and mysterious objects!\n\n'
-                          'But Noctus has cursed the room!\n'
-                          'His minions guard each piece of furniture.\n\n'
-                          '🗣️ Use your English to defeat them!"',
+                          '🧙 Orión speaks:\n'
+                          '"The crystal halls of BABEL grow dark...\n'
+                          'The Calendar Wizard has vanished!\n\n'
+                          'Only someone who knows the months\n'
+                          'of time can reveal the hidden path.\n\n'
+                          'But beware — Noctus has sent\n'
+                          'his word-wraiths to guard the way!\n\n'
+                          '🗝️ Use your English to defeat them!"',
                           style: ArcanaTextStyles.bodyMedium.copyWith(
                             color: ArcanaColors.textSecondary,
                             fontSize: 14,
@@ -382,14 +394,13 @@ class _StoryIntroScreen extends StatelessWidget {
                         Container(
                           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                           decoration: BoxDecoration(
-                            color: const Color(0xFF60A5FA).withValues(alpha: 0.15),
+                            color: const Color(0xFF7C3AED).withValues(alpha: 0.15),
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Text(
-                            '📝 Answer 7 questions to defeat each enemy\n'
-                            '🏆 3 battles await you!',
+                            '⚔️ Defeat 3 of Noctus\u2019s wraiths to find the wizard!',
                             style: ArcanaTextStyles.caption.copyWith(
-                              color: const Color(0xFF60A5FA),
+                              color: const Color(0xFFa78bfa),
                               fontSize: 12,
                               fontWeight: FontWeight.bold,
                             ),
@@ -400,7 +411,6 @@ class _StoryIntroScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 24),
-                  // Enemigos
                   Text(
                     'ENEMIES OF BABEL',
                     style: ArcanaTextStyles.caption.copyWith(
@@ -413,7 +423,7 @@ class _StoryIntroScreen extends StatelessWidget {
                     spacing: 8,
                     runSpacing: 8,
                     alignment: WrapAlignment.center,
-                    children: allEnglishEnemies.map((e) {
+                    children: allEnglishEnemies.take(3).map((e) {
                       return Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
@@ -432,7 +442,7 @@ class _StoryIntroScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 24),
                   ArcanaGoldButton(
-                    text: '⚔️ ENTER THE ROOM',
+                    text: '⚔️ ENTER THE TOWER',
                     width: 280,
                     onPressed: onStart,
                   ),

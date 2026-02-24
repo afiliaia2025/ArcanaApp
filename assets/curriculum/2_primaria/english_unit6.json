@@ -1,0 +1,574 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 6,
+    "title": "People",
+    "story_title": "The Missing Wizard",
+    "story_intro": "Orión speaks: 'The crystal halls of BABEL grow dark... The Calendar Wizard has vanished! Only someone who knows the months of time can find him. But beware — Noctus has sent his word-wraiths to guard the path!'",
+    "enemy_name": "Monthmancer",
+    "enemy_emoji": "🌙",
+    "enemy_color": "#7C3AED",
+    "sections": [
+        {
+            "id": "months_vocab",
+            "name": "The months of the year",
+            "exercises": [
+                {
+                    "id": "u6m01",
+                    "type": "multiple_choice",
+                    "question": "Which month comes first in the year? 🎊",
+                    "options": ["January", "February", "March", "December"],
+                    "answer": "January",
+                    "hint": "It starts with 'J' and begins after New Year's.",
+                    "explanation": "January is the 1st month of the year."
+                },
+                {
+                    "id": "u6m02",
+                    "type": "multiple_choice",
+                    "question": "Which is the 2nd month of the year? ❄️",
+                    "options": ["March", "January", "February", "April"],
+                    "answer": "February",
+                    "hint": "It has 28 or 29 days.",
+                    "explanation": "February is the 2nd month and the shortest one."
+                },
+                {
+                    "id": "u6m03",
+                    "type": "multiple_choice",
+                    "question": "Which month comes after February? 🌱",
+                    "options": ["April", "March", "May", "January"],
+                    "answer": "March",
+                    "hint": "It's the 3rd month.",
+                    "explanation": "March is the 3rd month, after February."
+                },
+                {
+                    "id": "u6m04",
+                    "type": "multiple_choice",
+                    "question": "Which is the 4th month? 🌸",
+                    "options": ["March", "May", "April", "June"],
+                    "answer": "April",
+                    "hint": "It starts with 'A'. Spring showers!",
+                    "explanation": "April is the 4th month of the year."
+                },
+                {
+                    "id": "u6m05",
+                    "type": "multiple_choice",
+                    "question": "Which month comes after April? 🌼",
+                    "options": ["June", "March", "July", "May"],
+                    "answer": "May",
+                    "hint": "It's the 5th month. Flowers bloom!",
+                    "explanation": "May is the 5th month, after April."
+                },
+                {
+                    "id": "u6m06",
+                    "type": "multiple_choice",
+                    "question": "Which is the 6th month? ☀️",
+                    "options": ["May", "July", "June", "August"],
+                    "answer": "June",
+                    "hint": "Summer starts! It ends in '-une'.",
+                    "explanation": "June is the 6th month of the year."
+                },
+                {
+                    "id": "u6m07",
+                    "type": "multiple_choice",
+                    "question": "Which month comes after June? 🏖️",
+                    "options": ["June", "August", "September", "July"],
+                    "answer": "July",
+                    "hint": "The 7th month. Perfect for the beach!",
+                    "explanation": "July is the 7th month, after June."
+                },
+                {
+                    "id": "u6m08",
+                    "type": "multiple_choice",
+                    "question": "Which is the 8th month? 🌻",
+                    "options": ["July", "September", "June", "August"],
+                    "answer": "August",
+                    "hint": "Summer holidays! It starts with 'Au'...",
+                    "explanation": "August is the 8th month of the year."
+                },
+                {
+                    "id": "u6m09",
+                    "type": "multiple_choice",
+                    "question": "Which month comes after August? 🍂",
+                    "options": ["October", "August", "November", "September"],
+                    "answer": "September",
+                    "hint": "Back to school! The 9th month.",
+                    "explanation": "September is the 9th month, after August."
+                },
+                {
+                    "id": "u6m10",
+                    "type": "multiple_choice",
+                    "question": "Which is the 10th month? 🎃",
+                    "options": ["September", "November", "December", "October"],
+                    "answer": "October",
+                    "hint": "Halloween! It starts with 'Oc'...",
+                    "explanation": "October is the 10th month of the year."
+                },
+                {
+                    "id": "u6m11",
+                    "type": "multiple_choice",
+                    "question": "Which month comes after October? 🍁",
+                    "options": ["December", "September", "October", "November"],
+                    "answer": "November",
+                    "hint": "The 11th month. Autumn leaves fall!",
+                    "explanation": "November is the 11th month, after October."
+                },
+                {
+                    "id": "u6m12",
+                    "type": "multiple_choice",
+                    "question": "Which is the last month of the year? 🎄",
+                    "options": ["November", "January", "October", "December"],
+                    "answer": "December",
+                    "hint": "Christmas! 12th and final month.",
+                    "explanation": "December is the 12th and last month of the year."
+                },
+                {
+                    "id": "u6m13",
+                    "type": "true_false",
+                    "question": "'July comes before June.' — Is this correct?",
+                    "answer": false,
+                    "hint": "June = 6th, July = 7th. Which comes first?",
+                    "explanation": "June (6th) comes BEFORE July (7th), not after."
+                },
+                {
+                    "id": "u6m14",
+                    "type": "true_false",
+                    "question": "'September comes after August.' — Is this correct?",
+                    "answer": true,
+                    "hint": "August = 8th, September = 9th.",
+                    "explanation": "Correct! September (9th) comes after August (8th)."
+                },
+                {
+                    "id": "u6m15",
+                    "type": "multiple_choice",
+                    "question": "In which month is Christmas? 🎁",
+                    "options": ["November", "January", "February", "December"],
+                    "answer": "December",
+                    "hint": "December 25th!",
+                    "explanation": "Christmas is on the 25th of December."
+                },
+                {
+                    "id": "u6m16",
+                    "type": "multiple_choice",
+                    "question": "Which month has Valentine's Day? 💝",
+                    "options": ["January", "March", "February", "April"],
+                    "answer": "February",
+                    "hint": "February 14th — hearts everywhere!",
+                    "explanation": "Valentine's Day is on February 14th."
+                },
+                {
+                    "id": "u6m17",
+                    "type": "multiple_choice",
+                    "question": "How many months are in a year?",
+                    "options": ["10", "11", "13", "12"],
+                    "answer": "12",
+                    "hint": "Count them: Jan, Feb, Mar...",
+                    "explanation": "There are 12 months in a year."
+                },
+                {
+                    "id": "u6m18",
+                    "type": "multiple_choice",
+                    "question": "Which month comes between March and May?",
+                    "options": ["February", "June", "April", "January"],
+                    "answer": "April",
+                    "hint": "March (3) — ? (4) — May (5)",
+                    "explanation": "April is the 4th month, between March and May."
+                },
+                {
+                    "id": "u6m19",
+                    "type": "multiple_choice",
+                    "question": "Which month is Halloween? 🎃",
+                    "options": ["September", "November", "December", "October"],
+                    "answer": "October",
+                    "hint": "October 31st — trick or treat!",
+                    "explanation": "Halloween is on October 31st."
+                },
+                {
+                    "id": "u6m20",
+                    "type": "multiple_choice",
+                    "question": "Which month has New Year's Day? 🎆",
+                    "options": ["December", "February", "March", "January"],
+                    "answer": "January",
+                    "hint": "January 1st — Happy New Year!",
+                    "explanation": "New Year's Day is January 1st."
+                }
+            ]
+        },
+        {
+            "id": "face_vocab",
+            "name": "The face",
+            "exercises": [
+                {
+                    "id": "u6f01",
+                    "type": "multiple_choice",
+                    "question": "What do you use to see? 👀",
+                    "options": ["nose", "mouth", "ears", "eyes"],
+                    "answer": "eyes",
+                    "hint": "You blink with them!",
+                    "explanation": "You use your eyes to see."
+                },
+                {
+                    "id": "u6f02",
+                    "type": "multiple_choice",
+                    "question": "What do you use to smell? 👃",
+                    "options": ["eyes", "ears", "nose", "mouth"],
+                    "answer": "nose",
+                    "hint": "It's in the middle of your face.",
+                    "explanation": "You use your nose to smell."
+                },
+                {
+                    "id": "u6f03",
+                    "type": "multiple_choice",
+                    "question": "What do you use to hear? 👂",
+                    "options": ["nose", "eyes", "mouth", "ears"],
+                    "answer": "ears",
+                    "hint": "There are two — one on each side!",
+                    "explanation": "You use your ears to hear."
+                },
+                {
+                    "id": "u6f04",
+                    "type": "multiple_choice",
+                    "question": "What do you use to eat and speak? 👄",
+                    "options": ["nose", "ears", "eyes", "mouth"],
+                    "answer": "mouth",
+                    "hint": "It has lips and teeth!",
+                    "explanation": "You use your mouth to eat and speak."
+                },
+                {
+                    "id": "u6f05",
+                    "type": "multiple_choice",
+                    "question": "What is on top of your head? 💇",
+                    "options": ["nose", "eyes", "chin", "hair"],
+                    "answer": "hair",
+                    "hint": "You can cut it at the hairdresser!",
+                    "explanation": "Hair grows on the top and sides of your head."
+                },
+                {
+                    "id": "u6f06",
+                    "type": "multiple_choice",
+                    "question": "Where are your teeth? 😁",
+                    "options": ["in your nose", "in your ears", "in your eyes", "in your mouth"],
+                    "answer": "in your mouth",
+                    "hint": "You brush them every day!",
+                    "explanation": "Teeth are inside your mouth."
+                },
+                {
+                    "id": "u6f07",
+                    "type": "multiple_choice",
+                    "question": "What is above your eyes? 🤨",
+                    "options": ["cheeks", "chin", "eyebrows", "lips"],
+                    "answer": "eyebrows",
+                    "hint": "They are like little arches of hair.",
+                    "explanation": "Eyebrows are above your eyes."
+                },
+                {
+                    "id": "u6f08",
+                    "type": "multiple_choice",
+                    "question": "Your _____ are on your cheeks when you smile. 🌟",
+                    "options": ["eyebrows", "ears", "dimples", "nose"],
+                    "answer": "dimples",
+                    "hint": "They are little spots on your cheeks.",
+                    "explanation": "Dimples are the little marks on your cheeks when you smile."
+                },
+                {
+                    "id": "u6f09",
+                    "type": "true_false",
+                    "question": "'You use your ears to smell.' — Is this correct?",
+                    "answer": false,
+                    "hint": "What body part do you use to smell?",
+                    "explanation": "You use your NOSE to smell, not your ears."
+                },
+                {
+                    "id": "u6f10",
+                    "type": "true_false",
+                    "question": "'You have two eyes and one nose.' — Is this correct?",
+                    "answer": true,
+                    "hint": "Count them on your face!",
+                    "explanation": "Correct! You have two eyes and one nose."
+                }
+            ]
+        },
+        {
+            "id": "am_is_are_adjective",
+            "name": "Am / Is / Are + adjective",
+            "exercises": [
+                {
+                    "id": "u6g01",
+                    "type": "multiple_choice",
+                    "question": "She _____ tall. 🧍‍♀️",
+                    "options": ["am", "are", "is", "be"],
+                    "answer": "is",
+                    "hint": "She = singular = ?",
+                    "explanation": "She IS tall. (she/he/it → is)"
+                },
+                {
+                    "id": "u6g02",
+                    "type": "multiple_choice",
+                    "question": "I _____ happy today! 😄",
+                    "options": ["is", "are", "am", "be"],
+                    "answer": "am",
+                    "hint": "I = me = ?",
+                    "explanation": "I AM happy. (I → am)"
+                },
+                {
+                    "id": "u6g03",
+                    "type": "multiple_choice",
+                    "question": "They _____ funny! 😂",
+                    "options": ["am", "is", "be", "are"],
+                    "answer": "are",
+                    "hint": "They = more than one = ?",
+                    "explanation": "They ARE funny. (they/we/you → are)"
+                },
+                {
+                    "id": "u6g04",
+                    "type": "multiple_choice",
+                    "question": "He _____ short. 🧒",
+                    "options": ["am", "are", "have", "is"],
+                    "answer": "is",
+                    "hint": "He = singular = ?",
+                    "explanation": "He IS short. (he → is)"
+                },
+                {
+                    "id": "u6g05",
+                    "type": "multiple_choice",
+                    "question": "We _____ tired after school. 😴",
+                    "options": ["am", "is", "be", "are"],
+                    "answer": "are",
+                    "hint": "We = more than one = ?",
+                    "explanation": "We ARE tired. (we → are)"
+                },
+                {
+                    "id": "u6g06",
+                    "type": "multiple_choice",
+                    "question": "The wizard _____ old and wise. 🧙",
+                    "options": ["am", "are", "have", "is"],
+                    "answer": "is",
+                    "hint": "The wizard = he/she = ?",
+                    "explanation": "The wizard IS old and wise. (singular → is)"
+                },
+                {
+                    "id": "u6g07",
+                    "type": "true_false",
+                    "question": "'I are happy.' — Is this correct?",
+                    "answer": false,
+                    "hint": "I go with... am? is? or are?",
+                    "explanation": "It should be 'I AM happy'. (I → am)"
+                },
+                {
+                    "id": "u6g08",
+                    "type": "true_false",
+                    "question": "'She is beautiful.' — Is this correct?",
+                    "answer": true,
+                    "hint": "She = singular → is or are?",
+                    "explanation": "Correct! She IS beautiful. (she → is)"
+                },
+                {
+                    "id": "u6g09",
+                    "type": "multiple_choice",
+                    "question": "You _____ very clever! 🌟",
+                    "options": ["am", "is", "be", "are"],
+                    "answer": "are",
+                    "hint": "You → are",
+                    "explanation": "You ARE very clever. (you → are)"
+                },
+                {
+                    "id": "u6g10",
+                    "type": "multiple_choice",
+                    "question": "The children _____ excited. 🎉",
+                    "options": ["am", "is", "do", "are"],
+                    "answer": "are",
+                    "hint": "Children = more than one = ?",
+                    "explanation": "The children ARE excited. (plural → are)"
+                },
+                {
+                    "id": "u6g11",
+                    "type": "multiple_choice",
+                    "question": "My cat _____ black and white. 🐱",
+                    "options": ["am", "are", "has", "is"],
+                    "answer": "is",
+                    "hint": "My cat = he/she = singular",
+                    "explanation": "My cat IS black and white. (singular → is)"
+                },
+                {
+                    "id": "u6g12",
+                    "type": "multiple_choice",
+                    "question": "I _____ not scared of the dark. 🌑",
+                    "options": ["is", "are", "be", "am"],
+                    "answer": "am",
+                    "hint": "I → am",
+                    "explanation": "I AM not scared. (I → am)"
+                }
+            ]
+        },
+        {
+            "id": "our_their",
+            "name": "Our / Their",
+            "exercises": [
+                {
+                    "id": "u6p01",
+                    "type": "multiple_choice",
+                    "question": "This is _____ school. We all study here. 🏫",
+                    "options": ["their", "her", "his", "our"],
+                    "answer": "our",
+                    "hint": "We = our or their?",
+                    "explanation": "OUR school = the school that belongs to us."
+                },
+                {
+                    "id": "u6p02",
+                    "type": "multiple_choice",
+                    "question": "The dragons have a cave. It is _____ cave. 🐉",
+                    "options": ["our", "my", "your", "their"],
+                    "answer": "their",
+                    "hint": "The dragons = they = their or our?",
+                    "explanation": "THEIR cave = the cave that belongs to them."
+                },
+                {
+                    "id": "u6p03",
+                    "type": "multiple_choice",
+                    "question": "We love _____ teacher. She is fantastic! 👩‍🏫",
+                    "options": ["their", "my", "his", "our"],
+                    "answer": "our",
+                    "hint": "We → our or their?",
+                    "explanation": "OUR teacher = she is the teacher for all of us."
+                },
+                {
+                    "id": "u6p04",
+                    "type": "multiple_choice",
+                    "question": "The wizards cast _____ spells together. 🔮",
+                    "options": ["our", "your", "my", "their"],
+                    "answer": "their",
+                    "hint": "They → their or our?",
+                    "explanation": "THEIR spells = the spells that belong to them."
+                },
+                {
+                    "id": "u6p05",
+                    "type": "true_false",
+                    "question": "'We love our home.' — Is this correct?",
+                    "answer": true,
+                    "hint": "We → our ✓",
+                    "explanation": "Correct! We love OUR home. (we → our)"
+                },
+                {
+                    "id": "u6p06",
+                    "type": "true_false",
+                    "question": "'The knights raised their swords.' — Is this correct?",
+                    "answer": true,
+                    "hint": "They → their ✓",
+                    "explanation": "Correct! The knights raised THEIR swords. (they → their)"
+                },
+                {
+                    "id": "u6p07",
+                    "type": "multiple_choice",
+                    "question": "We are proud of _____ team. 🏆",
+                    "options": ["their", "his", "her", "our"],
+                    "answer": "our",
+                    "hint": "We = our",
+                    "explanation": "OUR team = it belongs to all of us."
+                },
+                {
+                    "id": "u6p08",
+                    "type": "multiple_choice",
+                    "question": "The students finished _____ homework. 📚",
+                    "options": ["our", "my", "your", "their"],
+                    "answer": "their",
+                    "hint": "They → their",
+                    "explanation": "THEIR homework = it belongs to the students."
+                }
+            ]
+        },
+        {
+            "id": "mixed_review",
+            "name": "Mixed review — Unit 6",
+            "exercises": [
+                {
+                    "id": "u6r01",
+                    "type": "multiple_choice",
+                    "question": "Which month is the 7th month of the year?",
+                    "options": ["June", "August", "May", "July"],
+                    "answer": "July",
+                    "hint": "7th month. Summer!",
+                    "explanation": "July is the 7th month."
+                },
+                {
+                    "id": "u6r02",
+                    "type": "multiple_choice",
+                    "question": "She _____ kind and brave. 🦸‍♀️",
+                    "options": ["am", "are", "have", "is"],
+                    "answer": "is",
+                    "hint": "She → is",
+                    "explanation": "She IS kind and brave."
+                },
+                {
+                    "id": "u6r03",
+                    "type": "multiple_choice",
+                    "question": "What do you use to listen to music? 🎶",
+                    "options": ["eyes", "nose", "mouth", "ears"],
+                    "answer": "ears",
+                    "hint": "You listen with...",
+                    "explanation": "You use your ears to hear and listen."
+                },
+                {
+                    "id": "u6r04",
+                    "type": "multiple_choice",
+                    "question": "We bring _____ books to class every day. 📖",
+                    "options": ["their", "my", "his", "our"],
+                    "answer": "our",
+                    "hint": "We → our",
+                    "explanation": "OUR books = the books that belong to us."
+                },
+                {
+                    "id": "u6r05",
+                    "type": "multiple_choice",
+                    "question": "Which month comes after November?",
+                    "options": ["September", "October", "January", "December"],
+                    "answer": "December",
+                    "hint": "November = 11th. What's the 12th?",
+                    "explanation": "December (12th) comes after November (11th)."
+                },
+                {
+                    "id": "u6r06",
+                    "type": "multiple_choice",
+                    "question": "The elves collect _____ magic gems every night. 💎",
+                    "options": ["our", "my", "your", "their"],
+                    "answer": "their",
+                    "hint": "They → their",
+                    "explanation": "THEIR magic gems = they belong to the elves."
+                },
+                {
+                    "id": "u6r07",
+                    "type": "multiple_choice",
+                    "question": "You _____ very strong! 💪",
+                    "options": ["am", "is", "be", "are"],
+                    "answer": "are",
+                    "hint": "You → are",
+                    "explanation": "You ARE very strong. (you → are)"
+                },
+                {
+                    "id": "u6r08",
+                    "type": "true_false",
+                    "question": "'March is the 3rd month of the year.' — Is this correct?",
+                    "answer": true,
+                    "hint": "Jan=1, Feb=2, Mar=3",
+                    "explanation": "Correct! March is the 3rd month."
+                },
+                {
+                    "id": "u6r09",
+                    "type": "true_false",
+                    "question": "'I is happy.' — Is this correct?",
+                    "answer": false,
+                    "hint": "I → am or is?",
+                    "explanation": "It should be 'I AM happy'. (I → am)"
+                },
+                {
+                    "id": "u6r10",
+                    "type": "multiple_choice",
+                    "question": "Which month begins the summer holidays? ☀️",
+                    "options": ["May", "August", "September", "June"],
+                    "answer": "June",
+                    "hint": "June is the 6th month — summer starts!",
+                    "explanation": "Summer holidays begin in June (in Spain, late June)."
+                }
+            ]
+        }
+    ]
+}
