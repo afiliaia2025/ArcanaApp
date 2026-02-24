@@ -134,6 +134,10 @@ class _EnglishBattleScreenState extends State<EnglishBattleScreen> {
   int _currentExerciseIndex = 0;
   late List<_EnglishExercise> _roundExercises;
 
+  // Story data from JSON
+  String _storyTitle = 'The Missing Wizard';
+  String _storyIntro = 'The crystal halls of BABEL grow dark...';
+
   @override
   void initState() {
     super.initState();
@@ -159,6 +163,9 @@ class _EnglishBattleScreenState extends State<EnglishBattleScreen> {
         'assets/curriculum/2_primaria/english_unit6.json',
       );
       final data = json.decode(jsonStr) as Map<String, dynamic>;
+      // Load story metadata
+      final rawTitle = data['story_title'] as String? ?? 'The Missing Wizard';
+      final rawIntro = data['story_intro'] as String? ?? '';
       final sections = data['sections'] as List;
       final exercises = <_EnglishExercise>[];
 
@@ -194,6 +201,8 @@ class _EnglishBattleScreenState extends State<EnglishBattleScreen> {
       }
 
       setState(() {
+        _storyTitle = rawTitle;
+        _storyIntro = rawIntro;
         _allExercises = exercises;
         _loading = false;
         _prepareRound();
@@ -267,6 +276,8 @@ class _EnglishBattleScreenState extends State<EnglishBattleScreen> {
     switch (_phase) {
       case 'story_intro':
         return _StoryIntroScreen(
+          storyTitle: _storyTitle,
+          storyIntro: _storyIntro,
           onStart: () => setState(() => _phase = 'vs'),
           onBack: () => Navigator.of(context).pop(),
         );
@@ -322,138 +333,436 @@ class _EnglishBattleScreenState extends State<EnglishBattleScreen> {
   }
 }
 
-// ─────────────────────────────────────────────
-// STORY INTRO — The Enchanted Room
-// ─────────────────────────────────────────────
-class _StoryIntroScreen extends StatelessWidget {
+// ─────────────────────────────────────────────────────────────
+// STORY INTRO — Open Book Layout
+// Left page: illustration + title | Right page: paginated story
+// ─────────────────────────────────────────────────────────────
+class _StoryIntroScreen extends StatefulWidget {
+  final String storyTitle;
+  final String storyIntro;
   final VoidCallback onStart;
   final VoidCallback onBack;
 
-  const _StoryIntroScreen({required this.onStart, required this.onBack});
+  const _StoryIntroScreen({
+    required this.storyTitle,
+    required this.storyIntro,
+    required this.onStart,
+    required this.onBack,
+  });
+
+  @override
+  State<_StoryIntroScreen> createState() => _StoryIntroScreenState();
+}
+
+class _StoryIntroScreenState extends State<_StoryIntroScreen>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _glowCtrl;
+  final _pageCtrl = PageController();
+  int _currentPage = 0;
+  late final List<String> _pages;
+
+  @override
+  void initState() {
+    super.initState();
+    _glowCtrl = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 2200),
+    )..repeat(reverse: true);
+
+    // Strip any prefix text and split into page chunks (~220 chars each)
+    final raw = widget.storyIntro
+        .replaceAll(RegExp(r"Ori[oó]n speaks:\s*'?"), '')
+        .replaceAll("'", '');
+    const chunkSize = 220;
+    final words = raw.split(' ');
+    final chunks = <String>[];
+    var buf = '';
+    for (final w in words) {
+      if ((buf.isEmpty ? w : '$buf $w').length > chunkSize) {
+        if (buf.isNotEmpty) chunks.add(buf.trim());
+        buf = w;
+      } else {
+        buf = buf.isEmpty ? w : '$buf $w';
+      }
+    }
+    if (buf.isNotEmpty) chunks.add(buf.trim());
+    _pages = chunks.isEmpty ? [raw] : chunks;
+  }
+
+  @override
+  void dispose() {
+    _glowCtrl.dispose();
+    _pageCtrl.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
+    final w = MediaQuery.of(context).size.width;
+    final isWide = w > 700;
+
     return Scaffold(
-      backgroundColor: const Color(0xFF0A0510),
+      backgroundColor: const Color(0xFF080112),
       body: Stack(
         fit: StackFit.expand,
         children: [
-          MagicalParticles(particleCount: 30, color: const Color(0xFF7C3AED)),
+          Container(
+            decoration: const BoxDecoration(
+              gradient: RadialGradient(
+                center: Alignment.center,
+                radius: 1.4,
+                colors: [Color(0xFF1A0A2E), Color(0xFF050208)],
+              ),
+            ),
+          ),
+          MagicalParticles(particleCount: 18, color: const Color(0xFF7C3AED), maxSize: 2),
           SafeArea(
-            child: SingleChildScrollView(
-              padding: const EdgeInsets.all(24),
+            child: Column(
+              children: [
+                // ── Top bar ──────────────────────────────────────
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  child: Row(
+                    children: [
+                      IconButton(
+                        icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white38, size: 18),
+                        onPressed: widget.onBack,
+                      ),
+                      const Spacer(),
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: const Color(0xFF7C3AED).withValues(alpha: 0.15),
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(color: const Color(0xFF7C3AED).withValues(alpha: 0.4)),
+                        ),
+                        child: Text(
+                          '📖 BABEL · ENGLISH',
+                          style: ArcanaTextStyles.caption.copyWith(
+                            color: const Color(0xFFa78bfa),
+                            fontSize: 10,
+                            letterSpacing: 2,
+                          ),
+                        ),
+                      ),
+                      const Spacer(),
+                      const SizedBox(width: 48),
+                    ],
+                  ),
+                ),
+
+                // ── BOOK ─────────────────────────────────────────
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+                    child: isWide ? _buildOpenBook() : _buildMobileBook(),
+                  ),
+                ),
+
+                // ── Bottom CTA ───────────────────────────────────
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(24, 4, 24, 20),
+                  child: Row(
+                    children: [
+                      // Page dots
+                      if (_pages.length > 1) ...[
+                        ..._pages.asMap().entries.map((e) => AnimatedContainer(
+                          duration: const Duration(milliseconds: 250),
+                          margin: const EdgeInsets.only(right: 5),
+                          width: e.key == _currentPage ? 18 : 7,
+                          height: 7,
+                          decoration: BoxDecoration(
+                            color: e.key == _currentPage
+                                ? const Color(0xFFa78bfa)
+                                : Colors.white24,
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                        )),
+                        const Spacer(),
+                      ],
+                      if (_currentPage < _pages.length - 1)
+                        ElevatedButton.icon(
+                          onPressed: () => _pageCtrl.nextPage(
+                            duration: const Duration(milliseconds: 400),
+                            curve: Curves.easeInOut,
+                          ),
+                          icon: const Icon(Icons.arrow_forward, size: 16),
+                          label: const Text('Continue'),
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: const Color(0xFF7C3AED).withValues(alpha: 0.85),
+                            foregroundColor: Colors.white,
+                            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+                          ),
+                        )
+                      else
+                        Expanded(
+                          child: ElevatedButton.icon(
+                            onPressed: widget.onStart,
+                            icon: const Text('⚔️', style: TextStyle(fontSize: 16)),
+                            label: const Text(
+                              'ENTER THE TOWER',
+                              style: TextStyle(fontWeight: FontWeight.bold, letterSpacing: 1.5),
+                            ),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: ArcanaColors.gold,
+                              foregroundColor: Colors.black,
+                              padding: const EdgeInsets.symmetric(vertical: 16),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                              elevation: 6,
+                            ),
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // ── Wide/Desktop — open book ────────────────────────────────
+  Widget _buildOpenBook() {
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: [
+          BoxShadow(
+            color: const Color(0xFF7C3AED).withValues(alpha: 0.3),
+            blurRadius: 40, spreadRadius: 5,
+          ),
+        ],
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(20),
+        child: Row(
+          children: [
+            Expanded(child: _buildLeftPage()),
+            // Book spine
+            Container(width: 4, color: const Color(0xFF3B1F6B)),
+            Expanded(child: _buildRightPage()),
+          ],
+        ),
+      ),
+    );
+  }
+
+  // ── Narrow/Mobile — stacked ──────────────────────────────────
+  Widget _buildMobileBook() {
+    return Column(
+      children: [
+        _buildMobileHeader(),
+        const SizedBox(height: 12),
+        Expanded(child: _buildRightPage()),
+      ],
+    );
+  }
+
+  Widget _buildMobileHeader() {
+    return AnimatedBuilder(
+      animation: _glowCtrl,
+      builder: (_, __) => Container(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: const Color(0xFF1A0A2E),
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(
+            color: Color.lerp(
+              const Color(0xFF7C3AED).withValues(alpha: 0.4),
+              const Color(0xFFa78bfa).withValues(alpha: 0.8),
+              _glowCtrl.value,
+            )!,
+          ),
+        ),
+        child: Row(
+          children: [
+            Text('🏛️', style: TextStyle(fontSize: 40 + _glowCtrl.value * 4)),
+            const SizedBox(width: 12),
+            Expanded(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const SizedBox(height: 20),
-                  const Text('🏛️', style: TextStyle(fontSize: 56)),
-                  const SizedBox(height: 12),
                   Text(
-                    'THE MISSING WIZARD',
+                    widget.storyTitle.toUpperCase(),
                     style: ArcanaTextStyles.heroTitle.copyWith(
                       color: const Color(0xFFa78bfa),
-                      fontSize: 22,
-                      letterSpacing: 2,
+                      fontSize: 13,
+                      letterSpacing: 1.2,
                     ),
                   ),
                   const SizedBox(height: 4),
-                  Text(
-                    'CHAPTER 6 · BABEL',
-                    style: ArcanaTextStyles.caption.copyWith(
-                      color: ArcanaColors.textMuted,
-                      letterSpacing: 3,
-                      fontSize: 11,
-                    ),
-                  ),
-                  const SizedBox(height: 16),
-                  Container(
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: Colors.black.withValues(alpha: 0.5),
-                      borderRadius: BorderRadius.circular(16),
-                      border: Border.all(color: const Color(0xFF7C3AED).withValues(alpha: 0.4)),
-                    ),
-                    child: Column(
-                      children: [
-                        Text(
-                          '🧙 Orión speaks:\n'
-                          '"The crystal halls of BABEL grow dark...\n'
-                          'The Calendar Wizard has vanished!\n\n'
-                          'Only someone who knows the months\n'
-                          'of time can reveal the hidden path.\n\n'
-                          'But beware — Noctus has sent\n'
-                          'his word-wraiths to guard the way!\n\n'
-                          '🗝️ Use your English to defeat them!"',
-                          style: ArcanaTextStyles.bodyMedium.copyWith(
-                            color: ArcanaColors.textSecondary,
-                            fontSize: 14,
-                            height: 1.6,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                        const SizedBox(height: 12),
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                          decoration: BoxDecoration(
-                            color: const Color(0xFF7C3AED).withValues(alpha: 0.15),
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                          child: Text(
-                            '⚔️ Defeat 3 of Noctus\u2019s wraiths to find the wizard!',
-                            style: ArcanaTextStyles.caption.copyWith(
-                              color: const Color(0xFFa78bfa),
-                              fontSize: 12,
-                              fontWeight: FontWeight.bold,
-                            ),
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(height: 24),
-                  Text(
-                    'ENEMIES OF BABEL',
-                    style: ArcanaTextStyles.caption.copyWith(
-                      color: ArcanaColors.textMuted,
-                      letterSpacing: 2,
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-                  Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
-                    alignment: WrapAlignment.center,
-                    children: allEnglishEnemies.take(3).map((e) {
-                      return Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Text(e.emoji, style: const TextStyle(fontSize: 32)),
-                          const SizedBox(height: 4),
-                          Text(
-                            e.name,
-                            style: ArcanaTextStyles.caption.copyWith(
-                              color: e.color,
-                              fontSize: 9,
-                            ),
-                          ),
-                        ],
-                      );
-                    }).toList(),
-                  ),
-                  const SizedBox(height: 24),
-                  ArcanaGoldButton(
-                    text: '⚔️ ENTER THE TOWER',
-                    width: 280,
-                    onPressed: onStart,
-                  ),
-                  const SizedBox(height: 12),
-                  ArcanaOutlinedButton(
-                    text: 'Back to map',
-                    icon: Icons.arrow_back,
-                    color: ArcanaColors.textSecondary,
-                    onPressed: onBack,
+                  Row(
+                    children: allEnglishEnemies.take(3).map((e) =>
+                      Padding(
+                        padding: const EdgeInsets.only(right: 4),
+                        child: Text(e.emoji, style: const TextStyle(fontSize: 18)),
+                      ),
+                    ).toList(),
                   ),
                 ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildLeftPage() {
+    return Container(
+      color: const Color(0xFF0F0520),
+      padding: const EdgeInsets.all(24),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          // Animated glowing orb
+          AnimatedBuilder(
+            animation: _glowCtrl,
+            builder: (_, child) {
+              final g = _glowCtrl.value;
+              return Container(
+                width: 130,
+                height: 130,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Color.lerp(
+                        const Color(0xFF7C3AED).withValues(alpha: 0.4),
+                        const Color(0xFFa78bfa).withValues(alpha: 0.8),
+                        g,
+                      )!,
+                      blurRadius: 30 + g * 20,
+                      spreadRadius: 5 + g * 5,
+                    ),
+                  ],
+                  gradient: RadialGradient(colors: [
+                    Color.lerp(const Color(0xFF7C3AED), const Color(0xFF4C1D95), g)!,
+                    const Color(0xFF1A0A2E),
+                  ]),
+                ),
+                child: child,
+              );
+            },
+            child: const Center(child: Text('🏛️', style: TextStyle(fontSize: 56))),
+          ),
+          const SizedBox(height: 20),
+          Text(
+            widget.storyTitle.toUpperCase(),
+            style: ArcanaTextStyles.heroTitle.copyWith(
+              color: const Color(0xFFa78bfa),
+              fontSize: 16,
+              letterSpacing: 2,
+              height: 1.3,
+            ),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(width: 28, height: 1, color: Colors.white12),
+              const SizedBox(width: 8),
+              const Text('✦', style: TextStyle(color: Color(0xFF7C3AED), fontSize: 10)),
+              const SizedBox(width: 8),
+              Container(width: 28, height: 1, color: Colors.white12),
+            ],
+          ),
+          const SizedBox(height: 6),
+          Text('CHAPTER · BABEL', style: ArcanaTextStyles.caption.copyWith(
+            color: Colors.white38, letterSpacing: 3, fontSize: 9,
+          )),
+          const SizedBox(height: 24),
+          Text('ENEMIES', style: ArcanaTextStyles.caption.copyWith(
+            color: Colors.white24, letterSpacing: 2, fontSize: 9,
+          )),
+          const SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: allEnglishEnemies.take(3).map((e) => Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+              child: Column(children: [
+                Text(e.emoji, style: const TextStyle(fontSize: 26)),
+                const SizedBox(height: 4),
+                Text(e.name.split(' ').first, style: ArcanaTextStyles.caption.copyWith(
+                  color: e.color.withValues(alpha: 0.7), fontSize: 8,
+                )),
+              ]),
+            )).toList(),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildRightPage() {
+    return Container(
+      color: const Color(0xFF130920),
+      padding: const EdgeInsets.all(20),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                width: 30, height: 30,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: const Color(0xFF7C3AED).withValues(alpha: 0.2),
+                  border: Border.all(color: const Color(0xFF7C3AED).withValues(alpha: 0.5)),
+                ),
+                child: const Center(child: Text('🧙', style: TextStyle(fontSize: 14))),
+              ),
+              const SizedBox(width: 8),
+              Text(
+                'Orión speaks...',
+                style: ArcanaTextStyles.caption.copyWith(
+                  color: const Color(0xFFa78bfa),
+                  fontSize: 11,
+                  fontStyle: FontStyle.italic,
+                ),
+              ),
+              const Spacer(),
+              if (_pages.length > 1)
+                Text('${_currentPage + 1} / ${_pages.length}',
+                  style: ArcanaTextStyles.caption.copyWith(color: Colors.white24, fontSize: 10)),
+            ],
+          ),
+          const SizedBox(height: 10),
+          Text('"',
+            style: TextStyle(
+              fontSize: 32,
+              color: const Color(0xFF7C3AED).withValues(alpha: 0.5),
+              height: 0.8,
+            ),
+          ),
+          const SizedBox(height: 4),
+          Expanded(
+            child: PageView.builder(
+              controller: _pageCtrl,
+              itemCount: _pages.length,
+              onPageChanged: (i) => setState(() => _currentPage = i),
+              itemBuilder: (_, i) => Text(
+                _pages[i],
+                style: const TextStyle(
+                  color: Color(0xFFD4C4F0),
+                  fontSize: 15,
+                  height: 1.8,
+                  letterSpacing: 0.3,
+                ),
+              ),
+            ),
+          ),
+          Align(
+            alignment: Alignment.centerRight,
+            child: Text('"',
+              style: TextStyle(
+                fontSize: 32,
+                color: const Color(0xFF7C3AED).withValues(alpha: 0.5),
+                height: 0.8,
               ),
             ),
           ),
@@ -462,6 +771,8 @@ class _StoryIntroScreen extends StatelessWidget {
     );
   }
 }
+
+
 
 // ─────────────────────────────────────────────
 // VS SCREEN
