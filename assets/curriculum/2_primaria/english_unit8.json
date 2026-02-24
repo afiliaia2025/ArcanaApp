@@ -1,0 +1,260 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 8,
+    "title": "Sport",
+    "story_title": "The Arena of Champions",
+    "story_intro": "Orión speaks: 'The legendary Sports Arena of BABEL has been invaded by Noctus's champions! Defeat them in a battle of words about sport and running, jumping, and flying will be yours again!'",
+    "enemy_name": "Sportrix",
+    "enemy_emoji": "🏆",
+    "enemy_color": "#15803D",
+    "sections": [
+        {
+            "id": "sport_vocab",
+            "name": "Sports vocabulary",
+            "exercises": [
+                {
+                    "id": "u8s01",
+                    "type": "multiple_choice",
+                    "question": "You kick a ball and score goals. ⚽",
+                    "options": [
+                        "basketball",
+                        "tennis",
+                        "rugby",
+                        "football"
+                    ],
+                    "answer": "football",
+                    "hint": "The world's most popular sport!",
+                    "explanation": "In football (soccer) you kick a ball and score goals."
+                },
+                {
+                    "id": "u8s02",
+                    "type": "multiple_choice",
+                    "question": "You hit a ball over a net with a racket. 🎾",
+                    "options": [
+                        "volleyball",
+                        "badminton",
+                        "tennis",
+                        "cricket"
+                    ],
+                    "answer": "tennis",
+                    "hint": "You use a racket and a green ball.",
+                    "explanation": "In tennis you hit the ball with a racket over a net."
+                },
+                {
+                    "id": "u8s03",
+                    "type": "multiple_choice",
+                    "question": "You swim in a pool competing against others. 🏊",
+                    "options": [
+                        "cycling",
+                        "rowing",
+                        "diving",
+                        "swimming"
+                    ],
+                    "answer": "swimming",
+                    "hint": "Water, pool, fastest wins!",
+                    "explanation": "Swimming is a sport done in a pool or open water."
+                },
+                {
+                    "id": "u8s04",
+                    "type": "multiple_choice",
+                    "question": "You ride a bike fast in a race. 🚲",
+                    "options": [
+                        "running",
+                        "cycling",
+                        "surfing",
+                        "skiing"
+                    ],
+                    "answer": "cycling",
+                    "hint": "Tour de France is a famous ___ race.",
+                    "explanation": "Cycling is the sport of riding a bicycle."
+                },
+                {
+                    "id": "u8s05",
+                    "type": "multiple_choice",
+                    "question": "You run very fast in a race. 🏃",
+                    "options": [
+                        "jumping",
+                        "swimming",
+                        "running",
+                        "cycling"
+                    ],
+                    "answer": "running",
+                    "hint": "Athletics — straight track, fastest wins!",
+                    "explanation": "Running is one of the oldest sports."
+                },
+                {
+                    "id": "u8s06",
+                    "type": "true_false",
+                    "question": "'In football you use a racket.' — Is this correct?",
+                    "answer": false,
+                    "hint": "What do you use in football?",
+                    "explanation": "In football you use your FEET and a ball, not a racket."
+                }
+            ]
+        },
+        {
+            "id": "present_continuous",
+            "name": "Present continuous (actions)",
+            "exercises": [
+                {
+                    "id": "u8pc01",
+                    "type": "multiple_choice",
+                    "question": "Look! She ___ right now! 🏃",
+                    "options": [
+                        "run",
+                        "runs",
+                        "is running",
+                        "running"
+                    ],
+                    "answer": "is running",
+                    "hint": "Action happening NOW → is/am/are + -ing",
+                    "explanation": "She IS RUNNING. (happening now = present continuous)"
+                },
+                {
+                    "id": "u8pc02",
+                    "type": "multiple_choice",
+                    "question": "They ___ football at the moment. ⚽",
+                    "options": [
+                        "plays",
+                        "is playing",
+                        "play",
+                        "are playing"
+                    ],
+                    "answer": "are playing",
+                    "hint": "They → are + -ing",
+                    "explanation": "They ARE PLAYING football. (they → are + -ing)"
+                },
+                {
+                    "id": "u8pc03",
+                    "type": "multiple_choice",
+                    "question": "I ___ with my friends right now. 🏊",
+                    "options": [
+                        "am swimming",
+                        "swims",
+                        "swim",
+                        "is swimming"
+                    ],
+                    "answer": "am swimming",
+                    "hint": "I → am + -ing",
+                    "explanation": "I AM SWIMMING. (I → am + -ing)"
+                },
+                {
+                    "id": "u8pc04",
+                    "type": "multiple_choice",
+                    "question": "He ___ his bike today. 🚲",
+                    "options": [
+                        "is riding",
+                        "riding",
+                        "rides",
+                        "ride"
+                    ],
+                    "answer": "is riding",
+                    "hint": "He → is + riding",
+                    "explanation": "He IS RIDING his bike. (he → is + -ing)"
+                },
+                {
+                    "id": "u8pc05",
+                    "type": "true_false",
+                    "question": "'They is playing tennis.' — Is this correct?",
+                    "answer": false,
+                    "hint": "They → is or are?",
+                    "explanation": "'They ARE playing tennis.' (they → are, not is)"
+                },
+                {
+                    "id": "u8pc06",
+                    "type": "multiple_choice",
+                    "question": "___ you ___ now? (swim)",
+                    "options": [
+                        "Do / swim",
+                        "Is / swimming",
+                        "Are / swimming",
+                        "Am / swimming"
+                    ],
+                    "answer": "Are / swimming",
+                    "hint": "You → are + -ing",
+                    "explanation": "ARE you SWIMMING now? (you → are + -ing)"
+                },
+                {
+                    "id": "u8pc07",
+                    "type": "multiple_choice",
+                    "question": "He ___ today (not run — he has a cold). 🤧",
+                    "options": [
+                        "doesn't running",
+                        "isn't running",
+                        "not running",
+                        "runs not"
+                    ],
+                    "answer": "isn't running",
+                    "hint": "Negative present continuous = is/am/are + not + -ing",
+                    "explanation": "He ISN'T RUNNING today. (negative = is + not + -ing)"
+                },
+                {
+                    "id": "u8pc08",
+                    "type": "true_false",
+                    "question": "'She is runnings.' — Is this correct?",
+                    "answer": false,
+                    "hint": "Is the -ing form 'runnings'?",
+                    "explanation": "Correct form: 'She is RUNNING.' (-ing never has an -s)"
+                }
+            ]
+        },
+        {
+            "id": "mixed_unit8",
+            "name": "Mixed review — Unit 8",
+            "exercises": [
+                {
+                    "id": "u8r01",
+                    "type": "multiple_choice",
+                    "question": "Look! They ___ tennis outside! 🎾",
+                    "options": [
+                        "are playing",
+                        "play",
+                        "plays",
+                        "is playing"
+                    ],
+                    "answer": "are playing",
+                    "hint": "They → are + -ing",
+                    "explanation": "They ARE PLAYING tennis. (present continuous)"
+                },
+                {
+                    "id": "u8r02",
+                    "type": "multiple_choice",
+                    "question": "Which sport uses a racket? 🏸",
+                    "options": [
+                        "football",
+                        "swimming",
+                        "badminton",
+                        "cycling"
+                    ],
+                    "answer": "badminton",
+                    "hint": "A feathered shuttlecock, not a ball!",
+                    "explanation": "Badminton uses a racket and a shuttlecock."
+                },
+                {
+                    "id": "u8r03",
+                    "type": "true_false",
+                    "question": "'I am cycling to school today.' — Is this correct?",
+                    "answer": true,
+                    "hint": "I + am + -ing form ✓",
+                    "explanation": "Correct! I AM CYCLING. (I + am + -ing = present continuous)"
+                },
+                {
+                    "id": "u8r04",
+                    "type": "multiple_choice",
+                    "question": "She ___ right now. She's very fast! 🏃",
+                    "options": [
+                        "isn't running",
+                        "run",
+                        "runs",
+                        "is running"
+                    ],
+                    "answer": "is running",
+                    "hint": "She → is + -ing",
+                    "explanation": "She IS RUNNING. (happening now)"
+                }
+            ]
+        }
+    ]
+}

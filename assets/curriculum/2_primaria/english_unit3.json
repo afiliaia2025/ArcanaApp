@@ -1,0 +1,350 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 3,
+    "title": "Our House",
+    "story_title": "The Lost Village",
+    "story_intro": "Orión speaks: 'BABEL village has been cursed by Noctus! The houses are empty and scattered. Find your way through the streets using prepositions of place and prove you belong here!'",
+    "enemy_name": "Possessor",
+    "enemy_emoji": "🏠",
+    "enemy_color": "#B45309",
+    "sections": [
+        {
+            "id": "places_vocab",
+            "name": "Places in the village",
+            "exercises": [
+                {
+                    "id": "u3p01",
+                    "type": "multiple_choice",
+                    "question": "You borrow books here. 📚",
+                    "options": [
+                        "hospital",
+                        "cinema",
+                        "post office",
+                        "library"
+                    ],
+                    "answer": "library",
+                    "hint": "You can read books for free there.",
+                    "explanation": "You borrow books from a library."
+                },
+                {
+                    "id": "u3p02",
+                    "type": "multiple_choice",
+                    "question": "You go here when you are ill. 🏥",
+                    "options": [
+                        "school",
+                        "library",
+                        "hospital",
+                        "supermarket"
+                    ],
+                    "answer": "hospital",
+                    "hint": "Doctors and nurses work here.",
+                    "explanation": "When you are ill, you go to hospital."
+                },
+                {
+                    "id": "u3p03",
+                    "type": "multiple_choice",
+                    "question": "You buy food here. 🛒",
+                    "options": [
+                        "post office",
+                        "library",
+                        "swimming pool",
+                        "supermarket"
+                    ],
+                    "answer": "supermarket",
+                    "hint": "You go shopping here.",
+                    "explanation": "A supermarket is where you buy food and other things."
+                },
+                {
+                    "id": "u3p04",
+                    "type": "multiple_choice",
+                    "question": "You send letters here. ✉️",
+                    "options": [
+                        "hospital",
+                        "cinema",
+                        "post office",
+                        "park"
+                    ],
+                    "answer": "post office",
+                    "hint": "You also buy stamps here.",
+                    "explanation": "You send letters and parcels from the post office."
+                },
+                {
+                    "id": "u3p05",
+                    "type": "multiple_choice",
+                    "question": "You watch films here. 🎬",
+                    "options": [
+                        "library",
+                        "cinema",
+                        "hospital",
+                        "school"
+                    ],
+                    "answer": "cinema",
+                    "hint": "Movie, popcorn, big screen!",
+                    "explanation": "You watch films at the cinema."
+                },
+                {
+                    "id": "u3p06",
+                    "type": "multiple_choice",
+                    "question": "You swim here. 🏊",
+                    "options": [
+                        "supermarket",
+                        "park",
+                        "school",
+                        "swimming pool"
+                    ],
+                    "answer": "swimming pool",
+                    "hint": "It's full of water!",
+                    "explanation": "You swim at the swimming pool."
+                }
+            ]
+        },
+        {
+            "id": "has_got",
+            "name": "Has got / have got",
+            "exercises": [
+                {
+                    "id": "u3h01",
+                    "type": "multiple_choice",
+                    "question": "She ___ a big garden. 🌿",
+                    "options": [
+                        "have got",
+                        "has get",
+                        "had",
+                        "has got"
+                    ],
+                    "answer": "has got",
+                    "hint": "She = 3rd person → has or have?",
+                    "explanation": "She HAS GOT a big garden. (3rd person → has got)"
+                },
+                {
+                    "id": "u3h02",
+                    "type": "multiple_choice",
+                    "question": "I ___ a beautiful bedroom. 🛏️",
+                    "options": [
+                        "has got",
+                        "have get",
+                        "got",
+                        "have got"
+                    ],
+                    "answer": "have got",
+                    "hint": "I → have or has?",
+                    "explanation": "I HAVE GOT a beautiful bedroom. (I → have got)"
+                },
+                {
+                    "id": "u3h03",
+                    "type": "multiple_choice",
+                    "question": "___ he ___ a swimming pool? 🏊",
+                    "options": [
+                        "Does / gets",
+                        "Has / got",
+                        "Have / got",
+                        "Is / got"
+                    ],
+                    "answer": "Has / got",
+                    "hint": "Question with has got → ?",
+                    "explanation": "HAS he GOT a swimming pool? (question → has + subject + got)"
+                },
+                {
+                    "id": "u3h04",
+                    "type": "multiple_choice",
+                    "question": "They ___ got a big house in the village. 🏡",
+                    "options": [
+                        "has",
+                        "have",
+                        "got",
+                        "hasn't"
+                    ],
+                    "answer": "have",
+                    "hint": "They → have or has?",
+                    "explanation": "They HAVE got a big house. (they → have)"
+                },
+                {
+                    "id": "u3h05",
+                    "type": "true_false",
+                    "question": "'He have got a dog.' — Is this correct?",
+                    "answer": false,
+                    "hint": "He → has or have?",
+                    "explanation": "It should be 'He HAS GOT a dog.' (he → has, not have)"
+                },
+                {
+                    "id": "u3h06",
+                    "type": "multiple_choice",
+                    "question": "She ___ got a garage. 🚗",
+                    "options": [
+                        "have",
+                        "hasn't",
+                        "haven't",
+                        "hasn't got"
+                    ],
+                    "answer": "hasn't got",
+                    "hint": "Negative → has + not + got = ?",
+                    "explanation": "She HASN'T GOT a garage. (negative → hasn't got)"
+                }
+            ]
+        },
+        {
+            "id": "prepositions",
+            "name": "Prepositions of place",
+            "exercises": [
+                {
+                    "id": "u3pr01",
+                    "type": "multiple_choice",
+                    "question": "The cat is ___ the sofa. (on top) 🛋️",
+                    "options": [
+                        "under",
+                        "behind",
+                        "next to",
+                        "on"
+                    ],
+                    "answer": "on",
+                    "hint": "The surface of the sofa.",
+                    "explanation": "The cat is ON the sofa. (surface contact → on)"
+                },
+                {
+                    "id": "u3pr02",
+                    "type": "multiple_choice",
+                    "question": "The ball is ___ the box. (inside) 📦",
+                    "options": [
+                        "on",
+                        "behind",
+                        "in",
+                        "next to"
+                    ],
+                    "answer": "in",
+                    "hint": "Inside something → ?",
+                    "explanation": "The ball is IN the box. (inside → in)"
+                },
+                {
+                    "id": "u3pr03",
+                    "type": "multiple_choice",
+                    "question": "The dog is ___ the table. (below) 🐕",
+                    "options": [
+                        "on",
+                        "in",
+                        "next to",
+                        "under"
+                    ],
+                    "answer": "under",
+                    "hint": "Below something → ?",
+                    "explanation": "The dog is UNDER the table. (below → under)"
+                },
+                {
+                    "id": "u3pr04",
+                    "type": "multiple_choice",
+                    "question": "The school is ___ the library. (beside it) 🏫",
+                    "options": [
+                        "under",
+                        "in",
+                        "on",
+                        "next to"
+                    ],
+                    "answer": "next to",
+                    "hint": "Beside, beside — what word means beside?",
+                    "explanation": "The school is NEXT TO the library. (beside → next to)"
+                },
+                {
+                    "id": "u3pr05",
+                    "type": "true_false",
+                    "question": "'The cat is in the sofa.' means the cat is on top of the sofa. — Is this correct?",
+                    "answer": false,
+                    "hint": "In = inside. On = on top of.",
+                    "explanation": "'In the sofa' would mean inside it! We say 'ON the sofa' to mean on top."
+                },
+                {
+                    "id": "u3pr06",
+                    "type": "multiple_choice",
+                    "question": "The cinema is ___ the supermarket and the park. (between them) 🎬",
+                    "options": [
+                        "next to",
+                        "between",
+                        "in",
+                        "under"
+                    ],
+                    "answer": "between",
+                    "hint": "When something is in the middle of two things.",
+                    "explanation": "BETWEEN = in the middle of two things."
+                },
+                {
+                    "id": "u3pr07",
+                    "type": "multiple_choice",
+                    "question": "The hotel is ___ the hill. (at the top) ⛰️",
+                    "options": [
+                        "between",
+                        "under",
+                        "in",
+                        "on top of"
+                    ],
+                    "answer": "on top of",
+                    "hint": "Higher than everything else → ?",
+                    "explanation": "ON TOP OF = at the very top of something."
+                },
+                {
+                    "id": "u3pr08",
+                    "type": "true_false",
+                    "question": "'Under' and 'below' have a similar meaning. — Is this correct?",
+                    "answer": true,
+                    "hint": "Think about what under means.",
+                    "explanation": "Correct! Both 'under' and 'below' refer to a lower position."
+                }
+            ]
+        },
+        {
+            "id": "mixed_unit3",
+            "name": "Mixed review — Unit 3",
+            "exercises": [
+                {
+                    "id": "u3r01",
+                    "type": "multiple_choice",
+                    "question": "My house ___ got three bedrooms. 🛏️",
+                    "options": [
+                        "have",
+                        "haven't",
+                        "has",
+                        "is"
+                    ],
+                    "answer": "has",
+                    "hint": "My house = it = 3rd person",
+                    "explanation": "My house HAS got three bedrooms."
+                },
+                {
+                    "id": "u3r02",
+                    "type": "multiple_choice",
+                    "question": "Where do you buy food? 🥗",
+                    "options": [
+                        "library",
+                        "post office",
+                        "supermarket",
+                        "hospital"
+                    ],
+                    "answer": "supermarket",
+                    "hint": "Trolley, till, checkout...",
+                    "explanation": "You buy food at the supermarket."
+                },
+                {
+                    "id": "u3r03",
+                    "type": "multiple_choice",
+                    "question": "The book is ___ the bag. (inside it) 🎒",
+                    "options": [
+                        "on",
+                        "under",
+                        "next to",
+                        "in"
+                    ],
+                    "answer": "in",
+                    "hint": "Inside = ?",
+                    "explanation": "The book is IN the bag."
+                },
+                {
+                    "id": "u3r04",
+                    "type": "true_false",
+                    "question": "'Has she got a pet?' — Is this the correct question form?",
+                    "answer": true,
+                    "hint": "Question with has got for 3rd person?",
+                    "explanation": "Correct! HAS she GOT? is the right question form."
+                }
+            ]
+        }
+    ]
+}

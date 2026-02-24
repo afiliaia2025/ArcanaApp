@@ -1,0 +1,282 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 0,
+    "title": "Back to School",
+    "story_title": "The Portal Opens",
+    "story_intro": "Orión speaks: 'The ancient portals of BABEL open before you! Classroom objects are scattered everywhere — Noctus's minions have stolen the teacher's tools. Use your English to recover them!'",
+    "enemy_name": "Classwraith",
+    "enemy_emoji": "📚",
+    "enemy_color": "#0F766E",
+    "sections": [
+        {
+            "id": "classroom_objects",
+            "name": "Classroom objects",
+            "exercises": [
+                {
+                    "id": "u0c01",
+                    "type": "multiple_choice",
+                    "question": "You write with it. What is it? ✏️",
+                    "options": [
+                        "ruler",
+                        "rubber",
+                        "pencil",
+                        "pencil case"
+                    ],
+                    "answer": "pencil",
+                    "hint": "It's long, thin and yellow.",
+                    "explanation": "A pencil is used to write."
+                },
+                {
+                    "id": "u0c02",
+                    "type": "multiple_choice",
+                    "question": "You put your pencils inside it. What is it? 🖊️",
+                    "options": [
+                        "pencil case",
+                        "book",
+                        "ruler",
+                        "bag"
+                    ],
+                    "answer": "pencil case",
+                    "hint": "It's like a small bag for your pens.",
+                    "explanation": "A pencil case holds your pens and pencils."
+                },
+                {
+                    "id": "u0c03",
+                    "type": "multiple_choice",
+                    "question": "You use it to measure. What is it? 📏",
+                    "options": [
+                        "pencil",
+                        "rubber",
+                        "book",
+                        "ruler"
+                    ],
+                    "answer": "ruler",
+                    "hint": "It's long and straight with numbers.",
+                    "explanation": "A ruler is used to measure length."
+                },
+                {
+                    "id": "u0c04",
+                    "type": "multiple_choice",
+                    "question": "You use it to rub out mistakes. What is it? 🗑️",
+                    "options": [
+                        "pencil",
+                        "ruler",
+                        "rubber",
+                        "pen"
+                    ],
+                    "answer": "rubber",
+                    "hint": "You use it to fix pencil mistakes.",
+                    "explanation": "A rubber (eraser) rubs out pencil marks."
+                },
+                {
+                    "id": "u0c05",
+                    "type": "multiple_choice",
+                    "question": "You read it. It has pages. What is it? 📖",
+                    "options": [
+                        "ruler",
+                        "rubber",
+                        "pencil case",
+                        "book"
+                    ],
+                    "answer": "book",
+                    "hint": "You open it to read a story.",
+                    "explanation": "A book has pages and you read it."
+                },
+                {
+                    "id": "u0c06",
+                    "type": "multiple_choice",
+                    "question": "You carry your school things in it. What is it? 🎒",
+                    "options": [
+                        "pencil case",
+                        "ruler",
+                        "bag",
+                        "book"
+                    ],
+                    "answer": "bag",
+                    "hint": "You put it on your back.",
+                    "explanation": "A bag (backpack) carries your school things."
+                },
+                {
+                    "id": "u0c07",
+                    "type": "multiple_choice",
+                    "question": "You write on it with a marker. What is it? 🖋️",
+                    "options": [
+                        "pencil",
+                        "ruler",
+                        "whiteboard",
+                        "rubber"
+                    ],
+                    "answer": "whiteboard",
+                    "hint": "It's big and on the wall of the classroom.",
+                    "explanation": "The teacher writes on the whiteboard."
+                },
+                {
+                    "id": "u0c08",
+                    "type": "multiple_choice",
+                    "question": "You sit on it in class. What is it? 🪑",
+                    "options": [
+                        "desk",
+                        "bag",
+                        "book",
+                        "chair"
+                    ],
+                    "answer": "chair",
+                    "hint": "You rest your back on it.",
+                    "explanation": "Students sit on chairs in the classroom."
+                },
+                {
+                    "id": "u0c09",
+                    "type": "true_false",
+                    "question": "'A ruler is used to draw straight lines.' — Is this correct?",
+                    "answer": true,
+                    "hint": "Think about what a ruler helps you do.",
+                    "explanation": "Correct! You use a ruler to draw straight lines and measure."
+                },
+                {
+                    "id": "u0c10",
+                    "type": "true_false",
+                    "question": "'You put your books in a pencil case.' — Is this correct?",
+                    "answer": false,
+                    "hint": "What is big enough for books?",
+                    "explanation": "You put books in your bag, not your pencil case."
+                }
+            ]
+        },
+        {
+            "id": "imperatives",
+            "name": "Imperatives",
+            "exercises": [
+                {
+                    "id": "u0i01",
+                    "type": "multiple_choice",
+                    "question": "The teacher says: '_____ your books!' (open them)",
+                    "options": [
+                        "Closes",
+                        "Opening",
+                        "Close",
+                        "Open"
+                    ],
+                    "answer": "Open",
+                    "hint": "Imperatives use the base verb form.",
+                    "explanation": "OPEN your books! (imperative = base verb)"
+                },
+                {
+                    "id": "u0i02",
+                    "type": "multiple_choice",
+                    "question": "The teacher says: '_____ quiet, please!' (be quiet)",
+                    "options": [
+                        "Being",
+                        "Is",
+                        "Are",
+                        "Be"
+                    ],
+                    "answer": "Be",
+                    "hint": "An instruction or command uses the base verb.",
+                    "explanation": "BE quiet! (imperative = base verb 'be')"
+                },
+                {
+                    "id": "u0i03",
+                    "type": "multiple_choice",
+                    "question": "The teacher says: '_____ your hand!' (raise it)",
+                    "options": [
+                        "Raising",
+                        "Raises",
+                        "Put",
+                        "Raise"
+                    ],
+                    "answer": "Raise",
+                    "hint": "One word command — base form of the verb.",
+                    "explanation": "RAISE your hand! (imperative = base verb)"
+                },
+                {
+                    "id": "u0i04",
+                    "type": "multiple_choice",
+                    "question": "'Don't _____ in class!' (run)",
+                    "options": [
+                        "running",
+                        "runs",
+                        "ran",
+                        "run"
+                    ],
+                    "answer": "run",
+                    "hint": "Don't + base verb = negative imperative.",
+                    "explanation": "Don't RUN! (negative imperative = don't + base verb)"
+                },
+                {
+                    "id": "u0i05",
+                    "type": "true_false",
+                    "question": "'Listens to me!' — Is this the correct imperative form?",
+                    "answer": false,
+                    "hint": "Imperatives don't use -s. What is the correct form?",
+                    "explanation": "The correct form is 'LISTEN to me!' not 'Listens'."
+                },
+                {
+                    "id": "u0i06",
+                    "type": "multiple_choice",
+                    "question": "Which is a correct imperative?",
+                    "options": [
+                        "Don't talks!",
+                        "Doesn't talk!",
+                        "Don't talk!",
+                        "Not talk!"
+                    ],
+                    "answer": "Don't talk!",
+                    "hint": "Negative imperative = Don't + base verb",
+                    "explanation": "Don't talk! is the correct negative imperative."
+                },
+                {
+                    "id": "u0i07",
+                    "type": "multiple_choice",
+                    "question": "There is a/an ___ on the desk. (one object)",
+                    "options": [
+                        "some",
+                        "an",
+                        "—",
+                        "a"
+                    ],
+                    "answer": "a",
+                    "hint": "One object starting with a consonant → a or an?",
+                    "explanation": "Use 'a' before consonant sounds."
+                },
+                {
+                    "id": "u0i08",
+                    "type": "multiple_choice",
+                    "question": "There is a/an ___ eraser on the desk.",
+                    "options": [
+                        "a",
+                        "—",
+                        "some",
+                        "an"
+                    ],
+                    "answer": "an",
+                    "hint": "'eraser' starts with a vowel sound.",
+                    "explanation": "Use 'an' before vowel sounds: an eraser."
+                },
+                {
+                    "id": "u0i09",
+                    "type": "multiple_choice",
+                    "question": "There are ___ pencils on the table.",
+                    "options": [
+                        "a",
+                        "an",
+                        "some",
+                        "the"
+                    ],
+                    "answer": "some",
+                    "hint": "Pencils is plural — use a, an or some?",
+                    "explanation": "Use 'some' with plural nouns."
+                },
+                {
+                    "id": "u0i10",
+                    "type": "true_false",
+                    "question": "'There are some book on the shelf.' — Is this correct?",
+                    "answer": false,
+                    "hint": "Some + plural noun. Is 'book' plural?",
+                    "explanation": "It should be 'There are some BOOKS' (plural with some)."
+                }
+            ]
+        }
+    ]
+}

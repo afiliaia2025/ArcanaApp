@@ -1,0 +1,310 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 2,
+    "title": "Animals",
+    "story_title": "The Enchanted Forest",
+    "story_intro": "Orión speaks: 'Noctus has cursed the BABEL Forest — all the magical animals have been silenced! Only a true word-mage can break the spell and make them speak again.'",
+    "enemy_name": "Beastcaller",
+    "enemy_emoji": "🐾",
+    "enemy_color": "#065F46",
+    "sections": [
+        {
+            "id": "animals_vocab",
+            "name": "Animals vocabulary",
+            "exercises": [
+                {
+                    "id": "u2a01",
+                    "type": "multiple_choice",
+                    "question": "This animal has a long neck and yellow spots. 🦒",
+                    "options": [
+                        "elephant",
+                        "tiger",
+                        "giraffe",
+                        "zebra"
+                    ],
+                    "answer": "giraffe",
+                    "hint": "It's the tallest animal in the world!",
+                    "explanation": "A giraffe has a very long neck and yellow-brown spots."
+                },
+                {
+                    "id": "u2a02",
+                    "type": "multiple_choice",
+                    "question": "This big grey animal has a long nose called a trunk. 🐘",
+                    "options": [
+                        "hippo",
+                        "elephant",
+                        "rhino",
+                        "whale"
+                    ],
+                    "answer": "elephant",
+                    "hint": "It uses its trunk to drink water.",
+                    "explanation": "An elephant is a large grey animal with a trunk."
+                },
+                {
+                    "id": "u2a03",
+                    "type": "multiple_choice",
+                    "question": "This striped black and white animal looks like a horse. 🦓",
+                    "options": [
+                        "giraffe",
+                        "horse",
+                        "tiger",
+                        "zebra"
+                    ],
+                    "answer": "zebra",
+                    "hint": "It has black and white stripes.",
+                    "explanation": "A zebra has distinctive black and white stripes."
+                },
+                {
+                    "id": "u2a04",
+                    "type": "multiple_choice",
+                    "question": "This orange and black striped animal is a big cat. 🐯",
+                    "options": [
+                        "lion",
+                        "leopard",
+                        "giraffe",
+                        "tiger"
+                    ],
+                    "answer": "tiger",
+                    "hint": "It's orange with black stripes.",
+                    "explanation": "A tiger is a large wild cat with orange and black stripes."
+                },
+                {
+                    "id": "u2a05",
+                    "type": "multiple_choice",
+                    "question": "This animal hops and lives in the sea. 🦘",
+                    "options": [
+                        "bear",
+                        "rabbit",
+                        "wolf",
+                        "kangaroo"
+                    ],
+                    "answer": "kangaroo",
+                    "hint": "Mum carries baby in a pouch!",
+                    "explanation": "A kangaroo hops and the mother carries her baby in a pouch."
+                },
+                {
+                    "id": "u2a06",
+                    "type": "multiple_choice",
+                    "question": "A large black and white bear from China. 🐼",
+                    "options": [
+                        "polar bear",
+                        "brown bear",
+                        "panda",
+                        "koala"
+                    ],
+                    "answer": "panda",
+                    "hint": "It eats bamboo and is from China.",
+                    "explanation": "A giant panda is black and white and lives in China."
+                },
+                {
+                    "id": "u2a07",
+                    "type": "true_false",
+                    "question": "'A tiger has black and white stripes.' — Is this correct?",
+                    "answer": false,
+                    "hint": "What colour is a tiger?",
+                    "explanation": "A tiger has ORANGE and black stripes, not white ones."
+                },
+                {
+                    "id": "u2a08",
+                    "type": "true_false",
+                    "question": "'A zebra has black and white stripes.' — Is this correct?",
+                    "answer": true,
+                    "hint": "Think about the pattern on a zebra.",
+                    "explanation": "Correct! A zebra has black and white stripes."
+                }
+            ]
+        },
+        {
+            "id": "likes_dislikes",
+            "name": "Like / doesn't like",
+            "exercises": [
+                {
+                    "id": "u2l01",
+                    "type": "multiple_choice",
+                    "question": "He ___ fish. He eats it every day. 🐟",
+                    "options": [
+                        "don't like",
+                        "doesn't likes",
+                        "like",
+                        "likes"
+                    ],
+                    "answer": "likes",
+                    "hint": "He → 3rd person → like + ?",
+                    "explanation": "He LIKES fish. (he → likes, 3rd person)"
+                },
+                {
+                    "id": "u2l02",
+                    "type": "multiple_choice",
+                    "question": "She ___ spiders. She is scared of them! 🕷️",
+                    "options": [
+                        "doesn't likes",
+                        "don't like",
+                        "doesn't like",
+                        "likes not"
+                    ],
+                    "answer": "doesn't like",
+                    "hint": "Negative 3rd person = doesn't + base verb",
+                    "explanation": "She DOESN'T LIKE spiders. (negative 3rd person = doesn't + base verb)"
+                },
+                {
+                    "id": "u2l03",
+                    "type": "multiple_choice",
+                    "question": "I ___ chocolate. It's my favourite! 🍫",
+                    "options": [
+                        "likes",
+                        "doesn't like",
+                        "like",
+                        "don't likes"
+                    ],
+                    "answer": "like",
+                    "hint": "I → base verb (no -s)",
+                    "explanation": "I LIKE chocolate. (I → base verb, no -s)"
+                },
+                {
+                    "id": "u2l04",
+                    "type": "multiple_choice",
+                    "question": "___ he like snakes? Yes, he ___! 🐍",
+                    "options": [
+                        "Do / do",
+                        "Does / does",
+                        "Is / is",
+                        "Have / has"
+                    ],
+                    "answer": "Does / does",
+                    "hint": "Questions with 3rd person use Does.",
+                    "explanation": "DOES he like snakes? Yes, he DOES. (3rd person questions → Does)"
+                },
+                {
+                    "id": "u2l05",
+                    "type": "true_false",
+                    "question": "'She don't like cats.' — Is this correct?",
+                    "answer": false,
+                    "hint": "She = 3rd person. Use don't or doesn't?",
+                    "explanation": "It should be 'She DOESN'T like cats.' (3rd person → doesn't)"
+                },
+                {
+                    "id": "u2l06",
+                    "type": "multiple_choice",
+                    "question": "___ they like lions? No, they ___! 🦁",
+                    "options": [
+                        "Does / doesn't",
+                        "Is / aren't",
+                        "Do / don't",
+                        "Have / haven't"
+                    ],
+                    "answer": "Do / don't",
+                    "hint": "They = plural → Do or Does?",
+                    "explanation": "DO they like lions? No, they DON'T. (plural → do/don't)"
+                },
+                {
+                    "id": "u2l07",
+                    "type": "multiple_choice",
+                    "question": "He ___ frogs. He thinks they're horrible! 🐸",
+                    "options": [
+                        "likes",
+                        "don't like",
+                        "doesn't likes",
+                        "doesn't like"
+                    ],
+                    "answer": "doesn't like",
+                    "hint": "3rd person negative → doesn't + base verb",
+                    "explanation": "He DOESN'T LIKE frogs."
+                },
+                {
+                    "id": "u2l08",
+                    "type": "multiple_choice",
+                    "question": "She ___ dancing. She goes to dance class! 💃",
+                    "options": [
+                        "don't like",
+                        "doesn't like",
+                        "like",
+                        "likes"
+                    ],
+                    "answer": "likes",
+                    "hint": "She → 3rd person → like + ?",
+                    "explanation": "She LIKES dancing."
+                },
+                {
+                    "id": "u2l09",
+                    "type": "true_false",
+                    "question": "'Does she likes cats?' — Is this correct?",
+                    "answer": false,
+                    "hint": "Does + base verb. Does she likes or like?",
+                    "explanation": "Correct form: 'Does she LIKE cats?' (Does + base verb, no -s)"
+                },
+                {
+                    "id": "u2l10",
+                    "type": "multiple_choice",
+                    "question": "I don't ___ vegetables. 🥦",
+                    "options": [
+                        "likes",
+                        "to like",
+                        "liking",
+                        "like"
+                    ],
+                    "answer": "like",
+                    "hint": "Don't + base verb",
+                    "explanation": "I don't LIKE vegetables. (don't + base verb)"
+                }
+            ]
+        },
+        {
+            "id": "mixed_unit2",
+            "name": "Mixed review — Unit 2",
+            "exercises": [
+                {
+                    "id": "u2r01",
+                    "type": "multiple_choice",
+                    "question": "The lion ___ meat. 🥩",
+                    "options": [
+                        "doesn't like",
+                        "like",
+                        "don't like",
+                        "likes"
+                    ],
+                    "answer": "likes",
+                    "hint": "The lion = he/she → likes",
+                    "explanation": "The lion LIKES meat. (3rd person → likes)"
+                },
+                {
+                    "id": "u2r02",
+                    "type": "multiple_choice",
+                    "question": "Which animal has a very long neck? 🦒",
+                    "options": [
+                        "elephant",
+                        "tiger",
+                        "giraffe",
+                        "zebra"
+                    ],
+                    "answer": "giraffe",
+                    "hint": "The tallest animal!",
+                    "explanation": "The giraffe has the longest neck of all animals."
+                },
+                {
+                    "id": "u2r03",
+                    "type": "true_false",
+                    "question": "'He like spiders.' — Is this correct?",
+                    "answer": false,
+                    "hint": "He → 3rd person → like or likes?",
+                    "explanation": "'He LIKES spiders.' When you use he/she/it, add -s to the verb."
+                },
+                {
+                    "id": "u2r04",
+                    "type": "multiple_choice",
+                    "question": "___ she like elephants?",
+                    "options": [
+                        "Do",
+                        "Is",
+                        "Are",
+                        "Does"
+                    ],
+                    "answer": "Does",
+                    "hint": "She → 3rd person question → Does or Do?",
+                    "explanation": "DOES she like elephants? (3rd person → does)"
+                }
+            ]
+        }
+    ]
+}

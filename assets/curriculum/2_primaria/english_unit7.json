@@ -1,0 +1,322 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 7,
+    "title": "Transport",
+    "story_title": "The Sky Roads of BABEL",
+    "story_intro": "Orión speaks: 'The magic transport network of BABEL has been destroyed! Trains, ships and flying carpets sit idle. Only someone who commands the language of movement can restart the engines!'",
+    "enemy_name": "Vehicrix",
+    "enemy_emoji": "🚂",
+    "enemy_color": "#0E7490",
+    "sections": [
+        {
+            "id": "transport_vocab",
+            "name": "Transport vocabulary",
+            "exercises": [
+                {
+                    "id": "u7t01",
+                    "type": "multiple_choice",
+                    "question": "It flies in the sky and has wings. ✈️",
+                    "options": [
+                        "ship",
+                        "train",
+                        "plane",
+                        "bus"
+                    ],
+                    "answer": "plane",
+                    "hint": "You go to the airport to catch it.",
+                    "explanation": "A plane (aeroplane) flies through the sky."
+                },
+                {
+                    "id": "u7t02",
+                    "type": "multiple_choice",
+                    "question": "It travels on rails and carries many passengers. 🚂",
+                    "options": [
+                        "car",
+                        "ship",
+                        "bus",
+                        "train"
+                    ],
+                    "answer": "train",
+                    "hint": "Choo choo! It runs on tracks.",
+                    "explanation": "A train travels on railway tracks."
+                },
+                {
+                    "id": "u7t03",
+                    "type": "multiple_choice",
+                    "question": "It travels on water across the sea. ⛴️",
+                    "options": [
+                        "train",
+                        "bus",
+                        "car",
+                        "ship"
+                    ],
+                    "answer": "ship",
+                    "hint": "It floats on water.",
+                    "explanation": "A ship travels across the sea."
+                },
+                {
+                    "id": "u7t04",
+                    "type": "multiple_choice",
+                    "question": "You pedal it with your legs. 🚲",
+                    "options": [
+                        "motorbike",
+                        "scooter",
+                        "bike",
+                        "skateboard"
+                    ],
+                    "answer": "bike",
+                    "hint": "Two wheels, no engine, you pedal.",
+                    "explanation": "A bike (bicycle) is powered by pedalling."
+                },
+                {
+                    "id": "u7t05",
+                    "type": "multiple_choice",
+                    "question": "It has a lot of stops and carries people through the city. 🚌",
+                    "options": [
+                        "taxi",
+                        "plane",
+                        "train",
+                        "bus"
+                    ],
+                    "answer": "bus",
+                    "hint": "You wait at a bus stop to catch it.",
+                    "explanation": "A bus picks up passengers at bus stops."
+                },
+                {
+                    "id": "u7t06",
+                    "type": "true_false",
+                    "question": "'A train travels on water.' — Is this correct?",
+                    "answer": false,
+                    "hint": "What does a train travel on?",
+                    "explanation": "A train travels on TRACKS (rails), not water."
+                }
+            ]
+        },
+        {
+            "id": "would_like_to",
+            "name": "I'd like to...",
+            "exercises": [
+                {
+                    "id": "u7w01",
+                    "type": "multiple_choice",
+                    "question": "I ___ like to travel by plane one day! ✈️",
+                    "options": [
+                        "will",
+                        "would",
+                        "am",
+                        "do"
+                    ],
+                    "answer": "would",
+                    "hint": "I'd = I ___",
+                    "explanation": "I WOULD like to travel. (I'd = I would)"
+                },
+                {
+                    "id": "u7w02",
+                    "type": "multiple_choice",
+                    "question": "I'd like ___ visit Rome. 🏛️",
+                    "options": [
+                        "visiting",
+                        "visited",
+                        "visit",
+                        "to visit"
+                    ],
+                    "answer": "to visit",
+                    "hint": "Would like + to + verb",
+                    "explanation": "I'd like TO VISIT Rome. (would like + to + infinitive)"
+                },
+                {
+                    "id": "u7w03",
+                    "type": "multiple_choice",
+                    "question": "She'd like ___ a ship one day. ⛴️",
+                    "options": [
+                        "to sailing",
+                        "sail",
+                        "sailing",
+                        "to sail"
+                    ],
+                    "answer": "to sail",
+                    "hint": "Would like + to + base verb",
+                    "explanation": "She'd like TO SAIL a ship. (would like + to + base verb)"
+                },
+                {
+                    "id": "u7w04",
+                    "type": "true_false",
+                    "question": "'He'd like to flying.' — Is this correct?",
+                    "answer": false,
+                    "hint": "Would like + to + base verb. 'flying' is the -ing form.",
+                    "explanation": "Correct form: 'He'd like to FLY.' (to + base verb, not -ing)"
+                },
+                {
+                    "id": "u7w05",
+                    "type": "multiple_choice",
+                    "question": "I ___ like to be a pilot when I grow up! 🧑‍✈️",
+                    "options": [
+                        "will",
+                        "'d",
+                        "do",
+                        "am"
+                    ],
+                    "answer": "'d",
+                    "hint": "I'd = I would. Short form = 'd",
+                    "explanation": "I'D like to be a pilot. ('d = contracted form of would)"
+                },
+                {
+                    "id": "u7w06",
+                    "type": "multiple_choice",
+                    "question": "Would you like to ___ by train or by bus? 🚌",
+                    "options": [
+                        "travelling",
+                        "traveled",
+                        "travel",
+                        "to travel"
+                    ],
+                    "answer": "travel",
+                    "hint": "Would like to + base verb",
+                    "explanation": "Would you like to TRAVEL? (base verb after to)"
+                }
+            ]
+        },
+        {
+            "id": "verb_ing",
+            "name": "Verb + -ing (activities)",
+            "exercises": [
+                {
+                    "id": "u7v01",
+                    "type": "multiple_choice",
+                    "question": "She loves ___. She does it at the pool. 🏊",
+                    "options": [
+                        "swim",
+                        "swum",
+                        "swims",
+                        "swimming"
+                    ],
+                    "answer": "swimming",
+                    "hint": "Love/like/enjoy + verb + ?",
+                    "explanation": "She loves SWIMMING. (love + -ing form)"
+                },
+                {
+                    "id": "u7v02",
+                    "type": "multiple_choice",
+                    "question": "He enjoys ___ his bike at weekends. 🚲",
+                    "options": [
+                        "rides",
+                        "ride",
+                        "to ride",
+                        "riding"
+                    ],
+                    "answer": "riding",
+                    "hint": "enjoy + verb + -ing",
+                    "explanation": "He enjoys RIDING his bike. (enjoy + -ing)"
+                },
+                {
+                    "id": "u7v03",
+                    "type": "multiple_choice",
+                    "question": "They like ___ music in the car. 🎵",
+                    "options": [
+                        "listened",
+                        "listen",
+                        "to listened",
+                        "listening"
+                    ],
+                    "answer": "listening",
+                    "hint": "like + -ing",
+                    "explanation": "They like LISTENING to music. (like + -ing)"
+                },
+                {
+                    "id": "u7v04",
+                    "type": "true_false",
+                    "question": "'She likes to dance.' is correct English. — Is this correct?",
+                    "answer": true,
+                    "hint": "Like can take both to + infinitive AND -ing.",
+                    "explanation": "Correct! Both 'She likes to dance' and 'She likes dancing' are correct."
+                },
+                {
+                    "id": "u7v05",
+                    "type": "multiple_choice",
+                    "question": "I hate ___! I always get lost. 🗺️",
+                    "options": [
+                        "navigate",
+                        "navigation",
+                        "navigated",
+                        "navigating"
+                    ],
+                    "answer": "navigating",
+                    "hint": "hate + -ing",
+                    "explanation": "I hate NAVIGATING. (hate + -ing form)"
+                },
+                {
+                    "id": "u7v06",
+                    "type": "multiple_choice",
+                    "question": "Are you ___ a paper plane right now? ✈️",
+                    "options": [
+                        "makes",
+                        "made",
+                        "make",
+                        "making"
+                    ],
+                    "answer": "making",
+                    "hint": "Are you + verb + -ing? (present continuous)",
+                    "explanation": "Are you MAKING a paper plane? (present continuous → am/is/are + -ing)"
+                }
+            ]
+        },
+        {
+            "id": "mixed_unit7",
+            "name": "Mixed review — Unit 7",
+            "exercises": [
+                {
+                    "id": "u7r01",
+                    "type": "multiple_choice",
+                    "question": "I'd like ___ by ship one day! ⛴️",
+                    "options": [
+                        "travel",
+                        "to travel",
+                        "travelling",
+                        "traveled"
+                    ],
+                    "answer": "to travel",
+                    "hint": "I'd like + to + base verb",
+                    "explanation": "I'd like TO TRAVEL by ship."
+                },
+                {
+                    "id": "u7r02",
+                    "type": "multiple_choice",
+                    "question": "He loves ___ planes at the airport. ✈️",
+                    "options": [
+                        "watch",
+                        "watches",
+                        "watched",
+                        "watching"
+                    ],
+                    "answer": "watching",
+                    "hint": "love + -ing",
+                    "explanation": "He loves WATCHING planes."
+                },
+                {
+                    "id": "u7r03",
+                    "type": "multiple_choice",
+                    "question": "Which transport travels on tracks? 🚂",
+                    "options": [
+                        "ship",
+                        "plane",
+                        "bus",
+                        "train"
+                    ],
+                    "answer": "train",
+                    "hint": "Choo choo!",
+                    "explanation": "A TRAIN travels on railway tracks."
+                },
+                {
+                    "id": "u7r04",
+                    "type": "true_false",
+                    "question": "'She enjoys to swim.' — Is this correct?",
+                    "answer": false,
+                    "hint": "enjoy + to or enjoy + -ing?",
+                    "explanation": "Correct form: 'She enjoys SWIMMING.' (enjoy + -ing, not to)"
+                }
+            ]
+        }
+    ]
+}

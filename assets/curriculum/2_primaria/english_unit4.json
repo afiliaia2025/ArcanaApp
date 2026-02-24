@@ -1,0 +1,288 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 4,
+    "title": "Shopping",
+    "story_title": "The Enchanted Market",
+    "story_intro": "Orión speaks: 'The BABEL market has been scrambled! Merchants are selling the wrong things and nobody can understand each other. Use your English to fix the market and order has been restored!'",
+    "enemy_name": "Merchantix",
+    "enemy_emoji": "🛍️",
+    "enemy_color": "#DC2626",
+    "sections": [
+        {
+            "id": "food_vocab",
+            "name": "Food vocabulary",
+            "exercises": [
+                {
+                    "id": "u4f01",
+                    "type": "multiple_choice",
+                    "question": "It's yellow, long, and monkeys love them. 🍌",
+                    "options": [
+                        "apple",
+                        "orange",
+                        "banana",
+                        "grape"
+                    ],
+                    "answer": "banana",
+                    "hint": "Curved and yellow — monkeys' favourite!",
+                    "explanation": "A banana is a yellow curved fruit."
+                },
+                {
+                    "id": "u4f02",
+                    "type": "multiple_choice",
+                    "question": "It's red and round. An apple a day... 🍎",
+                    "options": [
+                        "pear",
+                        "plum",
+                        "strawberry",
+                        "apple"
+                    ],
+                    "answer": "apple",
+                    "hint": "Red and round. Keeps the doctor away!",
+                    "explanation": "An apple is a round, usually red, fruit."
+                },
+                {
+                    "id": "u4f03",
+                    "type": "multiple_choice",
+                    "question": "Orange juice comes from this fruit. 🍊",
+                    "options": [
+                        "lemon",
+                        "pear",
+                        "mango",
+                        "orange"
+                    ],
+                    "answer": "orange",
+                    "hint": "It's the same colour as its name!",
+                    "explanation": "Orange juice is made from oranges."
+                },
+                {
+                    "id": "u4f04",
+                    "type": "multiple_choice",
+                    "question": "This red vegetable goes in pizza sauce. 🍅",
+                    "options": [
+                        "carrot",
+                        "potato",
+                        "onion",
+                        "tomato"
+                    ],
+                    "answer": "tomato",
+                    "hint": "Red, juicy, often used in salads.",
+                    "explanation": "A tomato is used in pizza sauce and salads."
+                },
+                {
+                    "id": "u4f05",
+                    "type": "multiple_choice",
+                    "question": "This orange vegetable is a rabbit's favourite. 🥕",
+                    "options": [
+                        "potato",
+                        "onion",
+                        "carrot",
+                        "pepper"
+                    ],
+                    "answer": "carrot",
+                    "hint": "Orange and long — rabbits eat them!",
+                    "explanation": "Carrots are orange vegetables that rabbits love."
+                },
+                {
+                    "id": "u4f06",
+                    "type": "true_false",
+                    "question": "'A tomato is a blue vegetable.' — Is this correct?",
+                    "answer": false,
+                    "hint": "What colour is a tomato?",
+                    "explanation": "A tomato is RED, not blue!"
+                }
+            ]
+        },
+        {
+            "id": "would_like",
+            "name": "Would you like...?",
+            "exercises": [
+                {
+                    "id": "u4w01",
+                    "type": "multiple_choice",
+                    "question": "___ you like some juice? 🥤",
+                    "options": [
+                        "Do",
+                        "Are",
+                        "Would",
+                        "Is"
+                    ],
+                    "answer": "Would",
+                    "hint": "Polite offer → Would or Do?",
+                    "explanation": "WOULD you like some juice? (polite offer = Would you like?)"
+                },
+                {
+                    "id": "u4w02",
+                    "type": "multiple_choice",
+                    "question": "Yes, please. I ___ like a sandwich. 🥪",
+                    "options": [
+                        "will",
+                        "do",
+                        "would",
+                        "am"
+                    ],
+                    "answer": "would",
+                    "hint": "The answer to 'Would you like?' uses the same word.",
+                    "explanation": "I WOULD like a sandwich. (Would you like? → I would like.)"
+                },
+                {
+                    "id": "u4w03",
+                    "type": "multiple_choice",
+                    "question": "No thank you. I ___ like any cake. 🎂",
+                    "options": [
+                        "wouldn't",
+                        "don't",
+                        "doesn't",
+                        "won't"
+                    ],
+                    "answer": "wouldn't",
+                    "hint": "Polite refusal = would + not = ?",
+                    "explanation": "I WOULDN'T like any cake. (wouldn't = would not)"
+                },
+                {
+                    "id": "u4w04",
+                    "type": "multiple_choice",
+                    "question": "Would you like some ___? (more than one thing)",
+                    "options": [
+                        "a apple",
+                        "an apple",
+                        "some apples",
+                        "apple"
+                    ],
+                    "answer": "some apples",
+                    "hint": "Plural uncountable/plural → some",
+                    "explanation": "Would you like SOME APPLES? (some = plural or quantity)"
+                },
+                {
+                    "id": "u4w05",
+                    "type": "true_false",
+                    "question": "'Would you like a orange?' — Is this correct?",
+                    "answer": false,
+                    "hint": "Which article goes before 'orange'? a or an?",
+                    "explanation": "'An orange' not 'a orange'. Use 'an' before vowel sounds."
+                },
+                {
+                    "id": "u4w06",
+                    "type": "multiple_choice",
+                    "question": "At the market: 'How ___ is it?' — asking the price. 💰",
+                    "options": [
+                        "many",
+                        "often",
+                        "old",
+                        "much"
+                    ],
+                    "answer": "much",
+                    "hint": "Price question = How ___ is it?",
+                    "explanation": "How MUCH is it? = asking for the price."
+                },
+                {
+                    "id": "u4w07",
+                    "type": "multiple_choice",
+                    "question": "'It's ___ euros.' — 5€",
+                    "options": [
+                        "a",
+                        "some",
+                        "five",
+                        "any"
+                    ],
+                    "answer": "five",
+                    "hint": "The number 5 in words.",
+                    "explanation": "It's FIVE euros. (the price in words)"
+                },
+                {
+                    "id": "u4w08",
+                    "type": "multiple_choice",
+                    "question": "Would you like ___ water? (an offer)",
+                    "options": [
+                        "a",
+                        "the",
+                        "many",
+                        "some"
+                    ],
+                    "answer": "some",
+                    "hint": "Water is uncountable → use some or any?",
+                    "explanation": "Would you like SOME water? (uncountable noun → some in offers)"
+                },
+                {
+                    "id": "u4w09",
+                    "type": "true_false",
+                    "question": "'Would you like a milk?' — Is this correct?",
+                    "answer": false,
+                    "hint": "Milk is uncountable. Can you use 'a' with it directly?",
+                    "explanation": "'A milk' is wrong. Say 'Would you like SOME milk?' or 'a glass of milk'."
+                },
+                {
+                    "id": "u4w10",
+                    "type": "multiple_choice",
+                    "question": "___ there any bread left? 🍞",
+                    "options": [
+                        "Are",
+                        "Have",
+                        "Do",
+                        "Is"
+                    ],
+                    "answer": "Is",
+                    "hint": "Bread is uncountable → singular verb",
+                    "explanation": "IS there any bread? (bread = uncountable → singular 'is')"
+                }
+            ]
+        },
+        {
+            "id": "mixed_unit4",
+            "name": "Mixed review — Unit 4",
+            "exercises": [
+                {
+                    "id": "u4r01",
+                    "type": "multiple_choice",
+                    "question": "___ you like a biscuit? 🍪",
+                    "options": [
+                        "Do",
+                        "Are",
+                        "Is",
+                        "Would"
+                    ],
+                    "answer": "Would",
+                    "hint": "Polite offer.",
+                    "explanation": "WOULD you like a biscuit? (polite offer)"
+                },
+                {
+                    "id": "u4r02",
+                    "type": "multiple_choice",
+                    "question": "This orange vegetable grows underground. 🥕",
+                    "options": [
+                        "tomato",
+                        "carrot",
+                        "onion",
+                        "banana"
+                    ],
+                    "answer": "carrot",
+                    "hint": "Orange, crunchy, underground.",
+                    "explanation": "Carrots grow underground and are orange."
+                },
+                {
+                    "id": "u4r03",
+                    "type": "true_false",
+                    "question": "'I would like some oranges.' — Is this correct?",
+                    "answer": true,
+                    "hint": "Would like + some + plural noun.",
+                    "explanation": "Correct! I WOULD LIKE SOME ORANGES. (polite request)"
+                },
+                {
+                    "id": "u4r04",
+                    "type": "multiple_choice",
+                    "question": "How ___ is the apple? — 2 euros.",
+                    "options": [
+                        "many",
+                        "much",
+                        "old",
+                        "often"
+                    ],
+                    "answer": "much",
+                    "hint": "Price → How much or How many?",
+                    "explanation": "How MUCH is the apple? (price = how much)"
+                }
+            ]
+        }
+    ]
+}

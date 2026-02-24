@@ -1,0 +1,344 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 9,
+    "title": "Holidays",
+    "story_title": "The Final Gate of BABEL",
+    "story_intro": "Orión speaks: 'Champion! You have reached the final gate of BABEL. Beyond it lies the Council of Wisdom. Only mastery of wishes, abilities, and requests can open it. Show them what you know!'",
+    "enemy_name": "Council Wraith",
+    "enemy_emoji": "🌍",
+    "enemy_color": "#B91C1C",
+    "sections": [
+        {
+            "id": "holiday_vocab",
+            "name": "Holidays vocabulary",
+            "exercises": [
+                {
+                    "id": "u9h01",
+                    "type": "multiple_choice",
+                    "question": "You sleep here when you go on holiday. 🏨",
+                    "options": [
+                        "museum",
+                        "airport",
+                        "hotel",
+                        "restaurant"
+                    ],
+                    "answer": "hotel",
+                    "hint": "You book a room for several nights.",
+                    "explanation": "A hotel is where you stay when travelling."
+                },
+                {
+                    "id": "u9h02",
+                    "type": "multiple_choice",
+                    "question": "You buy sunscreen and lie in the sun here. 🏖️",
+                    "options": [
+                        "mountain",
+                        "city",
+                        "forest",
+                        "beach"
+                    ],
+                    "answer": "beach",
+                    "hint": "Sand, sea, and sunshine!",
+                    "explanation": "At the beach you can swim, sunbathe and play in the sand."
+                },
+                {
+                    "id": "u9h03",
+                    "type": "multiple_choice",
+                    "question": "You go here to catch a plane. ✈️",
+                    "options": [
+                        "hospital",
+                        "port",
+                        "beach",
+                        "airport"
+                    ],
+                    "answer": "airport",
+                    "hint": "Check-in, passport control, boarding gate...",
+                    "explanation": "You go to the airport to catch your plane."
+                },
+                {
+                    "id": "u9h04",
+                    "type": "multiple_choice",
+                    "question": "A very tall mountain with snow on top. ⛰️",
+                    "options": [
+                        "lake",
+                        "river",
+                        "volcano",
+                        "mountain"
+                    ],
+                    "answer": "mountain",
+                    "hint": "Everest is the world's highest ___.",
+                    "explanation": "A mountain is a large landform that rises above the land."
+                },
+                {
+                    "id": "u9h05",
+                    "type": "true_false",
+                    "question": "'You go to the airport to catch a train.' — Is this correct?",
+                    "answer": false,
+                    "hint": "Where do you go to catch a train?",
+                    "explanation": "You go to an AIRPORT to catch a plane, not a train."
+                },
+                {
+                    "id": "u9h06",
+                    "type": "multiple_choice",
+                    "question": "You take a photo of something amazing. 📸",
+                    "options": [
+                        "postcard",
+                        "passport",
+                        "photograph",
+                        "suitcase"
+                    ],
+                    "answer": "photograph",
+                    "hint": "Click! You capture a moment.",
+                    "explanation": "A photograph captures a moment you want to remember."
+                }
+            ]
+        },
+        {
+            "id": "can_requests",
+            "name": "Can (ability) / Can I...? (requests)",
+            "exercises": [
+                {
+                    "id": "u9c01",
+                    "type": "multiple_choice",
+                    "question": "She ___ swim very well. She won a medal! 🥇",
+                    "options": [
+                        "cans",
+                        "could",
+                        "is",
+                        "can"
+                    ],
+                    "answer": "can",
+                    "hint": "Ability in the present → can or cans?",
+                    "explanation": "She CAN swim. (can = ability, never adds -s)"
+                },
+                {
+                    "id": "u9c02",
+                    "type": "multiple_choice",
+                    "question": "He ___ fly. He's not a bird! 🐦",
+                    "options": [
+                        "can't",
+                        "cans't",
+                        "cannot't",
+                        "can"
+                    ],
+                    "answer": "can't",
+                    "hint": "Negative of can = can't or cannot",
+                    "explanation": "He CAN'T fly. (can't = cannot)"
+                },
+                {
+                    "id": "u9c03",
+                    "type": "multiple_choice",
+                    "question": "___ I open the window, please? 🪟",
+                    "options": [
+                        "Do",
+                        "Would",
+                        "Could I / Can I",
+                        "Am"
+                    ],
+                    "answer": "Could I / Can I",
+                    "hint": "Polite request → Can I or Could I",
+                    "explanation": "CAN I / COULD I open the window? (polite request)"
+                },
+                {
+                    "id": "u9c04",
+                    "type": "multiple_choice",
+                    "question": "___ he speak English? Yes, he ___! 🗣️",
+                    "options": [
+                        "Does / does",
+                        "Can / can",
+                        "Is / is",
+                        "Does / can"
+                    ],
+                    "answer": "Can / can",
+                    "hint": "Question with can → ? Yes, he ___",
+                    "explanation": "CAN he speak English? Yes, he CAN. (can in question and answer)"
+                },
+                {
+                    "id": "u9c05",
+                    "type": "true_false",
+                    "question": "'She cans dance.' — Is this correct?",
+                    "answer": false,
+                    "hint": "Can never adds -s, even for he/she/it.",
+                    "explanation": "Correct form: 'She CAN dance.' (can never has -s)"
+                },
+                {
+                    "id": "u9c06",
+                    "type": "multiple_choice",
+                    "question": "Can you ___ a bike? 🚲",
+                    "options": [
+                        "rides",
+                        "riding",
+                        "to ride",
+                        "ride"
+                    ],
+                    "answer": "ride",
+                    "hint": "Can + base verb (no to, no -ing)",
+                    "explanation": "Can you RIDE a bike? (can + base verb)"
+                },
+                {
+                    "id": "u9c07",
+                    "type": "multiple_choice",
+                    "question": "___ I use your pencil? Mine is broken. ✏️",
+                    "options": [
+                        "Would",
+                        "Do",
+                        "Am",
+                        "Can"
+                    ],
+                    "answer": "Can",
+                    "hint": "Asking for permission → Can I or Do I?",
+                    "explanation": "CAN I use your pencil? (Can I = asking permission)"
+                },
+                {
+                    "id": "u9c08",
+                    "type": "true_false",
+                    "question": "'I can to swim.' — Is this correct?",
+                    "answer": false,
+                    "hint": "Can + to + verb or can + base verb?",
+                    "explanation": "Correct form: 'I can SWIM.' (can + base verb, NOT to + verb)"
+                }
+            ]
+        },
+        {
+            "id": "going_to",
+            "name": "Going to (future plans)",
+            "exercises": [
+                {
+                    "id": "u9g01",
+                    "type": "multiple_choice",
+                    "question": "This summer I ___ visit the beach. 🏖️",
+                    "options": [
+                        "going to",
+                        "will",
+                        "am going to",
+                        "is going to"
+                    ],
+                    "answer": "am going to",
+                    "hint": "I → am going to + verb",
+                    "explanation": "I AM GOING TO visit the beach. (future plan: am/is/are + going to)"
+                },
+                {
+                    "id": "u9g02",
+                    "type": "multiple_choice",
+                    "question": "She ___ fly to London next week. 🇬🇧",
+                    "options": [
+                        "is going to",
+                        "going to",
+                        "am going to",
+                        "are going to"
+                    ],
+                    "answer": "is going to",
+                    "hint": "She → is going to",
+                    "explanation": "She IS GOING TO fly to London. (she → is going to)"
+                },
+                {
+                    "id": "u9g03",
+                    "type": "multiple_choice",
+                    "question": "They ___ stay at a hotel. 🏨",
+                    "options": [
+                        "is going to",
+                        "am going to",
+                        "going to",
+                        "are going to"
+                    ],
+                    "answer": "are going to",
+                    "hint": "They → are going to",
+                    "explanation": "They ARE GOING TO stay at a hotel. (they → are going to)"
+                },
+                {
+                    "id": "u9g04",
+                    "type": "true_false",
+                    "question": "'He is going to visited Rome.' — Is this correct?",
+                    "answer": false,
+                    "hint": "going to + base verb. Is 'visited' the base verb?",
+                    "explanation": "Correct form: 'He is going to VISIT Rome.' (going to + base verb, not past)"
+                },
+                {
+                    "id": "u9g05",
+                    "type": "multiple_choice",
+                    "question": "___ she going to take many photos? 📸",
+                    "options": [
+                        "Are",
+                        "Do",
+                        "Am",
+                        "Is"
+                    ],
+                    "answer": "Is",
+                    "hint": "Question with is going to → Is she going to?",
+                    "explanation": "IS she going to take many photos? (question → is + subject + going to)"
+                }
+            ]
+        },
+        {
+            "id": "mixed_unit9",
+            "name": "Mixed review — Unit 9",
+            "exercises": [
+                {
+                    "id": "u9r01",
+                    "type": "multiple_choice",
+                    "question": "___ I take a photo here, please? 📸",
+                    "options": [
+                        "Do",
+                        "Would",
+                        "Am",
+                        "Can"
+                    ],
+                    "answer": "Can",
+                    "hint": "Polite permission request.",
+                    "explanation": "CAN I take a photo? (polite request for permission)"
+                },
+                {
+                    "id": "u9r02",
+                    "type": "multiple_choice",
+                    "question": "We ___ visit a museum this holiday! 🏛️",
+                    "options": [
+                        "is going to",
+                        "are going",
+                        "am going to",
+                        "are going to"
+                    ],
+                    "answer": "are going to",
+                    "hint": "We → are going to",
+                    "explanation": "We ARE GOING TO visit a museum."
+                },
+                {
+                    "id": "u9r03",
+                    "type": "true_false",
+                    "question": "'She can't speaks English.' — Is this correct?",
+                    "answer": false,
+                    "hint": "Can't + base verb. 'speaks' has -s.",
+                    "explanation": "Correct form: 'She can't SPEAK English.' (can't + base verb)"
+                },
+                {
+                    "id": "u9r04",
+                    "type": "multiple_choice",
+                    "question": "Where do you sleep when you travel? 🛏️",
+                    "options": [
+                        "airport",
+                        "museum",
+                        "beach",
+                        "hotel"
+                    ],
+                    "answer": "hotel",
+                    "hint": "You book a room.",
+                    "explanation": "You sleep at a HOTEL when you travel."
+                },
+                {
+                    "id": "u9r05",
+                    "type": "multiple_choice",
+                    "question": "He ___ play the guitar — he's never tried! 🎸",
+                    "options": [
+                        "can",
+                        "cans",
+                        "can't",
+                        "couldn't"
+                    ],
+                    "answer": "can't",
+                    "hint": "He has no ability to do it.",
+                    "explanation": "He CAN'T play the guitar. (can't = no ability)"
+                }
+            ]
+        }
+    ]
+}

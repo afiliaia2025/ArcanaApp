@@ -1,0 +1,288 @@
+{
+    "subject": "English",
+    "level": "2nd Grade",
+    "book": "Super Minds 2 (Cambridge)",
+    "unit": 1,
+    "title": "Back to School",
+    "story_title": "The Clocktower of BABEL",
+    "story_intro": "Orión speaks: 'The great BABEL Clocktower has been scrambled by Noctus — no one can tell the time! Restore the clock by defeating the minions who guard each hour.'",
+    "enemy_name": "Tickwraith",
+    "enemy_emoji": "⏰",
+    "enemy_color": "#0F766E",
+    "sections": [
+        {
+            "id": "daily_routines",
+            "name": "Daily routines",
+            "exercises": [
+                {
+                    "id": "u1d01",
+                    "type": "multiple_choice",
+                    "question": "What do you do in the morning before school? 🌅",
+                    "options": [
+                        "go to bed",
+                        "have lunch",
+                        "get up",
+                        "watch TV"
+                    ],
+                    "answer": "get up",
+                    "hint": "You wake up and then...",
+                    "explanation": "In the morning you GET UP (= wake up and leave bed)."
+                },
+                {
+                    "id": "u1d02",
+                    "type": "multiple_choice",
+                    "question": "At 7:30, Pablo ___ breakfast. 🍳",
+                    "options": [
+                        "goes",
+                        "has",
+                        "makes",
+                        "eats"
+                    ],
+                    "answer": "has",
+                    "hint": "We say 'have breakfast', not 'eat breakfast' in English.",
+                    "explanation": "Pablo HAS breakfast. (have breakfast = formal English)"
+                },
+                {
+                    "id": "u1d03",
+                    "type": "multiple_choice",
+                    "question": "She ___ to school at 8 o'clock. 🏫",
+                    "options": [
+                        "comes",
+                        "does",
+                        "has",
+                        "goes"
+                    ],
+                    "answer": "goes",
+                    "hint": "go → she ___ to school",
+                    "explanation": "She GOES to school. (go → goes, 3rd person)"
+                },
+                {
+                    "id": "u1d04",
+                    "type": "multiple_choice",
+                    "question": "He ___ TV in the evening. 📺",
+                    "options": [
+                        "has",
+                        "watches",
+                        "watch",
+                        "goes"
+                    ],
+                    "answer": "watches",
+                    "hint": "watch → he ___ TV",
+                    "explanation": "He WATCHES TV. (watch → watches, 3rd person)"
+                },
+                {
+                    "id": "u1d05",
+                    "type": "multiple_choice",
+                    "question": "At night, she ___ to bed at 9 p.m. 🌙",
+                    "options": [
+                        "has",
+                        "goes",
+                        "do",
+                        "gets"
+                    ],
+                    "answer": "goes",
+                    "hint": "go → she ___ to bed",
+                    "explanation": "She GOES to bed. (go → goes, 3rd person)"
+                },
+                {
+                    "id": "u1d06",
+                    "type": "true_false",
+                    "question": "'He get up at 7 o'clock.' — Is this correct?",
+                    "answer": false,
+                    "hint": "He → 3rd person singular. Does get need -s?",
+                    "explanation": "It should be 'He GETS up'. (3rd person → -s)"
+                },
+                {
+                    "id": "u1d07",
+                    "type": "multiple_choice",
+                    "question": "She ___ her teeth every morning. 🪥",
+                    "options": [
+                        "brush",
+                        "bruch",
+                        "brushes",
+                        "has"
+                    ],
+                    "answer": "brushes",
+                    "hint": "brush → she ___ → add -es",
+                    "explanation": "She BRUSHES her teeth. (brush → brushes, 3rd person)"
+                },
+                {
+                    "id": "u1d08",
+                    "type": "multiple_choice",
+                    "question": "He ___ a shower before school. 🚿",
+                    "options": [
+                        "goes",
+                        "does",
+                        "has",
+                        "takes"
+                    ],
+                    "answer": "has",
+                    "hint": "We say 'have a shower' in British English.",
+                    "explanation": "He HAS a shower. (British English = have a shower)"
+                }
+            ]
+        },
+        {
+            "id": "telling_time",
+            "name": "Telling the time",
+            "exercises": [
+                {
+                    "id": "u1t01",
+                    "type": "multiple_choice",
+                    "question": "The time is 3:00. How do you say it? ⏰",
+                    "options": [
+                        "three past",
+                        "three o'clock",
+                        "half past three",
+                        "quarter past three"
+                    ],
+                    "answer": "three o'clock",
+                    "hint": "When it's exactly on the hour we say ___ o'clock.",
+                    "explanation": "3:00 = three o'clock (exactly on the hour)."
+                },
+                {
+                    "id": "u1t02",
+                    "type": "multiple_choice",
+                    "question": "The time is 3:30. How do you say it? 🕞",
+                    "options": [
+                        "three thirty",
+                        "half to three",
+                        "three o'clock",
+                        "half past three"
+                    ],
+                    "answer": "half past three",
+                    "hint": "30 minutes = half. Half ___ three.",
+                    "explanation": "3:30 = half past three."
+                },
+                {
+                    "id": "u1t03",
+                    "type": "multiple_choice",
+                    "question": "The time is 4:15. How do you say it? 🕓",
+                    "options": [
+                        "quarter to four",
+                        "quarter past three",
+                        "quarter past four",
+                        "half past four"
+                    ],
+                    "answer": "quarter past four",
+                    "hint": "15 minutes = quarter. Quarter ___ four.",
+                    "explanation": "4:15 = quarter past four."
+                },
+                {
+                    "id": "u1t04",
+                    "type": "multiple_choice",
+                    "question": "The time is 4:45. How do you say it? 🕓",
+                    "options": [
+                        "half past four",
+                        "quarter to five",
+                        "quarter past four",
+                        "quarter to four"
+                    ],
+                    "answer": "quarter to five",
+                    "hint": "45 minutes = 15 minutes TO the next hour.",
+                    "explanation": "4:45 = quarter to five (15 mins before 5)."
+                },
+                {
+                    "id": "u1t05",
+                    "type": "true_false",
+                    "question": "'Half past two' means 2:30. — Is this correct?",
+                    "answer": true,
+                    "hint": "Half = 30 minutes. Half past two = ?",
+                    "explanation": "Correct! Half past two = 2:30."
+                },
+                {
+                    "id": "u1t06",
+                    "type": "multiple_choice",
+                    "question": "What time is it? 'It's quarter past seven.' ⌚",
+                    "options": [
+                        "7:30",
+                        "7:45",
+                        "6:45",
+                        "7:15"
+                    ],
+                    "answer": "7:15",
+                    "hint": "Quarter past = 15 minutes after the hour.",
+                    "explanation": "Quarter past seven = 7:15."
+                },
+                {
+                    "id": "u1t07",
+                    "type": "multiple_choice",
+                    "question": "How do we ask for the time? ⏱️",
+                    "options": [
+                        "Which time is it?",
+                        "How is it the time?",
+                        "What time is it?",
+                        "When is the time?"
+                    ],
+                    "answer": "What time is it?",
+                    "hint": "The standard English question for the time.",
+                    "explanation": "'What time is it?' is the standard question."
+                },
+                {
+                    "id": "u1t08",
+                    "type": "true_false",
+                    "question": "'It's half to three' means 2:30. — Is this correct?",
+                    "answer": false,
+                    "hint": "How do we say 2:30 in English?",
+                    "explanation": "We say 'half PAST three' not 'half to three'. Half to is not used."
+                }
+            ]
+        },
+        {
+            "id": "mixed_unit1",
+            "name": "Mixed review — Unit 1",
+            "exercises": [
+                {
+                    "id": "u1r01",
+                    "type": "multiple_choice",
+                    "question": "She ___ lunch at 2 o'clock every day. 🍽️",
+                    "options": [
+                        "have",
+                        "goes",
+                        "does",
+                        "has"
+                    ],
+                    "answer": "has",
+                    "hint": "She → 3rd person. Have → ?",
+                    "explanation": "She HAS lunch. (have → has, 3rd person)"
+                },
+                {
+                    "id": "u1r02",
+                    "type": "multiple_choice",
+                    "question": "It's 6:15. How do you say the time?",
+                    "options": [
+                        "half past six",
+                        "six o'clock",
+                        "quarter to six",
+                        "quarter past six"
+                    ],
+                    "answer": "quarter past six",
+                    "hint": "15 minutes after six.",
+                    "explanation": "6:15 = quarter past six."
+                },
+                {
+                    "id": "u1r03",
+                    "type": "true_false",
+                    "question": "'He goes to bed at nine o'clock.' — Is this correct?",
+                    "answer": true,
+                    "hint": "go → goes ✓. 9:00 = nine o'clock ✓",
+                    "explanation": "Correct grammar and correct time expression."
+                },
+                {
+                    "id": "u1r04",
+                    "type": "multiple_choice",
+                    "question": "What is the 3rd person of 'do'? 🤔",
+                    "options": [
+                        "dos",
+                        "doos",
+                        "does",
+                        "do"
+                    ],
+                    "answer": "does",
+                    "hint": "He/she/it ___",
+                    "explanation": "He DOES his homework. (do → does)"
+                }
+            ]
+        }
+    ]
+}
