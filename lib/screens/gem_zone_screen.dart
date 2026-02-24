@@ -4,6 +4,7 @@ import '../theme/arcana_text_styles.dart';
 import '../widgets/magical_particles.dart';
 import 'chapter_intro_screen.dart';
 import 'boss_battle_screen.dart';
+import 'english_battle_screen.dart';
 import 'grimoiro/grimoiro_unit_picker_screen.dart';
 
 /// Modelo de datos para un capítulo dentro de una gema.
@@ -65,25 +66,10 @@ class _GemZoneScreenState extends State<GemZoneScreen>
 
     _scrollController = ScrollController();
 
-    _chapters = [
-      const ChapterData(number: 0, title: '📖 Prólogo: La Carta', topic: 'Intro a la aventura', state: ChapterState.completed),
-      const ChapterData(number: 1, title: 'La Puerta de la Torre', topic: 'Números 0-99, unidades y decenas', state: ChapterState.current),
-      const ChapterData(number: 2, title: 'Las Escaleras de Cristal', topic: 'Números hasta 199, series'),
-      const ChapterData(number: 3, title: 'El Coleccionista de Runas', topic: 'Sumas y descomposición'),
-      const ChapterData(number: 4, title: 'El Reloj de la Torre', topic: 'Hora en punto y media hora'),
-      const ChapterData(number: 5, title: 'El Torneo', topic: 'Números hasta 299, comparar'),
-      const ChapterData(number: 0, title: 'Boss: Numerox Guardián', isBoss: true),
-      const ChapterData(number: 6, title: 'La Ventisca de Noctus', topic: 'Restas sin llevada'),
-      const ChapterData(number: 7, title: 'Las Cometas del Mensajero', topic: 'Sumas con llevada'),
-      const ChapterData(number: 8, title: 'El Huerto Encantado', topic: 'Medida: longitud'),
-      const ChapterData(number: 9, title: 'La Fuente Seca', topic: 'Medida: capacidad'),
-      const ChapterData(number: 0, title: 'Boss: General de Piedra', isBoss: true),
-      const ChapterData(number: 10, title: 'El Pergamino Cifrado', topic: 'Multiplicación'),
-      const ChapterData(number: 11, title: 'El Mercado Oscuro', topic: 'Monedas y billetes'),
-      const ChapterData(number: 12, title: 'La Sala de los Espejos', topic: 'Geometría'),
-      const ChapterData(number: 13, title: 'El Banquete Final', topic: 'Repaso general'),
-      const ChapterData(number: 0, title: 'Boss Final: Ignis', isBoss: true),
-    ];
+    _chapters = widget.subject == 'English'
+        ? _englishChapters()
+        : _matesChapters();
+
 
     // Scroll al capítulo actual tras el build
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -105,6 +91,40 @@ class _GemZoneScreenState extends State<GemZoneScreen>
       );
     }
   }
+
+  static List<ChapterData> _englishChapters() => [
+    const ChapterData(number: 0, title: '📚 Unit 0: Back to School', topic: 'Classroom · Imperatives · a/an/some', state: ChapterState.completed),
+    const ChapterData(number: 1, title: '⏰ Unit 1: Daily Routines',  topic: '3rd person -s · Telling the time',       state: ChapterState.current),
+    const ChapterData(number: 2, title: '🐾 Unit 2: Animals',         topic: "Like/doesn't like · Questions",          state: ChapterState.current),
+    const ChapterData(number: 3, title: '🏠 Unit 3: Our House',       topic: 'Places · Has got · Prepositions',        state: ChapterState.current),
+    const ChapterData(number: 4, title: '🛍️ Unit 4: Shopping',       topic: "Food vocab · Would you like · some/any", state: ChapterState.current),
+    const ChapterData(number: 0, title: '⚔️ Boss: Lexora la Bruja',   isBoss: true,                                    state: ChapterState.current),
+    const ChapterData(number: 6, title: '🌙 Unit 6: People',          topic: 'Months · Face · Am/Is/Are · Our/Their',  state: ChapterState.current),
+    const ChapterData(number: 7, title: '🚂 Unit 7: Transport',       topic: "I'd like to · Verb -ing",                state: ChapterState.current),
+    const ChapterData(number: 8, title: '🏆 Unit 8: Sport',           topic: 'Present continuous',                     state: ChapterState.current),
+    const ChapterData(number: 9, title: '🌍 Unit 9: Holidays',        topic: "Can/can't · Going to",                   state: ChapterState.current),
+    const ChapterData(number: 0, title: '💀 Boss Final: The Grand Oracle', isBoss: true,                               state: ChapterState.current),
+  ];
+
+  static List<ChapterData> _matesChapters() => [
+    const ChapterData(number: 0,  title: '📖 Prólogo: La Carta',        topic: 'Intro a la aventura',          state: ChapterState.completed),
+    const ChapterData(number: 1,  title: 'La Puerta de la Torre',        topic: 'Números 0-99, unidades y decenas', state: ChapterState.current),
+    const ChapterData(number: 2,  title: 'Las Escaleras de Cristal',     topic: 'Números hasta 199, series'),
+    const ChapterData(number: 3,  title: 'El Coleccionista de Runas',    topic: 'Sumas y descomposición'),
+    const ChapterData(number: 4,  title: 'El Reloj de la Torre',         topic: 'Hora en punto y media hora'),
+    const ChapterData(number: 5,  title: 'El Torneo',                    topic: 'Números hasta 299, comparar'),
+    const ChapterData(number: 0,  title: 'Boss: Numerox Guardián',       isBoss: true),
+    const ChapterData(number: 6,  title: 'La Ventisca de Noctus',        topic: 'Restas sin llevada'),
+    const ChapterData(number: 7,  title: 'Las Cometas del Mensajero',    topic: 'Sumas con llevada'),
+    const ChapterData(number: 8,  title: 'El Huerto Encantado',          topic: 'Medida: longitud'),
+    const ChapterData(number: 9,  title: 'La Fuente Seca',               topic: 'Medida: capacidad'),
+    const ChapterData(number: 0,  title: 'Boss: General de Piedra',      isBoss: true),
+    const ChapterData(number: 10, title: 'El Pergamino Cifrado',         topic: 'Multiplicación'),
+    const ChapterData(number: 11, title: 'El Mercado Oscuro',            topic: 'Monedas y billetes'),
+    const ChapterData(number: 12, title: 'La Sala de los Espejos',       topic: 'Geometría'),
+    const ChapterData(number: 13, title: 'El Banquete Final',            topic: 'Repaso general'),
+    const ChapterData(number: 0,  title: 'Boss Final: Ignis',            isBoss: true),
+  ];
 
   @override
   void dispose() {
@@ -357,7 +377,14 @@ class _GemZoneScreenState extends State<GemZoneScreen>
       onTap: isLocked
           ? null
           : () {
-              if (chapter.isBoss) {
+              if (widget.subject == 'English') {
+                // Every English node → EnglishBattleScreen
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => const EnglishBattleScreen(),
+                  ),
+                );
+              } else if (chapter.isBoss) {
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (_) => BossBattleScreen(
