@@ -4,6 +4,7 @@ import '../theme/arcana_text_styles.dart';
 import '../widgets/magical_particles.dart';
 import 'chapter_intro_screen.dart';
 import 'boss_battle_screen.dart';
+import 'grimoiro/grimoiro_libre_screen.dart';
 
 /// Modelo de datos para un capítulo dentro de una gema.
 class ChapterData {
@@ -271,6 +272,48 @@ class _GemZoneScreenState extends State<GemZoneScreen>
               ],
             ),
           ),
+
+          // 📖 Grimoiro Libre — solo visible en BABEL (English)
+          if (widget.subject == 'English') ...[
+            const SizedBox(width: 8),
+            GestureDetector(
+              onTap: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => const GrimoiroLibreScreen(
+                    unitNumber: 6,
+                    unitTitle: 'People',
+                    unitEmoji: '🌙',
+                    jsonAsset: 'assets/curriculum/2_primaria/english_unit6.json',
+                  ),
+                ),
+              ),
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                decoration: BoxDecoration(
+                  color: const Color(0xFF7C3AED).withValues(alpha: 0.15),
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(
+                    color: const Color(0xFF7C3AED).withValues(alpha: 0.5),
+                  ),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const Text('📖', style: TextStyle(fontSize: 14)),
+                    const SizedBox(width: 4),
+                    Text(
+                      'Grimoiro',
+                      style: ArcanaTextStyles.caption.copyWith(
+                        color: const Color(0xFFa78bfa),
+                        fontSize: 11,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ],
       ),
     );
