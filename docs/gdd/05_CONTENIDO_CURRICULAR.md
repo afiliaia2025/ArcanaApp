@@ -1,5 +1,5 @@
 # 05 · Contenido Curricular
-> **Última actualización**: 2026-02-21
+> **Última actualización**: 2026-02-24
 > Biblia de contenido: todos los capítulos de las 4 gemas, escena por escena.
 
 ---
@@ -100,35 +100,38 @@
 
 ---
 
-## 🗣️ ENGLISH GEM — Inglés (EN INGLÉS)
+## 🗣️ ENGLISH GEM — Inglés (Super Minds 2 · Cambridge)
 
-### Trimestre 1 (Caps 1-4)
+> **Libro de referencia**: Super Minds 2, 2nd Edition (Herbert Puchta, Peter Lewis-Jones, Günter Gerngross)
+> **Nivel actual de Pablo**: Unit 6 — People (Los meses del año) ←
 
-| Cap | Título | Tema |
-|---|---|---|
-| 1 | The Portal Opens | Classroom objects, imperatives |
-| 2 | A Day in Babel | Daily routines, telling time |
-| 3 | The Creature Market | Animals, likes/doesn't like |
-| 4 | The Lost Village | Places, prepositions |
-| ⚔️ | **The Babel Keeper** | Caps 1-4 · 💎 Fragment (1/3) |
+### Trimestre 1 — Caps 1-4
 
-### Trimestre 2 (Caps 5-7)
+| Cap | Título | Vocabulario | Gramática | Fonemas | Unit libro |
+|---|---|---|---|---|---|
+| Intro | The Portal Opens | The classroom | *There’s a … / There are some…*, Imperatives | — | Back to school |
+| 1 | A Day in Babel | Daily routines | Telling the time, Present simple 3rd person | *ee*, *ea* | Unit 1 |
+| 2 | The Creature Market | Animals | *likes/doesn’t like*, *Does…like?* | *ie*, *y* | Unit 2 |
+| 3 | The Lost Village | Places in a town | *Has…got…?*, Prepositions | *tr*, *gr*, *dr* | Unit 3 |
+| 4 | The Magic Market | Food | *Would you like…?*, *Are there/Is there any…?* | *w*, *wh* | Unit 4 |
+| ⚔️ | **The Babel Keeper** | Caps 1-4 · 💎 Fragment (1/3) | | | |
 
-| Cap | Título | Tema |
-|---|---|---|
-| 5 | The Magic Market | Food, Would you like?, Is/Are there |
-| 6 | The Enchanted Room | Room items, this/that/these/those |
-| 7 | The Missing Wizard | Descriptions, months, is/has |
-| ⚔️ | **The Word Serpent** | Caps 5-7 · 💎 Fragment (2/3) |
+### Trimestre 2 — Caps 5-7
 
-### Trimestre 3 (Caps 8-10)
+| Cap | Título | Vocabulario | Gramática | Fonemas | Unit libro |
+|---|---|---|---|---|---|
+| 5 | The Enchanted Room | Furniture | *this/that/these/those*, *Whose…is this?* | *oo* | Unit 5 |
+| **6** | **The Missing Wizard** ← NOW | **The face, The months** | ***Am/Is/Are + adj*, The months of the year, *our/their*** | *a_e*, *ai*, *ay* | Unit 6 |
+| 7 | The Magic Journey | Transport | *I’d like to…*, Questions with *verb + -ing* | *u_e*, *ew*, *ue*, *oo* | Unit 7 |
+| ⚔️ | **The Word Serpent** | Caps 5-7 · 💎 Fragment (2/3) | | | |
 
-| Cap | Título | Tema |
-|---|---|---|
-| 8 | The Journey | Travel, I'd like to, verb+-ing |
-| 9 | The Tournament | Sports, like+-ing |
-| 10 | The Final Gate | Can for requests, revision |
-| ⚔️ | **The English Dragon** | Todo el año · 🌟 GEM COMPLETE |
+### Trimestre 3 — Caps 8-10
+
+| Cap | Título | Vocabulario | Gramática | Fonemas | Unit libro |
+|---|---|---|---|---|---|
+| 8 | The Tournament | Sport | *-ing forms*, *like + -ing* | *o*, *oa*, *o_e* | Unit 8 |
+| 9 | The Final Gate | Holidays | *Can for requests*, Revision | *z*, *s* | Unit 9 |
+| ⚔️ | **The English Dragon** | Todo el año · 🌟 GEM COMPLETE | | | |
 
 ---
 
@@ -158,3 +161,95 @@ Los bancos de ejercicios por asignatura están en:
 - `ejercicios_numeros.md` + `parte1b` + `parte2`
 - `ejercicios_letras.md` + `parteB`
 - `ejercicios_science_english.md`
+
+---
+
+## 📖 GRIMOIRO LIBRE — Modo de Práctica Independiente
+
+> Accesible desde el mapa en cualquier momento. No requiere seguir la historia.
+> Cada unidad/tema se puede practicar por separado.
+
+### Reglas de acceso
+- Temas desbloqueados en historia → disponibles automáticamente en el Grimoiro
+- Temas no llegados en historia → desbloqueables por los padres desde ajustes
+- El progreso del Grimoiro suma XP al mapa principal
+
+### Los 3 modos de cada tema
+
+```
+📖 GRIMOIRO LIBRE — [Tema seleccionado]
+┌─────────────────────────────────────────────────┐
+│  🔥 ENTRENAMIENTO con Orión                    │
+│  Orion en su estudio · Infinito · Racha       │
+│  Flash cards · Match · Fill blank · Order    │
+├─────────────────────────────────────────────────┤
+│  ⚔️ COMBATE LIBRE                                │
+│  Enemigos del reino · Barra dual · Sin timer  │
+│  Continuo hasta que el jugador pare           │
+├─────────────────────────────────────────────────┤
+│  💀 DUELO DE CONOCIMIENTO                        │
+│  El Gran Oráculo te reta · Con timer          │
+│  Barra dual · Repetible · Mejoría visible      │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+### Modo 1 — Entrenamiento con Orión
+
+Estética: estudio mágico de Orión (no arena de combate). Orión como entrenador.
+
+| Ejercicio | Descripción | Ejemplo (meses) |
+|---|---|---|
+| **Flash Card** | Palabra aparece → jugador toca 👍 si sabe / 👎 si no | “JANUARY” → flip → “Enero” |
+| **Match** | 4 pares a conectar (palabra ↔ imagen o traducción) | Mes ↔ su número/estación |
+| **Fill blank** | Oración con hueco + 3 opciones | “Christmas is in ___” |
+| **Order** | Arrastrar elementos en el orden correcto | Los 12 meses en orden |
+
+- Sin límite de preguntas — métrica principal: racha (🔥)
+- Las palabras falladas aparecen con más frecuencia (spaced repetition implícita)
+- Orión da pequeños comentarios en su voz al acertar y al fallar
+
+---
+
+### Modo 2 — Combate Libre
+
+- Misma mecánica que el combate de historia (barra dual, rayos mágicos)
+- Sin timer, sin número fijo de rondas
+- Enemigos temáticos del reino (BABEL para inglés, IGNIS para matemáticas…)
+- El jugador puede parar cuando quiera
+
+---
+
+### Modo 3 — Duelo de Conocimiento (El Gran Oráculo)
+
+Sistema 8/10 — idéntico al combate de restas:
+
+```
+Barra dual: APRENDIZ [............] 0  vs  0 [............] ORÁCULO
+
+• Respuesta correcta  →  +1 Aprendiz → rayo al Oráculo
+• Respuesta incorrecta → +1 Oráculo  → rayo al Aprendiz
+
+Aprendiz llega a 8  →  “¡Has derrotado al Gran Oráculo!”  ⚔️ Victoria
+Oráculo llega a 10 →  “El Oráculo te ha vencido… vuelve más fuerte”  💥 Derrota
+```
+
+- Con timer por pregunta (el Oráculo mide el tiempo)
+- Repetible ilimitadamente
+- El jugador ve su mejor marca (ej. “Record: veniste en 6 aciertos seguidos”)
+- Diálogos del Oráculo en lore inglés:
+  - Victoria: *“…Impressive. The Great Oracle bows before you.”*
+  - Derrota: *“Interesting… Few reach this far. Return when you are ready.”*
+
+---
+
+### Vocabulario de lore prohibido en el Grimoiro
+
+| ❌ No decir | ✅ Decir en su lugar |
+|---|---|
+| Examen | Duelo de Conocimiento |
+| Nota | Record / Marca |
+| Test | Desafío del Oráculo |
+| Ejercicio | Hechizo / Desafío |
+| Puntuación | Aciertos |
