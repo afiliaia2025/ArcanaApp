@@ -2295,10 +2295,22 @@ class _StoryIntroScreen extends StatelessWidget {
                     // ─── Orión reacciona al reto de Noctus ───
                     Align(
                       alignment: Alignment.centerLeft,
-                      child: OrionBubble(
-                        message: '¡No le escuches, Aprendiz! ¡Tú puedes con todos sus esbirros! 💪',
-                        mood: OrionMood.excited,
-                        autoHide: false,
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                        decoration: BoxDecoration(
+                          color: const Color(0xFF1A0A2E),
+                          borderRadius: const BorderRadius.only(
+                            topLeft: Radius.circular(4),
+                            topRight: Radius.circular(16),
+                            bottomLeft: Radius.circular(16),
+                            bottomRight: Radius.circular(16),
+                          ),
+                          border: Border.all(color: Colors.amber.withValues(alpha: 0.3)),
+                        ),
+                        child: const Text(
+                          '🧙 ¡No le escuches, Aprendiz! ¡Tú puedes con todos sus esbirros! 💪',
+                          style: TextStyle(color: Colors.white70, fontSize: 12, height: 1.4),
+                        ),
                       ),
                     ),
                     const SizedBox(height: 24),

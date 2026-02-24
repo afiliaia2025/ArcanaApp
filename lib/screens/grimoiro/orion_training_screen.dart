@@ -107,12 +107,7 @@ class _OrionTrainingScreenState extends State<OrionTrainingScreen>
     '💡 La respuesta correcta es importante. Aún así, sigue.',
     '🔮 Los grandes magos también se equivocan. Adelante.',
   ];
-  static const List<String> _streakMessages = {
-    5: '🔥 ¡5 seguidas! ¡Tu magia crece!',
-    10: '⚡ ¡10! ¡Increíble! ¡Eres una leyenda!',
-    15: '🏆 ¡15 en racha! ¡El Oráculo tiembla!',
-    20: '💎 ¡20 seguidas! ¡Maestro de BABEL!',
-  } as dynamic;
+
 
   String _orionMessage = '🧙 Orión dice: "Practiquemos. No hay prisa."';
 
