@@ -5,8 +5,11 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 import '../theme/arcana_colors.dart';
 import '../theme/arcana_text_styles.dart';
-import '../widgets/arcana_buttons.dart';
+import '../theme/arcana_game_theme.dart';
+import '../widgets/arcana_dual_score_bar.dart';
 import '../widgets/magical_particles.dart';
+import '../widgets/arcana_buttons.dart';
+
 
 // ─────────────────────────────────────────────
 // MODELO DE ENEMIGO (público para acceso desde map_screen)
@@ -1210,67 +1213,16 @@ class _CombatScreenState extends State<_CombatScreen>
     );
   }
 
-  // ─── Barra dual ───────────────────────────
+  // ─── Barra dual (nuevo design system) ─────
   Widget _buildBattleBar(double ratio) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16),
-      child: Column(
-        children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                '🧙‍♂️ ${widget.playerScore}',
-                style: ArcanaTextStyles.caption.copyWith(
-                  color: ArcanaColors.turquoise,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              Text(
-                '${widget.enemyScore} ${widget.enemy.emoji}',  // emoji para la barra
-                style: ArcanaTextStyles.caption.copyWith(
-                  color: widget.enemy.color,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 4),
-          Container(
-            height: 14,
-            decoration: BoxDecoration(
-              color: widget.enemy.color.withValues(alpha: 0.3),
-              borderRadius: BorderRadius.circular(7),
-              border: Border.all(color: ArcanaColors.surfaceBorder),
-            ),
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(7),
-              child: AnimatedFractionallySizedBox(
-                duration: const Duration(milliseconds: 500),
-                alignment: Alignment.centerLeft,
-                widthFactor: ratio.clamp(0.0, 1.0),
-                child: Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [
-                        ArcanaColors.turquoise.withValues(alpha: 0.8),
-                        ArcanaColors.turquoise,
-                      ],
-                    ),
-                    borderRadius: BorderRadius.circular(7),
-                    boxShadow: [
-                      BoxShadow(
-                        color: ArcanaColors.turquoise.withValues(alpha: 0.4),
-                        blurRadius: 6,
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ),
-        ],
-      ),
+    return ArcanaDualScoreBar(
+      playerScore: widget.playerScore,
+      enemyScore: widget.enemyScore,
+      totalExercises: widget.totalExercises,
+      round: widget.round,
+      totalRounds: widget.totalRounds,
+      enemyName: widget.enemy.name,
+      enemyColor: widget.enemy.color,
     );
   }
 
@@ -1385,21 +1337,11 @@ class _CombatScreenState extends State<_CombatScreen>
     // Para preguntas de texto (sin números parseables)
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: ArcanaColors.surface,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: widget.enemy.color.withValues(alpha: 0.3),
-        ),
-      ),
+      padding: const EdgeInsets.all(20),
+      decoration: ArcanaGameTheme.questionCard(borderColor: widget.enemy.color),
       child: Text(
         widget.exercise.question,
-        style: ArcanaTextStyles.bodyLarge.copyWith(
-          color: ArcanaColors.textPrimary,
-          height: 1.4,
-          fontSize: 16,
-        ),
+        style: ArcanaGameTheme.question,
         textAlign: TextAlign.center,
       ),
     );
@@ -1421,19 +1363,7 @@ class _CombatScreenState extends State<_CombatScreen>
 
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
-      decoration: BoxDecoration(
-        color: ArcanaColors.surface,
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(
-          color: widget.enemy.color.withValues(alpha: 0.3),
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: widget.enemy.color.withValues(alpha: 0.1),
-            blurRadius: 12,
-          ),
-        ],
-      ),
+      decoration: ArcanaGameTheme.questionCard(borderColor: widget.enemy.color),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -1599,99 +1529,70 @@ class _CombatScreenState extends State<_CombatScreen>
     final options = widget.exercise.options ?? [];
     final correctAnswer = widget.exercise.answer;
 
-    return Wrap(
-      alignment: WrapAlignment.center,
-      spacing: 10,
-      runSpacing: 10,
+    return Column(
       children: List.generate(options.length, (index) {
         final isSelected = _selectedOption == index;
         final isCorrectOption = options[index] == correctAnswer;
 
-        Color bgColor = ArcanaColors.surface;
-        Color borderColor = ArcanaColors.surfaceBorder;
-        Color textColor = ArcanaColors.textPrimary;
-
-        if (_answered) {
-          if (isCorrectOption) {
-            bgColor = ArcanaColors.emerald.withValues(alpha: 0.15);
-            borderColor = ArcanaColors.emerald;
-            textColor = ArcanaColors.emerald;
-          } else if (isSelected && !_isCorrect) {
-            bgColor = ArcanaColors.ruby.withValues(alpha: 0.15);
-            borderColor = ArcanaColors.ruby;
-            textColor = ArcanaColors.ruby;
-          } else {
-            bgColor = ArcanaColors.surface.withValues(alpha: 0.3);
-            borderColor = ArcanaColors.surfaceBorder.withValues(alpha: 0.3);
-            textColor = ArcanaColors.textMuted;
-          }
+        BoxDecoration decoration;
+        if (!_answered) {
+          decoration = ArcanaGameTheme.answerButton(
+              kingdomColor: widget.enemy.color);
+        } else if (isCorrectOption) {
+          decoration = ArcanaGameTheme.answerButtonCorrect;
+        } else if (isSelected && !_isCorrect) {
+          decoration = ArcanaGameTheme.answerButtonWrong;
+        } else {
+          decoration = ArcanaGameTheme.answerButtonFaded;
         }
 
-        return GestureDetector(
-          onTap: () => _selectOption(index),
-          child: AnimatedContainer(
-            duration: const Duration(milliseconds: 300),
-            constraints: const BoxConstraints(
-              minWidth: 100,
-              maxWidth: 200,
-            ),
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-            decoration: BoxDecoration(
-              color: bgColor,
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(
-                color: borderColor,
-                width: isSelected || (_answered && isCorrectOption) ? 2 : 1,
-              ),
-              boxShadow: isSelected || (_answered && isCorrectOption)
-                  ? [
-                      BoxShadow(
-                        color: borderColor.withValues(alpha: 0.3),
-                        blurRadius: 8,
-                      ),
-                    ]
-                  : null,
-            ),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Container(
-                  width: 26,
-                  height: 26,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: borderColor.withValues(alpha: 0.2),
-                    border: Border.all(
-                      color: borderColor.withValues(alpha: 0.5),
-                    ),
-                  ),
-                  child: Center(
-                    child: Text(
-                      String.fromCharCode(65 + index),
-                      style: ArcanaTextStyles.caption.copyWith(
-                        color: textColor,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 12,
-                      ),
-                    ),
-                  ),
-                ),
-                const SizedBox(width: 8),
-                Flexible(
-                  child: Text(
-                    options[index],
-                    style: ArcanaTextStyles.bodyMedium.copyWith(
-                      color: textColor,
-                      fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
-                    ),
-                  ),
-                ),
+        final letters = ['A', 'B', 'C', 'D'];
 
-                if (_answered && isSelected && !_isCorrect) ...[
-                  const SizedBox(width: 6),
-                  const Icon(Icons.cancel, color: ArcanaColors.ruby, size: 18),
+        return Padding(
+          padding: const EdgeInsets.only(bottom: 10),
+          child: GestureDetector(
+            onTap: _answered ? null : () => _selectOption(index),
+            child: AnimatedContainer(
+              duration: const Duration(milliseconds: 200),
+              width: double.infinity,
+              constraints: const BoxConstraints(
+                  minHeight: ArcanaGameTheme.answerButtonMinHeight),
+              decoration: decoration,
+              padding: ArcanaGameTheme.answerButtonPadding,
+              child: Row(
+                children: [
+                  // Letra identificadora
+                  Container(
+                    width: 32,
+                    height: 32,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.white.withValues(alpha: 0.08),
+                    ),
+                    alignment: Alignment.center,
+                    child: Text(
+                      letters[index % 4],
+                      style: ArcanaGameTheme.answerOption
+                          .copyWith(fontSize: 16),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  // Texto de la opción
+                  Expanded(
+                    child: Text(
+                      options[index],
+                      style: ArcanaGameTheme.answerOption,
+                    ),
+                  ),
+                  // Iconos de feedback
+                  if (_answered && isCorrectOption)
+                    const Icon(Icons.check_circle_rounded,
+                        color: ArcanaGameTheme.hitGreen, size: 24),
+                  if (_answered && isSelected && !_isCorrect)
+                    const Icon(Icons.cancel_rounded,
+                        color: ArcanaGameTheme.hitRed, size: 24),
                 ],
-              ],
+              ),
             ),
           ),
         );
@@ -2388,6 +2289,16 @@ class _StoryIntroScreen extends StatelessWidget {
                             textAlign: TextAlign.center,
                           ),
                         ],
+                      ),
+                    ),
+                    const SizedBox(height: 20),
+                    // ─── Orión reacciona al reto de Noctus ───
+                    Align(
+                      alignment: Alignment.centerLeft,
+                      child: OrionBubble(
+                        message: '¡No le escuches, Aprendiz! ¡Tú puedes con todos sus esbirros! 💪',
+                        mood: OrionMood.excited,
+                        autoHide: false,
                       ),
                     ),
                     const SizedBox(height: 24),

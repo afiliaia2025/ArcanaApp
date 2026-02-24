@@ -1,7 +1,7 @@
 # 📋 ArcanaApp — Game Design Document
 ### Índice General
 
-> **Versión**: 1.1 · **Última actualización**: 2026-02-21
+> **Versión**: 1.2 · **Última actualización**: 2026-02-24
 > **Público**: Desarrolladores, diseñadores, stakeholders.
 > Cada documento es la **fuente de verdad** para su temática. No crear docs nuevos; editar los existentes.
 
@@ -20,7 +20,8 @@
 | 07 | [Arte y Estética](07_ARTE.md) | Estilo libro ilustrado, paleta, ilustraciones, música, accesibilidad | ✅ |
 | 08 | [Arquitectura Técnica](08_ARQUITECTURA_TECNICA.md) | Firebase, servicios Flutter, modelos de datos, pipeline de producción | ✅ |
 | 09 | [Economía y Monetización](09_ECONOMIA.md) | XP, runas, tienda, suscripción, engagement, rejugabilidad | ✅ |
-| 10 | [Pedagogía y Detección](10_PEDAGOGIA.md) | Prácticas pedagógicas basadas en evidencia + detección de TDAH/dislexia/discalculia | ✅🆕 |
+| 10 | [Pedagogía y Detección](10_PEDAGOGIA.md) | Prácticas pedagógicas basadas en evidencia + detección de TDAH/dislexia/discalculia | ✅ |
+| 11 | [Pantallas del Juego](11_PANTALLAS.md) | Mapa completo de las 36 pantallas: descripción, flujo de navegación, estado de implementación | ✅🆕 |
 
 ---
 

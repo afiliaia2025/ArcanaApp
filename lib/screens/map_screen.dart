@@ -4,6 +4,7 @@ import '../theme/arcana_text_styles.dart';
 import '../widgets/gem_card.dart';
 import '../widgets/arcana_hud.dart';
 import '../widgets/magical_particles.dart';
+import '../widgets/orion_bubble.dart';
 import 'gem_zone_screen.dart';
 import 'player_profile_screen.dart';
 import 'achievements_screen.dart';
@@ -31,6 +32,7 @@ class _MapScreenState extends State<MapScreen>
   Map<String, int> _enemyVictories = {};
   Set<String> _engDefeatedEnemies = {};
   Map<String, int> _engEnemyVictories = {};
+  late String _orionMessage;
 
   // Datos de las 4 gemas — solo Ignis desbloqueada para el vertical slice
   final List<GemData> _gems = const [
@@ -79,6 +81,9 @@ class _MapScreenState extends State<MapScreen>
       duration: const Duration(milliseconds: 1500),
     )..forward();
     _loadDefeatedEnemies();
+    // Orión saluda aleatoriamente al entrar
+    OrionBubble.mapGreetings.shuffle();
+    _orionMessage = OrionBubble.mapGreetings.first;
   }
 
   Future<void> _loadDefeatedEnemies() async {
@@ -190,6 +195,14 @@ class _MapScreenState extends State<MapScreen>
                   xp: 4600,
                 ),
 
+                // ─── Orión — Saludo del día ───────────────────────
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
+                  child: OrionFloating(message: _orionMessage),
+                ),
+
+                const SizedBox(height: 4),
+
                 // Acceso rápido al cofre diario
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -285,7 +298,7 @@ class _MapScreenState extends State<MapScreen>
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      '⚔️ Combate de Restas',
+                                      '⚔️ La Ventisca de Noctus',
                                       style: ArcanaTextStyles.cardTitle.copyWith(
                                         color: ArcanaColors.gemIgnis,
                                         fontSize: 13,
@@ -293,8 +306,8 @@ class _MapScreenState extends State<MapScreen>
                                     ),
                                     Text(
                                       _defeatedEnemies.length == allBattleEnemies.length
-                                          ? '¡Todos los secuaces derrotados!'
-                                          : '${_defeatedEnemies.length}/${allBattleEnemies.length} derrotados · Derrota a los secuaces',
+                                          ? '¡Todos los secuaces derrotados! · Ignis T2'
+                                          : '${_defeatedEnemies.length}/${allBattleEnemies.length} derrotados · Restas · Ignis T2',
                                       style: ArcanaTextStyles.caption.copyWith(
                                         color: _defeatedEnemies.length == allBattleEnemies.length
                                             ? ArcanaColors.emerald
@@ -430,14 +443,14 @@ class _MapScreenState extends State<MapScreen>
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    '🔥 Dios de las Restas',
+                                    '🔥 Boss: El Dios de las Restas',
                                     style: ArcanaTextStyles.cardTitle.copyWith(
                                       color: const Color(0xFFFF1744),
                                       fontSize: 13,
                                     ),
                                   ),
                                   Text(
-                                    '¿Puedes sacarte un 10/10?',
+                                    '¿Examen de restas? Saca 7/10 · Ignis T2 Boss',
                                     style: ArcanaTextStyles.caption.copyWith(
                                       color: ArcanaColors.textSecondary,
                                       fontSize: 10,
@@ -508,7 +521,7 @@ class _MapScreenState extends State<MapScreen>
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      '⚔️ English Combat — Unit 5',
+                                      '⚔️ The Magic Market — Babel T2',
                                       style: ArcanaTextStyles.cardTitle.copyWith(
                                         color: const Color(0xFF60A5FA),
                                         fontSize: 13,
@@ -516,8 +529,8 @@ class _MapScreenState extends State<MapScreen>
                                     ),
                                     Text(
                                       _engDefeatedEnemies.length == allEnglishEnemies.length
-                                          ? 'All enemies defeated!'
-                                          : '${_engDefeatedEnemies.length}/${allEnglishEnemies.length} defeated · Defeat the minions',
+                                          ? 'All enemies defeated! · English Unit 5'
+                                          : '${_engDefeatedEnemies.length}/${allEnglishEnemies.length} defeated · English · Babel T2',
                                       style: ArcanaTextStyles.caption.copyWith(
                                         color: _engDefeatedEnemies.length == allEnglishEnemies.length
                                             ? ArcanaColors.emerald
@@ -610,14 +623,14 @@ class _MapScreenState extends State<MapScreen>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  '🏰 The Grimoire — Unit 5 Exam',
+                                  '🏰 Boss: The Word Serpent',
                                   style: ArcanaTextStyles.cardTitle.copyWith(
                                     color: const Color(0xFF7C3AED),
                                     fontSize: 13,
                                   ),
                                 ),
                                 Text(
-                                  'Can you score 8/10?',
+                                  'English exam — score 8/10 · Babel T2 Boss',
                                   style: ArcanaTextStyles.caption.copyWith(
                                     color: ArcanaColors.textSecondary,
                                     fontSize: 10,
@@ -682,14 +695,14 @@ class _MapScreenState extends State<MapScreen>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  '✖️ Dojo de Multiplicar',
+                                  '✖️ El Huerto Encantado · Tablas',
                                   style: ArcanaTextStyles.cardTitle.copyWith(
                                     color: const Color(0xFFEAB308),
                                     fontSize: 13,
                                   ),
                                 ),
                                 Text(
-                                  'Aprende, entrena y examínate de las tablas',
+                                  'Aprende, entrena y examínate · Ignis T2',
                                   style: ArcanaTextStyles.caption.copyWith(
                                     color: ArcanaColors.textSecondary,
                                     fontSize: 10,

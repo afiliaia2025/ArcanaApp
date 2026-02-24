@@ -31,8 +31,20 @@ class _MultiplicacionHubScreenState extends State<MultiplicacionHubScreen> {
           style: ArcanaTextStyles.screenTitle.copyWith(color: Colors.white),
         ),
       ),
-      body: SafeArea(
-        child: Padding(
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Image.asset(
+              'assets/images/screens/dojo_bg.png',
+              fit: BoxFit.cover,
+              errorBuilder: (_, __, ___) => const SizedBox(),
+            ),
+          ),
+          Positioned.fill(
+            child: Container(color: const Color(0xCC0A0E1A)),
+          ),
+          SafeArea(
+            child: Padding(
           padding: const EdgeInsets.all(24.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -113,9 +125,9 @@ class _MultiplicacionHubScreenState extends State<MultiplicacionHubScreen> {
                     const SizedBox(height: 16),
                     _buildModeCard(
                       context,
-                      title: '👹 3. Examen (El Boss)',
-                      description: '¡Derrota a Cristalia! Mezcla de tablas contra el reloj. Sin pistas.',
-                      color: const Color(0xFFFF1744),
+                      title: '🐉 3. Examen (El Boss)',
+                      description: '¡Derrota a Multiplox, la hidra de mil cabezas! Contra el reloj y sin pistas.',
+                      color: const Color(0xFF9C27B0),
                       onTap: () {
                         Navigator.push(context, MaterialPageRoute(
                           builder: (_) => MultiplicacionBattleScreen(
@@ -131,7 +143,9 @@ class _MultiplicacionHubScreenState extends State<MultiplicacionHubScreen> {
             ],
           ),
         ),
-      ),
+        ), // SafeArea
+        ], // Stack children
+      ), // Stack
     );
   }
 

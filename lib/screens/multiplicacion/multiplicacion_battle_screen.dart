@@ -308,6 +308,18 @@ class _VSScreenState extends State<_VSScreen> with TickerProviderStateMixin {
       body: Stack(
         fit: StackFit.expand,
         children: [
+          // ─── Fondo de pantalla VS ───────────────────
+          Positioned.fill(
+            child: Image.asset(
+              'assets/images/screens/boss_arena_bg.png',
+              fit: BoxFit.cover,
+              errorBuilder: (_, __, ___) => const SizedBox(),
+            ),
+          ),
+          // Overlay oscuro para legibilidad
+          Positioned.fill(
+            child: Container(color: const Color(0x99000000)),
+          ),
           // Fondo bicolor
           Row(
             children: [
@@ -718,10 +730,25 @@ class _CombatScreenState extends State<_CombatScreen>
 
     return Scaffold(
       backgroundColor: const Color(0xFF0A0E1A),
-      body: SafeArea(
-        child: Column(
-          children: [
-            // ─── Header ─────────────────
+      body: Stack(
+        children: [
+          // ─── Fondo de combate ────────────────────
+          Positioned.fill(
+            child: Image.asset(
+              widget.isBoss
+                ? 'assets/images/screens/boss_arena_bg.png'
+                : 'assets/images/screens/combat_arena_bg.png',
+              fit: BoxFit.cover,
+              errorBuilder: (_, __, ___) => const SizedBox(),
+            ),
+          ),
+          Positioned.fill(
+            child: Container(color: const Color(0xAA0A0E1A)),
+          ),
+          SafeArea(
+            child: Column(
+              children: [
+                // ─── Header ─────────────────
             _buildHeader(isLowTime),
 
             // ─── Barra de vida ─────────
@@ -795,7 +822,9 @@ class _CombatScreenState extends State<_CombatScreen>
             const SizedBox(height: 24),
           ],
         ),
-      ),
+        ), // SafeArea
+        ], // Stack children
+      ), // Stack
     );
   }
 

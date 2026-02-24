@@ -21,17 +21,16 @@ class MultiplicationExercise {
 class MultiplicationGenerator {
   static final _random = Random();
 
-  /// Genera un ejercicio para la zona de Aprender/Entrenar, forzando una tabla específica
+  /// Genera un ejercicio para Aprender/Entrenar, forzando una tabla específica.
   static MultiplicationExercise generateSpecificTable(int table) {
     int otherFactor = _random.nextInt(11); // 0 a 10
-    // Lógica para que a veces la tabla sea el primer factor y otras el segundo (enseñar conmutativa)
     bool tableFirst = _random.nextBool();
-    
+
     int f1 = tableFirst ? table : otherFactor;
     int f2 = tableFirst ? otherFactor : table;
     int answer = f1 * f2;
 
-    List<int> options = _generateOptions(f1, f2, answer);
+    List<int> options = generateOptionsFor(f1, f2, answer);
     String hint = _getHintForTable(table);
 
     return MultiplicationExercise(
@@ -44,42 +43,99 @@ class MultiplicationGenerator {
     );
   }
 
-  /// Genera un ejercicio para la zona Boss, mezclando tablas en el rango [minTable, maxTable]
-  static MultiplicationExercise generateMixedRange(int minTable, int maxTable) {
-    // Escoger una tabla al azar dentro del rango
-    int targetTable = minTable + _random.nextInt((maxTable - minTable) + 1);
-    return generateSpecificTable(targetTable);
-  }
+  /// Genera el examen completo del Boss: 10 preguntas por cada tabla en [minTable..maxTable].
+  /// Cubre los factores 1-10 (excluye ×0 para mayor dificultad).
+  /// Devuelve la lista barajada, sin repeticiones.
+  static List<MultiplicationExercise> generateBossExam(int minTable, int maxTable) {
+    final effectiveMin = minTable < 1 ? 1 : minTable;
+    final effectiveMax = maxTable < 1 ? 1 : maxTable;
 
-  static List<int> _generateOptions(int f1, int f2, int correct) {
-    return generateOptionsFor(f1, f2, correct);
-  }
+    final exercises = <MultiplicationExercise>[];
 
-  /// Genera opciones para uso externo (combo conmutativo)
-  static List<int> generateOptionsFor(int f1, int f2, int correct) {
-    Set<int> opts = {correct};
-    
-    // Añadir trampas comunes
-    // 1. Confundir multiplicar con sumar
-    if (f1 + f2 != correct) opts.add(f1 + f2);
-    
-    // 2. Se equivoca por un factor de +-1
-    opts.add(correct + f1);
-    if (correct - f1 >= 0) opts.add(correct - f1);
-    opts.add(correct + f2);
-    if (correct - f2 >= 0) opts.add(correct - f2);
+    for (int table = effectiveMin; table <= effectiveMax; table++) {
+      for (int other = 1; other <= 10; other++) {
+        // Alternar orden para practicar conmutativa
+        bool tableFirst = _random.nextBool();
+        int f1 = tableFirst ? table : other;
+        int f2 = tableFirst ? other : table;
+        int answer = f1 * f2;
 
-    // Si aún faltan para 4 opciones, añadimos aleatorios parecidos
-    while (opts.length < 4) {
-      int variance = _random.nextInt(10) - 5;
-      int fake = correct + variance;
-      if (fake >= 0 && !opts.contains(fake)) {
-        opts.add(fake);
+        exercises.add(MultiplicationExercise(
+          question: '$f1 × $f2 = ?',
+          factor1: f1,
+          factor2: f2,
+          correctAnswer: answer,
+          options: generateOptionsFor(f1, f2, answer),
+          hint: '', // Sin pistas en boss
+        ));
       }
     }
 
-    List<int> finalOptions = opts.toList()..shuffle(_random);
-    return finalOptions.take(4).toList();
+    exercises.shuffle(_random);
+    return exercises;
+  }
+
+  /// Genera un ejercicio suelto para boss (fallback/re-ask).
+  static MultiplicationExercise generateMixedRange(int minTable, int maxTable) {
+    int effectiveMin = minTable < 2 ? 2 : minTable;
+    int effectiveMax = maxTable < 2 ? 2 : maxTable;
+
+    int f1 = effectiveMin + _random.nextInt((effectiveMax - effectiveMin) + 1);
+    int f2 = effectiveMin + _random.nextInt((effectiveMax - effectiveMin) + 1);
+
+    if (effectiveMax - effectiveMin <= 2 && _random.nextDouble() < 0.4) {
+      f2 = 2 + _random.nextInt(9); // 2 a 10
+    }
+
+    int answer = f1 * f2;
+    List<int> options = generateOptionsFor(f1, f2, answer);
+
+    return MultiplicationExercise(
+      question: '$f1 × $f2 = ?',
+      factor1: f1,
+      factor2: f2,
+      correctAnswer: answer,
+      options: options,
+      hint: '',
+    );
+  }
+
+  /// Genera 4 opciones que SIEMPRE incluyen la respuesta correcta.
+  static List<int> generateOptionsFor(int f1, int f2, int correct) {
+    Set<int> wrong = {};
+
+    // Confundir con suma
+    _addWrong(wrong, f1 + f2, correct);
+    // Error ±1 en un factor
+    _addWrong(wrong, (f1 + 1) * f2, correct);
+    _addWrong(wrong, (f1 - 1) * f2, correct);
+    _addWrong(wrong, f1 * (f2 + 1), correct);
+    _addWrong(wrong, f1 * (f2 - 1), correct);
+    // Error ±2
+    _addWrong(wrong, (f1 + 2) * f2, correct);
+    _addWrong(wrong, f1 * (f2 + 2), correct);
+    // Confundir con resta
+    _addWrong(wrong, (f1 - f2).abs(), correct);
+
+    // Relleno aleatorio
+    int attempts = 0;
+    while (wrong.length < 3 && attempts < 50) {
+      int variance = _random.nextInt(12) - 6;
+      int fake = correct + variance;
+      _addWrong(wrong, fake, correct);
+      attempts++;
+    }
+
+    List<int> wrongList = wrong.toList()..shuffle(_random);
+    List<int> finalOptions = [correct, ...wrongList.take(3)];
+    finalOptions.shuffle(_random);
+    return finalOptions;
+  }
+
+  static void _addWrong(Set<int> wrong, int value, int correct) {
+    if (value >= 0 && value != correct) {
+      wrong.add(value);
+    }
   }
 
   static String _getHintForTable(int table) {
@@ -99,4 +155,3 @@ class MultiplicationGenerator {
     }
   }
 }
-
