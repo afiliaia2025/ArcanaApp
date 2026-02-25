@@ -204,8 +204,8 @@ class _StoryChapterScreenState extends State<StoryChapterScreen>
                         parent: _slideController,
                         curve: Curves.easeOut,
                       )),
-                      child: SingleChildScrollView(
-                        padding: const EdgeInsets.symmetric(horizontal: 20),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
                         child: _buildCurrentNode(),
                       ),
                     ),
@@ -391,71 +391,96 @@ class _StoryChapterScreenState extends State<StoryChapterScreen>
     }
   }
 
-  // ─── NARRATIVA ──────────────────────────────
+  // ─── NARRATIVA (2 columnas) ──────────────────
 
   Widget _buildNarrativeNode() {
     final node = _currentNode;
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const SizedBox(height: 24),
-
-        // Emoji del hablante
-        if (node.emoji != null)
-          Center(
-            child: Text(node.emoji!, style: const TextStyle(fontSize: 48)),
-          ),
-
-        const SizedBox(height: 16),
-
-        // Nombre del hablante
-        if (node.speaker != null)
-          Center(
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-              decoration: BoxDecoration(
-                color: widget.gemColor.withValues(alpha: 0.1),
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Text(
-                _speakerName(node.speaker!),
-                style: ArcanaTextStyles.caption.copyWith(
-                  color: widget.gemColor,
-                  fontWeight: FontWeight.w600,
+        const SizedBox(height: 12),
+        Expanded(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              // ── COL IZQ: Texto narrativo ──
+              Expanded(
+                child: Container(
+                  margin: const EdgeInsets.only(right: 8),
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: ArcanaColors.surface.withValues(alpha: 0.7),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: widget.gemColor.withValues(alpha: 0.15)),
+                  ),
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        if (node.speaker != null) ...[
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
+                            decoration: BoxDecoration(
+                              color: widget.gemColor.withValues(alpha: 0.1),
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: Text(
+                              _speakerName(node.speaker!),
+                              style: ArcanaTextStyles.caption.copyWith(
+                                color: widget.gemColor,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 12),
+                        ],
+                        Text(
+                          _narrativeText(node.text),
+                          style: ArcanaTextStyles.bodyMedium.copyWith(
+                            color: ArcanaColors.textPrimary,
+                            height: 1.7,
+                            fontSize: _isStandard ? 18 : 15,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
               ),
-            ),
-          ),
-
-        const SizedBox(height: 16),
-
-        // Texto narrativo
-        Container(
-          padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(
-            color: ArcanaColors.surface.withValues(alpha: 0.7),
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(
-              color: widget.gemColor.withValues(alpha: 0.15),
-            ),
-          ),
-          child: Text(
-            _narrativeText(node.text),
-            style: ArcanaTextStyles.bodyMedium.copyWith(
-              color: ArcanaColors.textPrimary,
-              height: 1.7,
-              fontSize: _isStandard ? 18 : 15,
-            ),
-            textAlign: TextAlign.left,
+              // ── COL DER: Ilustración ──
+              Expanded(
+                child: Container(
+                  margin: const EdgeInsets.only(left: 8),
+                  decoration: BoxDecoration(
+                    color: widget.gemColor.withValues(alpha: 0.06),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: widget.gemColor.withValues(alpha: 0.12)),
+                  ),
+                  child: Center(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(node.emoji ?? '📖', style: const TextStyle(fontSize: 72)),
+                        const SizedBox(height: 12),
+                        if (node.speaker != null)
+                          Text(
+                            _speakerName(node.speaker!).replaceAll(RegExp(r'^[^ ]+ '), ''),
+                            style: ArcanaTextStyles.caption.copyWith(
+                              color: widget.gemColor.withValues(alpha: 0.6),
+                              fontSize: 11,
+                              letterSpacing: 2,
+                            ),
+                          ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
-
-        const SizedBox(height: 24),
-
-        // Botón continuar
+        const SizedBox(height: 12),
         _buildContinueButton('Continuar →', _handleContinue),
-
-        const SizedBox(height: 32),
+        const SizedBox(height: 16),
       ],
     );
   }
@@ -473,145 +498,131 @@ class _StoryChapterScreenState extends State<StoryChapterScreen>
     }
   }
 
-  // ─── EJERCICIO ──────────────────────────────
+  // ─── EJERCICIO (2 columnas) ──────────────────
 
   Widget _buildExerciseNode() {
     final node = _currentNode;
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const SizedBox(height: 16),
-
-        // Contexto narrativo del ejercicio
-        if (node.text != null)
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: ArcanaColors.surface.withValues(alpha: 0.6),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(
-                color: widget.gemColor.withValues(alpha: 0.15),
-              ),
-            ),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  node.emoji ?? '⚔️',
-                  style: const TextStyle(fontSize: 24),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Text(
-                    _narrativeText(node.text),
-                    style: ArcanaTextStyles.bodyMedium.copyWith(
-                      color: ArcanaColors.textSecondary,
-                      fontStyle: FontStyle.italic,
-                      height: 1.5,
+        const SizedBox(height: 12),
+        Expanded(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              // ── COL IZQ: Contexto narrativo ──
+              Expanded(
+                child: Container(
+                  margin: const EdgeInsets.only(right: 8),
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: ArcanaColors.surface.withValues(alpha: 0.6),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: widget.gemColor.withValues(alpha: 0.15)),
+                  ),
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(node.emoji ?? '⚔️', style: const TextStyle(fontSize: 36)),
+                        const SizedBox(height: 12),
+                        if (node.text != null)
+                          Text(
+                            _narrativeText(node.text),
+                            style: ArcanaTextStyles.bodyMedium.copyWith(
+                              color: ArcanaColors.textSecondary,
+                              fontStyle: FontStyle.italic,
+                              height: 1.6,
+                            ),
+                          ),
+                        // Pista de Orión
+                        if (!_answered && node.hint != null && !_showHint) ...[
+                          const SizedBox(height: 16),
+                          GestureDetector(
+                            onTap: () => setState(() => _showHint = true),
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                              decoration: BoxDecoration(
+                                color: ArcanaColors.turquoise.withValues(alpha: 0.08),
+                                borderRadius: BorderRadius.circular(10),
+                                border: Border.all(color: ArcanaColors.turquoise.withValues(alpha: 0.2)),
+                              ),
+                              child: Text('🦉 Pedir pista', style: ArcanaTextStyles.caption.copyWith(color: ArcanaColors.turquoise)),
+                            ),
+                          ),
+                        ],
+                        if (_showHint && node.hint != null) ...[
+                          const SizedBox(height: 12),
+                          Container(
+                            padding: const EdgeInsets.all(10),
+                            decoration: BoxDecoration(
+                              color: ArcanaColors.turquoise.withValues(alpha: 0.08),
+                              borderRadius: BorderRadius.circular(10),
+                              border: Border.all(color: ArcanaColors.turquoise.withValues(alpha: 0.2)),
+                            ),
+                            child: Row(children: [
+                              const Text('🦉', style: TextStyle(fontSize: 18)),
+                              const SizedBox(width: 6),
+                              Expanded(child: Text(node.hint!, style: ArcanaTextStyles.bodySmall.copyWith(color: ArcanaColors.turquoise, fontStyle: FontStyle.italic))),
+                            ]),
+                          ),
+                        ],
+                      ],
                     ),
                   ),
                 ),
-              ],
-            ),
-          ),
-
-        const SizedBox(height: 20),
-
-        // Pregunta
-        Container(
-          width: double.infinity,
-          padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(
-            color: ArcanaColors.gold.withValues(alpha: 0.05),
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(
-              color: ArcanaColors.gold.withValues(alpha: 0.2),
-            ),
-          ),
-          child: Text(
-            node.question ?? '',
-            style: ArcanaTextStyles.bodyLarge.copyWith(
-              color: ArcanaColors.textPrimary,
-              fontWeight: FontWeight.w600,
-              height: 1.5,
-            ),
-            textAlign: TextAlign.center,
+              ),
+              // ── COL DER: Ejercicio ──
+              Expanded(
+                child: Container(
+                  margin: const EdgeInsets.only(left: 8),
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: ArcanaColors.gold.withValues(alpha: 0.04),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: ArcanaColors.gold.withValues(alpha: 0.15)),
+                  ),
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        // Pregunta
+                        Container(
+                          padding: const EdgeInsets.all(14),
+                          decoration: BoxDecoration(
+                            color: ArcanaColors.gold.withValues(alpha: 0.06),
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          child: Text(
+                            node.question ?? '',
+                            style: ArcanaTextStyles.bodyLarge.copyWith(
+                              color: ArcanaColors.textPrimary,
+                              fontWeight: FontWeight.w600,
+                              height: 1.5,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                        // Opciones
+                        if (node.options != null)
+                          ...List.generate(node.options!.length, (i) => Padding(
+                            padding: const EdgeInsets.only(bottom: 8),
+                            child: _buildOptionButton(i, node),
+                          )),
+                        // Feedback
+                        if (_answered) ...[
+                          const SizedBox(height: 8),
+                          _buildExerciseFeedback(),
+                        ],
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
-
         const SizedBox(height: 16),
-
-        // Opciones
-        if (node.options != null)
-          ...List.generate(node.options!.length, (i) {
-            return Padding(
-              padding: const EdgeInsets.only(bottom: 10),
-              child: _buildOptionButton(i, node),
-            );
-          }),
-
-        // Pista
-        if (!_answered && node.hint != null && !_showHint) ...[
-          const SizedBox(height: 8),
-          Center(
-            child: GestureDetector(
-              onTap: () => setState(() => _showHint = true),
-              child: Container(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                decoration: BoxDecoration(
-                  color: ArcanaColors.turquoise.withValues(alpha: 0.08),
-                  borderRadius: BorderRadius.circular(10),
-                  border: Border.all(
-                    color: ArcanaColors.turquoise.withValues(alpha: 0.2),
-                  ),
-                ),
-                child: Text(
-                  '🦉 Pedir pista a Orión',
-                  style: ArcanaTextStyles.caption.copyWith(
-                    color: ArcanaColors.turquoise,
-                  ),
-                ),
-              ),
-            ),
-          ),
-        ],
-
-        if (_showHint && node.hint != null) ...[
-          const SizedBox(height: 8),
-          Container(
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: ArcanaColors.turquoise.withValues(alpha: 0.08),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(
-                color: ArcanaColors.turquoise.withValues(alpha: 0.2),
-              ),
-            ),
-            child: Row(
-              children: [
-                const Text('🦉', style: TextStyle(fontSize: 20)),
-                const SizedBox(width: 8),
-                Expanded(
-                  child: Text(
-                    node.hint!,
-                    style: ArcanaTextStyles.bodySmall.copyWith(
-                      color: ArcanaColors.turquoise,
-                      fontStyle: FontStyle.italic,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ],
-
-        // Feedback
-        if (_answered) ...[
-          const SizedBox(height: 16),
-          _buildExerciseFeedback(),
-        ],
-
-        const SizedBox(height: 32),
       ],
     );
   }
@@ -752,82 +763,89 @@ class _StoryChapterScreenState extends State<StoryChapterScreen>
     );
   }
 
-  // ─── DECISIÓN ───────────────────────────────
+  // ─── DECISIÓN (2 columnas) ──────────────────
 
   Widget _buildDecisionNode() {
     final node = _currentNode;
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const SizedBox(height: 24),
-
-        const Center(
-          child: Text('🔀', style: TextStyle(fontSize: 48)),
-        ),
-
-        const SizedBox(height: 16),
-
-        Center(
-          child: Container(
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-            decoration: BoxDecoration(
-              color: ArcanaColors.turquoise.withValues(alpha: 0.1),
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Text(
-              'Elige tu camino',
-              style: ArcanaTextStyles.caption.copyWith(
-                color: ArcanaColors.turquoise,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-          ),
-        ),
-
-        const SizedBox(height: 16),
-
-        // Texto de contexto
-        if (node.text != null)
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: ArcanaColors.surface.withValues(alpha: 0.6),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(
-                color: ArcanaColors.surfaceBorder,
-              ),
-            ),
-            child: Text(
-              _narrativeText(node.text),
-              style: ArcanaTextStyles.bodyMedium.copyWith(
-                color: ArcanaColors.textPrimary,
-                height: 1.5,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-
-        const SizedBox(height: 20),
-
-        // Opción A
-        if (node.choiceA != null && node.onChoiceA != null)
-          _buildChoiceCard(
-            node.choiceA!,
-            ArcanaColors.turquoise,
-            () => _handleChoice(node.onChoiceA!),
-          ),
-
         const SizedBox(height: 12),
-
-        // Opción B
-        if (node.choiceB != null && node.onChoiceB != null)
-          _buildChoiceCard(
-            node.choiceB!,
-            ArcanaColors.violet,
-            () => _handleChoice(node.onChoiceB!),
+        Expanded(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              // ── COL IZQ: Contexto ──
+              Expanded(
+                child: Container(
+                  margin: const EdgeInsets.only(right: 8),
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: ArcanaColors.surface.withValues(alpha: 0.6),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: ArcanaColors.surfaceBorder),
+                  ),
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text('🔀', style: TextStyle(fontSize: 36)),
+                        const SizedBox(height: 12),
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
+                          decoration: BoxDecoration(
+                            color: ArcanaColors.turquoise.withValues(alpha: 0.1),
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          child: Text('Elige tu camino', style: ArcanaTextStyles.caption.copyWith(
+                            color: ArcanaColors.turquoise, fontWeight: FontWeight.w600,
+                          )),
+                        ),
+                        const SizedBox(height: 16),
+                        if (node.text != null)
+                          Text(
+                            _narrativeText(node.text),
+                            style: ArcanaTextStyles.bodyMedium.copyWith(
+                              color: ArcanaColors.textPrimary,
+                              height: 1.6,
+                            ),
+                          ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              // ── COL DER: Opciones ──
+              Expanded(
+                child: Container(
+                  margin: const EdgeInsets.only(left: 8),
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: ArcanaColors.turquoise.withValues(alpha: 0.04),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: ArcanaColors.turquoise.withValues(alpha: 0.15)),
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      if (node.choiceA != null && node.onChoiceA != null)
+                        _buildChoiceCard(
+                          node.choiceA!, ArcanaColors.turquoise,
+                          () => _handleChoice(node.onChoiceA!),
+                        ),
+                      const SizedBox(height: 12),
+                      if (node.choiceB != null && node.onChoiceB != null)
+                        _buildChoiceCard(
+                          node.choiceB!, ArcanaColors.violet,
+                          () => _handleChoice(node.onChoiceB!),
+                        ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
           ),
-
-        const SizedBox(height: 32),
+        ),
+        const SizedBox(height: 16),
       ],
     );
   }
@@ -861,69 +879,62 @@ class _StoryChapterScreenState extends State<StoryChapterScreen>
     );
   }
 
-  // ─── FINAL ──────────────────────────────────
+  // ─── FINAL (2 columnas) ──────────────────────
 
   Widget _buildEndingNode() {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const SizedBox(height: 40),
-
-        const Center(
-          child: Text('🏆', style: TextStyle(fontSize: 64)),
-        ),
-
-        const SizedBox(height: 20),
-
-        Center(
-          child: Text(
-            '¡Capítulo completado!',
-            style: ArcanaTextStyles.screenTitle.copyWith(
-              color: ArcanaColors.gold,
-            ),
-          ),
-        ),
-
-        const SizedBox(height: 8),
-
-        Center(
-          child: Text(
-            widget.chapter.title,
-            style: ArcanaTextStyles.bodyMedium.copyWith(
-              color: ArcanaColors.textSecondary,
-            ),
-          ),
-        ),
-
-        const SizedBox(height: 24),
-
-        // Estadísticas
-        Container(
-          padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            color: ArcanaColors.surface,
-            borderRadius: BorderRadius.circular(14),
-            border: Border.all(color: ArcanaColors.surfaceBorder),
-          ),
-          child: Column(
+        const SizedBox(height: 12),
+        Expanded(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              _buildStatRow('📖 Viñetas leídas', '${_visitedNodes.length}'),
-              const SizedBox(height: 8),
-              _buildStatRow(
-                '✅ Ejercicios acertados',
-                '$_correctCount / $_totalExercises',
+              // ── COL IZQ: Estadísticas ──
+              Expanded(
+                child: Container(
+                  margin: const EdgeInsets.only(right: 8),
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: ArcanaColors.surface,
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: ArcanaColors.surfaceBorder),
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('¡Capítulo completado!', style: ArcanaTextStyles.screenTitle.copyWith(color: ArcanaColors.gold)),
+                      const SizedBox(height: 6),
+                      Text(widget.chapter.title, style: ArcanaTextStyles.bodyMedium.copyWith(color: ArcanaColors.textSecondary)),
+                      const SizedBox(height: 20),
+                      _buildStatRow('📖 Viñetas leídas', '${_visitedNodes.length}'),
+                      const SizedBox(height: 8),
+                      _buildStatRow('✅ Ejercicios acertados', '$_correctCount / $_totalExercises'),
+                      const SizedBox(height: 8),
+                      _buildStatRow('⚡ XP ganada', '${_correctCount * 50}'),
+                    ],
+                  ),
+                ),
               ),
-              const SizedBox(height: 8),
-              _buildStatRow('⚡ XP ganada', '${_correctCount * 50}'),
+              // ── COL DER: Celebración ──
+              Expanded(
+                child: Container(
+                  margin: const EdgeInsets.only(left: 8),
+                  decoration: BoxDecoration(
+                    color: ArcanaColors.gold.withValues(alpha: 0.06),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: ArcanaColors.gold.withValues(alpha: 0.15)),
+                  ),
+                  child: const Center(
+                    child: Text('🏆', style: TextStyle(fontSize: 80)),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
-
-        const SizedBox(height: 24),
-
+        const SizedBox(height: 12),
         _buildContinueButton('Ver resultados 🏆', _handleContinue),
-
-        const SizedBox(height: 32),
+        const SizedBox(height: 16),
       ],
     );
   }

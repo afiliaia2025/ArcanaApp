@@ -6,9 +6,8 @@ import 'story_chapter_screen.dart';
 import '../data/story_prologue.dart';
 import '../data/story_chapter1_ignis.dart';
 
-/// Pantalla de Intro de Capítulo — diseño Libro Abierto.
-/// Columna izquierda: ilustración animada + título + metadata.
-/// Columna derecha: texto narrativo paginado.
+/// Pantalla de Intro de Capítulo — 2 columnas siempre horizontal.
+/// Izq: título + metadata + modo lectura.  Der: descripción narrativa.
 class ChapterIntroScreen extends StatefulWidget {
   final int chapterNumber;
   final String title;
@@ -33,164 +32,123 @@ class ChapterIntroScreen extends StatefulWidget {
 
 class _ChapterIntroScreenState extends State<ChapterIntroScreen>
     with SingleTickerProviderStateMixin {
-  late AnimationController _glowCtrl;
-  final _pageCtrl = PageController();
-  int _currentPage = 0;
+  late AnimationController _fadeCtrl;
   String _readingMode = 'extended';
-  late final List<String> _pages;
 
   @override
   void initState() {
     super.initState();
-    _glowCtrl = AnimationController(
+    _fadeCtrl = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 2400),
-    )..repeat(reverse: true);
-
-    // Split description into chunks of ~220 chars
-    final words = widget.description.split(' ');
-    const chunkSize = 220;
-    final chunks = <String>[];
-    var buf = '';
-    for (final w in words) {
-      if ((buf.isEmpty ? w : '$buf $w').length > chunkSize) {
-        if (buf.isNotEmpty) chunks.add(buf.trim());
-        buf = w;
-      } else {
-        buf = buf.isEmpty ? w : '$buf $w';
-      }
-    }
-    if (buf.isNotEmpty) chunks.add(buf.trim());
-    _pages = chunks.isEmpty ? [widget.description] : chunks;
+      duration: const Duration(milliseconds: 800),
+    )..forward();
   }
 
   @override
   void dispose() {
-    _glowCtrl.dispose();
-    _pageCtrl.dispose();
+    _fadeCtrl.dispose();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    final isWide = MediaQuery.of(context).size.width > 700;
-
     return Scaffold(
-      backgroundColor: const Color(0xFF080110),
+      backgroundColor: ArcanaColors.background,
       body: Stack(
         fit: StackFit.expand,
         children: [
           Container(
             decoration: BoxDecoration(
-              gradient: RadialGradient(
-                center: Alignment.center,
-                radius: 1.4,
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
                 colors: [
-                  widget.gemColor.withValues(alpha: 0.12),
-                  const Color(0xFF050208),
+                  widget.gemColor.withValues(alpha: 0.08),
+                  ArcanaColors.background,
                 ],
               ),
             ),
           ),
-          MagicalParticles(particleCount: 18, color: widget.gemColor, maxSize: 2),
+          MagicalParticles(particleCount: 15, color: widget.gemColor, maxSize: 2),
           SafeArea(
-            child: Column(
-              children: [
-                // ── Top bar ──────────────────────────────────────
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                  child: Row(
-                    children: [
-                      IconButton(
-                        icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white38, size: 18),
-                        onPressed: () => Navigator.of(context).pop(),
+            child: FadeTransition(
+              opacity: CurvedAnimation(parent: _fadeCtrl, curve: Curves.easeIn),
+              child: Column(
+                children: [
+                  // ── Header ──
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    child: Row(
+                      children: [
+                        GestureDetector(
+                          onTap: () => Navigator.of(context).pop(),
+                          child: Container(
+                            padding: const EdgeInsets.all(8),
+                            decoration: BoxDecoration(
+                              color: ArcanaColors.surfaceBorder,
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: const Icon(Icons.arrow_back, color: ArcanaColors.textPrimary, size: 20),
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                        Text(
+                          'Cap ${widget.chapterNumber}',
+                          style: ArcanaTextStyles.cardTitle.copyWith(color: widget.gemColor),
+                        ),
+                      ],
+                    ),
+                  ),
+
+                  // ── 2 columnas ──
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          // ── COL IZQ: Título + metadata ──
+                          Expanded(child: _buildLeftColumn()),
+                          const SizedBox(width: 12),
+                          // ── COL DER: Descripción narrativa ──
+                          Expanded(child: _buildRightColumn()),
+                        ],
                       ),
-                      const Spacer(),
-                      Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                    ),
+                  ),
+
+                  // ── Botón empezar ──
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(32, 4, 32, 20),
+                    child: GestureDetector(
+                      onTap: _startChapter,
+                      child: Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.symmetric(vertical: 16),
                         decoration: BoxDecoration(
-                          color: widget.gemColor.withValues(alpha: 0.12),
-                          borderRadius: BorderRadius.circular(20),
-                          border: Border.all(color: widget.gemColor.withValues(alpha: 0.4)),
+                          gradient: ArcanaColors.goldGradient,
+                          borderRadius: BorderRadius.circular(14),
+                          boxShadow: [
+                            BoxShadow(
+                              color: ArcanaColors.gold.withValues(alpha: 0.25),
+                              blurRadius: 12,
+                              offset: const Offset(0, 4),
+                            ),
+                          ],
                         ),
                         child: Text(
-                          '📖 IGNIS · CAP ${widget.chapterNumber}',
-                          style: ArcanaTextStyles.caption.copyWith(
-                            color: widget.gemColor,
-                            fontSize: 10,
-                            letterSpacing: 2,
+                          '⚔️ ¡EMPEZAR!',
+                          style: ArcanaTextStyles.cardTitle.copyWith(
+                            color: const Color(0xFF1A1130),
+                            fontSize: 15,
                           ),
+                          textAlign: TextAlign.center,
                         ),
                       ),
-                      const Spacer(),
-                      const SizedBox(width: 48),
-                    ],
+                    ),
                   ),
-                ),
-
-                // ── BOOK ─────────────────────────────────────────
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
-                    child: isWide ? _buildOpenBook() : _buildMobileBook(),
-                  ),
-                ),
-
-                // ── Bottom CTA ───────────────────────────────────
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(24, 4, 24, 20),
-                  child: Row(
-                    children: [
-                      if (_pages.length > 1) ...[
-                        ..._pages.asMap().entries.map((e) => AnimatedContainer(
-                          duration: const Duration(milliseconds: 250),
-                          margin: const EdgeInsets.only(right: 5),
-                          width: e.key == _currentPage ? 18 : 7,
-                          height: 7,
-                          decoration: BoxDecoration(
-                            color: e.key == _currentPage ? widget.gemColor : Colors.white24,
-                            borderRadius: BorderRadius.circular(4),
-                          ),
-                        )),
-                        const Spacer(),
-                      ],
-                      if (_currentPage < _pages.length - 1)
-                        ElevatedButton.icon(
-                          onPressed: () => _pageCtrl.nextPage(
-                            duration: const Duration(milliseconds: 400),
-                            curve: Curves.easeInOut,
-                          ),
-                          icon: const Icon(Icons.arrow_forward, size: 16),
-                          label: const Text('Continuar'),
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: widget.gemColor.withValues(alpha: 0.85),
-                            foregroundColor: Colors.white,
-                            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
-                          ),
-                        )
-                      else
-                        Expanded(
-                          child: ElevatedButton.icon(
-                            onPressed: _startChapter,
-                            icon: const Text('⚔️', style: TextStyle(fontSize: 16)),
-                            label: const Text(
-                              '¡EMPEZAR CAPÍTULO!',
-                              style: TextStyle(fontWeight: FontWeight.bold, letterSpacing: 1.2),
-                            ),
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: ArcanaColors.gold,
-                              foregroundColor: Colors.black,
-                              padding: const EdgeInsets.symmetric(vertical: 16),
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                              elevation: 6,
-                            ),
-                          ),
-                        ),
-                    ],
-                  ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         ],
@@ -211,85 +169,92 @@ class _ChapterIntroScreenState extends State<ChapterIntroScreen>
     );
   }
 
-  // ── Wide: true open-book ─────────────────────────────────────
-  Widget _buildOpenBook() {
+  Widget _buildLeftColumn() {
     return Container(
+      padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: [
-          BoxShadow(
-            color: widget.gemColor.withValues(alpha: 0.25),
-            blurRadius: 40, spreadRadius: 5,
+        color: ArcanaColors.surface.withValues(alpha: 0.7),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: widget.gemColor.withValues(alpha: 0.15)),
+      ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          // Emoji de capítulo
+          Text('🔥', style: TextStyle(fontSize: 52)),
+
+          const SizedBox(height: 16),
+
+          // Título
+          Text(
+            widget.title,
+            style: ArcanaTextStyles.screenTitle.copyWith(color: ArcanaColors.textPrimary),
+            textAlign: TextAlign.center,
           ),
+
+          const SizedBox(height: 8),
+
+          // Separador
+          Container(
+            width: 60, height: 2,
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [Colors.transparent, widget.gemColor, Colors.transparent],
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 16),
+
+          // Meta chips
+          Wrap(
+            alignment: WrapAlignment.center,
+            spacing: 8, runSpacing: 6,
+            children: [
+              _chip('🎭 ${widget.totalScenes} escenas'),
+              _chip('⏱ ~5 min'),
+              _chip('📚 ${widget.topic}'),
+            ],
+          ),
+
+          const SizedBox(height: 20),
+
+          // Modo lectura
+          _buildReadingModeToggle(),
         ],
       ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(20),
-        child: Row(
-          children: [
-            Expanded(child: _buildLeftPage()),
-            Container(width: 4, color: widget.gemColor.withValues(alpha: 0.4)),
-            Expanded(child: _buildRightPage()),
-          ],
-        ),
+    );
+  }
+
+  Widget _buildRightColumn() {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: widget.gemColor.withValues(alpha: 0.04),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: widget.gemColor.withValues(alpha: 0.12)),
       ),
-    );
-  }
-
-  // ── Narrow: stacked ──────────────────────────────────────────
-  Widget _buildMobileBook() {
-    return Column(
-      children: [
-        _buildMobileHeader(),
-        const SizedBox(height: 12),
-        Expanded(child: _buildRightPage()),
-      ],
-    );
-  }
-
-  Widget _buildMobileHeader() {
-    return AnimatedBuilder(
-      animation: _glowCtrl,
-      builder: (_, __) => Container(
-        padding: const EdgeInsets.all(14),
-        decoration: BoxDecoration(
-          color: const Color(0xFF1A0A2E),
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(
-            color: Color.lerp(
-              widget.gemColor.withValues(alpha: 0.4),
-              widget.gemColor.withValues(alpha: 0.9),
-              _glowCtrl.value,
-            )!,
-          ),
-        ),
-        child: Row(
+      child: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('🔥', style: TextStyle(fontSize: 40 + _glowCtrl.value * 4)),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    widget.title,
-                    style: ArcanaTextStyles.heroTitle.copyWith(
-                      color: widget.gemColor,
-                      fontSize: 13,
-                      letterSpacing: 1.2,
-                    ),
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  const SizedBox(height: 4),
-                  Text(
-                    widget.topic,
-                    style: ArcanaTextStyles.caption.copyWith(
-                      color: Colors.white38,
-                      fontSize: 10,
-                    ),
-                  ),
-                ],
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
+              decoration: BoxDecoration(
+                color: widget.gemColor.withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Text('📖 Sinopsis', style: ArcanaTextStyles.caption.copyWith(
+                color: widget.gemColor, fontWeight: FontWeight.w600,
+              )),
+            ),
+            const SizedBox(height: 16),
+            Text(
+              '"${widget.description}"',
+              style: ArcanaTextStyles.bodyMedium.copyWith(
+                color: ArcanaColors.textPrimary,
+                fontStyle: FontStyle.italic,
+                height: 1.7,
               ),
             ),
           ],
@@ -298,101 +263,15 @@ class _ChapterIntroScreenState extends State<ChapterIntroScreen>
     );
   }
 
-  Widget _buildLeftPage() {
-    return Container(
-      color: const Color(0xFF0F0520),
-      padding: const EdgeInsets.all(24),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          // Animated glowing orb
-          AnimatedBuilder(
-            animation: _glowCtrl,
-            builder: (_, child) {
-              final g = _glowCtrl.value;
-              return Container(
-                width: 130, height: 130,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  boxShadow: [
-                    BoxShadow(
-                      color: Color.lerp(
-                        widget.gemColor.withValues(alpha: 0.4),
-                        widget.gemColor.withValues(alpha: 0.85),
-                        g,
-                      )!,
-                      blurRadius: 30 + g * 20,
-                      spreadRadius: 5 + g * 5,
-                    ),
-                  ],
-                  gradient: RadialGradient(colors: [
-                    Color.lerp(widget.gemColor, widget.gemColor.withValues(alpha: 0.5), g)!,
-                    const Color(0xFF1A0A2E),
-                  ]),
-                ),
-                child: child,
-              );
-            },
-            child: const Center(child: Text('🔥', style: TextStyle(fontSize: 56))),
-          ),
-          const SizedBox(height: 20),
-          Text(
-            widget.title,
-            style: ArcanaTextStyles.heroTitle.copyWith(
-              color: widget.gemColor,
-              fontSize: 16,
-              letterSpacing: 1.5,
-              height: 1.3,
-            ),
-            textAlign: TextAlign.center,
-          ),
-          const SizedBox(height: 10),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(width: 28, height: 1, color: Colors.white12),
-              const SizedBox(width: 8),
-              Text('✦', style: TextStyle(color: widget.gemColor, fontSize: 10)),
-              const SizedBox(width: 8),
-              Container(width: 28, height: 1, color: Colors.white12),
-            ],
-          ),
-          const SizedBox(height: 6),
-          Text('IGNIS · CAPÍTULO ${widget.chapterNumber}',
-            style: ArcanaTextStyles.caption.copyWith(
-              color: Colors.white38, letterSpacing: 3, fontSize: 9,
-            ),
-          ),
-          const SizedBox(height: 24),
-          // Meta chips
-          Wrap(
-            alignment: WrapAlignment.center,
-            spacing: 8,
-            runSpacing: 6,
-            children: [
-              _chip('🎭 ${widget.totalScenes} escenas'),
-              _chip('⏱ ~5 min'),
-              _chip('📚 ${widget.topic}'),
-            ],
-          ),
-          const SizedBox(height: 20),
-          // Reading mode toggle
-          _buildReadingModeToggle(),
-        ],
-      ),
-    );
-  }
-
   Widget _chip(String label) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
-        color: widget.gemColor.withValues(alpha: 0.1),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: widget.gemColor.withValues(alpha: 0.3)),
+        color: ArcanaColors.surfaceBorder,
+        borderRadius: BorderRadius.circular(8),
       ),
       child: Text(label, style: ArcanaTextStyles.caption.copyWith(
-        color: Colors.white60, fontSize: 10,
+        color: ArcanaColors.textSecondary, fontSize: 10,
       )),
     );
   }
@@ -401,13 +280,13 @@ class _ChapterIntroScreenState extends State<ChapterIntroScreen>
     return Column(
       children: [
         Text('Modo de lectura', style: ArcanaTextStyles.caption.copyWith(
-          color: Colors.white38, fontSize: 10,
+          color: ArcanaColors.textSecondary, fontSize: 11,
         )),
         const SizedBox(height: 8),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            _modeBtn('🐢', 'Estándar',  'standard'),
+            _modeBtn('🐢', 'Estándar', 'standard'),
             const SizedBox(width: 8),
             _modeBtn('🚀', 'Extendida', 'extended'),
           ],
@@ -427,7 +306,7 @@ class _ChapterIntroScreenState extends State<ChapterIntroScreen>
           color: active ? widget.gemColor.withValues(alpha: 0.2) : Colors.transparent,
           borderRadius: BorderRadius.circular(10),
           border: Border.all(
-            color: active ? widget.gemColor : Colors.white24,
+            color: active ? widget.gemColor : ArcanaColors.surfaceBorder,
             width: active ? 2 : 1,
           ),
         ),
@@ -436,84 +315,12 @@ class _ChapterIntroScreenState extends State<ChapterIntroScreen>
             Text(emoji, style: const TextStyle(fontSize: 18)),
             const SizedBox(height: 2),
             Text(label, style: ArcanaTextStyles.caption.copyWith(
-              color: active ? widget.gemColor : Colors.white38,
+              color: active ? widget.gemColor : ArcanaColors.textMuted,
               fontSize: 10,
               fontWeight: active ? FontWeight.bold : FontWeight.normal,
             )),
           ],
         ),
-      ),
-    );
-  }
-
-  Widget _buildRightPage() {
-    return Container(
-      color: const Color(0xFF130920),
-      padding: const EdgeInsets.all(20),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Container(
-                width: 30, height: 30,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: widget.gemColor.withValues(alpha: 0.15),
-                  border: Border.all(color: widget.gemColor.withValues(alpha: 0.5)),
-                ),
-                child: const Center(child: Text('🧙', style: TextStyle(fontSize: 14))),
-              ),
-              const SizedBox(width: 8),
-              Text('Orión narra...',
-                style: ArcanaTextStyles.caption.copyWith(
-                  color: widget.gemColor.withValues(alpha: 0.8),
-                  fontSize: 11,
-                  fontStyle: FontStyle.italic,
-                ),
-              ),
-              const Spacer(),
-              if (_pages.length > 1)
-                Text('${_currentPage + 1} / ${_pages.length}',
-                  style: ArcanaTextStyles.caption.copyWith(color: Colors.white24, fontSize: 10)),
-            ],
-          ),
-          const SizedBox(height: 10),
-          Text('"',
-            style: TextStyle(
-              fontSize: 32,
-              color: widget.gemColor.withValues(alpha: 0.4),
-              height: 0.8,
-            ),
-          ),
-          const SizedBox(height: 4),
-          Expanded(
-            child: PageView.builder(
-              controller: _pageCtrl,
-              itemCount: _pages.length,
-              onPageChanged: (i) => setState(() => _currentPage = i),
-              itemBuilder: (_, i) => Text(
-                _pages[i],
-                style: const TextStyle(
-                  color: Color(0xFFD4C4F0),
-                  fontSize: 15,
-                  height: 1.8,
-                  letterSpacing: 0.3,
-                ),
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment.centerRight,
-            child: Text('"',
-              style: TextStyle(
-                fontSize: 32,
-                color: widget.gemColor.withValues(alpha: 0.4),
-                height: 0.8,
-              ),
-            ),
-          ),
-        ],
       ),
     );
   }

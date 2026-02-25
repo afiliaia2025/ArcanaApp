@@ -1074,23 +1074,46 @@ class _CombatScreenState extends State<_CombatScreen> with TickerProviderStateMi
             // Fighters with ray
             _buildFightersWithRay(),
             const SizedBox(height: 12),
-            // Question
+            // Question zone — 2 columnas
             Expanded(
-              child: SingleChildScrollView(
+              child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Column(
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    _buildQuestionCard(),
-                    const SizedBox(height: 12),
-                    if (e.type == 'multiple_choice' || e.type == 'true_false')
-                      _buildOptions()
-                    else
-                      _buildFillBlank(),
-                    if (_answered && e.explanation != null) ...[
-                      const SizedBox(height: 12),
-                      _buildExplanation(),
-                    ],
-                    const SizedBox(height: 16),
+                    // ── COL IZQ: Pregunta ──
+                    Expanded(
+                      child: Container(
+                        margin: const EdgeInsets.only(right: 6, bottom: 8),
+                        child: SingleChildScrollView(
+                          child: Column(
+                            children: [
+                              _buildQuestionCard(),
+                              if (_answered && e.explanation != null) ...[
+                                const SizedBox(height: 12),
+                                _buildExplanation(),
+                              ],
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    // ── COL DER: Opciones ──
+                    Expanded(
+                      child: Container(
+                        margin: const EdgeInsets.only(left: 6, bottom: 8),
+                        child: SingleChildScrollView(
+                          child: Column(
+                            children: [
+                              if (e.type == 'multiple_choice' || e.type == 'true_false')
+                                _buildOptions()
+                              else
+                                _buildFillBlank(),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
