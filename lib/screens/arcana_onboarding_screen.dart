@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
+import 'package:shared_preferences/shared_preferences.dart';
 import '../theme/arcana_colors.dart';
 import '../theme/arcana_text_styles.dart';
 import '../widgets/magical_particles.dart';
+import 'onboarding/orion_prologue_screen.dart';
 
 /// Splash Screen — Logo de Arcana con animación de runas y destellos.
 /// Dura ~2.5s y luego navega al siguiente paso.
@@ -426,9 +428,28 @@ class _OnboardingFlowScreenState extends State<OnboardingFlowScreen> {
     if (_currentStep < _totalSteps - 1) {
       setState(() => _currentStep++);
     } else {
-      // Finalizar onboarding → ir al mapa
-      Navigator.of(context).pushReplacementNamed('/world-map');
+      _finishOnboarding();
     }
+  }
+
+  Future<void> _finishOnboarding() async {
+    // Guardar datos del jugador
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString('player_name', _name);
+    await prefs.setString('player_nick', _nick);
+    await prefs.setString('player_avatar', _selectedAvatar);
+    await prefs.setString('player_grade', _selectedGrade);
+    await prefs.setStringList('player_subjects', _selectedSubjects);
+    await prefs.setString('player_hardest', _hardestSubject);
+    await prefs.setStringList('player_interests', _selectedInterests);
+    await prefs.setString('player_region', _selectedRegion);
+
+    if (!mounted) return;
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(
+        builder: (_) => OrionPrologueScreen(playerName: _nick.isNotEmpty ? _nick : _name),
+      ),
+    );
   }
 
   void _prevStep() {
